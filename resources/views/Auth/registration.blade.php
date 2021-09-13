@@ -12,11 +12,11 @@
                       <form action="{{ route('register.post') }}" method="POST">
                           @csrf
                           <div class="form-group row">
-                              <label for="name" class="col-md-4 col-form-label text-md-right">Username</label>
+                              <label for="username" class="col-md-4 col-form-label text-md-right">Username</label>
                               <div class="col-md-6">
-                                  <input type="text" id="name" class="form-control" name="name" required autofocus>
-                                  @if ($errors->has('name'))
-                                      <span class="text-danger">{{ $errors->first('name') }}</span>
+                                  <input type="text" id="username" class="form-control" name="username" required autofocus>
+                                  @if ($errors->has('username'))
+                                      <span class="text-danger">{{ $errors->first('username') }}</span>
                                   @endif
                               </div>
                           </div>
@@ -34,9 +34,9 @@
                           </div>
 
                           <div class="form-group row">
-                            <label for="email_address" class="col-md-4 col-form-label text-md-right">E-Mail Address</label>
+                            <label for="email" class="col-md-4 col-form-label text-md-right">E-Mail Address</label>
                             <div class="col-md-6">
-                                <input type="text" id="email_address" class="form-control" name="email" required autofocus>
+                                <input type="text" id="email" class="form-control" name="email" required autofocus>
                                 @if ($errors->has('email'))
                                     <span class="text-danger">{{ $errors->first('email') }}</span>
                                 @endif

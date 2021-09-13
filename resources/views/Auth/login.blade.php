@@ -6,7 +6,7 @@
       <div class="row justify-content-center">
           <div class="col-md-8">
               <div class="card">
-                  <div class="card-header">Login</div>
+                  <div class="card-header">Hiragana Login</div>
                   <div class="card-body">
   
                       <form action="{{ route('login.post') }}" method="POST">
@@ -14,7 +14,7 @@
                           <div class="form-group row">
                               <label for="username" class="col-md-4 col-form-label text-md-right">Username </label>
                               <div class="col-md-6">
-                                  <input type="text" id="username" class="form-control" name="username" required autofocus>
+                                  <input type="text" id="username" class="form-control" name="username" required autofocus autocomplete="on">
                                   @if ($errors->has('username'))
                                       <span class="text-danger">{{ $errors->first('username') }}</span>
                                   @endif
@@ -24,7 +24,7 @@
                           <div class="form-group row">
                               <label for="password" class="col-md-4 col-form-label text-md-right">Password</label>
                               <div class="col-md-6">
-                                  <input type="password" id="password" class="form-control" name="password" required>
+                                  <input type="password" id="password" class="form-control" name="password" required autocomplete="on">
                                   @if ($errors->has('password'))
                                       <span class="text-danger">{{ $errors->first('password') }}</span>
                                   @endif

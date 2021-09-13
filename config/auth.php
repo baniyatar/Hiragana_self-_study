@@ -40,7 +40,23 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+
+        'user' => [
+            'driver' => 'session',
+            'provider' => 'users',
     ],
+        
+     'admin' => [
+        'driver' => 'session',
+        'provider' => 'admins',
+    ],
+    
+    'kanji5Q' => [
+        'driver' => 'session',
+        'provider' => 'Kanji5q',
+    ],
+    ],
+    
 
     /*
     |--------------------------------------------------------------------------
@@ -64,6 +80,9 @@ return [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
         ],
+
+            'driver' => 'eloquent',
+            'model' => App\Models\Kanji5q::class,
 
         // 'users' => [
         //     'driver' => 'database',
@@ -94,6 +113,8 @@ return [
             'throttle' => 60,
         ],
     ],
+
+  
 
     /*
     |--------------------------------------------------------------------------

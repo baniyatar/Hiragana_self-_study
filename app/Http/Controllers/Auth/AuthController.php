@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
+
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
@@ -12,75 +13,61 @@ use App\Models\User;
 use Illuminate\SupportHash;
 
 class AuthController extends Controller
-{ /**
-    * Write code on Method
-    *
-    * @return response()
-    */
+{ 
    public function index()
    {
        return view('auth.login');
    }  
      
-   /**
-    * Write code on Method
-    *
-    * @return response()
-    */
+   
    public function registration()
    {
        return view('auth.registration');
    }
-     
-   /**
-    * Write code on Method
-    *
-    * @return response()
-    */
+   
    public function postLogin(Request $request)
    {
        $request->validate([
-           'email' => 'required',
+           'username' => 'required',
            'password' => 'required',
        ]);
+       $username  = $request->get('username');
+       echo $username;
   
-       $credentials = $request->only('email', 'password');
+       $credentials = $request->only('username', 'password');
        if (Auth::attempt($credentials)) {
            return redirect()->intended('dashboard')
                        ->withSuccess('You have Successfully loggedin');
        }
+       
  
        return redirect("login")->withSuccess('Oppes! You have entered invalid credentials');
    }
-     
-   /**
-    * Write code on Method
-    *
-    * @return response()
-    */
-   public function postRegistration(Request $request)
+   
+function postRegistration(Request $request)
    {  
        $request->validate([
-           'name' => 'required',
-           'email' => 'required|email|unique:users',
-           'password' => 'required|min:6',
-           'first_name' => 'required',
-           'surname' => 'required',
-           'city' => 'required',
-           
+        'username' => 'required',
+         'password' => 'required|min:6',
+         'email' => 'required|email|unique:users',
+         'username' => 'required',
+         'surname' => 'required',
+         'city' => 'required',
+         'country' => 'required',
        ]);
           
        $data = $request->all();
+    //    echo "aaa";
+
+    //    dd ($data );
+    //    echo ("bbb");
+
        $check = $this->create($data);
         
        return redirect("dashboard")->withSuccess('Great! You have Successfully loggedin');
    }
    
-   /**
-    * Write code on Method
-    *
-    * @return response()
-    */
+   
    public function dashboard()
    {
        if(Auth::check()){
@@ -90,37 +77,41 @@ class AuthController extends Controller
        return redirect("login")->withSuccess('Opps! You do not have access');
    }
    
-   /**
-    * Write code on Method
-    *
-    * @return response()
-    */
+   
    public function create(array $data)
    {
      return User::create([
-       'name' => $data['name'],
+       'username' => $data['username'],
        'password' => Hash::make($data['password']),
        'email' => $data['email'],
        'firstname' => $data['firstname'],
        'surname' => $data['surname'],
        'city' => $data['city'],
        'country' => $data['country'],
-       
-      
-
+     
      ]);
    }
-   
-   /**
-    * Write code on Method
-    *
-    * @return response()
-    */
-   public function logout() {
-       Session::flush();
-       Auth::logout();
- 
-       return Redirect('login');
+
+        //   public function edit($id, Request $request)
+        //   { $this->validate($request, [
+        //   'email' => 'required|email',
+        //   'password' => 'required|confirmed|min:6',
+        //   ]);
+        //   $userData = $request->only(["email","password"]);
+        //   $userData['password'] = Hash::make($userData['password']);
+        //   User::find($id)->update($userData);
+        //   Session::flash('success_msg', 'User details updated successfully!');
+        //   return redirect()->route('admin.user');
+        //   }
+
+
+             
+   public function logout(Request $request) {
+       $request->Session()->flush();
+       $request->session()->regenerate();
+        Auth::logout();
+
+       return Redirect('/login');
    }
 }
 

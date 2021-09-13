@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="rnTDxiu9FVrA3" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lom="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+		<lom:lom>
+			<lom:general>
+				<lom:title>
+					<lom:langstring>color</lom:langstring>
+				</lom:title>
+			</lom:general>
+			<lom:educational>
+				<lom:typicallearningtime>
+				<lom:datetime>01:00:00</lom:datetime>
+				</lom:typicallearningtime>
+			</lom:educational>
+		</lom:lom>
+	</metadata>
+	<organizations default="color_organization">
+		<organization identifier="color_organization">
+
+			<title>color</title>
+			<item identifier="506E11DE-24AB-4682-8999-87FAF7A67048" identifierref="resource">
+				<title>Media Catalog</title>
+			</item>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="resource" type="webcontent" adlcp:scormtype="sco" href="res/index.html">
+			<file href="res/data/apple-touch-icon.png"/>
+<file href="res/data/browsersupport.js"/>
+<file href="res/data/favicon.ico"/>
+<file href="res/data/fonts/fnt0.woff"/>
+<file href="res/data/fonts/fnt1.woff"/>
+<file href="res/data/fonts/fnt2.woff"/>
+<file href="res/data/fonts/fnt3.woff"/>
+<file href="res/data/goodbye.html"/>
+<file href="res/data/html5-unsupported.html"/>
+<file href="res/data/html5.png"/>
+<file href="res/data/images/img-2b5c2353ca6e0aa59a63e1080dc399377c8d02d7.gif"/>
+<file href="res/data/images/img-3cd5e4b80dfab90d4aa8301444cc7020e4646035.png"/>
+<file href="res/data/images/img-4b7c814c0607a8726cf3ca783ba1574a179ab33a.png"/>
+<file href="res/data/images/img-5d7813f67a58cf5d7e81f2f83bae3e0ddd3fb787.png"/>
+<file href="res/data/images/img-bcb192959e7aa07cb527f50c8d1b69bc9fa6bd46.png"/>
+<file href="res/data/images/img-e2b2335871b3be8165bb0c7f23c34caf038a0a6d.gif"/>
+<file href="res/data/images/img-e2e0cbc3600982be84f2bfde912c9c4af50cad29.png"/>
+<file href="res/data/images/img-e564dc21665d7903715020b4e5ce1bf0d23246e5.png"/>
+<file href="res/data/images/img-ec33f03b620d31cc4dc2af76594eca7ec9b9467b.gif"/>
+<file href="res/data/lms.js"/>
+<file href="res/data/player.js"/>
+<file href="res/index.html"/>
+
+		</resource>
+	</resources>
+</manifest>

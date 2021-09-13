@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="VO3Yb0RVCED82" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lom="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+		<lom:lom>
+			<lom:general>
+				<lom:title>
+					<lom:langstring>number</lom:langstring>
+				</lom:title>
+			</lom:general>
+			<lom:educational>
+				<lom:typicallearningtime>
+				<lom:datetime>01:00:00</lom:datetime>
+				</lom:typicallearningtime>
+			</lom:educational>
+		</lom:lom>
+	</metadata>
+	<organizations default="number_organization">
+		<organization identifier="number_organization">
+
+			<title>number</title>
+			<item identifier="506E11DE-24AB-4682-8999-87FAF7A67048" identifierref="resource">
+				<title>Media Catalog</title>
+			</item>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="resource" type="webcontent" adlcp:scormtype="sco" href="res/index.html">
+			<file href="res/data/apple-touch-icon.png"/>
+<file href="res/data/browsersupport.js"/>
+<file href="res/data/favicon.ico"/>
+<file href="res/data/fonts/fnt0.woff"/>
+<file href="res/data/fonts/fnt1.woff"/>
+<file href="res/data/fonts/fnt2.woff"/>
+<file href="res/data/fonts/fnt3.woff"/>
+<file href="res/data/goodbye.html"/>
+<file href="res/data/html5-unsupported.html"/>
+<file href="res/data/html5.png"/>
+<file href="res/data/images/img-00b40a9ba26eb9905c65450055bd36bd13675294.png"/>
+<file href="res/data/images/img-0177d2fcc95c7ab7f29c7cca95794629442b96e5.gif"/>
+<file href="res/data/images/img-0a61a96b30c4a484ff057d0672f37295677d769d.gif"/>
+<file href="res/data/images/img-0ed5ba7c429dd66b153edc5145378047d445b3bd.gif"/>
+<file href="res/data/images/img-111553ee17578d66d517e84572d5542e5901cf44.gif"/>
+<file href="res/data/images/img-12380dfb220a1d09fc4984ecb13bd8e05dd612a8.gif"/>
+<file href="res/data/images/img-14ac4c1a0905ec80e1e55e7df09e4181827fbb46.png"/>
+<file href="res/data/images/img-20baf4f3e97c7aedbe5386986b2a6a47dca3e3bc.gif"/>
+<file href="res/data/images/img-2846de4f3b321e228c305adf6d8a197759c8754e.png"/>
+<file href="res/data/images/img-2e42759a6d67bf0e09f906ff0b556af04051401f.png"/>
+<file href="res/data/images/img-4597da537069be5dc3483975adaf65e93bb640af.gif"/>
+<file href="res/data/images/img-48f6ca27ff14bd29a0678ed760f8efcdb2528ad4.gif"/>
+<file href="res/data/images/img-4ce8989861fddbfd7639d093f9e09130573768e8.png"/>
+<file href="res/data/images/img-5821bf72b74e19e0a70d5926fdc678785fdc0991.gif"/>
+<file href="res/data/images/img-6512eb35ef0e4b3d2374bf12b7655cab3d6a49cb.png"/>
+<file href="res/data/images/img-66b9adc9c1cfadd81a8bb18f615990e9929af8fb.png"/>
+<file href="res/data/images/img-7b90c8a1d6625b8e61fa824d79f7988d80d04f76.png"/>
+<file href="res/data/images/img-7ffba0c43e8d64e54c7a7c0e6a748715f9550b17.png"/>
+<file href="res/data/images/img-85a96092689919a5f251e1a440c0665f8892752b.png"/>
+<file href="res/data/images/img-896bba2f6bd1c7903d7da0f4b67cdd5724e05fca.png"/>
+<file href="res/data/images/img-907b2722727f97709d7b1294ad8ff7f2b0dc9282.png"/>
+<file href="res/data/images/img-95c8f166757a66765edb0a72084fec48775525f4.png"/>
+<file href="res/data/images/img-a82e4da864c352c51f9982e496351ffb9029d350.gif"/>
+<file href="res/data/images/img-ad1f51c58232bbca3645f7cee129fa950e780192.png"/>
+<file href="res/data/images/img-ad90af7ba7c3718f9485823b0cf65f4697569284.png"/>
+<file href="res/data/images/img-ae9b3a1a450eff6a5e642a4ba1434683332a6040.gif"/>
+<file href="res/data/images/img-b2348c549a13e30c81a4ee32ecbb36d4fa96721e.png"/>
+<file href="res/data/images/img-b70568968570b2cc8641db179daeddf6e5a59a67.png"/>
+<file href="res/data/images/img-c2c5a3f988e0873e413dc6d9bf326c2d0d5b21f3.png"/>
+<file href="res/data/images/img-ce8d5770d5246c327266fcc575dce7cbb3c3d561.png"/>
+<file href="res/data/images/img-cf77757a5eafca668a052011b9240afa67132029.gif"/>
+<file href="res/data/images/img-d573b96a7139c6801972aeeade2ff716c7c56a60.png"/>
+<file href="res/data/images/img-da99b858f662cb58c47fa0f763d4ee2a40337963.png"/>
+<file href="res/data/images/img-dbef9296f5df39df56ed37cf3c80b1c149f08e66.png"/>
+<file href="res/data/images/img-de81a1fc5158b3e6f51e71c4c189d6b214dbf31e.png"/>
+<file href="res/data/images/img-e220fcefe5154045ffb0af528abc40596c38865c.gif"/>
+<file href="res/data/images/img-e2370dd127c4af7babb0aec3fafbc919e7c8420a.png"/>
+<file href="res/data/images/img-f59e4b9e57c9a58d1f81050cfc28e557d2ae32d2.png"/>
+<file href="res/data/images/img-f8a417007d7de1201cad955e5557e61c29f5c21f.png"/>
+<file href="res/data/lms.js"/>
+<file href="res/data/player.js"/>
+<file href="res/index.html"/>
+
+		</resource>
+	</resources>
+</manifest>

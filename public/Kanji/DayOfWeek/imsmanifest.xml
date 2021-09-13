@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="X9ihG3su9v8Bm" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lom="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+		<lom:lom>
+			<lom:general>
+				<lom:title>
+					<lom:langstring>DayOfWeek</lom:langstring>
+				</lom:title>
+			</lom:general>
+			<lom:educational>
+				<lom:typicallearningtime>
+				<lom:datetime>01:00:00</lom:datetime>
+				</lom:typicallearningtime>
+			</lom:educational>
+		</lom:lom>
+	</metadata>
+	<organizations default="dayofweek_organization">
+		<organization identifier="dayofweek_organization">
+
+			<title>DayOfWeek</title>
+			<item identifier="506E11DE-24AB-4682-8999-87FAF7A67048" identifierref="resource">
+				<title>Media Catalog</title>
+			</item>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="resource" type="webcontent" adlcp:scormtype="sco" href="res/index.html">
+			<file href="res/data/apple-touch-icon.png"/>
+<file href="res/data/browsersupport.js"/>
+<file href="res/data/favicon.ico"/>
+<file href="res/data/fonts/fnt0.woff"/>
+<file href="res/data/fonts/fnt1.woff"/>
+<file href="res/data/fonts/fnt2.woff"/>
+<file href="res/data/fonts/fnt3.woff"/>
+<file href="res/data/goodbye.html"/>
+<file href="res/data/html5-unsupported.html"/>
+<file href="res/data/html5.png"/>
+<file href="res/data/images/img-022ea4d438a5533a5f5df4966b49249e38329645.png"/>
+<file href="res/data/images/img-1524bffee15d60709af56bf08daa270c58e3b326.png"/>
+<file href="res/data/images/img-17c7b8d18df2fac7c3124869aba37849fd7344c9.png"/>
+<file href="res/data/images/img-1f4930bdc6c10d44ced8cee422b2a8a52fcd014a.png"/>
+<file href="res/data/images/img-25c5938ae8bf9fd8b979f0ad79ac46a55c562771.png"/>
+<file href="res/data/images/img-269da169b7b108e989a0c6f221b3c099ad720443.png"/>
+<file href="res/data/images/img-30450bef06596bce904c5fede77d4e76fffb9bf3.gif"/>
+<file href="res/data/images/img-58721aff949380c012f50e7ff01492199d294916.png"/>
+<file href="res/data/images/img-616d70838cea7afd9e7e1e52bd9f2271aee00e5a.gif"/>
+<file href="res/data/images/img-6fa9be5ec1e2b38c190ca34e426e3a29380a2c22.png"/>
+<file href="res/data/images/img-708264acdf45ea4af2f07c24966a5abe56e89387.png"/>
+<file href="res/data/images/img-79cbb1a3a4fdfd27bd62e2f1ab391b34dfa5bfbc.gif"/>
+<file href="res/data/images/img-914e8d75605f98911558c58c91399fade57f0f9c.jpg"/>
+<file href="res/data/images/img-a400c14715ee7228d7a1588b2d35ee2ba53a949a.gif"/>
+<file href="res/data/images/img-c1122ad8a5e9d1353105d3a611b32feb4c26da9e.png"/>
+<file href="res/data/images/img-c1c819c30897aec263d581c570c3f2d73b34edec.gif"/>
+<file href="res/data/images/img-de451cd8900cb88c6b9045cb1c3d3205b8595b50.gif"/>
+<file href="res/data/images/img-e913b29468a868fd036486218b167146ef3c66ed.png"/>
+<file href="res/data/images/img-ec6329dcd2ee4bbbafeb6c652742c4923625108e.png"/>
+<file href="res/data/images/img-f6ffa604c19511170c11e33d21da693f1ed8df9f.gif"/>
+<file href="res/data/images/img-f7b9cf90bf49e3aac504ec8cb69567af6d09e233.png"/>
+<file href="res/data/lms.js"/>
+<file href="res/data/player.js"/>
+<file href="res/index.html"/>
+
+		</resource>
+	</resources>
+</manifest>
