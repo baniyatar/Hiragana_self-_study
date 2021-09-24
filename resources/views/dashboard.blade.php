@@ -18,10 +18,11 @@
                     <a href ="\hiragana\index.html"  class="btn btn-Secondary btn-lg btn-block">Let`s Study Hiragana  </a>
                     {{-- <button type="button" class="btn btn-Secondary btn-lg btn-block">Kanji </button>
                     <button type="button" class="btn btn-Secondary btn-lg btn-block">Katakana </button> --}}
-                </div>
+               
+                    <a class="nav-link" href="{{ route('logout') }}">Logout</a> </div>
             </div>
         </div>
     </div>
-    <a class="nav-link" href="{{ route('logout') }}">Logout</a>
+   
 </div>
 @endsection

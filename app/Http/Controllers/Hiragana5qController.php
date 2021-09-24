@@ -4,79 +4,98 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Validator;
+
 class Hiragana5qController extends Controller
 {
- 
-    public function index()
-    {
-        $Users = User::latest()->paginate(5);
+ public function index(){
+$users= User::all();
+return view ('users.index',['$user']);
 
-        return view('Users.index',compact('Users'))
-            ->with('i', (request()->input('page', 1) - 1) * 5);
+
+}
+
+public function store(Request $request){
+    $data = $request->except('_method','_token','submit');
+
+    $validator = Validator::make($request->all(), [
+    //    'name' => 'required|string|min:3',
+    //    'description' => 'required|string|min:3',
+    'username' => 'required',
+    'password' => 'required|min:6',
+    'email' => 'required|email|unique:users',
+    'username' => 'required',
+    'surname' => 'required',
+    'city' => 'required',
+    'country' => 'required',
+    'payment'=>'',
+     
+    ]);
+
+    if ($validator->fails()) {
+       return redirect()->Back()->withInput()->withErrors($validator);
     }
 
-  
-    public function create()
-    {
-        return view('Users.create');
+    if($record = User::firstOrCreate($data)){
+       Session::flash('message', 'Added Successfully!');
+       Session::flash('alert-class', 'alert-success');
+       return redirect()->route('users');
+    }else{
+       Session::flash('message', 'Data not saved!');
+       Session::flash('alert-class', 'alert-danger');
     }
 
-    
-    public function store(Request $request)
-    {
-        $request->validate([
-            'username' => 'required',
-            'password' => 'required|min:6',
-            'email' => 'required|email|unique:users',
-            'username' => 'required',
-            'surname' => 'required',
-            'city' => 'required',
-            'country' => 'required',
-            'payment'=>'required',
-        ]);
+    return Back();
+ }
 
-        User::create($request->all());
+//Edit
 
-        return redirect()->route('Users.index')
-            ->with('success','User created successfully.');
+public function edit($id){
+    $users = User::find($id);
+
+    return view('users.edit')->with('users',$users);
+ }
+
+ public function update(Request $request,$id){
+    $data = $request->except('_method','_token','submit');
+
+    $validator = Validator::make($request->all(), [
+        'username' => 'required',
+        'password' => 'required|min:6',
+        'email' => 'required|email|unique:users',
+        'username' => 'required',
+        'surname' => 'required',
+        'city' => 'required',
+        'country' => 'required',
+        'payment'=>'',
+    ]);
+
+    if ($validator->fails()) {
+       return redirect()->Back()->withInput()->withErrors($validator);
+    }
+    $subject = User::find($id);
+
+    if($subject->update($data)){
+
+       Session::flash('message', 'Update successfully!');
+       Session::flash('alert-class', 'alert-success');
+       return redirect()->route('users');
+    }else{
+       Session::flash('message', 'Data not updated!');
+       Session::flash('alert-class', 'alert-danger');
     }
 
-   
-    public function show(User $User)
-    {
-        return view('Users.showRegistration',compact('User'));
-    }
+    return Back()->withInput();
+ }
+// Delete
+   // Delete
+   public function destroy($id){
+    User::destroy($id);
 
-    
-    public function edit(User $User)
-    {
-        return view('Users.editRegistration',compact('User'));
-    }
+    Session::flash('message', 'Delete successfully!');
+    Session::flash('alert-class', 'alert-success');
+    return redirect()->route('users');
+ }
 
-   
-    public function update(Request $request, User $User)
-    {
-        $request->validate([
-            'username' => 'required',
-            'password' => 'required|min:6',
-            'email' => 'required|email|unique:users',
-            'username' => 'required',
-            'surname' => 'required',
-            'city' => 'required',
-            'country' => 'required',
-        ]);
-
-        $User->update($request->all());
-
-        return redirect()->route('Users.index')
-            ->with('success','User updated successfully');
-    }
-
-    public function destroy(User $User)
-    {
-        $User->delete();
-
-        return redirect()->route('Users.index')
-            ->with('success','User deleted successfully');
-    }
 }
