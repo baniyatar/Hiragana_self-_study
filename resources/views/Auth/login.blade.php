@@ -24,12 +24,12 @@
                           <div class="form-group ">
                               <label for="password" class="col-md-4 col-form-label text-md-right">Password</label>
                               <div class="col-md-6">
-                                  <input type="password" id="password" class="form-control" name="password" required autocomplete="on"placeholder="Enter Username">
+                                  <input type="password" id="password" class="form-control" name="password" required autocomplete="on"placeholder="Enter Password">
                                   @if ($errors->has('password'))
                                       <span class="text-danger">{{ $errors->first('password') }}</span>
                                   @endif
                               </div>
-                              <small id="passwordHelp" class="form-text text-muted">*Minimum 6 character must be include</small>
+                            
                           </div>
   
                           <div class="form-group ">
