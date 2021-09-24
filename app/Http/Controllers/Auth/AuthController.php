@@ -113,5 +113,10 @@ function postRegistration(Request $request)
 
        return Redirect('/login');
    }
+   public function main(){
+
+    return view('main');
+    
+     }
 }
 

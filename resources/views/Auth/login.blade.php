@@ -11,27 +11,28 @@
   
                       <form action="{{ route('login.post') }}" method="POST">
                           @csrf
-                          <div class="form-group row">
+                          <div class="form-group ">
                               <label for="username" class="col-md-4 col-form-label text-md-right">Username </label>
                               <div class="col-md-6">
-                                  <input type="text" id="username" class="form-control" name="username" required autofocus autocomplete="on">
+                                  <input type="text" id="username" class="form-control" name="username" required autofocus autocomplete="on" placeholder="Enter Username">
                                   @if ($errors->has('username'))
                                       <span class="text-danger">{{ $errors->first('username') }}</span>
                                   @endif
                               </div>
                           </div>
   
-                          <div class="form-group row">
+                          <div class="form-group ">
                               <label for="password" class="col-md-4 col-form-label text-md-right">Password</label>
                               <div class="col-md-6">
-                                  <input type="password" id="password" class="form-control" name="password" required autocomplete="on">
+                                  <input type="password" id="password" class="form-control" name="password" required autocomplete="on"placeholder="Enter Username">
                                   @if ($errors->has('password'))
                                       <span class="text-danger">{{ $errors->first('password') }}</span>
                                   @endif
                               </div>
+                              <small id="passwordHelp" class="form-text text-muted">*Minimum 6 character must be include</small>
                           </div>
   
-                          <div class="form-group row">
+                          <div class="form-group ">
                               <div class="col-md-6 offset-md-4">
                                   <div class="checkbox">
                                       <label>
@@ -40,6 +41,7 @@
                                   </div>
                               </div>
                           </div>
+                          
   
                           <div class="col-md-6 offset-md-4">
                               <button type="submit" class="btn btn-primary">

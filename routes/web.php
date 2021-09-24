@@ -8,38 +8,44 @@ use Illuminate\Support\Facades\Auth;
   
 use App\Http\Controllers\Auth\AuthController;
   
-use App\Http\Controllers\Kanji5qController;
+
   
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
 
-  
+
 Route::get('/login', [AuthController::class, 'index'])->name('login');
 Route::post('post-login', [AuthController::class, 'postLogin'])->name('login.post'); 
 Route::get('registration', [AuthController::class, 'registration'])->name('register');
 Route::post('post-registration', [AuthController::class, 'postRegistration'])->name('register.post'); 
-// Route::get('/dashboard', [AuthController::class, 'dashboard']); 
 Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::get('/adminlogin',[AdminController::class,'adminlogin'])->name('adminlogin');
+Route ::get('/edit', function(){
+return view('/Admin/edit');});
 
 
-Route ::get('/editRegistration', function(){
-    return view('/Admin/editRegistration');});
 
-Route::get('/dashboardkanji', function () { 
-    return view('Kanji/dashboardkanji');
+//  ## View 
+// Route::get('users',   [AuthController::class,'edit'])->name('users');
+
+// ## Create
+// Route::get('/Admin/create', [AuthController::class,'create'])->name('users.create');
+// Route::post('/Admin/store', [AuthController::class,'store'])->name('users.store');
+
+// ## Update
+// Route::get('/Admins/store/{id}', [AuthController::class,'edit'])->name('users.edit');
+// Route::post('/Admin/update/{id}', [AuthController::class,'update'])->name('users.update');
+
+// ## Delete
+// Route::get('/Admin/delete/{id}',   [AuthController::class,'destroy'])->name('users.delete');
+// Route::get('/show', function () {
+//     return view('Auth/show');
+// });
+Route::get('/main', function () {
+    return view('main');
 });
 
-
-  
-Route::get('/kanjilogin', [Kanji5qController::class, 'index'])->name('kanjilogin5q.post'); 
-Route::post('post-login', [Kanji5qController::class, 'postLogin'])->name('kanjilogin5q.post'); 
-Route::get('kanjiRegistration', [Kanji5qController::class, 'kanjiRegistration'])->name('kanjiRegistration');
-Route::post('post-registration', [Kanji5qController::class, 'postRegistration'])->name('kanjiRegistration5q.post'); 
-// Route::get('/dashboard', [Kanji5qController::class, 'dashboard']); 
-Route::get('logout', [Kanji5qController::class, 'logout'])->name('logout');
-Route::get('/adminlogin',[AdminController::class,'adminlogin'])->name('adminlogin');
-
+Route::get('dashboardadmin',[AuthController::class,'show']);
 

@@ -24,7 +24,8 @@
                         
   
                           <div class="form-group row">
-                              <label for="password" class="col-md-4 col-form-label text-md-right">Password</label>
+                              <label for="password" class="col-md-4 col-form-label text-md-right">Password <small id="passwordHelp" class="form-text text-muted">*Minimum 6 character must be include</small></label>
+                              
                               <div class="col-md-6">
                                   <input type="password" id="password" class="form-control" name="password" required>
                                   @if ($errors->has('password'))

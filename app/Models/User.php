@@ -23,6 +23,7 @@ class User extends Authenticatable
         'surname',
         'city',
         'country',
+        'payment',
         ];
 
     /**

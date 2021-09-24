@@ -7,7 +7,7 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('Hiragana') }}</div>
-  
+               
                 <div class="card-body">
                     @if (session('success'))
                         <div class="alert alert-success" role="alert">
@@ -22,5 +22,6 @@
             </div>
         </div>
     </div>
+    <a class="nav-link" href="{{ route('logout') }}">Logout</a>
 </div>
 @endsection
