@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
@@ -44,13 +44,17 @@ class AuthController extends Controller
        return redirect("login")->withSuccess('Oppes! You have entered invalid credentials');
    }
    
-function postRegistration(Request $request)
-   {  
-       $request->validate([
+function postRegistration(Request $request,User $data)
+  
+
+{
+    
+
+    $request->validate([
         'username' => 'required',
          'password' => 'required|min:6',
          'email' => 'required|email|unique:users',
-         'username' => 'required',
+         'firstname' => 'required',
          'surname' => 'required',
          'city' => 'required',
          'country' => 'required',
@@ -64,8 +68,10 @@ function postRegistration(Request $request)
 
        $check = $this->create($data);
         
-       return redirect("dashboard")->withSuccess('Great! You have Successfully loggedin');
-   }
+       return redirect("dashboard")->withSuccess('ひらがなの勉強システムにつながります　　Great!　You have Successfully loggedin'); 
+    }
+
+
    
    
    public function dashboard()
@@ -89,7 +95,7 @@ function postRegistration(Request $request)
        'city' => $data['city'],
        'country' => $data['country'],
      
-     ]);
+     ]);    
    }
 
         //   public function edit($id, Request $request)
@@ -115,8 +121,8 @@ function postRegistration(Request $request)
    }
    public function main(){
 
-    return view('main');
-    
-     }
+return view('main');
+
+ }
 }
 

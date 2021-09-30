@@ -15,11 +15,15 @@
                         </div>
                     @endif
   
-                    <a href ="\hiragana\index.html"  class="btn btn-Secondary btn-lg btn-block">Let`s Study Hiragana  </a>
+                    <a href ="\hiragana\index.html"  class="btn btn-Secondary btn-lg btn-block">ひらがなの <ruby>
+                        勉強<rp></rp><rt>べんきょう</rt><rp></rp>
+                        </ruby>を  <ruby>
+                            始<rp></rp><rt>はじ</rt><rp></rp>
+                            </ruby>  めましょう。<br>Let`s study Hiragana  </a>
                     {{-- <button type="button" class="btn btn-Secondary btn-lg btn-block">Kanji </button>
                     <button type="button" class="btn btn-Secondary btn-lg btn-block">Katakana </button> --}}
                
-                    <a class="nav-link" href="{{ route('logout') }}">Logout</a> </div>
+                    <a class="nav-link" href="{{ route('logout') }}">やめます。 Logout</a> </div>
             </div>
         </div>
     </div>
