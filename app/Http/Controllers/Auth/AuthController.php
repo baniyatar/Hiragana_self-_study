@@ -51,9 +51,9 @@ function postRegistration(Request $request,User $data)
     
 
     $request->validate([
-        'username' => 'required',
+        'username' => 'required|unique:user',
          'password' => 'required|min:6',
-         'email' => 'required|email|unique:users',
+         'email' => 'required|email|unique:user',
          'firstname' => 'required',
          'surname' => 'required',
          'city' => 'required',
@@ -68,7 +68,7 @@ function postRegistration(Request $request,User $data)
 
        $check = $this->create($data);
         
-       return redirect("dashboard")->withSuccess('ひらがなの勉強システムにつながります　　Great!　You have Successfully loggedin'); 
+       return redirect("dashboard")->withSuccess('ひらがなの勉強(べんきょう)システムにつながりますGreat!  You have Successfully loggedin'); 
     }
 
 
