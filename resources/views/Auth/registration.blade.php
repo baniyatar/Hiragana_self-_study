@@ -18,7 +18,7 @@
                                 登録名<rp></rp><rt>とうろくめい</rt><rp></rp>
                                 </ruby> Username</label>
                               <div class="col-md-6">
-                                  <input type="text" id="username" class="form-control{{ $errors->has('username') ? ' is-invalid' : '' }}" name="username" name="username" value="{{ old('username') }}" required autofocus>
+                                  <input type="text" id="username" class="form-control{{ $errors->has('username') ? ' is-invalid' : '' }}" name="username" value="{{ old('username') }}" required autofocus>
                                   @if ($errors->has('username')) 
                                       <span class="text-danger">{{ $errors->first('username') }}</span>
                                   @endif
@@ -31,7 +31,7 @@
                               <label for="password" class="col-md-4 col-form-label text-md-right"> 
                                 パスワード  Password    
                                 <small id="password" class="form-text text-muted"> 6 <ruby>  桁以上<rp></rp><rt>  けたいじょう</rt><rp></rp>
-                                    </ruby> 6 digits or over</small></label>
+                                    </ruby> 6 digits or more</small></label>
                               
                               <div class="col-md-6">
                                 <input type="password" id="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}"  name="password" value="{{ old('password') }}" required autofocus>

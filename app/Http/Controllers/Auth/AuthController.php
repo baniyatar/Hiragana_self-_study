@@ -53,7 +53,7 @@ function postRegistration(Request $request,User $data)
     $request->validate([
         'username' => 'required|unique:user',
          'password' => 'required|min:6',
-         'email' => 'required|email|unique:user',
+         'email' => 'required|email:rfc,dns',
          'firstname' => 'required',
          'surname' => 'required',
          'city' => 'required',
