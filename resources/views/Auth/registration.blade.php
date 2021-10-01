@@ -18,7 +18,7 @@
                                 登録名<rp></rp><rt>とうろくめい</rt><rp></rp>
                                 </ruby> Username</label>
                               <div class="col-md-6">
-                                  <input type="text" id="username" class="form-control{{ $errors->has('username') ? ' is-invalid' : '' }}" name="username" value="{{ old('username') }}" required autofocus>
+                                  <input type="text" id="username" class="form-control{{ $errors->has('username') ? ' is-invalid' : '' }}" name="username" name="username" value="{{ old('username') }}" required autofocus>
                                   @if ($errors->has('username')) 
                                       <span class="text-danger">{{ $errors->first('username') }}</span>
                                   @endif
