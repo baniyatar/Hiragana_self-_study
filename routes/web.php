@@ -1,10 +1,10 @@
 <?php
-
+use App\Models\User;
 use App\Http\Controllers\Auth\AdminController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
-
-
+use Illuminate\Support\Facades\Input;
+use Illuminate\Http\Request;
   
 use App\Http\Controllers\Auth\AuthController;
   
@@ -49,3 +49,10 @@ Route::get('/main', function () {
 
 Route::get('dashboardadmin',[AuthController::class,'show']);
 
+// Route::any('/search',function(){
+//     $q = Request::get ( 'q' );
+//     $user = User::where('name','LIKE','%'.$q.'%')->orWhere('firstname','LIKE','%'.$q.'%')->get();
+//     if(count($user) > 0)
+//         return view('dashboardadmin')->withDetails($user)->withQuery ( $q );
+//     else return view ('dashboardadmin')->withMessage('No Details found. Try to search again !');
+// });
