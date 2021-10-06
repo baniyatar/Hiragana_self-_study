@@ -31,45 +31,43 @@ class AuthController extends Controller
            'username' => 'required',
            'password' => 'required',
        ]);
-       $username  = $request->get('username');
-       echo $username;
+     
+       
   
        $credentials = $request->only('username', 'password');
        if (Auth::attempt($credentials)) {
            return redirect()->intended('dashboard')
                        ->withSuccess('You have Successfully loggedin');
        }
-       
- 
+       else 
        return redirect("login")->withSuccess('Oppes! You have entered invalid credentials');
-   }
-   
-function postRegistration(Request $request,User $data)
+       
   
+   }
 
-{
-    
 
+   function postRegistration(Request $request,User $data)
+ {
     $request->validate([
-        'username' => 'required|unique:user',
-         'password' => 'required|min:6',
-         'email' => 'required|email:rfc,dns',
-         'firstname' => 'required',
-         'surname' => 'required',
-         'city' => 'required',
-         'country' => 'required',
-       ]);
-          
-       $data = $request->all();
-    //    echo "aaa";
+   'username' => 'required|unique:user',
+   'password' => 'required|min:6',
+   'email' => 'required|email:rfc,dns',
+   'firstname' => 'required',
+   'surname' => 'required',
+   'city' => 'required',
+   'country' => 'required',
+   ]);
 
-    //    dd ($data );
-    //    echo ("bbb");
+   $data = $request->all();
+   // echo "aaa";
 
-       $check = $this->create($data);
-        
-       return redirect("dashboard")->withSuccess('ひらがなの勉強(べんきょう)システムにつながりますGreat!  You have Successfully loggedin'); 
-    }
+   // dd ($data );
+   // echo ("bbb");
+
+   $check = $this->create($data);
+
+   return redirect("dashboard")->withSuccess('ひらがなの勉強(べんきょう)システムにつながりますGreat! You have Successfully loggedin');
+   }
 
 
    
