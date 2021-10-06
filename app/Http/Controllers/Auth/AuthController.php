@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
-
+use Illuminate\Support\Facades\Redirect;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
@@ -27,10 +27,15 @@ class AuthController extends Controller
    
    public function postLogin(Request $request)
    {
+
+    $messages = [
+        'username.required' => 'username is required!',
+        'password.required' => 'Password is required!'
+    ];
        $request->validate([
            'username' => 'required',
            'password' => 'required',
-       ]);
+       ], $messages);
      
        
   
@@ -39,8 +44,14 @@ class AuthController extends Controller
            return redirect()->intended('dashboard')
                        ->withSuccess('You have Successfully loggedin');
        }
-       else 
-       return redirect("login")->withSuccess('Oppes! You have entered invalid credentials');
+     
+      
+       return Redirect::back()->withErrors(
+        [
+            'username' => 'username or password is incorrect !',
+            'password' => 'username or password is incorrect!'
+        ]
+    );
        
   
    }
