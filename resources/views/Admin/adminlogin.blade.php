@@ -14,21 +14,21 @@
                           <div class="form-group row">
                               <label for="username" class="col-md-4 col-form-label text-md-right">Username </label>
                               <div class="col-md-6">
-                                  <input type="text" id="username" class="form-control" name="username" required autofocus autocomplete="on">
-                                  @if ($errors->has('username'))
-                                      <span class="text-danger">{{ $errors->first('username') }}</span>
-                                  @endif
-                              </div>
+                                <input type="text" id="username" class="form-control @if ($errors->first('username')) is-invalid @endif"  name="username" value="{{old('username')}}"  required autofocus>
+                                @if ($errors->has('username'))
+                                    <span class="text-danger">{{ $errors->first('username') }}</span>
+                                @endif
+                            </div>
                           </div>
   
                           <div class="form-group row">
                               <label for="password" class="col-md-4 col-form-label text-md-right">Password</label>
                               <div class="col-md-6">
-                                  <input type="password" id="password" class="form-control" name="password" required autocomplete="on">
-                                  @if ($errors->has('password'))
-                                      <span class="text-danger">{{ $errors->first('password') }}</span>
-                                  @endif
-                              </div>
+                                <input id="password" type="password" class="form-control @if ($errors->first('password')) is-invalid @endif" name="password" value="{{old('password')}}"  required autofocus>
+                                @if ($errors->has('password'))
+                                    <span class="text-danger">{{ $errors->first('password') }}</span>
+                                @endif    
+                            </div>
                           </div>
   
                           <div class="form-group row">

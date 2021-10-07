@@ -46,7 +46,7 @@ class AuthController extends Controller
        }
      
       
-       return Redirect::back()->withErrors(
+       return Redirect::back()->withInput($request->all())->withErrors(
         [
             'username' => 'username or password is incorrect !',
             'password' => 'username or password is incorrect!'
