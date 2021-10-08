@@ -43,6 +43,23 @@
             margin-left: 0;
             margin-right: 0;
         }
+        .myIframe {
+  position: relative;
+  padding-bottom: 65.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch; /*<<--- THIS IS THE KEY*/ 
+  border: solid black 1px;
+}
+
+.myIframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
     </style>
 </head>
 <body>

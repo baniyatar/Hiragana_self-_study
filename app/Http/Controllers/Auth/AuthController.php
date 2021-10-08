@@ -33,7 +33,9 @@ class AuthController extends Controller
         'password.required' => 'Password is required!'
     ];
        $request->validate([
-           'username' => 'required',
+           'username' =>  ['required', 'string', 'max:255', 'unique:user',
+           'regex:/^[A-Za-z0-9]+(?:[ _-][A-Za-z0-9]+)*$/'],
+        
            'password' => 'required',
        ], $messages);
      
@@ -60,14 +62,18 @@ class AuthController extends Controller
    function postRegistration(Request $request,User $data)
  {
     $request->validate([
-   'username' => 'required|unique:user',
-   'password' => 'required|min:6',
+   'username' =>   ['required', 'string', 'max:255', 'unique:user',
+   'regex:/^[A-Za-z0-9]+(?:[ _-][A-Za-z0-9]+)*$/'],
+
+   
+   'password' => ['required','alpha'],
    'email' => 'required|email:rfc,dns',
    'firstname' => 'required',
    'surname' => 'required',
    'city' => 'required',
    'country' => 'required',
    ]);
+   dd('done');  
 
    $data = $request->all();
    // echo "aaa";
@@ -81,7 +87,7 @@ class AuthController extends Controller
    }
 
 
-   
+    
    
    public function dashboard()
    {
