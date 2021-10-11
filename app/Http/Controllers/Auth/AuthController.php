@@ -60,13 +60,13 @@ class AuthController extends Controller
    function postRegistration(Request $request,User $data)
  {
     $request->validate([
-   'username' => 'required|alpha|unique:user|regex:([a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+)',
-   'password' => 'required|min:6|regex:([a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+)',
+   'username' => 'required|alpha_num|unique:user|regex:([a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+)',
+   'password' => 'required|min:6',
    'email' => 'required|email:rfc,dns',
-   'firstname' => 'required',
-   'surname' => 'required',
-   'city' => 'required',
-   'country' => 'required',
+   'firstname' => 'required|alpha_num|regex:([a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+)',
+   'surname' => 'required|alpha_num|regex:([a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+)',
+   'city' => 'required|alpha_dash',
+   'country' => 'required|alpha_num',
    ]);
 
    $data = $request->all();
@@ -119,16 +119,7 @@ class AuthController extends Controller
         //   return redirect()->route('admin.user');
         //   }
 
-        public function checkEmail(Request $request){
-            $email = $request->input('email');
-            $isExists = User::where('email',$email)->first();
-            if($isExists){
-                return response()->json(array("exists" => true));
-            }else{
-                return response()->json(array("exists" => false));
-            }
-        }
-             
+        
    public function logout(Request $request) {
        $request->Session()->flush();
        $request->session()->regenerate();

@@ -24,7 +24,7 @@ Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 Route::get('/adminlogin',[AdminController::class,'adminlogin'])->name('adminlogin');
 Route ::get('/edit', function(){
 return view('/Admin/edit');});
-Route::post('checkemail',[AuthController::class,'checkEmail']);
+// Route::post('checkemail',[AuthController::class,'checkEmail']);
 
 
  ## View 
