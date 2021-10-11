@@ -33,9 +33,7 @@ class AuthController extends Controller
         'password.required' => 'Password is required!'
     ];
        $request->validate([
-           'username' =>  ['required', 'string', 'max:255', 'unique:user',
-           'regex:/^[A-Za-z0-9]+(?:[ _-][A-Za-z0-9]+)*$/'],
-        
+           'username' => 'required',
            'password' => 'required',
        ], $messages);
      
@@ -62,18 +60,14 @@ class AuthController extends Controller
    function postRegistration(Request $request,User $data)
  {
     $request->validate([
-   'username' =>   ['required', 'string', 'max:255', 'unique:user',
-   'regex:/^[A-Za-z0-9]+(?:[ _-][A-Za-z0-9]+)*$/'],
-
-   
-   'password' => ['required','alpha'],
+   'username' => 'required|alpha|unique:user|regex:([a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+)',
+   'password' => 'required|min:6|regex:([a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+)',
    'email' => 'required|email:rfc,dns',
    'firstname' => 'required',
    'surname' => 'required',
    'city' => 'required',
    'country' => 'required',
    ]);
-   dd('done');  
 
    $data = $request->all();
    // echo "aaa";
@@ -87,7 +81,7 @@ class AuthController extends Controller
    }
 
 
-    
+   
    
    public function dashboard()
    {
@@ -125,7 +119,15 @@ class AuthController extends Controller
         //   return redirect()->route('admin.user');
         //   }
 
-
+        public function checkEmail(Request $request){
+            $email = $request->input('email');
+            $isExists = User::where('email',$email)->first();
+            if($isExists){
+                return response()->json(array("exists" => true));
+            }else{
+                return response()->json(array("exists" => false));
+            }
+        }
              
    public function logout(Request $request) {
        $request->Session()->flush();

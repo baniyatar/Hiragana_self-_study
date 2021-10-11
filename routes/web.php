@@ -1,10 +1,10 @@
 <?php
-use App\Models\User;
+
 use App\Http\Controllers\Auth\AdminController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Input;
-use Illuminate\Http\Request;
+
+
   
 use App\Http\Controllers\Auth\AuthController;
   
@@ -24,11 +24,11 @@ Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 Route::get('/adminlogin',[AdminController::class,'adminlogin'])->name('adminlogin');
 Route ::get('/edit', function(){
 return view('/Admin/edit');});
+Route::post('checkemail',[AuthController::class,'checkEmail']);
 
 
-
-//  ## View 
-// Route::get('users',   [AuthController::class,'edit'])->name('users');
+ ## View 
+Route::get('users',   [AuthController::class,'edit'])->name('users');
 
 // ## Create
 // Route::get('/Admin/create', [AuthController::class,'create'])->name('users.create');
@@ -49,10 +49,3 @@ Route::get('/main', function () {
 
 Route::get('dashboardadmin',[AuthController::class,'show']);
 
-// Route::any('/search',function(){
-//     $q = Request::get ( 'q' );
-//     $user = User::where('name','LIKE','%'.$q.'%')->orWhere('firstname','LIKE','%'.$q.'%')->get();
-//     if(count($user) > 0)
-//         return view('dashboardadmin')->withDetails($user)->withQuery ( $q );
-//     else return view ('dashboardadmin')->withMessage('No Details found. Try to search again !');
-// });
