@@ -51,8 +51,8 @@
                                   <input type="text" id="username" class="form-control{{ $errors->has('username') ? ' is-invalid' : '' }}" name="username" name="username" value="{{ old('username') }}"  required autofocus>
                                     
                                 @if ($errors->has('username'))
-                                <span class="help-block">
-                                    <strong>{{ $errors->first('password') }}</strong>
+                                <span class="text-danger">
+                                    <strong>{{ $errors->first('username') }}</strong>
                                 </span>
                             @endif  
                               </div>
@@ -70,7 +70,7 @@
                                 <input type="password" id="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}"  name="password" value="{{ old('password') }}" data-error=" email address is invalid" required autofocus>
                                 
                                 @if ($errors->has('password'))
-                                <span class="help-block">
+                                <span class="text-danger">
                                     <strong>{{ $errors->first('password') }}</strong>
                                 </span>
                             @endif  
@@ -94,11 +94,13 @@
                             <div class="col-md-6">
                                
                             <input type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email"  value="{{ old('email') }}" id="email"  data-error="Email address is invalid" required>
-                            <div class="help-block with-errors"data-error=" Email address is invalid"></div>
+                            <div class="help-block with-errors" data-error=" Email address is invalid"></div>
 
                             @if ($errors->has('email'))
-                            <span class="text-danger">{{ $errors->first('email') }}</span>
-                           @endif
+                            <span class="text-danger">
+                                <strong>{{ $errors->first('email') }}</strong>
+                            </span>
+                        @endif  
                             </div>
                           </div> 
                         </div> 
