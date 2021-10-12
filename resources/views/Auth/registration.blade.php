@@ -46,7 +46,7 @@
                           <div class="form-group row">
                               <label for="username" class="col-md-4 col-form-label text-md-right"><ruby>
                                 登録名<rp></rp><rt>とうろくめい</rt><rp></rp>
-                                </ruby> Username</label>
+                                </ruby> Username <small class="form-text text-muted">アルファベットで in alphabet</small></label>
                               <div class="col-md-6">
                                   <input type="text" id="username" class="form-control{{ $errors->has('username') ? ' is-invalid' : '' }}" name="username" name="username" value="{{ old('username') }}"  required autofocus>
                                     
@@ -144,7 +144,7 @@
                         <div class="form-group row"> 
                             <label for="country" class="col-md-4 col-form-label text-md-right"><ruby>
                                 国<rp>(</rp><rt>くに</rt><rp>)</rp>
-                                </ruby> Country</label>
+                                </ruby> Country <small class="form-text text-muted">アルファベットで in alphabet</small></label>
                             <div class="col-md-6">
                                 <input type="text" id="country" class="form-control{{ $errors->has('country') ? ' is-invalid' : '' }}" name="country" value="{{ old('country') }}" required autofocus>
                                 @if ($errors->has('country'))
