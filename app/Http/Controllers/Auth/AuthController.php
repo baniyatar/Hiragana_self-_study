@@ -60,13 +60,13 @@ class AuthController extends Controller
    function postRegistration(Request $request,User $data)
  {
     $request->validate([
-   'username' => 'required|alpha_num|unique:user|regex:([a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+)',
-   'password' => 'required|min:6',
+   'username' => 'required|alpha_num|unique:user|regex:/(^[A-Za-z0-9 ]+$)+/',
+   'password' => 'required|min:6|regex:/(^[A-Za-z0-9 ]+$)+/',
    'email' => 'required|email:rfc,dns',
-   'firstname' => 'required|alpha_num|regex:([a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+)',
-   'surname' => 'required|alpha_num|regex:([a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+)',
-   'city' => 'required|alpha_dash',
-   'country' => 'required|alpha_num',
+   'firstname' => 'required|alpha|regex:/(^[A-Za-z ]+$)+/',
+   'surname' => 'required|alpha|regex:/(^[A-Za-z ]+$)+/',
+   'city' => 'required|alpha_num|regex:/(^[A-Za-z0-9 ]+$)+/',
+   'country' => 'required|alpha_num|regex:/(^[A-Za-z0-9 ]+$)+/',
    ]);
 
    $data = $request->all();
@@ -92,6 +92,7 @@ class AuthController extends Controller
        return redirect("login")->withSuccess('Opps! You do not have access');
    }
    
+
    
    public function create(array $data)
    {

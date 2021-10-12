@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6cadd819a6415b190ae2704ced6e6c8b",
+    "content-hash": "797293333a08ad525b19f505ca1443cb",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2391,6 +2391,50 @@
                 }
             ],
             "time": "2021-08-11T01:06:55+00:00"
+        },
+        {
+            "name": "seeds-std/laravel-jp-validation-rules",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/seeds-std/laravel-jp-validation-rules.git",
+                "reference": "955c7e8b862ad3d727b815f99178bda5e5e4b162"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/seeds-std/laravel-jp-validation-rules/zipball/955c7e8b862ad3d727b815f99178bda5e5e4b162",
+                "reference": "955c7e8b862ad3d727b815f99178bda5e5e4b162",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "^5.5|^6.0|^7.0|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^3.8|^4|^5|^6",
+                "phpunit/phpunit": "^7|^8|^9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SeedsStd\\JpValidationRules\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "tsmsogn",
+                    "email": "tsmsogn@gmail.com"
+                }
+            ],
+            "description": "Validate Jp rules",
+            "support": {
+                "issues": "https://github.com/seeds-std/laravel-jp-validation-rules/issues",
+                "source": "https://github.com/seeds-std/laravel-jp-validation-rules/tree/0.1.1"
+            },
+            "time": "2020-11-12T03:10:48+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

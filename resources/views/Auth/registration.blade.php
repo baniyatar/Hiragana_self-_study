@@ -14,6 +14,28 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script>
+        $(document).ready(function(){
+
+@if($errors->first('username'))
+  $("input[name='username']").focus();
+@elseif($errors->first('password'))
+  $("input[name='password']").focus();
+  @elseif($errors->first('email'))
+  $("input[name='email']").focus();
+  @elseif($errors->first('firstname'))
+  $("input[name='firstname']").focus();
+  @elseif($errors->first('surname'))
+  $("input[name='surname']").focus();
+  @elseif($errors->first('city'))
+  $("input[name='city']").focus();
+  @elseif($errors->first('country'))
+  $("input[name='country']").focus();
+
+@endif
+
+});
+
+
    </script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js">
    
@@ -27,9 +49,12 @@
                                 </ruby> Username</label>
                               <div class="col-md-6">
                                   <input type="text" id="username" class="form-control{{ $errors->has('username') ? ' is-invalid' : '' }}" name="username" name="username" value="{{ old('username') }}"  required autofocus>
-                                  @if ($errors->has('username')) 
-                                      <span class="text-danger">{{ $errors->first('username') }}</span>
-                                  @endif
+                                    
+                                @if ($errors->has('username'))
+                                <span class="help-block">
+                                    <strong>{{ $errors->first('password') }}</strong>
+                                </span>
+                            @endif  
                               </div>
                           </div>
   
@@ -45,8 +70,10 @@
                                 <input type="password" id="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}"  name="password" value="{{ old('password') }}" data-error=" email address is invalid" required autofocus>
                                 
                                 @if ($errors->has('password'))
-                                      <span class="text-danger">{{ $errors->first('password') }}</span>
-                                  @endif    
+                                <span class="help-block">
+                                    <strong>{{ $errors->first('password') }}</strong>
+                                </span>
+                            @endif  
                               </div>
                           </div>
 
@@ -103,7 +130,7 @@
                                 <ruby>
                                     町<rp>(</rp><rt>まち</rt><rp>)</rp>
                                     </ruby>
-                                City/town</label>
+                                City/town  <small class="form-text text-muted">アルファベットで in alphabet</small></label>
                             <div class="col-md-6">
                               <input type="text" id="city" class="form-control{{ $errors->has('city') ? ' is-invalid' : '' }}" name="city" value="{{ old('city') }}" required autofocus>
                                 @if ($errors->has('city'))
