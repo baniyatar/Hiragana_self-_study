@@ -57,20 +57,20 @@ class AuthController extends Controller
    }
 
 
-   function postRegistration(Request $request,User $data)
+   function postRegistration(Request $request,User $data)           
  {
     $request->validate([
    'username' => 'required|alpha_num|unique:user|regex:/(^[A-Za-z0-9 ]+$)+/',
-   'password' => 'required|min:6|regex:/(^[A-Za-z0-9 ]+$)+/',
+   'password' => 'required|min:6|regex:/^[ A-Za-z0-9_!"@#$%^&()*]*$/',
    'email' => 'required|email:rfc,dns',
    'firstname' => 'required|alpha|regex:/(^[A-Za-z ]+$)+/',
    'surname' => 'required|alpha|regex:/(^[A-Za-z ]+$)+/',
-   'city' => 'required|alpha_num|regex:/(^[A-Za-z0-9 ]+$)+/',
+   'city' => 'required|regex:/(^[A-Za-z0-9 -]+$)+/',
    'country' => 'required|alpha_num|regex:/(^[A-Za-z0-9 ]+$)+/',
    ]);
 
    $data = $request->all();
-   // echo "aaa";
+   // echo "aaa";   
 
    // dd ($data );
    // echo ("bbb");
@@ -78,7 +78,8 @@ class AuthController extends Controller
    $check = $this->create($data);
 
    return redirect("dashboard")->withSuccess('ひらがなの勉強(べんきょう)システムにつながりますGreat! You have Successfully loggedin');
-   }
+
+}
 
 
    

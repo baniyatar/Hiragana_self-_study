@@ -94,7 +94,7 @@
                             <div class="col-md-6">
                                
                             <input type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email"  value="{{ old('email') }}" id="email"  data-error="Email address is invalid" required>
-                            <div class="help-block with-errors" data-error=" Email address is invalid"></div>
+                            <div class="help-block with-errors text-danger" data-error=" Email address is invalid"></div>
 
                             @if ($errors->has('email'))
                             <span class="text-danger">
