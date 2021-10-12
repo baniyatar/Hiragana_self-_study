@@ -15,7 +15,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
-
 @if($errors->first('username'))
   $("input[name='username']").focus();
 @elseif($errors->first('password'))
@@ -30,12 +29,8 @@
   $("input[name='city']").focus();
   @elseif($errors->first('country'))
   $("input[name='country']").focus();
-
 @endif
-
 });
-
-
    </script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js">
    
@@ -103,7 +98,7 @@
                         @endif  
                             </div>
                           </div> 
-                        </div> 
+                
   
                         <div class="form-group row">
                             <label for="firstname" class="col-md-4 col-form-label text-md-right"><ruby>名<rp></rp><rt>めい</rt></ruby>  Firstname<small class="form-text text-muted">アルファベットで in alphabet</small></label>
