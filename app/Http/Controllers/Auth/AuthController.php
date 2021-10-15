@@ -62,7 +62,7 @@ class AuthController extends Controller
     $request->validate([
    'username' => 'required|alpha_num|unique:user|regex:/(^[A-Za-z0-9 ]+$)+/',
    'password' => 'required|min:6|regex:/^[ A-Za-z0-9_!"@#$%^&()*]*$/',
-   'email' => 'required|email:rfc,dns',
+   'email' => 'required|email:rfc,dns,filter',
    'firstname' => 'required|alpha|regex:/(^[A-Za-z ]+$)+/',
    'surname' => 'required|alpha|regex:/(^[A-Za-z ]+$)+/',
    'city' => 'required|regex:/(^[A-Za-z0-9 -]+$)+/',
