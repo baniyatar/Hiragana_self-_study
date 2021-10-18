@@ -52,6 +52,9 @@
   -webkit-overflow-scrolling: touch; /*<<--- THIS IS THE KEY*/ 
   border: solid black 1px;
 }
+.frame-border { 
+border:3px solid #EEE; 
+}
 
 .myIframe iframe {
   position: absolute;

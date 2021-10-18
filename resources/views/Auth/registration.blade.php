@@ -1,5 +1,5 @@
 @extends('layout')
-  
+ 
 @section('content')
 <main class="login-form">
   <div class="cotainer">
@@ -105,7 +105,7 @@
                             <div class="col-md-6">
                                 <input type="text" id="firstname" class="form-control{{ $errors->has('firstname') ? ' is-invalid' : '' }}" name="firstname" value="{{ old('firstname') }}" required autofocus>
                                 @if ($errors->has('firstname'))
-                                    <span class="text-danger">{{ $errors->first('firstname') }}</span>
+                            <strong>{{ $errors->first('firstname') }}</strong>
                                 @endif
                             </div>
                         </div>
@@ -115,7 +115,9 @@
                             <div class="col-md-6">
                                 <input type="text" id="surname" class="form-control{{ $errors->has('surname') ? ' is-invalid' : '' }}" name="surname" value="{{ old('surname') }}" required autofocus>
                                 @if ($errors->has('surname'))
-                                    <span class="text-danger">{{ $errors->first('surname') }}</span>
+                                <span class="text-danger">
+                            <strong>{{ $errors->first('surname') }}</strong>
+                                </span>
                                 @endif
                             </div>
                         </div>
@@ -131,7 +133,9 @@
                             <div class="col-md-6">
                               <input type="text" id="city" class="form-control{{ $errors->has('city') ? ' is-invalid' : '' }}" name="city" value="{{ old('city') }}" required autofocus>
                                 @if ($errors->has('city'))
-                                    <span class="text-danger">{{ $errors->first('city') }}</span>
+                                <span class="text-danger">
+                            <strong>{{ $errors->first('city') }}</strong>
+                        </span>
                                 @endif
                             </div>
                         </div>
@@ -143,7 +147,9 @@
                             <div class="col-md-6">
                                 <input type="text" id="country" class="form-control{{ $errors->has('country') ? ' is-invalid' : '' }}" name="country" value="{{ old('country') }}" required autofocus>
                                 @if ($errors->has('country'))
-                                    <span class="text-danger">{{ $errors->first('country') }}</span>
+                                <span class="text-danger">
+                            <strong>{{ $errors->first('country') }}</strong>
+                                </span>
                                 @endif
                             </div>
                         </div>
