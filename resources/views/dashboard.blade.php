@@ -1,7 +1,17 @@
 @extends('layout')
   
 @section('content')
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+body {
+  margin: 0;
+}
+iframe {
+  height:calc(100vh - 4px);
+  width:calc(100vw - 4px);
+  box-sizing: border-box;
+}
+</script>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -23,7 +33,7 @@
 </div> --}}
 
                     
-                    <a href ="\hiragana\index.html"  class="btn btn-Secondary btn-lg btn-block">ひらがなの <ruby>
+                    <a href ="\hiragana\Hiragana Self Study solve (Published)\index.html"  class="btn btn-Secondary btn-lg btn-block">ひらがなの <ruby>
                         勉強<rp></rp><rt>べんきょう</rt><rp></rp>
                         </ruby>を  <ruby>
                             始<rp></rp><rt>はじ</rt><rp></rp>
