@@ -35,7 +35,7 @@ iframe {
                     
                     <a href ="\hiragana\Hiragana Self Study solve (Published)\index.html"  class="btn btn-Secondary btn-lg btn-block">ひらがなの <ruby>
                         勉強<rp></rp><rt>べんきょう</rt><rp></rp>
-                        </ruby>を  <ruby>
+                        </ruby>を <br>  <ruby>
                             始<rp></rp><rt>はじ</rt><rp></rp>
                             </ruby>  めましょう。<br>Let`s study Hiragana  </a> 
                    {{-- <button type="button" class="btn btn-Secondary btn-lg btn-block">Kanji </button>

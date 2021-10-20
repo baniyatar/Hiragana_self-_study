@@ -27,11 +27,12 @@
   </iframe>
   <button onclick="openFullscreen();">Click here for Fullscreen Mode</button>
   <p><strong>Tip:</strong> Press the "Esc" key to exit full screen.</p>
-  <button type="button"　href="{{ route('login') }}" class="btn btn-Secondary btn-lg btn-block"> やります　quit  </button> </div>
+  <button type="button"　a href="{{url('/login')}}" class="btn btn-Secondary btn-lg btn-block"> やめる　quit  </button> </div>
 
         </div></div>
        
 <script>
+  
 /* Get the element you want displayed in fullscreen */ 
 var elem = document.getElementById("myvideo");
 

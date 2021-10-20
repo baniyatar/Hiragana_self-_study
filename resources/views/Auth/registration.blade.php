@@ -105,7 +105,9 @@
                             <div class="col-md-6">
                                 <input type="text" id="firstname" class="form-control{{ $errors->has('firstname') ? ' is-invalid' : '' }}" name="firstname" value="{{ old('firstname') }}" required autofocus>
                                 @if ($errors->has('firstname'))
+                                <span class="text-danger">
                             <strong>{{ $errors->first('firstname') }}</strong>
+                                </span>
                                 @endif
                             </div>
                         </div>
