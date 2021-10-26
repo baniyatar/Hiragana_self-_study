@@ -16,7 +16,7 @@ iframe {
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Hiragana') }}</div>
+                <div class="card-header">{{ __('ひらがな') }}</div>
                
                 <div class="card-body">
                     @if (session('success'))
@@ -37,7 +37,7 @@ iframe {
                         勉強<rp></rp><rt>べんきょう</rt><rp></rp>
                         </ruby>を <br>  <ruby>
                             始<rp></rp><rt>はじ</rt><rp></rp>
-                            </ruby>  めましょう。<br>Let`s study Hiragana  </a> 
+                            </ruby>  めましょう。<br>Let`s study Hiragana.  </a> 
                    {{-- <button type="button" class="btn btn-Secondary btn-lg btn-block">Kanji </button>
                     <button type="button" class="btn btn-Secondary btn-lg btn-block">Katakana </button>               
                 {{-- <button type="button" class="btn btn-Secondary btn-lg btn-block">Kanji </button>
