@@ -77,7 +77,7 @@ class AuthController extends Controller
 
    $check = $this->create($data);
 
-   return redirect("dashboard")->withSuccess('ひらがなの勉強(べんきょう)システムにつながります Great! You have Successfully loggedin.');
+   return redirect("dashboard")->withSuccess('ひらがなの勉強(べんきょう)システムにつながります。 Great! You have Successfully loggedin.');
 
 }
 
