@@ -11,7 +11,17 @@
     function resizeIframe(obj) {
     obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
   }
+
+
 </script>
+
+<script>
+  function closeWindow() {
+      window.open('','_parent','');
+      window.close();
+  }
+</script> 
+
 
 <div class="container">
     <div class="row justify-content-center">
@@ -27,10 +37,8 @@
   </iframe>
   <button onclick="openFullscreen();">Click here for Fullscreen Mode</button>
   <p><strong>Tip:</strong> Press the "Esc" key to exit full screen.</p>
-  <button type="button"　a href="{{url('/login')}}" class="btn btn-Secondary btn-lg btn-block"> やめる　quit  </button> </div>
+  <a href="javascript:closeWindow();">Close Window</a>
 
-        </div></div>
-       
 <script>
   
 /* Get the element you want displayed in fullscreen */ 
