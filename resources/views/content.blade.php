@@ -14,13 +14,13 @@
 
 
 </script>
-
 <script>
-  function {
-    
-  }
-</script> 
-
+function closeMe() { 
+  var win = window.open("","_self"); /* url = "" or "about:blank"; target="_self" */ 
+  win.close();
+  } 
+  </script>
+<body  onload="window.opener = self;"  >
 
 <div class="container">
     <div class="row justify-content-center">
@@ -36,10 +36,14 @@
   </iframe>
   <button onclick="openFullscreen();">Click here for Fullscreen Mode</button>
   <p><strong>Tip:</strong> Press the "Esc" key to exit full screen.</p>
+  {{-- <input type="button" name="CloseMe" value="Close Me" onclick="closeMe()" /> --}}
   <a href="#" onclick=window.close(); >close</a>
+</body>
+
 
 <script>
   
+
 /* Get the element you want displayed in fullscreen */ 
 var elem = document.getElementById("myvideo");
 
