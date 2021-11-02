@@ -16,9 +16,8 @@
 </script>
 
 <script>
-  function closeWindow() {
-      window.open('','_parent','');
-      window.close();
+  function {
+    
   }
 </script> 
 
@@ -37,7 +36,7 @@
   </iframe>
   <button onclick="openFullscreen();">Click here for Fullscreen Mode</button>
   <p><strong>Tip:</strong> Press the "Esc" key to exit full screen.</p>
-  <a href="javascript:closeWindow();">Close Window</a>
+  <a href="#" onclick=window.close(); >close</a>
 
 <script>
   
