@@ -31,7 +31,7 @@
             </div>
 
 <iframe width="100%" height="100%" scrolling="no" onload="resizeIframe(this)" controls id="myvideo"
-   src="\hiragana\Hiragana Self Study solve (Published)\index.html">
+   src="{{asset('hiragana\Hiragana Self Study solve (Published)\index.html')}}">
 
   </iframe>
   <button onclick="openFullscreen();">Click here for Fullscreen Mode</button>

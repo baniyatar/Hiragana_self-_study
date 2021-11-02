@@ -33,7 +33,7 @@ iframe {
 </div> --}}
 
                     
-                    <a href = "{{asset('hiragana\Hiragana Self Study solve (Published)\index.html')}}" class="btn btn-Secondary btn-lg btn-block">ひらがなの <ruby>
+                    <a href = "{{ url('/content') }}" class="btn btn-Secondary btn-lg btn-block">ひらがなの <ruby>
                         勉強<rp></rp><rt>べんきょう</rt><rp></rp>
                         </ruby>を <br>  <ruby>
                             始<rp></rp><rt>はじ</rt><rp></rp>
@@ -45,7 +45,7 @@ iframe {
                 {{-- <button type="button" class="btn btn-Secondary btn-lg btn-block">Kanji </button>
                     <button type="button" class="btn btn-Secondary btn-lg btn-block">Katakana </button> --}}
                
-                    <a class="nav-link" href="{{ route('logout') }}">やめる Logout</a> </div>
+                    <a class="nav-link" href="{{ url('/logout') }}">やめる Logout</a> </div>
             </div>
         </div>
     </div>
