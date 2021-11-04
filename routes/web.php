@@ -10,6 +10,8 @@ use App\Http\Controllers\Auth\AuthController;
   
 
   
+
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
@@ -49,6 +51,27 @@ Route::get('users',   [AuthController::class,'edit'])->name('users');
 Route::get('/main', function () {
     return view('main');
 });
+Route::get('/aorder', function () {
+    return view('/Vocabulary/Alist/aorder');
+});
+
+Route::get('/aka', function () {
+    return view('/Vocabulary/Alist/aka');
+});
+Route::get('/ashi', function () {
+    return view('/Vocabulary/Alist/ashi');
+});
+Route::get('/atama', function () {
+    return view('/Vocabulary/Alist/atama');
+});
+
+Route::get('/aame', function () {
+    return view('/Vocabulary/Alist/aame');
+});
+Route::get('/aorder', function () {
+    return view('/Vocabulary/Alist/aorder');
+});
+
 
 Route::get('dashboardadmin',[AuthController::class,'show']);
 
