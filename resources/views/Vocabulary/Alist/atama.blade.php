@@ -6,7 +6,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('あたま') }}</div>
+                {{-- <div class="card-header">{{ __('あたま') }}</div> --}}
 <script>
 function playSound ()
 {
@@ -20,13 +20,15 @@ function playSound ()
                         <table class="table table-sm">
                             {{-- <thead>
                                 <tr>
-                                    <th>A Vocabulary</th>
+                                    <th><p class="font-size-big gothic bold" > あ</p><p class="font-size-big mincho ">たま</p></th>
                                   
                                 </tr> --}}
                                
         
-                       
-                               <h1> あたま</h1>
+                                <div style="display: flex;  space-between;">
+                                <p class="font-size-big gothic bold" > あ</p><p class="font-size-big mincho ">たま</p>
+
+                                </div>
                             </table>
                             <a onclick="playSound();"> Play</a>
                     <audio id ="sample" autoplay>
@@ -34,6 +36,7 @@ function playSound ()
                     </audio>
 
                     </body>
+                    <a href="{{ URL::to( '/aame') }}">Next</a>
             </div>
         </div>
     </div>

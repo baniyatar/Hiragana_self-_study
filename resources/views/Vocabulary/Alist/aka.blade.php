@@ -6,8 +6,17 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('あか') }}</div>
+   <head>           
+         {{-- <div class="card-header">{{ __('あか') }}</div> --}}
 <script>
+    function init() {
+    if (navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/)) {
+            document.addEventListener("deviceready", initDB, false);
+    } 
+    else{
+        initDB();
+    }
+}
 function playSound ()
 {
                 var sample = document.getElementById("sample");
@@ -15,7 +24,7 @@ function playSound ()
                 sample.play();
 }
     </script>
-                
+                </head>
                     <body  onload="init">
                         <table class="table table-sm">
                             {{-- <thead>
@@ -24,16 +33,18 @@ function playSound ()
                                   
                                 </tr> --}}
                                
-        
-                       
-                               <h1> あか</h1>
+                                <div style="display: flex;  space-between;">
+                                <p class="font-size-big gothic bold" > あ</p><p class="font-size-big mincho ">か</p>
+                                </div>
                             </table>
                             <a onclick="playSound();"> Play</a>
-                    <audio id ="sample" autoplay>
-                    <source  src="{{ asset('hiragana\Alistsound\あか.wav') }}" type="audio/wav" />
+                    <audio id ="sample" src="{{ asset('hiragana\Alistsound\あか.wav') }}" type="audio/wav"   autoplay>
+                    {{-- <source playsinline webkit-playsinline/> --}}
                     </audio>
 
                     </body>
+                    
+                    <a href="{{ URL::to( '/ashi') }}">Next</a>
             </div>
         </div>
     </div>

@@ -21,16 +21,21 @@
                             
                         </tr>
                         <tr>
-                            <td>あさ</td>
-                           
-                        </tr>
-                        <tr>
                             <td>あし</td>
                            
                         </tr>
+                        <tr>
+                            <td>あたま</td>
+                           
+                        </tr> 
+                        <tr>
+                            <td>あめ</td>
+                           
+                        </tr>
+                       
                     </tbody>
                 </table>
-
+                <a href="{{ URL::to( '/aka') }}">Next</a>
             </div>
         </div>
     </div>

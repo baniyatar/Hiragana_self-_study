@@ -63,6 +63,36 @@ border:3px solid #EEE;
   width: 100%;
   height: 100%;
 }
+
+
+
+.font-size-big {
+    font-size: 2.4rem;
+}
+
+
+.gothic{
+    font-family: "MS Gothic";
+    font-size: 2.4rem;
+    color: red
+   
+}
+.century{
+    font-family: "Century ";
+    font-size: 	1rem;
+}
+
+.mincho {
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    font-size: 2.4rem;
+
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
     </style>
 </head>
 <body>

@@ -51,8 +51,8 @@ Route::get('users',   [AuthController::class,'edit'])->name('users');
 Route::get('/main', function () {
     return view('main');
 });
-Route::get('/aorder', function () {
-    return view('/Vocabulary/Alist/aorder');
+Route::get('/alist', function () {
+    return view('/Vocabulary/Alist/alist');
 });
 
 Route::get('/aka', function () {
