@@ -70,21 +70,38 @@ border:3px solid #EEE;
     font-size: 2.4rem;
 }
 
+.font-size-small{
+    font-size:1.5rem;
+}
+div.navigationnext{
+  
+  left: 150px;  
+  font-size: 20px;
+ 
+ 
+} 
 
+
+div.navigationprevious{
+  
+  right: 130px;  
+  font-size: 20px;
+
+} 
 .gothic{
     font-family: "MS Gothic";
-    font-size: 2.4rem;
+    
     color: red
    
 }
 .century{
     font-family: "Century ";
-    font-size: 	1rem;
+   
 }
 
 .mincho {
     font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-    font-size: 2.4rem;
+   
 
 }
 .bold {
@@ -93,6 +110,10 @@ border:3px solid #EEE;
 .italic {
     font-style: italic;
 }
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
     </style>
 </head>
 <body>
