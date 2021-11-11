@@ -71,6 +71,13 @@ Route::get('/aame', function () {
 Route::get('/aorder', function () {
     return view('/Vocabulary/Alist/aorder');
 });
+Route::get('/hiraganatable', function () {
+    return view('/hiraganaあーんtable');
+});
+Route::get('/home', function () {
+    return view('/Home');
+});
+
 
 
 Route::get('dashboardadmin',[AuthController::class,'show']);

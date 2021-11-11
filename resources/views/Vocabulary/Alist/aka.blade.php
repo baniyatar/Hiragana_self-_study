@@ -26,16 +26,21 @@ function playSound ()
                                   
                                 </tr> --}}
                                
-                                <div style="display: flex;  space-between;">
-                                <p class="font-size-big gothic bold" > あ</p><p class="font-size-big mincho ">か</p>
-                                </div>
+                               
                             </table>
-                            <a onclick="playSound();"> Play</a>
-                    <audio id ="sample" src="{{ asset('hiragana\Alistsound\あか.wav') }}" type="audio/wav"    autoplay  muted playsinline>
+                            
+                            <a onclick="playSound();">  <div style="display: flex;  space-between;">
+                                <p class="font-size-big gothic bold" > あ</p><p class="font-size-big mincho ">か</p>
+                                </div></a>
+                    <audio id ="sample" src="{{ asset('hiragana\あか.mp3') }}" type="audio/mp3"    autoplay playsinline>
                     {{-- <source playsinline webkit-playsinline/> --}}
                     </audio>
+                    <div style="display: flex;  space-between;">
+    
+                        <p class="font-size-big century " > Red</p>
+                        </div>
         
-<div class="input-group mb-3">
+<div class="container">
     <div class="input-group-prepend">
   
     </div>
@@ -123,10 +128,21 @@ function playSound ()
       </optgroup>
   
     </select>
-  <div class="navigationprevious"><a href="{{ URL::to( '/aorder') }}">Previous</a></div>
-    <div class="navigationnext"><a href="{{ URL::to( '/ashi') }}">Next</a></div>
   
   </div>
+
+
+  
+  <div class ="container">
+    <div class="row">
+                <div class="col offset-md-8 round previous ">
+                    <a href="{{ URL::to( '/aorder') }}" class="previous">&#8249; previous </a>
+                </div>
+                <div class="col round next ">
+                    <a href="{{ URL::to( '/ashi') }}" class="next">  Next &#8250;</a>
+                </div>
+</div>
+</div>
                     </body>
                     
                    

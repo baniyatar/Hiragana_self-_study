@@ -16,7 +16,7 @@ function playSound ()
 }
     </script>
                 
-                    <body  onload="init();">
+                    <body  onload="init">
                         <table class="table table-sm">
                             {{-- <thead>
                                 <tr>
@@ -25,15 +25,22 @@ function playSound ()
                                 </tr> --}}
                                 <div style="display: flex;  space-between;">
         
-                                <p class="font-size-big gothic bold" > あ</p><p class="font-size-big mincho ">し</p>
                                 </div>
                             </table>
-                            <a onclick="playSound();"> </a>
-                    <audio id ="sample"  autoplay  muted playsinline>
-                    <source  src="{{ asset('hiragana\Alistsound\あし.wav') }}" type="audio/wav" />
-                    </audio>
 
-                    <div class="input-group mb-3">
+                            <a onclick="playSound();">    <div style="display: flex;  space-between;">
+        
+                                <p class="font-size-big gothic bold" > あ</p><p class="font-size-big mincho ">し</p>
+                                </div></a>
+
+                    <audio id ="sample"  autoplay   playsinline>
+                    <source  src="{{ asset('hiragana\あし.mp3') }}" type="audio/mp3" />
+                    </audio>
+                    <div style="display: flex;  space-between;">
+        
+                        <p class="font-size-big century " > Foot</p>
+                        </div>
+                    <div class="container">
                         <div class="input-group-prepend">
                       
                         </div>
@@ -121,11 +128,19 @@ function playSound ()
                           </optgroup>
                       
                         </select>
-                      <div class="navigationprevious"><a href="{{ URL::to( '/aka') }}">Previous</a></div>
-                        <div class="navigationnext"><a href="{{ URL::to( '/atama') }}">Next</a></div>
+                     
                       
                       </div>
-                  
+                      <div class ="container">
+                        <div class="row">
+                                    <div class="col offset-md-8 round previous ">
+                                        <a href="{{ URL::to( '/aka') }}" class="previous">&#8249; Previous </a>
+                                    </div>
+                                    <div class="col round next ">
+                                        <a href="{{ URL::to( '/atama') }}" class="next"> Next &#8250; </a>
+                                    </div>
+                    </div>
+            </div>
                     </body>
 
                     

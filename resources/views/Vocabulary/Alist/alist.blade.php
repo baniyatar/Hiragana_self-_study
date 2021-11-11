@@ -34,10 +34,10 @@
                         </tr>
                        
                     </tbody>
-                    
+
                 </table>
-                <div class="navigationprevious"><a href="{{ URL::to( '/aka') }}"><</a></div>
-                <div class="navigationnext"><a href="{{ URL::to( '/aka') }}">></a></div>
+                <div class="previous"><a href="{{ URL::to( '/aka') }}"><</a></div>
+                <div class="next"><a href="{{ URL::to( '/aka') }}">></a></div>
               
               </div>
             </div>

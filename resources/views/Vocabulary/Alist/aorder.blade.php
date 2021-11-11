@@ -13,12 +13,23 @@
                   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
                   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
                   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-                </head>
+                  <script>
+function playSound ()
+{
+                var sample = document.getElementById("sample");
+                sample.addEventListener("ended", function() {});  
+                sample.play();
+}
+    </script>
+                  </head>
+
 <body>
 
-    <img src="{{ asset('hiragana\Alistgif\あ（small）.gif') }}"  onClick="document.getElementById('audio_play').play(); return false;"  />
+    <a onclick="playSound();">   <img src="{{ asset('hiragana\Alistgif\あ（small）.gif') }}"  /></a>
     
-    
+    <audio id ="sample"  autoplay   playsinline>
+                    <source  src="{{ asset('hiragana\あ.mp3') }}" type="audio/mp3" />
+                    </audio>
     <div><p class ="font-size-small century">Writing order of 'あ' </p></div> 
 
 <img src="{{ asset('hiragana\A-nWriting order\あ-bw.png') }}" >
@@ -58,12 +69,12 @@
 
                                 <audio id="audio_play">
                                     
-                                    <source  src="{{ asset('\hiragana\Hiragana-sound\あ.wav') }}" type="audio/wav" />
+                                    <source  src="{{ asset('\hiragana\あ.mp3') }}" type="audio/mp3" />
  
 </audio>
 
 
-<div class="input-group mb-3">
+<div class="container">
   <div class="input-group-prepend">
 
   </div>
@@ -151,12 +162,25 @@
     </optgroup>
 
   </select>
-  <div class="navigationprevious"><a href="{{ URL::to( '/alist') }}">Previous</a></div>
-     <div class="navigationnext"><a href="{{ URL::to( '/ake') }}">Next</a></div>
-                      
+     
+  
+ 
+            </div>
+            
 
+            </div>
+            
+
+            <div class ="container">
+            <div class="row">
+                        <div class="col offset-md-8 round previous ">
+                            <a href="{{ URL::to( '/alist') }}" class="previous">&#8249; Previous </a>
+                        </div>
+                        <div class="col round next ">
+                            <a href="{{ URL::to( '/aka') }}" class="next">Next  &#8250;</a>
+                        </div>
+        </div>
 </div>
-
                     </body>
                    
             </div>

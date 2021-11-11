@@ -8,32 +8,31 @@
             <div class="card">
                 {{-- <div class="card-header">{{ __('あし') }}</div> --}}
 <script>
-function playSound ()
-{
-                var sample = document.getElementById("sample");
-                sample.addEventListener("ended", function() {});  
-                sample.play();
-}
+
     </script>
                 
-                    <body  onload="init();">
+                    <body  onload="init">
                         <table class="table table-sm">
                             {{-- <thead>
                                 <tr>
                                     <th>A Vocabulary</th>
                                   
                                 </tr> --}}
-                                <div style="display: flex;  space-between;">
-        
-                                <p class="font-size-big gothic bold" > あ</p><p class="font-size-big mincho ">たま</p>
-                                </div>
+         
                             </table>
-                            <a onclick="playSound();"> </a>
-                    <audio id ="sample"  autoplay  muted playsinline>
-                    <source  src="{{ asset('hiragana\Alistsound\あたま.wav') }}" type="audio/wav" />
+                            <a onclick="playSound();"> <div style="display: flex;  space-between;">
+        
+                                <p class="font-size-big gothic bold" > あ</p><p class="font-size-big mincho "> たま</p>
+                                </div></a>
+                    <audio id ="sample"  autoplay playsinline>
+                    <source  src="{{ asset('hiragana\あたま.mp3') }}" type="audio/mp3" />
                     </audio>
 
-                    <div class="input-group mb-3">
+                    <div style="display: flex;  space-between;">
+        
+                        <p class="font-size-big century " > Head</p>
+                        </div>
+                    <div class="container">
                         <div class="input-group-prepend">
                       
                         </div>
@@ -121,11 +120,20 @@ function playSound ()
                           </optgroup>
                       
                         </select>
-                      <div class="navigationprevious"><a href="{{ URL::to( '/ashi') }}">Previous</a></div>
-                        <div class="navigationnext"><a href="{{ URL::to( '/aame') }}">Next</a></div>
+                       
+                    
                       
                       </div>
-                  
+                      <div class ="container">
+                        <div class="row">
+                                    <div class="col offset-md-8 round previous ">
+                                        <a href="{{ URL::to( '/ashi') }}" class="previous">&#8249; Previous </a>
+                                    </div>
+                                    <div class="col round next ">
+                                        <a href="{{ URL::to( '/aame') }}" class="next">  Next &#8250;</a>
+                                    </div>
+                    </div>
+            </div>
                     </body>
 
                     

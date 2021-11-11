@@ -65,7 +65,9 @@ border:3px solid #EEE;
 }
 
 
-
+.round {
+  border-radius:0.55%;
+}
 .font-size-big {
     font-size: 2.4rem;
 }
@@ -81,11 +83,27 @@ div.navigationnext{
  
 } 
 
+html{
+    width:100%;
+    height:100%;
+}
+body{
+    width:100%;
+    height:100%;
+    background-color:#DDD;
+}
 
-div.navigationprevious{
+
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.previous{
   
-  right: 130px;  
-  font-size: 20px;
+    background-color: #f1f1f1;
+  color: black;
 
 } 
 .gothic{
@@ -114,6 +132,19 @@ a, a:hover, a:focus, a:active {
       text-decoration: none;
       color: inherit;
  }
+
+ /*
+	Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 760px and also iPads specifically.
+	*/
+	@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-  {
+
+		/* Force table to not be like tables anymore */
+}
     </style>
 </head>
 <body>
@@ -124,7 +155,7 @@ a, a:hover, a:focus, a:active {
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 <nav class="navbar navbar-expand-lg navbar-light navbar-laravel">
     <div class="container">
-        <a class="navbar-brand" href="#">Senmon Kyouiku Publishing Co.,Ltd</a>
+        {{-- <a class="navbar-brand" href="#">Senmon Kyouiku Publishing Co.,Ltd</a> --}}
         {{-- <button  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
           
         </button>
@@ -133,7 +164,7 @@ a, a:hover, a:focus, a:active {
             <ul class="navbar-nav ml-auto">
                 @guest
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('login') }}">Login</a>
+                        {{-- <a class="nav-link" href="{{ route('login') }}">Login</a> --}}
                     </li>
                     {{-- <li class="nav-item">
                         <a class="nav-link" href="{{ route('register') }}">Register</a>
