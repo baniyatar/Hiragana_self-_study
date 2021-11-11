@@ -1,0 +1,43 @@
+.box {
+    position: fixed;
+    font-family: serif;
+    font-size: 30px;
+    top: 50px;
+    left: 50px;
+    bottom: 150px;
+    right: 50px;
+    border: 0px solid #000;
+      overflow-y: scroll;
+}
+.home_btn {
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+    padding: 15px 30px;
+    font-size: 40px;
+}
+.prev_btn { 
+    position: fixed;
+    bottom: 30px;
+    right: 230px;
+    padding: 15px 30px;
+    font-size: 40px;
+}
+.next_btn { 
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    padding: 15px 30px;
+    font-size: 40px;
+}
+
+.font_word{
+    font-size: 50px;  
+  }
+.font_word::first-letter {
+      color: red ;
+}
+
+.letter_start{
+    text-align: center;
+}

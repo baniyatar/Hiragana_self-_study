@@ -7,7 +7,8 @@ use Illuminate\Support\Facades\Auth;
 
   
 use App\Http\Controllers\Auth\AuthController;
-  
+use App\Http\Controllers\Hiragana5qController;
+
 
   
 
@@ -19,7 +20,29 @@ Route::get('/content', function () {
     return view('content');
 });
 
+Route::get('/testLetterA', function () {
+    return view('testAview');
+});
 
+Route::get('/testLetterAka', function () {
+    return view('testAkaview');
+});
+
+Route::get('/testLetterAshi', function () {
+    return view('testAshiview');
+});
+
+Route::get('/testLetterAme', function () {
+    return view('testAmeview');
+});
+
+Route::get('/testLetterAtama', function () {
+    return view('testAtamaview');
+});
+
+Route::get('/', function () {
+    return view('welcome');
+});
 Route::get('/login', [AuthController::class, 'index'])->name('login');
 Route::post('post-login', [AuthController::class, 'postLogin'])->name('login.post'); 
 Route::get('registration', [AuthController::class, 'registration'])->name('register');
@@ -51,8 +74,8 @@ Route::get('users',   [AuthController::class,'edit'])->name('users');
 Route::get('/main', function () {
     return view('main');
 });
-Route::get('/alist', function () {
-    return view('/Vocabulary/Alist/alist');
+Route::get('/aorder', function () {
+    return view('/Vocabulary/Alist/aorder');
 });
 
 Route::get('/aka', function () {
@@ -81,4 +104,11 @@ Route::get('/home', function () {
 
 
 Route::get('dashboardadmin',[AuthController::class,'show']);
+
+Route::get('/aAlphabet', [Hiragana5qController::class, 'viewAAlphabet']);
+
+Route::get('/intro', [Hiragana5qController::class, 'viewIntroPage']);
+
+Route::get('/construct', [Hiragana5qController::class, 'viewConstructPage']);
+
 
