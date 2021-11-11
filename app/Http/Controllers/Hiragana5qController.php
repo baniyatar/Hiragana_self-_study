@@ -110,4 +110,8 @@ public function edit($id){
       {
          return view('Hiragana/introPage');
       }  
+   public function viewHomePage()
+      {
+         return view('Hiragana/homePage');
+      }  
 }

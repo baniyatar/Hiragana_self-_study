@@ -111,4 +111,7 @@ Route::get('/intro', [Hiragana5qController::class, 'viewIntroPage']);
 
 Route::get('/construct', [Hiragana5qController::class, 'viewConstructPage']);
 
+Route::get('/home', [Hiragana5qController::class, 'viewHomePage']);
+
+
 

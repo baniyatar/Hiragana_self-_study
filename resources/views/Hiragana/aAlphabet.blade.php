@@ -59,8 +59,8 @@
   <br><img src="hiragana/a/head.png" alt="red">
 </p>
 	</div>
-	<button class="home_btn" onClick="location.href='/test/home.html'">HOME</button>
-	<button class="prev_btn" onclick="location.href='{{ url('/construct')}}'">&lt;PREV</button>
-	<button class="next_btn" onClick="location.href='/test/a.html'">NEXT&gt;</button>
+	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
+	<button class="prev_btn" onclick="location.href='{{ url('/home')}}'">&lt;PREV</button>
+	<button class="next_btn" onClick="">NEXT&gt;</button>
 </body>
 </html>

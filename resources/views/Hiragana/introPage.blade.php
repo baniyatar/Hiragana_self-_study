@@ -25,8 +25,7 @@
 		<p><ruby><rb>日本</rb><rt>にほん</rt></ruby>の<ruby><rb>小学校</rb><rt>しょうがっこう</rt></ruby>、<ruby><rb>中学校</rb><rt>ちゅうがっこう</rt></ruby>などでは<ruby><rb>教科書体</rb><rt>きょうかしょたい</rt></ruby>が<ruby><rb>使</rb><rt>つか</rt></ruby>われています。いっぽう、<ruby><rb>新聞</rb><rt>しんぶん</rt></ruby>、<ruby><rb>雑誌</rb><rt>ざっし</rt></ruby>などいっぱんに<ruby><rb>使</rb><rt>つか</rt></ruby>われているのは、<ruby><rb>明朝体</rb><rt>みんちょうたい</rt></ruby>とゴシック<ruby><rb>体</rb><rt>たい</rt></ruby>です。<ruby><rb>日本語</rb><rt>にほんご</rt></ruby>をこれから<ruby><rb>学習</rb><rt>がくしゅう</rt></ruby>しようとするみなさんが、いっぱんに<ruby><rb>目</rb><rt>め</rt></ruby>にするのは<ruby><rb>明朝体</rb><rt>みんちょうたい</rt></ruby>とゴシック<ruby><rb>体</rb><rt>たい</rt></ruby>ですので、この<ruby><rb>講座</rb><rt>こうざ</rt></ruby>では、<ruby><rb>明朝体</rb><rt>みんちょうたい</rt></ruby>とゴシック<ruby><rb>体</rb><rt>たい</rt></ruby>を<ruby><rb>使</rb><rt>つか</rt></ruby>って<ruby><rb>勉強</rb><rt>べんきょう</rt></ruby>します。</p>
 		<p>Textbooks font are used in elementary schools and junior high schools in Japan. On the other hand, Mincho Font and Bold Font are commonly used in newspapers and magazines. Everyone who is going to learn Japanese from now on, generally see these Mincho Font or Bold Font. So, in this course we will use Mincho Font and Bold Font.</p>
 	</div>
-	<button class="home_btn" onClick="">HOME</button>
-	<button class="prev_btn" onClick="">&lt;PREV</button>
+	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
 	<button class="next_btn" onclick="location.href='{{ url('/construct')}}'">NEXT&gt;</button>
 </body>
 </html>

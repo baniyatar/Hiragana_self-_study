@@ -37,8 +37,8 @@
         <p>"を" at the bottom of the "わ" line has the same sound as "お", but is used different way in sentences. We will study in detail later. At the end "ん(n)" is the only character with one consonants.</p>
 
 	</div>
-	<button class="home_btn" onClick="">HOME</button>
+	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
 	<button class="prev_btn" onclick="location.href='{{ url('/intro')}}'">&lt;PREV</button>
-	<button class="next_btn" onclick="location.href='{{ url('/aAlphabet')}}'">NEXT&gt;</button>
+	<button class="next_btn" onclick="location.href='{{ url('/home')}}'">NEXT&gt;</button>
 </body>
 </html>
