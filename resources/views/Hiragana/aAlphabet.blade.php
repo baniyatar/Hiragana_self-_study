@@ -14,6 +14,7 @@
     function playSoundAka() { document.getElementById('audio1').play(); } 
     function playSoundAshi() { document.getElementById('audio2').play(); } 
     function playSoundAtama() { document.getElementById('audio3').play(); } 
+    function playSoundAme() { document.getElementById('audio4').play(); } 
     function playSoundA() { document.getElementById('audioA').play(); } 
 
   </script>
@@ -39,7 +40,7 @@
   </audio>
   <img style="vertical-align:middle;" src="hiragana/a/sound-s.png" onclick="playSoundAka()">
 
-  <br><img src="hiragana/a/red.png" alt="red">
+  <br><img src="hiragana/a/red.png" alt="">
 </p>
 <p class = "font_word">あし
   <audio id="audio2">
@@ -47,7 +48,7 @@
   </audio>
   <img style="vertical-align:middle;" src="hiragana/a/sound-s.png" onclick="playSoundAshi()">
 
-  <br><img src="hiragana/a/foot.png" alt="red">
+  <br><img src="hiragana/a/foot.png" alt="">
 </p>
 
 <p class = "font_word">あたま
@@ -56,7 +57,16 @@
   </audio>
   <img style="vertical-align:middle;" src="hiragana/a/sound-s.png" onclick="playSoundAtama()">
 
-  <br><img src="hiragana/a/head.png" alt="red">
+  <br><img src="hiragana/a/head.png" alt="">
+</p>
+
+<p class = "font_word">あめ
+  <audio id="audio4">
+    <source src="hiragana/a/あめ.mp3" type="audio/mp3">
+  </audio>
+  <img style="vertical-align:middle;" src="hiragana/a/sound-s.png" onclick="playSoundAme()">
+
+  <br><img src="hiragana/a/ame.jpg" alt="">
 </p>
 	</div>
 	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
