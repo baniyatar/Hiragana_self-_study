@@ -28,7 +28,7 @@
              <td >ま</td>
              <td >は</td>
              <td >な</td>
-             <td >た</td>
+             <td ><a href="{{ url('/taAlphabet')}}"><div style="height:100%;width:100%">   た</div> </a></td>
              <td >さ</td>
              <td >か</td>
              <td > <a href="{{ url('/aAlphabet')}}"><div style="height:100%;width:100%">   あ</div> </a></td>
@@ -40,7 +40,7 @@
              <td >み</td>
              <td >ひ</td>
              <td >に</td>
-             <td >ち</td>
+             <td ><a href="{{ url('/chiAlphabet')}}"><div style="height:100%;width:100%">   ち</div> </a></td>
              <td >し</td>
              <td >き</td>
              <td ><a href="{{ url('/iAlphabet')}}"><div style="height:100%;width:100%">   い</div> </a></td>
@@ -53,7 +53,7 @@
              <td >む</td>
              <td >ふ</td>
              <td >ぬ </td>
-             <td >つ </td>
+             <td ><a href="{{ url('/tsuAlphabet')}}"><div style="height:100%;width:100%">   つ</div> </a> </td>
              <td >す</td>
              <td >く</td>
              <td ><a href="{{ url('/uAlphabet')}}"><div style="height:100%;width:100%">   う</div> </a></td>
@@ -65,7 +65,7 @@
              <td >め</td>
              <td >へ</td>
              <td >ね </td>
-             <td >て</td>
+             <td ><a href="{{ url('/teAlphabet')}}"><div style="height:100%;width:100%">   て</div> </a></td>
              <td >せ</td>
              <td >け</td>
              <td ><a href="{{ url('/eAlphabet')}}"><div style="height:100%;width:100%">   え</div> </a></td>
@@ -79,7 +79,7 @@
                <td >も</td>
                <td >ほ</td>
                <td >の </td>
-               <td >と</td>
+               <td ><a href="{{ url('/toAlphabet')}}"><div style="height:100%;width:100%">   と</div> </a></td>
                <td >そ</td>
                <td >こ</td>
                <td ><a href="{{ url('/oAlphabet')}}"><div style="height:100%;width:100%">   お</div> </a></td>
