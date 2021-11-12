@@ -98,4 +98,20 @@ public function edit($id){
     return redirect()->route('users');
  }
 
+   public function viewAAlphabet()
+      {
+         return view('Hiragana/aAlphabet');
+      }
+   public function viewConstructPage()
+      {
+         return view('Hiragana/constructPage');
+      }
+   public function viewIntroPage()
+      {
+         return view('Hiragana/introPage');
+      }  
+   public function viewHomePage()
+      {
+         return view('Hiragana/homePage');
+      }  
 }
