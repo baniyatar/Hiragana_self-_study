@@ -22,12 +22,12 @@
 
         <ruby><rb></rb><rt></rt></ruby>
         <p>「ひらがな」は<ruby><rb>表</rb><rt>ひょう</rt></ruby>のような「<ruby><rb>五十音表</rb><rt>ごじゅうおんひょう</rt></ruby>」であらわすことができます</p>
-        <p>"Hiragana" can be represented by a "syllabify table" like the  above table.</p>
+        <p>"Hiragana" can be represented by a "syllabify table" like the above table.</p>
         <br>
         <p><ruby><rb>日本語</rb><rt>にほんご</rt></ruby>の<ruby><rb>母音</rb><rt>ぼいん</rt></ruby>は、あ（a）、い（i）、う（u）、え（e）、お（o）の<ruby><rb>五</rb><rt>いつ</rt></ruby>つです。<ruby><rb>表</rb><rt>ひょう</rt></ruby>でわかるように、いちばんうえのだんは、<ruby><rb>右</rb><rt>みぎ</rt></ruby>から、（K）（S）（T）（N）（H）（M）（Y）（R）（W）の<ruby><rb>子音</rb><rt>しいん</rt></ruby>があります。これらがさいしょの<ruby><rb>五</rb><rt>いつ</rt></ruby>つの<ruby><rb>母音</rb><rt>ぼいん</rt></ruby>とペアになって、<ruby><rb>一</rb><rt>ひと</rt></ruby>つの「ひらがな」になっていることがわかります。</p>
         <p>There are five Japanese vowels: あ (a), い(i), う (u), え (e), and お (o). As you can see from the table, the top row has consonants (K) (S) (T) (N) (H) (M) (Y) (R) (W) from the right. You can see that these are paired with the first five vowels to form one "hiragana".</p>
         <br>
-        <p>(K) の<ruby><rb>欄</rb><rt>らん</rt></ruby>は「か」ではじまりますので「か<ruby><rb></rb><rt></rt></ruby>行(ぎょう)」とよばれます。ぐたいてきには、（K）と（a）がペアになって「か（Ka）」が、（K）と（i）がペアになって「き（Ki）」になります。おなじように、（K）と（u）で「く（Ku）」、（K）と（e）で「け（Ke）」、（K）と(o）で「こ（Ko）」になります。</p>
+        <p>(K) の<ruby><rb>欄</rb><rt>らん</rt></ruby>は「か」ではじまりますので「か<ruby><rb>行</rb><rt>ぎょう</rt></ruby>」とよばれます。ぐたいてきには、（K）と（a）がペアになって「か（Ka）」が、（K）と（i）がペアになって「き（Ki）」になります。おなじように、（K）と（u）で「く（Ku）」、（K）と（e）で「け（Ke）」、（K）と(o）で「こ（Ko）」になります。</p>
         <p>The column (K) starts with "ka", so called "ka line". For example, か(Ka) is formed with (K) and (a). And き(Ki) is formed with (K) and (i). Similarly. く(Ku) is formed with (K) and (u), け(Ke) is formed with (K) and (e), こ(Ko) is formed with (K) and (o).</p>
         <br>
         <p>どうように、「さ（Sa）<ruby><rb>行</rb><rt>ぎょう</rt></ruby>」、「た（Ta）<ruby><rb>行</rb><rt>ぎょう</rt></ruby>」、「な（Na）<ruby><rb>行</rb><rt>ぎょう</rt></ruby>」、「は（Ha）<ruby><rb>行</rb><rt>ぎょう</rt></ruby>」、「ま（Ma）<ruby><rb>行</rb><rt>ぎょう</rt></ruby>」も、<ruby><rb>子音</rb><rt>しいん</rt></ruby>と<ruby><rb>母音</rb><rt>ぼいん</rt></ruby>のペアで<ruby><rb>一</rb><rt>ひと</rt></ruby>つの「ひらがな」ができています。ただし、「さ（Sa）<ruby><rb>行</rb><rt>ぎょう</rt></ruby>」の「し（Shi）」と「た（Ta）<ruby><rb>行</rb><rt>ぎょう</rt></ruby>」の「ち（Chi）」と「つ（Tsu）」は、<ruby><rb>子音</rb><rt>しいん</rt></ruby>+<ruby><rb>母音</rb><rt>ぼいん</rt></ruby>ではなく、<ruby><rb>子音</rb><rt>しいん</rt></ruby>が<ruby><rb>二</rb><rt>ふた</rt></ruby>つあります。また、「や（Ya）<ruby><rb>行</rb><rt>ぎょう</rt></ruby>」と「わ（Wa）<ruby><rb>行</rb><rt>ぎょう</rt></ruby>」にはくうらんがあり、それにがいとうする「ひらがな」はありません。</p>
