@@ -137,7 +137,7 @@
     <br><br><br>
     
     
-    <table border="1" style ="font-size: 11vw; font-family: serif;" >
+    <table border="1" style ="font-size: 8vw; font-family: serif;" >
         <tbody>
           <tr>
             <td >ぱ</td>
