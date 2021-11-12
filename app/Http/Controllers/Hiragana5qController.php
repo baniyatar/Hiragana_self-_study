@@ -130,6 +130,12 @@ public function edit($id){
       }  
    public function viewHomePage()
       {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'home'
+            ]
+         );
          return view('Hiragana/homePage');
       } 
    
