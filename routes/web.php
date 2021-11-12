@@ -107,6 +107,12 @@ Route::get('dashboardadmin',[AuthController::class,'show']);
 
 Route::get('/aAlphabet', [Hiragana5qController::class, 'viewAAlphabet']);
 
+Route::get('/kaAlphabet', [Hiragana5qController::class, 'viewKaAlphabet']);
+Route::get('/kiAlphabet', [Hiragana5qController::class, 'viewKiAlphabet']);
+Route::get('/kuAlphabet', [Hiragana5qController::class, 'viewKuAlphabet']);
+Route::get('/keAlphabet', [Hiragana5qController::class, 'viewKeAlphabet']);
+Route::get('/koAlphabet', [Hiragana5qController::class, 'viewKoAlphabet']);
+
 Route::get('/intro', [Hiragana5qController::class, 'viewIntroPage']);
 
 Route::get('/construct', [Hiragana5qController::class, 'viewConstructPage']);
