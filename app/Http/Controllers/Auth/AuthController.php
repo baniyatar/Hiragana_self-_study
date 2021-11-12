@@ -41,10 +41,11 @@ class AuthController extends Controller
   
        $credentials = $request->only('username', 'password');
        if (Auth::attempt($credentials)) {
-           return redirect()->intended('dashboard')
+            $request->session()->put('userName', $request->get('username'));
+            return redirect()->intended('dashboard')
                        ->withSuccess('You have Successfully loggedin');
        }
-     
+      
       
        return Redirect::back()->withInput($request->all())->withErrors(
         [
