@@ -74,26 +74,7 @@ Route::get('users',   [AuthController::class,'edit'])->name('users');
 Route::get('/main', function () {
     return view('main');
 });
-Route::get('/aorder', function () {
-    return view('/Vocabulary/Alist/aorder');
-});
 
-Route::get('/aka', function () {
-    return view('/Vocabulary/Alist/aka');
-});
-Route::get('/ashi', function () {
-    return view('/Vocabulary/Alist/ashi');
-});
-Route::get('/atama', function () {
-    return view('/Vocabulary/Alist/atama');
-});
-
-Route::get('/aame', function () {
-    return view('/Vocabulary/Alist/aame');
-});
-Route::get('/aorder', function () {
-    return view('/Vocabulary/Alist/aorder');
-});
 Route::get('/hiraganatable', function () {
     return view('/hiraganaあーんtable');
 });
@@ -113,5 +94,5 @@ Route::get('/construct', [Hiragana5qController::class, 'viewConstructPage']);
 
 Route::get('/home', [Hiragana5qController::class, 'viewHomePage']);
 
-
+Route::get('/iAlphabet', [Hiragana5qController::class, 'viewIAlphabet']);
 

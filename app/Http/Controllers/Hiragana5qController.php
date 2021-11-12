@@ -178,4 +178,15 @@ public function edit($id){
             return view('Hiragana/introPage');
          }
       }  
+
+      public function viewIAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'i'
+            ]
+         );
+         return view('Hiragana/iAlphabet');
+      }
 }
