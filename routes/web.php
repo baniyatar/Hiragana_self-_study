@@ -101,11 +101,6 @@ Route::get('/home', function () {
     return view('/Home');
 });
 
-
-Route::get('/return', function () {
-    return view('/returnLastPoint');
-});
-
 Route::get('/return', [Hiragana5qController::class, 'viewLastPointCheck']);
 Route::post('/return',[Hiragana5qController::class, 'returnToLastPoint']);
 Route::get('dashboardadmin',[AuthController::class,'show']);
