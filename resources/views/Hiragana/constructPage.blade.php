@@ -22,7 +22,7 @@
 
         <ruby><rb></rb><rt></rt></ruby>
         <p>「ひらがな」は<ruby><rb>表</rb><rt>ひょう</rt></ruby>のような「<ruby><rb>五十音表</rb><rt>ごじゅうおんひょう</rt></ruby>」であらわすことができます</p>
-        <p>"Hiragana" can be represented by a "syllabify table" like the  above table.</p>
+        <p>"Hiragana" can be represented by a "syllabify table" like the above table.</p>
         <br>
         <p><ruby><rb>日本語</rb><rt>にほんご</rt></ruby>の<ruby><rb>母音</rb><rt>ぼいん</rt></ruby>は、あ（a）、い（i）、う（u）、え（e）、お（o）の<ruby><rb>五</rb><rt>いつ</rt></ruby>つです。<ruby><rb>表</rb><rt>ひょう</rt></ruby>でわかるように、いちばんうえのだんは、<ruby><rb>右</rb><rt>みぎ</rt></ruby>から、（K）（S）（T）（N）（H）（M）（Y）（R）（W）の<ruby><rb>子音</rb><rt>しいん</rt></ruby>があります。これらがさいしょの<ruby><rb>五</rb><rt>いつ</rt></ruby>つの<ruby><rb>母音</rb><rt>ぼいん</rt></ruby>とペアになって、<ruby><rb>一</rb><rt>ひと</rt></ruby>つの「ひらがな」になっていることがわかります。</p>
         <p>There are five Japanese vowels: あ (a), い(i), う (u), え (e), and お (o). As you can see from the table, the top row has consonants (K) (S) (T) (N) (H) (M) (Y) (R) (W) from the right. You can see that these are paired with the first five vowels to form one "hiragana".</p>
