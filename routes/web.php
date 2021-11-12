@@ -96,3 +96,14 @@ Route::get('/home', [Hiragana5qController::class, 'viewHomePage']);
 
 Route::get('/iAlphabet', [Hiragana5qController::class, 'viewIAlphabet']);
 
+
+Route::get('/saAlphabet', [Hiragana5qController::class, 'viewSaAlphabet']);
+
+
+Route::get('/shiAlphabet', [Hiragana5qController::class, 'viewShiAlphabet']);
+
+Route::get('/suAlphabet', [Hiragana5qController::class, 'viewSuAlphabet']);
+
+Route::get('/seAlphabet', [Hiragana5qController::class, 'viewSeAlphabet']);
+
+Route::get('/soAlphabet', [Hiragana5qController::class, 'viewSoAlphabet']);

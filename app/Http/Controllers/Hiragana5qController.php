@@ -189,4 +189,60 @@ public function edit($id){
          );
          return view('Hiragana/iAlphabet');
       }
+
+      
+      public function viewSaAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'sa'
+            ]
+         );
+         return view('Hiragana/saAlphabet');
+      }
+
+      public function viewShiAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'shi'
+            ]
+         );
+         return view('Hiragana/shiAlphabet');
+      }
+
+      public function viewSuAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'su'
+            ]
+         );
+         return view('Hiragana/suAlphabet');
+      }
+
+      public function viewSeAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'se'
+            ]
+         );
+         return view('Hiragana/seAlphabet');
+      }
+
+      public function viewSoAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'so'
+            ]
+         );
+         return view('Hiragana/soAlphabet');
+      }
 }
