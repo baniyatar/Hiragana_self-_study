@@ -33,7 +33,7 @@ iframe {
 </div> --}}
 
                     
-                    <a href = "{{ url('/content') }}" class="btn btn-Secondary btn-lg btn-block">ひらがなの <ruby>
+                    <a href = "{{ url('/return') }}" class="btn btn-Secondary btn-lg btn-block">ひらがなの <ruby>
                         勉強<rp></rp><rt>べんきょう</rt><rp></rp>
                         </ruby>を <br>  <ruby>
                             始<rp></rp><rt>はじ</rt><rp></rp>

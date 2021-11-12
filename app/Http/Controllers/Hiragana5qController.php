@@ -100,18 +100,82 @@ public function edit($id){
 
    public function viewAAlphabet()
       {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'a'
+            ]
+         );
          return view('Hiragana/aAlphabet');
       }
    public function viewConstructPage()
       {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'construct'
+            ]
+         );
          return view('Hiragana/constructPage');
       }
    public function viewIntroPage()
       {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'intro'
+            ]
+         );
          return view('Hiragana/introPage');
       }  
    public function viewHomePage()
       {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'home'
+            ]
+         );
          return view('Hiragana/homePage');
+      } 
+   
+   public function viewLastPointCheck()
+      {
+         $currentUserName = Session::get('userName');
+         $lastStopPoint = User::where('username', $currentUserName)->first()->lastPointVisit;
+         switch ($lastStopPoint){
+            case null:
+               return view('Hiragana/introPage');
+               break;
+            default:
+               return view('/returnLastPoint');
+               break;
+               }
+      }
+   function returnToLastPoint(Request $request)
+      {
+         switch($request->get('questionAnswer')){
+         case 'yes':
+            $currentUserName = Session::get('userName');
+            $lastStopPoint = User::where('username', $currentUserName)->first()->lastPointVisit;
+            switch ($lastStopPoint){
+               case null:
+               case "intro":
+                  return view('Hiragana/introPage');
+                  break;
+               case "construct":
+                  return view('Hiragana/constructPage');
+                  break;
+               case "home":
+                  return view('Hiragana/homePage');
+                  break;
+               case "a":
+                  return view('Hiragana/aAlphabet');
+                  break;
+               }
+
+         case 'no':
+            return view('Hiragana/introPage');
+         }
       }  
 }
