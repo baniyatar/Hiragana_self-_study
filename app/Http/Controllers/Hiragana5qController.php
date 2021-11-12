@@ -172,6 +172,18 @@ public function edit($id){
                case "a":
                   return view('Hiragana/aAlphabet');
                   break;
+               case "i":
+                  return view('Hiragana/iAlphabet');
+                  break;
+               case "u":
+                  return view('Hiragana/uAlphabet');
+                  break;
+               case "e":
+                  return view('Hiragana/eAlphabet');
+                  break;
+               case "o":
+                  return view('Hiragana/oAlphabet');
+                  break;
                }
 
          case 'no':
@@ -188,5 +200,38 @@ public function edit($id){
             ]
          );
          return view('Hiragana/iAlphabet');
+      }
+
+      public function viewUAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'u'
+            ]
+         );
+         return view('Hiragana/uAlphabet');
+      }
+
+      public function viewEAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'e'
+            ]
+         );
+         return view('Hiragana/eAlphabet');
+      }
+
+      public function viewOAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'o'
+            ]
+         );
+         return view('Hiragana/oAlphabet');
       }
 }
