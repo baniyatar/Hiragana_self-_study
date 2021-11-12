@@ -29,7 +29,7 @@
 </p>
     <div class = "letter_start">
 
-  <img src="hiragana/a/あ（Midium）.gif" alt="あgif">
+  <img class = "testBorder" src="hiragana/a/a.gif" alt="あgif">
   <img src="hiragana/a/あ.png" alt="あpng">
 </div><br>  
 
