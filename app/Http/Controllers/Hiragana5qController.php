@@ -412,4 +412,7 @@ public function edit($id){
          );
          return view('Hiragana/soAlphabet');
       }
+     
+   
+      
 }
