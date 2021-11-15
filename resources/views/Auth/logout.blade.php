@@ -14,7 +14,9 @@
             color: #212529;
             text-align: left;
             background-color: #f5f8fa;
-        }
+        } 
+        cursor:pointer
+
         .navbar-laravel
         {
             box-shadow: 0 2px 4px rgba(0,0,0,.04);
@@ -43,6 +45,10 @@
             margin-left: 0;
             margin-right: 0;
         }
+
+        #element1 {float:left;margin-right:10px;}
+         #element2 {float:left;} 
+
     </style>
 </head>
 <body>
