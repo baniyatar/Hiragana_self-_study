@@ -36,9 +36,15 @@
 <p class = "font_word">つよい
 
   <audio id="audio1">
+<<<<<<< HEAD
     <source src="hiragana/yo/つよい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/yo/sound-s.png" onclick="playSoundTsuyoi()">
+=======
+    <source src="hiragana/yo/よ.mp3" type="audio/mp3">
+  </audio>
+  <img style="vertical-align:middle;" src="hiragana/yo/sound-s.png" onclick="playSoundYo()">
+>>>>>>> 349fea70d69f7b4b13637896c3dafd2f39f9d201
 
   <br><img src="hiragana/yo/sample.png" alt="">
 </p>

@@ -22,7 +22,11 @@
 	<div class="box">
 	<p class = "font_word">ぬ
 
+<<<<<<< HEAD
 	<audio id="audioNu">
+=======
+	<audio id="audioNa">
+>>>>>>> 349fea70d69f7b4b13637896c3dafd2f39f9d201
     <source src="hiragana/nu/ぬ.mp3" type="audio/mp3">
   </audio>
 	<img style="vertical-align:middle;" src="hiragana/nu/sound-s.png" onclick="playSoundNu()">
