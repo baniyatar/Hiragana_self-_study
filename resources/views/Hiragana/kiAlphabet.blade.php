@@ -66,7 +66,7 @@
   <audio id="audio4">
     <source src="hiragana/ki/きっぷ.mp3" type="audio/mp3">
   </audio>
-  <img style="vertical-align:middle;" src="hiragana/a/sound-s.png" onclick="playSoundKippu()">
+  <img style="vertical-align:middle;" src="hiragana/ki/sound-s.png" onclick="playSoundKippu()">
 
   <br>
   <!--<img src="hiragana/a/ame.jpg" alt="">-->
