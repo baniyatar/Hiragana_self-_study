@@ -23,7 +23,7 @@
              <td >ら</td>
              <td >や</td>
              <td >ま</td>
-             <td ><a href="{{ url('/haAlphabet')}}"><div style="height:100%;width:100%">は</div></a></td><td ></td>
+             <td ><a href="{{ url('/haAlphabet')}}"><div style="height:100%;width:100%">は</div></a></td>
              <td >な</td>
              <td ><a href="{{ url('/taAlphabet')}}"><div style="height:100%;width:100%">た</div></a></td>
              <td ><a href="{{ url('/saAlphabet')}}"><div style="height:100%;width:100%">さ</div></a></td>
