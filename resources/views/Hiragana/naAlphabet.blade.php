@@ -14,11 +14,7 @@
     function playSoundNa() { document.getElementById('audioNa').play(); } 
     function playSoundNagai() { document.getElementById('audio1').play(); } 
     function playSoundNatsu() { document.getElementById('audio2').play(); } 
-<<<<<<< HEAD
     function playSoundNatsuyasumi() { document.getElementById('audio3').play(); } 
-=======
-    function playSoundNatsunasumi() { document.getElementById('audio3').play(); } 
->>>>>>> 349fea70d69f7b4b13637896c3dafd2f39f9d201
     function playSoundNamae() { document.getElementById('audio4').play(); } 
 
   </script>

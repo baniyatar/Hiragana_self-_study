@@ -22,11 +22,7 @@
 	<div class="box">
 	<p class = "font_word">ゆ
 
-<<<<<<< HEAD
 	<audio id="audioYu">
-=======
-	<audio id="audioNa">
->>>>>>> 349fea70d69f7b4b13637896c3dafd2f39f9d201
     <source src="hiragana/yu/ゆ.mp3" type="audio/mp3">
   </audio>
 	<img style="vertical-align:middle;" src="hiragana/yu/sound-s.png" onclick="playSoundYu()">
