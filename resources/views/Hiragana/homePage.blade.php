@@ -30,6 +30,8 @@
              <td >な</td>
              <td >た</td>
              <td ><a href="{{ url('/saAlphabet')}}"><div style="height:100%;width:100%"> さ</div> </a></td>
+             <td ><a href="{{ url('/taAlphabet')}}"><div style="height:100%;width:100%">   た</div> </a></td>
+             <td >さ</td>
              <td >か</td>
              <td > <a href="{{ url('/aAlphabet')}}"><div style="height:100%;width:100%">   あ</div> </a></td>
            </tr>
@@ -42,8 +44,10 @@
              <td >に</td>
              <td >ち</td>
              <td ><a href="{{ url('/shiAlphabet')}}"><div style="height:100%;width:100%"> し</div> </a></td>
+             <td ><a href="{{ url('/chiAlphabet')}}"><div style="height:100%;width:100%">   ち</div> </a></td>
+             <td >し</td>
              <td >き</td>
-             <td >い</td>
+             <td ><a href="{{ url('/iAlphabet')}}"><div style="height:100%;width:100%">   い</div> </a></td>
            </tr>
        
            <tr >
@@ -55,8 +59,10 @@
              <td >ぬ </td>
              <td >つ </td>
              <td ><a href="{{ url('/suAlphabet')}}"><div style="height:100%;width:100%"> す</div> </a></td>
+             <td ><a href="{{ url('/tsuAlphabet')}}"><div style="height:100%;width:100%">   つ</div> </a> </td>
+             <td >す</td>
              <td >く</td>
-             <td >う</td>
+             <td ><a href="{{ url('/uAlphabet')}}"><div style="height:100%;width:100%">   う</div> </a></td>
            </tr>
            <tr >
              <td ></td>
@@ -67,8 +73,10 @@
              <td >ね </td>
              <td >て</td>
              <td ><a href="{{ url('/seAlphabet')}}"><div style="height:100%;width:100%"> せ</div> </a></td>
+             <td ><a href="{{ url('/teAlphabet')}}"><div style="height:100%;width:100%">   て</div> </a></td>
+             <td >せ</td>
              <td >け</td>
-             <td >え</td>
+             <td ><a href="{{ url('/eAlphabet')}}"><div style="height:100%;width:100%">   え</div> </a></td>
             
            </tr>
        
@@ -81,8 +89,10 @@
                <td >の </td>
                <td >と</td>
                <td ><a href="{{ url('/soAlphabet')}}"><div style="height:100%;width:100%"> そ</div> </a></td>
+               <td ><a href="{{ url('/toAlphabet')}}"><div style="height:100%;width:100%">   と</div> </a></td>
+               <td >そ</td>
                <td >こ</td>
-               <td >お</td>
+               <td ><a href="{{ url('/oAlphabet')}}"><div style="height:100%;width:100%">   お</div> </a></td>
               
              </tr>
              <tr >
