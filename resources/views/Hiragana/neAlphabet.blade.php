@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <title>なPAGE</title>
+  <title>ねPAGE</title>
     <meta charset="utf-8"> 
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
@@ -11,66 +11,66 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script> -->
     </head>
 	<script language="JavaScript">
-    function playSoundNagai() { document.getElementById('audio1').play(); } 
-    function playSoundNatsu() { document.getElementById('audio2').play(); } 
-    function playSoundNatsunasumi() { document.getElementById('audio3').play(); } 
-    function playSoundNamae() { document.getElementById('audio4').play(); } 
-    function playSoundNa() { document.getElementById('audioNa').play(); } 
+    function playSoundNe() { document.getElementById('audioNe').play(); } 
+    function playSoundAne() { document.getElementById('audio1').play(); } 
+    function playSoundNeko() { document.getElementById('audio2').play(); } 
+    function playSoundNemui() { document.getElementById('audio3').play(); } 
+    function playSoundMegane() { document.getElementById('audio4').play(); } 
 
   </script>
 	<body>
 	<div class="box">
-	<p class = "font_word">な
+	<p class = "font_word">ね
 
-	<audio id="audioNa">
-    <source src="hiragana/na/な.mp3" type="audio/mp3">
+	<audio id="audioNe">
+    <source src="hiragana/ne/ね.mp3" type="audio/mp3">
   </audio>
-	<img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSoundNa()">
+	<img style="vertical-align:middle;" src="hiragana/ne/sound-s.png" onclick="playSoundNe()">
 </p>
     <div class = "letter_start">
 
-  <img class = "testBorder" src="hiragana/na/na.gif" alt="なgif">
-  <img src="hiragana/na/な.png" alt="なpng">
+  <img class = "testBorder" src="hiragana/ne/ne.gif" alt="ねgif">
+  <img src="hiragana/ne/ね.png" alt="ねpng">
 </div><br>  
 
-<p class = "font_word">ながい
+<p class = "font_word">あね
 
   <audio id="audio1">
-    <source src="hiragana/na/ながい.mp3" type="audio/mp3">
+    <source src="hiragana/ne/あね.mp3" type="audio/mp3">
   </audio>
-  <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSoundNagai()">
+  <img style="vertical-align:middle;" src="hiragana/ne/sound-s.png" onclick="playSoundAne()">
 
-  <br><img src="hiragana/na/sample.png" alt="">
+  <br><img src="hiragana/ne/sample.png" alt="">
 </p>
-<p class = "font_word">なつ
+<p class = "font_word">ねこ
   <audio id="audio2">
-    <source src="hiragana/na/なつ.mp3" type="audio/mp3">
+    <source src="hiragana/ne/ねこ.mp3" type="audio/mp3">
   </audio>
-  <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSoundNatsu()">
+  <img style="vertical-align:middle;" src="hiragana/ne/sound-s.png" onclick="playSoundNeko()">
 
-  <br><img src="hiragana/na/sample.png" alt="">
+  <br><img src="hiragana/ne/sample.png" alt="">
 </p>
 
-<p class = "font_word">なつやすみ
+<p class = "font_word">ねむい
   <audio id="audio3">
-    <source src="hiragana/na/なつやすみ.mp3" type="audio/mp3">
+    <source src="hiragana/ne/ねむい.mp3" type="audio/mp3">
   </audio>
-  <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSoundNatsuyasumi()">
+  <img style="vertical-align:middle;" src="hiragana/ne/sound-s.png" onclick="playSoundNemui()">
 
-  <br><img src="hiragana/na/sample.png" alt="">
+  <br><img src="hiragana/ne/sample.png" alt="">
 </p>
 
-<p class = "font_word">なまえ
+<p class = "font_word">めがね
   <audio id="audio4">
-    <source src="hiragana/na/なまえ.mp3" type="audio/mp3">
+    <source src="hiragana/ne/めがね.mp3" type="audio/mp3">
   </audio>
-  <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSoundNamae()">
+  <img style="vertical-align:middle;" src="hiragana/ne/sound-s.png" onclick="playSoundMegane()">
 
-  <br><img src="hiragana/na/sample.png" alt="">
+  <br><img src="hiragana/ne/sample.png" alt="">
 </p>
 	</div>
 	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
-	<button class="prev_btn" onclick="location.href='{{ url('/toAlphabet')}}'">&lt;PREV</button>
-	<button class="next_btn" onClick="location.href='{{ url('/niAlphabet')}}'">NEXT&gt;</button>
+	<button class="prev_btn" onclick="location.href='{{ url('/nuAlphabet')}}'">&lt;PREV</button>
+	<button class="next_btn" onClick="location.href='{{ url('/noAlphabet')}}'">NEXT&gt;</button>
 </body>
 </html>
