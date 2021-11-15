@@ -33,7 +33,7 @@
   <img src="hiragana/he/へ.png" alt="へpng">
 </div><br>  
 
-<p class = "font_word">たいへん
+<p style="font-size: 50px;">たい<span style="color: red;">へ</span>ん
 
   <audio id="audio1">
     <source src="hiragana/he/たいへん.mp3" type="audio/mp3">
@@ -55,9 +55,9 @@
 
 <p class = "font_word">へん
   <audio id="audio3">
-    <source src="hiragana/ke/へん.mp3" type="audio/mp3">
+    <source src="hiragana/he/へん.mp3" type="audio/mp3">
   </audio>
-  <img style="vertical-align:middle;" src="hiragana/ke/sound-s.png" onclick="playSoundKeshiki()">
+  <img style="vertical-align:middle;" src="hiragana/he/sound-s.png" onclick="playSoundHen()">
 
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
@@ -65,16 +65,16 @@
 
 <p class = "font_word">へんじ
   <audio id="audio4">
-    <source src="hiragana/ke/へんじ.mp3" type="audio/mp3">
+    <source src="hiragana/he/へんじ.mp3" type="audio/mp3">
   </audio>
-  <img style="vertical-align:middle;" src="hiragana/ke/sound-s.png" onclick="playSoundKeshigomu()">
+  <img style="vertical-align:middle;" src="hiragana/he/sound-s.png" onclick="playSoundHenji()">
 
   <br>
   <!--<img src="hiragana/a/ame.jpg" alt="">-->
 </p>
 	</div>
 	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
-	<button class="prev_btn" onclick="location.href='{{ url('/kuAlphabet')}}'">&lt;PREV</button>
-	<button class="next_btn" onClick="location.href='{{ url('/koAlphabet')}}'">NEXT&gt;</button>
+	<button class="prev_btn" onclick="location.href='{{ url('/fuAlphabet')}}'">&lt;PREV</button>
+	<button class="next_btn" onClick="location.href='{{ url('/hoAlphabet')}}'">NEXT&gt;</button>
 </body>
 </html>
