@@ -70,7 +70,7 @@
 </p>
 	</div>
 	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
-	<button class="prev_btn" onclick="location.href='{{ url('/home')}}'">&lt;PREV</button>
+	<button class="prev_btn" onclick="location.href='{{ url('/soAlphabet')}}'">&lt;PREV</button>
 	<button class="next_btn" onClick="location.href='{{ url('/chiAlphabet')}}'">NEXT&gt;</button>
 </body>
 </html>
