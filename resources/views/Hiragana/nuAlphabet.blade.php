@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <title>なPAGE</title>
+  <title>ぬPAGE</title>
     <meta charset="utf-8"> 
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
@@ -20,57 +20,57 @@
   </script>
 	<body>
 	<div class="box">
-	<p class = "font_word">な
+	<p class = "font_word">ぬ
 
 	<audio id="audio0">
-    <source src="hiragana/na/な.mp3" type="audio/mp3">
+    <source src="hiragana/nu/ぬ.mp3" type="audio/mp3">
   </audio>
-	<img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSound0()">
+	<img style="vertical-align:middle;" src="hiragana/nu/sound-s.png" onclick="playSound0()">
 </p>
     <div class = "letter_start">
 
-  <img class = "testBorder" src="hiragana/na/na.gif" alt="なgif">
-  <img src="hiragana/na/na.png" alt="なpng">
+  <img class = "testBorder" src="hiragana/nu/nu.gif" alt="ぬgif">
+  <img src="hiragana/nu/nu.png" alt="ぬpng">
 </div><br>  
 
-<p class = "font_word">ながい
+<p class = "font_all_word">い<span style="color:red">ぬ</span>
 
   <audio id="audio1">
-    <source src="hiragana/na/ながい.mp3" type="audio/mp3">
+    <source src="hiragana/nu/いぬ.mp3" type="audio/mp3">
   </audio>
-  <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound1()">
+  <img style="vertical-align:middle;" src="hiragana/nu/sound-s.png" onclick="playSound1()">
 
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
-<p class = "font_word">なつ
+<p class = "font_word">ぬすみ
   <audio id="audio2">
-    <source src="hiragana/na/なつ.mp3" type="audio/mp3">
+    <source src="hiragana/nu/ぬすみ.mp3" type="audio/mp3">
   </audio>
-  <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSound2()">
+  <img style="vertical-align:middle;" src="hiragana/nu/sound-s.png" onclick="playSound2()">
 
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
-<p class = "font_word">なつやすみ
+<p class = "font_word">ぬの
   <audio id="audio3">
-    <source src="hiragana/na/なつやすみ.mp3" type="audio/mp3">
+    <source src="hiragana/nu/ぬの.mp3" type="audio/mp3">
   </audio>
-  <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSound3()">
+  <img style="vertical-align:middle;" src="hiragana/nu/sound-s.png" onclick="playSound3()">
 
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 
-<p class = "font_word">なまえ
+<p class = "font_word">ぬるい
   <audio id="audio4">
-    <source src="hiragana/na/なまえ.mp3" type="audio/mp3">
+    <source src="hiragana/nu/ぬるい.mp3" type="audio/mp3">
   </audio>
-  <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSound4()">
+  <img style="vertical-align:middle;" src="hiragana/nu/sound-s.png" onclick="playSound4()">
 
   <!-- <br><img src="hiragana/ta/ame.jpg" alt=""> -->
 </p>
 	</div>
 	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
-	<button class="prev_btn" onclick="location.href='{{ url('/toAlphabet')}}'">&lt;PREV</button>
-	<button class="next_btn" onClick="location.href='{{ url('/niAlphabet')}}'">NEXT&gt;</button>
+	<button class="prev_btn" onclick="location.href='{{ url('/niAlphabet')}}'">&lt;PREV</button>
+	<button class="next_btn" onClick="location.href='{{ url('/neAlphabet')}}'">NEXT&gt;</button>
 </body>
 </html>
