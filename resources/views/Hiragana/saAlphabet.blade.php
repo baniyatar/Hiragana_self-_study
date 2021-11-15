@@ -73,3 +73,4 @@
 	<button class="next_btn" onClick="location.href='{{ url('/shiAlphabet')}}'">NEXT&gt;</button>
 </body>
 </html>
+  
