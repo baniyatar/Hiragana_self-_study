@@ -14,7 +14,7 @@
     function playSoundHikouki() { document.getElementById('audio1').play(); } 
     function playSoundHiragana() { document.getElementById('audio2').play(); } 
     function playSoundHiru() { document.getElementById('audio3').play(); } 
-    function playSoundHiruyasumi() { document.getElementById('audio4').play(); } 
+    function playSoundHirugohan() { document.getElementById('audio4').play(); } 
     function playSoundHi() { document.getElementById('audioHi').play(); } 
 
   </script>
@@ -62,11 +62,11 @@
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>
 
-<p class = "font_word">ひるやすみ
+<p class = "font_word">ひるごはん
   <audio id="audio4">
-    <source src="hiragana/hi/ひるやすみ.mp3" type="audio/mp3">
+    <source src="hiragana/hi/ひるごはん.mp3" type="audio/mp3">
   </audio>
-  <img style="vertical-align:middle;" src="hiragana/hi/sound-s.png" onclick="playSoundHiruyasumi()">
+  <img style="vertical-align:middle;" src="hiragana/hi/sound-s.png" onclick="playSoundHirugohan()">
 
   <br>
   <!--<img src="hiragana/a/ame.jpg" alt="">-->

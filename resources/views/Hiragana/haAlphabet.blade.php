@@ -21,7 +21,7 @@
 	<div class="box">
 	<p class = "font_word">は
 
-	<audio id="audioKa">
+	<audio id="audioHa">
     <source src="hiragana/ha/は.mp3" type="audio/mp3">
   </audio>
 	<img style="vertical-align:middle;" src="hiragana/ha/sound-s.png" onclick="playSoundHa()">
@@ -37,7 +37,7 @@
   <audio id="audio1">
     <source src="hiragana/ha/は.mp3" type="audio/mp3">
   </audio>
-  <img style="vertical-align:middle;" src="hiragana/ha/sound-s.png" onclick="playHa2()">
+  <img style="vertical-align:middle;" src="hiragana/ha/sound-s.png" onclick="playSoundHa2()">
 
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
