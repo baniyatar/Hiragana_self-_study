@@ -31,7 +31,7 @@
   <img src="hiragana/gu/gu.png" alt="gapng">
 </div><br>  
 
-<p class = "font_word">いりぐち
+<p style="font-size: 50px;">いり<span style="color: red;">ぐ</span>ち
 
   <audio id="audio1">
     <source src="hiragana/gu/いりぐち.mp3" type="audio/mp3">
@@ -41,7 +41,8 @@
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
-<p class = "font_word">でぐち
+
+<p style="font-size: 50px;">で<span style="color: red;">ぐ</span>ち
   <audio id="audio2">
     <source src="hiragana/gu/でぐち.mp3" type="audio/mp3">
   </audio>
@@ -51,7 +52,8 @@
   <!-- <img src="hiragana/a/foot.png" alt="">-->
 </p>
 
-<p class = "font_word">まっすぐ
+
+<p style="font-size: 50px;">まっす<span style="color: red;">ぐ</span>
   <audio id="audio3">
     <source src="hiragana/gu/まっすぐ.mp3" type="audio/mp3">
   </audio>

@@ -110,14 +110,14 @@
          <td >ば</td>
          <td >だ</td>
          <td >ざ</td>
-         <td >が</td>
+         <td ><a href="{{ url('/gaAlphabet')}}"><div style="height:100%;width:100%">  が</div> </a></td>
         </tr>
        <tr>
            <td >ぴ</td>
            <td >び</td>
            <td >ぢ</td>
            <td >じ</td>
-           <td >ぎ</td>
+           <td ><a href="{{ url('/giAlphabet')}}"><div style="height:100%;width:100%">   ぎ</div> </a></td>
           
        </tr>
    
@@ -126,7 +126,7 @@
            <td >ぶ</td>
            <td >づ</td>
            <td >ず</td>
-           <td >ぐ</td>
+           <td ><a href="{{ url('/guAlphabet')}}"><div style="height:100%;width:100%">   ぐ</div> </a></td>
            
        </tr>
  
@@ -135,7 +135,7 @@
          <td >べ</td>
          <td >で</td>
          <td >ぜ</td>
-         <td >げ</td>
+         <td ><a href="{{ url('/geAlphabet')}}"><div style="height:100%;width:100%">げ</div> </a></td>
          
      </tr>
      <tr>
@@ -143,7 +143,7 @@
          <td >ぼ</td>
          <td >ど</td>
          <td >ぞ</td>
-         <td >ご</td>
+         <td ><a href="{{ url('/goAlphabet')}}"><div style="height:100%;width:100%"> ご</div> </a></td>
          
      </tr>
      </tbody>
