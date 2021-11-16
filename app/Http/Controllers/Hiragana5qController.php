@@ -577,7 +577,7 @@ public function edit($id){
             'lastPointVisit'=>'wa'
             ]
          );
-         return view('Hiragana/ruAlphabet');
+         return view('Hiragana/waAlphabet');
       }
 
    public function viewWoAlphabet()
@@ -777,7 +777,30 @@ public function edit($id){
                case "yo":
                   return view('Hiragana/yoAlphabet');
                   break;
-
+               case "ra":
+                  return view('Hiragana/raAlphabet');
+                  break;
+               case "ri":
+                  return view('Hiragana/riAlphabet');
+                  break;
+               case "ru":
+                  return view('Hiragana/ruAlphabet');
+                  break;
+               case "re":
+                  return view('Hiragana/reAlphabet');
+                  break;
+               case "ro":
+                  return view('Hiragana/roAlphabet');
+                  break;
+               case "wa":
+                  return view('Hiragana/waAlphabet');
+                  break;
+               case "wo":
+                  return view('Hiragana/woAlphabet');
+                  break;
+               case "n":
+                  return view('Hiragana/nAlphabet');
+                  break;
                }
 
          case 'no':
