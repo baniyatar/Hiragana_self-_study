@@ -33,7 +33,7 @@
   <img src="hiragana/ra/ら.png" alt="らpng">
 </div><br>  
 
-<p class = "font_word">さくら
+<p style="font-size: 50px;">さく<span style="color: red;">ら</span>
 
   <audio id="audio1">
     <source src="hiragana/ra/さくら.mp3" type="audio/mp3">

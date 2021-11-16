@@ -33,7 +33,7 @@
   <img src="hiragana/ru/る.png" alt="るpng">
 </div><br>  
 
-<p class = "font_word">くるま
+<p style="font-size: 50px;">く<span style="color: red;">る</span>ま
 
   <audio id="audio1">
     <source src="hiragana/ru/くるま.mp3" type="audio/mp3">
@@ -42,7 +42,9 @@
 
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
-<p class = "font_word">ふるい
+
+<p style="font-size: 50px;">ふ<span style="color: red;">る</span>い
+
   <audio id="audio2">
     <source src="hiragana/ru/ふるい.mp3" type="audio/mp3">
   </audio>
@@ -51,7 +53,8 @@
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
-<p class = "font_word">まるい
+<p style="font-size: 50px;">ま<span style="color: red;">る</span>い
+
   <audio id="audio3">
     <source src="hiragana/ru/まるい.mp3" type="audio/mp3">
   </audio>
@@ -60,7 +63,8 @@
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 
-<p class = "font_word">よる
+<p style="font-size: 50px;">よ<span style="color: red;">る</span>
+
   <audio id="audio4">
     <source src="hiragana/ru/よる.mp3" type="audio/mp3">
   </audio>

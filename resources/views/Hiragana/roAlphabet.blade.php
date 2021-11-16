@@ -33,7 +33,7 @@
   <img src="hiragana/ro/ろ.png" alt="ろpng">
 </div><br>  
 
-<p class = "font_word">いろ
+<p style="font-size: 50px;">い<span style="color: red;">ろ</span>
 
   <audio id="audio1">
     <source src="hiragana/ro/いろ.mp3" type="audio/mp3">
@@ -42,7 +42,8 @@
 
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
-<p class = "font_word">うしろ
+<p style="font-size: 50px;">うし<span style="color: red;">ろ</span>
+
   <audio id="audio2">
     <source src="hiragana/ro/うしろ.mp3" type="audio/mp3">
   </audio>
@@ -51,7 +52,8 @@
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
-<p class = "font_word">くろ
+<p style="font-size: 50px;">く<span style="color: red;">ろ</span>
+
   <audio id="audio3">
     <source src="hiragana/ro/くろ.mp3" type="audio/mp3">
   </audio>
