@@ -29,10 +29,10 @@
   <img src="hiragana/wo/を.png" alt="をpng">
 </div><br>  
 
-<p>「を」は語彙のなかで使われることはありません。つぎのように使います。
+<p>「を」は<ruby><rb>語</rb><rt>ご</rt><rb>彙</rb><rt>い</rt></ruby>のなかで<ruby><rb>使</rb><rt>つか</rt></ruby>われることはありません。つぎのように<ruby><rb>使</rb><rt>つか</rt></ruby>います。
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
-<p>本を買いました。
+<p><ruby><rb>本</rb><rt>ほん</rt></ruby><span style="color: red;">を</span><ruby><rb>買</rb><rt>か</rt></ruby>いました。
 </p>
 	</div>
 	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
