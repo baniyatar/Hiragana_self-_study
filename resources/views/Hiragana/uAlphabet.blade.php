@@ -15,7 +15,7 @@
     function playSoundUshi() { document.getElementById('audio2').play(); } 
     function playSoundUta() { document.getElementById('audio3').play(); } 
     function playSoundUmi() { document.getElementById('audio4').play(); } 
-    function playSoundU() { document.getElementById('audioA').play(); } 
+    function playSoundU() { document.getElementById('audioU').play(); } 
 
   </script>
 	<body>
