@@ -23,13 +23,13 @@
 	<p class = "font_word">や
 
 	<audio id="audioYa">
-    <source src="hiragana/Ya/や.mp3" type="audio/mp3">
+    <source src="hiragana/ya/や.mp3" type="audio/mp3">
   </audio>
 	<img style="vertical-align:middle;" src="hiragana/ya/sound-s.png" onclick="playSoundYa()">
 </p>
     <div class = "letter_start">
 
-  <img class = "testBorder" src="hiragana/Ya/Ya.gif" alt="やgif">
+  <img class = "testBorder" src="hiragana/ya/Ya.gif" alt="やgif">
   <img src="hiragana/ya/や.png" alt="やpng">
 </div><br>  
 
