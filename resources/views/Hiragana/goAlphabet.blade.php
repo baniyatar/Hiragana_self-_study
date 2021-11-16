@@ -31,7 +31,9 @@
   <img src="hiragana/go/go.png" alt="gapng">
 </div><br>  
 
-<p class = "font_word">ごご
+<p class = "font_word">ご<span style="color: red;">ご</span>
+    
+
 
   <audio id="audio1">
     <source src="hiragana/go/ごご.mp3" type="audio/mp3">

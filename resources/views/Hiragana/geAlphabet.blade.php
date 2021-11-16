@@ -31,7 +31,7 @@
   <img src="hiragana/ge/ge.png" alt="gapng">
 </div><br>  
 
-<p class = "font_word">おみやげ
+<p style="font-size: 50px;">おみや<span style="color: red;">げ</span>
 
   <audio id="audio1">
     <source src="hiragana/ge/おみやげ.mp3" type="audio/mp3">
