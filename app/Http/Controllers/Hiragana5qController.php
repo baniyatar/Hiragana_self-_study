@@ -692,6 +692,28 @@ public function edit($id){
          return view('Hiragana/homePage');
       } 
    
+   public function viewVoicedIntroPage()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'voicedIntro'
+            ]
+         );
+         return view('Hiragana/voicedIntroPage');
+      } 
+
+   public function viewVoicedConstructPage()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'voicedConstruct'
+            ]
+         );
+         return view('Hiragana/voicedConstructPage');
+      }
+
    public function viewLastPointCheck()
       {
          $currentUserName = Session::get('userName');
@@ -835,6 +857,12 @@ public function edit($id){
                   break;
                case "yo":
                   return view('Hiragana/yoAlphabet');
+                  break;
+               case "voicedIntro":
+                  return view('Hiragana/voicedIntro');
+                  break;
+               case "voicedConstruct":
+                  return view('Hiragana/voicedConstruct');
                   break;
                case "za":
                   return view('Hiragana/zaAlphabet');

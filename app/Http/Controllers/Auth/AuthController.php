@@ -75,6 +75,7 @@ class AuthController extends Controller
 
    // dd ($data );
    // echo ("bbb");
+   $request->session()->put('userName', $request->get('username'));
 
    $check = $this->create($data);
 
