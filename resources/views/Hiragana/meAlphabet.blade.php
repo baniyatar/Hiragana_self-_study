@@ -32,7 +32,7 @@
   <img src="hiragana/me/め-bw.png" alt="png">
 </div><br>  
 
-<p class = "font_word">あめ
+<p style="font-size: 50px;">あ<span style="color: red;">め</span>
 
   <audio id="audio1">
     <source src="hiragana/me/あめ.mp3" type="audio/mp3">
@@ -42,7 +42,7 @@
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
-<p class = "font_word">つめたい
+<p style="font-size: 50px;">つ<span style="color: red;">め</span>たい
   <audio id="audio2">
     <source src="hiragana/me/つめたい.mp3" type="audio/mp3">
   </audio>

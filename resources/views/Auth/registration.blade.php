@@ -78,32 +78,22 @@
                               </div>
                           </div>
 
-                          {{-- <div class="form-group row">
+                          <div class="form-group row">
                             <label for="email" class="col-md-4 col-form-label text-md-right"><ruby>e-mail アドレス　</ruby>e-mail address</label>
                             <div class="col-md-6">
                                 <input type="text" id="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email"  value="{{ old('email') }}" data-error="Bruh, that email address is invalid"  required autofocus>
                                 <div class="help-block with-errors"></div>
                                 @if ($errors->has('email'))
-                                    <span class="text-danger">{{ $errors->first('email') }}</span>
+                                    <span class="text-danger">
+                                    <strong>{{ $errors->first('email') }}</strong></span>
                                 @endif
                             </div>
-                        </div> --}}
+                        </div> 
 
 
-                         <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right"><ruby> アドレス email 　</ruby></label>
-                            <div class="col-md-6">
-                               
-                            <input type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email"  value="{{ old('email') }}" id="email"  data-error="Email address is invalid" required>
-                            <div class="help-block with-errors text-danger" data-error=" Email address is invalid"></div>
+                      
 
-                            @if ($errors->has('email'))
-                            <span class="text-danger">
-                                <strong>{{ $errors->first('email') }}</strong>
-                            </span>
-                        @endif  
-                            </div>
-                          </div> 
+
                 
   
                         <div class="form-group row">

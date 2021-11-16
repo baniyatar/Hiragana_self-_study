@@ -602,6 +602,65 @@ public function edit($id){
          return view('Hiragana/nAlphabet');
       }
 
+   public function viewZaAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'za'
+            ]
+         );
+         return view('Hiragana/zaAlphabet');
+      }
+
+
+   public function viewJiAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'ji'
+            ]
+         );
+         return view('Hiragana/jiAlphabet');
+      }
+
+
+   public function viewZuAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'zu'
+            ]
+         );
+         return view('Hiragana/zuAlphabet');
+      }
+
+
+   public function viewZeAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'ze'
+            ]
+         );
+         return view('Hiragana/zeAlphabet');
+      }
+
+
+   public function viewZoAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'zo'
+            ]
+         );
+         return view('Hiragana/zoAlphabet');
+      }
+
    public function viewConstructPage()
       {
          $currentUserName = Session::get('userName');
@@ -633,6 +692,28 @@ public function edit($id){
          return view('Hiragana/homePage');
       } 
    
+   public function viewVoicedIntroPage()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'voicedIntro'
+            ]
+         );
+         return view('Hiragana/voicedIntroPage');
+      } 
+
+   public function viewVoicedConstructPage()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'voicedConstruct'
+            ]
+         );
+         return view('Hiragana/voicedConstructPage');
+      }
+
    public function viewLastPointCheck()
       {
          $currentUserName = Session::get('userName');
@@ -801,6 +882,42 @@ public function edit($id){
                case "n":
                   return view('Hiragana/nAlphabet');
                   break;
+               case "voicedIntro":
+                  return view('Hiragana/voicedIntro');
+                  break;
+               case "voicedConstruct":
+                  return view('Hiragana/voicedConstruct');
+                  break;
+               case "za":
+                  return view('Hiragana/zaAlphabet');
+                  break;
+               case "ji":
+                  return view('Hiragana/jiAlphabet');
+                  break;
+               case "zu":
+                  return view('Hiragana/zuAlphabet');
+                  break;
+               case "ze":
+                  return view('Hiragana/zeAlphabet');
+                  break;
+               case "zo":
+                  return view('Hiragana/zoAlphabet');
+                  break;
+               case "ga":
+                  return view('Hiragana/gaAlphabet');
+                  break;
+               case "gi":
+                  return view('Hiragana/giAlphabet');
+                  break;
+               case "gu":
+                  return view('Hiragana/guAlphabet');
+                  break;
+               case "ge":
+                  return view('Hiragana/geAlphabet');
+                  break;
+               case "go":
+                  return view('Hiragana/goAlphabet');
+                  break;
                }
 
          case 'no':
@@ -808,5 +925,55 @@ public function edit($id){
          }
       }  
 
-
+      public function viewGaAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'ga'
+            ]
+         );
+         return view('Hiragana/gaAlphabet');
+      }
+      public function viewGiAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'gi'
+            ]
+         );
+         return view('Hiragana/giAlphabet');
+      }
+      public function viewGuAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'gu'
+            ]
+         );
+         return view('Hiragana/guAlphabet');
+      }
+      public function viewGeAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'ge'
+            ]
+         );
+         return view('Hiragana/geAlphabet');
+      }
+      public function viewGoAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'go'
+            ]
+         );
+         return view('Hiragana/goAlphabet');
+      }
+      
 }
