@@ -136,4 +136,6 @@ Route::get('/yoAlphabet', [Hiragana5qController::class, 'viewYoAlphabet']);
 
 Route::get('/intro', [Hiragana5qController::class, 'viewIntroPage']);
 Route::get('/construct', [Hiragana5qController::class, 'viewConstructPage']);
+Route::get('/voicedIntro', [Hiragana5qController::class, 'viewVoicedIntroPage']);
+Route::get('/voicedConstruct', [Hiragana5qController::class, 'viewVoicedConstructPage']);
 Route::get('/home', [Hiragana5qController::class, 'viewHomePage']);
