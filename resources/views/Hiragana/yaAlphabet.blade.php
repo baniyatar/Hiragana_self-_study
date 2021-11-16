@@ -33,7 +33,7 @@
   <img src="hiragana/ya/や.png" alt="やpng">
 </div><br>  
 
-<p class = "font_word">やおや
+<p class = "font_word">やお<span style="color: red;">や</span>
 
   <audio id="audio1">
     <source src="hiragana/ya/やおや.mp3" type="audio/mp3">
