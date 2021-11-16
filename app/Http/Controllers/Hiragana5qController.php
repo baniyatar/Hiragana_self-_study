@@ -887,5 +887,55 @@ public function edit($id){
          }
       }  
 
-
+      public function viewGaAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'ga'
+            ]
+         );
+         return view('Hiragana/gaAlphabet');
+      }
+      public function viewGiAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'gi'
+            ]
+         );
+         return view('Hiragana/giAlphabet');
+      }
+      public function viewGuAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'gu'
+            ]
+         );
+         return view('Hiragana/guAlphabet');
+      }
+      public function viewGeAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'ge'
+            ]
+         );
+         return view('Hiragana/geAlphabet');
+      }
+      public function viewGoAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'go'
+            ]
+         );
+         return view('Hiragana/goAlphabet');
+      }
+      
 }

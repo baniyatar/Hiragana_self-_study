@@ -11,19 +11,19 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script> -->
     </head>
 	<script language="JavaScript">
-    function playSoundgaigoku() { document.getElementById('audio1').play(); } 
-    function playSoundgakosei() { document.getElementById('audio2').play(); } 
-    function playSoundgatsukou() { document.getElementById('audio3').play(); } 
-     function playSoundga() { document.getElementById('audioGa').play(); } 
+    function playSoundkagi() { document.getElementById('audio1').play(); } 
+    function playSoundginkou() { document.getElementById('audio2').play(); } 
+    function playSoundtsugi() { document.getElementById('audio3').play(); } 
+     function playSoundgi() { document.getElementById('audioGi').play(); } 
   </script>
 	<body>
 	<div class="box">
 	<p class = "font_word">ぎ
 
-	<audio id="audioGa">
-    <source src="hiragana/gi/ま.mp3" type="audio/mp3">
+	<audio id="audioGi">
+    <source src="hiragana/gi/gi.mp3" type="audio/mp3">
   </audio>
-	<img style="vertical-align:middle;" src="hiragana/gi/sound-s.png" onclick="playSoundga()">
+	<img style="vertical-align:middle;" src="hiragana/gi/sound-s.png" onclick="playSoundgi()">
 </p>
     <div class = "letter_start">
 
@@ -31,38 +31,38 @@
   <img src="hiragana/gi/gi.png" alt="gapng">
 </div><br>  
 
-<p class = "font_word">がいこく
+<p class = "font_word">かぎ
 
   <audio id="audio1">
-    <source src="hiragana/gi/がいこく.mp3" type="audio/mp3">
+    <source src="hiragana/gi/かぎ.mp3" type="audio/mp3">
   </audio>
-  <img style="vertical-align:middle;" src="hiragana/gi/sound-s.png" onclick="playSoundgaigoku()">
+  <img style="vertical-align:middle;" src="hiragana/gi/sound-s.png" onclick="playSoundkagi()">
 
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
-<p class = "font_word">がくせい
+<p class = "font_word">ぎんこう
   <audio id="audio2">
-    <source src="hiragana/gi/がくせい.mp3" type="audio/mp3">
+    <source src="hiragana/gi/ぎんこう.mp3" type="audio/mp3">
   </audio>
-  <img style="vertical-align:middle;" src="hiragana/gi/sound-s.png" onclick="playSoundgakosei()">
+  <img style="vertical-align:middle;" src="hiragana/gi/sound-s.png" onclick="playSoundginkou()">
 
   <br>
   <!-- <img src="hiragana/a/foot.png" alt="">-->
 </p>
 
-<p class = "font_word">がっこう
+<p class = "font_word">つぎ
   <audio id="audio3">
-    <source src="hiragana/gi/がっこう.mp3" type="audio/mp3">
+    <source src="hiragana/gi/つぎ.mp3" type="audio/mp3">
   </audio>
-  <img style="vertical-align:middle;" src="hiragana/gi/sound-s.png" onclick="playSoundgatsukou()">
+  <img style="vertical-align:middle;" src="hiragana/gi/sound-s.png" onclick="playSoundtsugi()">
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>
 
 	</div>
 	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
-	<button class="prev_btn" onclick="location.href='{{ url('/hoAlphabet')}}'">&lt;PREV</button>
-	<button class="next_btn" onClick="location.href='{{ url('/miAlphabet')}}'">NEXT&gt;</button>
+	<button class="prev_btn" onclick="location.href='{{ url('/gaAlphabet')}}'">&lt;PREV</button>
+	<button class="next_btn" onClick="location.href='{{ url('/guAlphabet')}}'">NEXT&gt;</button>
 </body>
 </html>
