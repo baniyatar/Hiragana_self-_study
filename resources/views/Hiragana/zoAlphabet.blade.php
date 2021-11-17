@@ -28,12 +28,11 @@
 </p>
     <div class = "letter_start">
 
-  <img class = "testBorder" src="hiragana/zo/Zo.gif" alt="ぞgif">
+  <img class = "testBorder" src="hiragana/zo/zo.gif" alt="ぞgif">
   <img src="hiragana/zo/ぞ.png" alt="ぞpng">
 </div><br>  
 
-<p class = "font_word">あおぞら
-
+<p style="font-size:50px;">あお<span style="color:red;">ぞ</span>ら
   <audio id="audio1">
     <source src="hiragana/zo/あおぞら.mp3" type="audio/mp3">
   </audio>
@@ -41,7 +40,8 @@
 
   <br><img src="hiragana/zo/sample.png" alt="">
 </p>
-<p class = "font_word">かぞく
+
+<p style="font-size:50px;">か<span style="color:red;">ぞ</span>く
   <audio id="audio2">
     <source src="hiragana/zo/かぞく.mp3" type="audio/mp3">
   </audio>
@@ -50,7 +50,7 @@
   <br><img src="hiragana/zo/sample.png" alt="">
 </p>
 
-<p class = "font_word">れいぞうこ
+<p style="font-size:50px;">れい<span style="color:red;">ぞ</span>うこ
   <audio id="audio3">
     <source src="hiragana/zo/れいぞうこ.mp3" type="audio/mp3">
   </audio>
