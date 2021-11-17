@@ -106,32 +106,32 @@
  <table border="1" style ="font-size: 11vw; font-family: serif;" >
      <tbody>
        <tr>
-         <td >ぱ</td>
+        <td ><a href="{{ url('/paAlphabet')}}"><div style="height:100%;width:100%">ぱ</div> </a></td>
          <td >ば</td>
          <td >だ</td>
          <td >ざ</td>
-         <td ><a href="{{ url('/gaAlphabet')}}"><div style="height:100%;width:100%">  が</div> </a></td>
+         <td ><a href="{{ url('/gaAlphabet')}}"><div style="height:100%;width:100%"> が</div> </a></td>
         </tr>
        <tr>
-           <td >ぴ</td>
+        <td ><a href="{{ url('/piAlphabet')}}"><div style="height:100%;width:100%">ぴ</div> </a></td>
            <td >び</td>
            <td >ぢ</td>
            <td >じ</td>
-           <td ><a href="{{ url('/giAlphabet')}}"><div style="height:100%;width:100%">   ぎ</div> </a></td>
+           <td ><a href="{{ url('/giAlphabet')}}"><div style="height:100%;width:100%"> ぎ</div> </a></td>
           
        </tr>
    
        <tr>
-           <td >ぷ</td>
+        <td ><a href="{{ url('/puAlphabet')}}"><div style="height:100%;width:100%">ぷ</div> </a></td>
            <td >ぶ</td>
            <td >づ</td>
            <td >ず</td>
-           <td ><a href="{{ url('/guAlphabet')}}"><div style="height:100%;width:100%">   ぐ</div> </a></td>
+           <td ><a href="{{ url('/guAlphabet')}}"><div style="height:100%;width:100%"> ぐ</div> </a></td>
            
        </tr>
  
        <tr>
-         <td >ぺ</td>
+        <td ><a href="{{ url('/peAlphabet')}}"><div style="height:100%;width:100%">ぺ</div> </a></td>
          <td >べ</td>
          <td >で</td>
          <td >ぜ</td>
@@ -139,7 +139,7 @@
          
      </tr>
      <tr>
-         <td >ぽ</td>
+      <td ><a href="{{ url('/poAlphabet')}}"><div style="height:100%;width:100%"> ぽ</div> </a></td>
          <td >ぼ</td>
          <td >ど</td>
          <td >ぞ</td>
