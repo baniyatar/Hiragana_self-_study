@@ -714,6 +714,28 @@ public function edit($id){
          return view('Hiragana/voicedConstructPage');
       }
 
+   public function viewContractedIntroPage()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'contractedIntro'
+            ]
+         );
+         return view('Hiragana/contractedIntroPage');
+      } 
+
+   public function viewContractedConstructPage()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'contractedConstruct'
+            ]
+         );
+         return view('Hiragana/contractedConstructPage');
+      }
+
    public function viewLastPointCheck()
       {
          $currentUserName = Session::get('userName');
@@ -879,7 +901,12 @@ public function edit($id){
                case "zo":
                   return view('Hiragana/zoAlphabet');
                   break;
-                     
+               case "contractedIntro":
+                  return view('Hiragana/contractedIntro');
+                  break;
+               case "contractedConstruct":
+                  return view('Hiragana/contractedConstruct');
+                  break;
                }
 
          case 'no':
