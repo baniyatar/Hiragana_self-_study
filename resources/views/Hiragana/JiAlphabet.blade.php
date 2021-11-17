@@ -50,7 +50,7 @@
   <br><img src="hiragana/ji/sample.png" alt="">
 </p>
 
-<p class = "font_word">そうじ
+<p style="font-size:50px;">そう<span style="color:red;">じ</span>
   <audio id="audio3">
     <source src="hiragana/ji/そうじ.mp3" type="audio/mp3">
   </audio>

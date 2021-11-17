@@ -661,6 +661,93 @@ public function edit($id){
          return view('Hiragana/zoAlphabet');
       }
 
+      public function viewPaAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'pa'
+            ]
+         );
+         return view('Hiragana/paAlphabet');
+      }
+
+
+      public function viewPiAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'pi'
+            ]
+         );
+         return view('Hiragana/piAlphabet');
+      }
+
+      public function viewPuAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'pu'
+            ]
+         );
+         return view('Hiragana/puAlphabet');
+      }
+
+      
+      public function viewPeAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'pe'
+            ]
+         );
+         return view('Hiragana/peAlphabet');
+      }
+
+      public function viewPoAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'po'
+            ]
+         );
+         return view('Hiragana/poAlphabet');
+      }
+   public function viewGyaAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'gya'
+            ]
+         );
+         return view('Hiragana/gyaAlphabet');
+      }
+   public function viewGyuAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'gyu'
+            ]
+         );
+         return view('Hiragana/gyuAlphabet');
+      }
+   public function viewGyoAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'gyo'
+            ]
+         );
+         return view('Hiragana/gyoAlphabet');
+      }
+
    public function viewConstructPage()
       {
          $currentUserName = Session::get('userName');
@@ -712,6 +799,28 @@ public function edit($id){
             ]
          );
          return view('Hiragana/voicedConstructPage');
+      }
+
+   public function viewContractedIntroPage()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'contractedIntro'
+            ]
+         );
+         return view('Hiragana/contractedIntroPage');
+      } 
+
+   public function viewContractedConstructPage()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'contractedConstruct'
+            ]
+         );
+         return view('Hiragana/contractedConstructPage');
       }
 
    public function viewLastPointCheck()
@@ -901,8 +1010,38 @@ public function edit($id){
                   return view('Hiragana/zeAlphabet');
                   break;
                case "zo":
-                  return view('Hiragana/zoAlphabet');
+                 return view('Hiragana/zoAlphabet');
                   break;
+               case "pa":
+                 return view('Hiragana/paAlphabet');
+                     break;
+               case "pi":
+                  return view('Hiragana/piAlphabet');
+                     break;
+               case "pu":
+                  return view('Hiragana/puAlphabet');
+                     break;
+               case "pe":
+                  return view('Hiragana/peAlphabet');
+                     break;
+               case "po":
+                  return view('Hiragana/poAlphabet');
+                     break;
+                     
+               case "contractedIntro":
+                  return view('Hiragana/contractedIntro');
+                  break;
+               case "contractedConstruct":
+                  return view('Hiragana/contractedConstruct');
+                  break;
+               case "gya":
+                  return view('Hiragana/gyaAlphabet');
+                  break;
+               case "gyu":
+                  return view('Hiragana/gyuAlphabet');
+                  break;
+               case "gyo":
+                  return view('Hiragana/gyoAlphabet');
                case "ga":
                   return view('Hiragana/gaAlphabet');
                   break;
