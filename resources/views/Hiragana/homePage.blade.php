@@ -109,14 +109,14 @@
          <td >ぱ</td>
          <td >ば</td>
          <td >だ</td>
-         <td >ざ</td>
+         <td ><a href="{{ url('/zaAlphabet')}}"><div style="height:100%;width:100%">ざ</div> </a></td>
          <td >が</td>
         </tr>
        <tr>
            <td >ぴ</td>
            <td >び</td>
            <td >ぢ</td>
-           <td >じ</td>
+           <td ><a href="{{ url('/jiAlphabet')}}"><div style="height:100%;width:100%">じ</div> </a></td>
            <td >ぎ</td>
           
        </tr>
@@ -125,7 +125,7 @@
            <td >ぷ</td>
            <td >ぶ</td>
            <td >づ</td>
-           <td >ず</td>
+           <td ><a href="{{ url('/zuAlphabet')}}"><div style="height:100%;width:100%">ず</div> </a></td>
            <td >ぐ</td>
            
        </tr>
@@ -134,7 +134,7 @@
          <td >ぺ</td>
          <td >べ</td>
          <td >で</td>
-         <td >ぜ</td>
+         <td ><a href="{{ url('/zeAlphabet')}}"><div style="height:100%;width:100%">ぜ</div> </a></td>
          <td >げ</td>
          
      </tr>
@@ -142,7 +142,7 @@
          <td >ぽ</td>
          <td >ぼ</td>
          <td >ど</td>
-         <td >ぞ</td>
+         <td ><a href="{{ url('/zoAlphabet')}}"><div style="height:100%;width:100%">ぞ</div> </a></td>
          <td >ご</td>
          
      </tr>
@@ -157,7 +157,7 @@
                <td >ひゃ</td>
                <td >ちゃ</td>
                <td >しゃ</td>
-               <td >きゃ</td>
+               <td ><a href="{{ url('/kyaAlphabet')}}"><div style="height:100%;width:100%">きゃ</div> </a></td>
        </tr>
    
          <tr>
@@ -166,7 +166,7 @@
            <td >ひゅ</td>
            <td >ちゅ</td>
            <td >しゅ</td>
-           <td >きゅ</td>
+           <td ><a href="{{ url('/kyuAlphabet')}}"><div style="height:100%;width:100%">きゅ</div> </a></td>
    </tr>
    
          <tr>
@@ -175,7 +175,7 @@
            <td >ひょ</td>
            <td >ちょ</td>
            <td >しょ</td>
-           <td >きょ</td>
+           <td ><a href="{{ url('/kyoAlphabet')}}"><div style="height:100%;width:100%">きょ</div> </a></td>
    
          </tr>
          
