@@ -11,7 +11,7 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script> -->
     </head>
 	<script language="JavaScript">
-    function playSoundZa() { document.getElementById('audioYa').play(); } 
+    function playSoundZa() { document.getElementById('audioZa').play(); } 
     function playSoundKouza() { document.getElementById('audio1').play(); } 
     function playSoundZasshi() { document.getElementById('audio2').play(); } 
     function playSoundHaizara() { document.getElementById('audio3').play(); } 
@@ -32,7 +32,7 @@
   <img src="hiragana/za/ざ.png" alt="ざpng">
 </div><br>  
 
-<p class = "font_word">こうざ
+<p style="font-size:50px;">こう<span style="color:red;">ざ</span>
 
   <audio id="audio1">
     <source src="hiragana/za/こうざ.mp3" type="audio/mp3">
@@ -50,7 +50,7 @@
   <br><img src="hiragana/za/sample.png" alt="">
 </p>
 
-<p class = "font_word">はいざら
+<p style="font-size:50px;">はい<span style="color:red;">ざ</span>ら
   <audio id="audio3">
     <source src="hiragana/za/はいざら.mp3" type="audio/mp3">
   </audio>
@@ -62,6 +62,6 @@
 	</div>
 	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
 	<button class="prev_btn" onclick="location.href='{{ url('/goAlphabet')}}'">&lt;PREV</button>
-	<button class="next_btn" onClick="location.href='{{ url('/ziAlphabet')}}'">NEXT&gt;</button>
+	<button class="next_btn" onClick="location.href='{{ url('/jiAlphabet')}}'">NEXT&gt;</button>
 </body>
 </html>

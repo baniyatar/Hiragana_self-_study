@@ -21,7 +21,7 @@
 	<p class = "font_word">が
 
 	<audio id="audioGa">
-    <source src="hiragana/ga/ま.mp3" type="audio/mp3">
+    <source src="hiragana/ga/ga.mp3" type="audio/mp3">
   </audio>
 	<img style="vertical-align:middle;" src="hiragana/ga/sound-s.png" onclick="playSoundga()">
 </p>
@@ -62,7 +62,7 @@
 
 	</div>
 	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
-	<button class="prev_btn" onclick="location.href='{{ url('/hoAlphabet')}}'">&lt;PREV</button>
-	<button class="next_btn" onClick="location.href='{{ url('/miAlphabet')}}'">NEXT&gt;</button>
+	<button class="prev_btn" onclick="location.href='{{ url('/voicedConstruct')}}'">&lt;PREV</button>
+	<button class="next_btn" onClick="location.href='{{ url('/giAlphabet')}}'">NEXT&gt;</button>
 </body>
 </html>

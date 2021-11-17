@@ -577,7 +577,7 @@ public function edit($id){
             'lastPointVisit'=>'wa'
             ]
          );
-         return view('Hiragana/ruAlphabet');
+         return view('Hiragana/waAlphabet');
       }
 
    public function viewWoAlphabet()
@@ -911,6 +911,30 @@ public function edit($id){
                case "yo":
                   return view('Hiragana/yoAlphabet');
                   break;
+               case "ra":
+                  return view('Hiragana/raAlphabet');
+                  break;
+               case "ri":
+                  return view('Hiragana/riAlphabet');
+                  break;
+               case "ru":
+                  return view('Hiragana/ruAlphabet');
+                  break;
+               case "re":
+                  return view('Hiragana/reAlphabet');
+                  break;
+               case "ro":
+                  return view('Hiragana/roAlphabet');
+                  break;
+               case "wa":
+                  return view('Hiragana/waAlphabet');
+                  break;
+               case "wo":
+                  return view('Hiragana/woAlphabet');
+                  break;
+               case "n":
+                  return view('Hiragana/nAlphabet');
+                  break;
                case "voicedIntro":
                   return view('Hiragana/voicedIntro');
                   break;
@@ -946,6 +970,20 @@ public function edit($id){
                   break;
                case "gyo":
                   return view('Hiragana/gyoAlphabet');
+               case "ga":
+                  return view('Hiragana/gaAlphabet');
+                  break;
+               case "gi":
+                  return view('Hiragana/giAlphabet');
+                  break;
+               case "gu":
+                  return view('Hiragana/guAlphabet');
+                  break;
+               case "ge":
+                  return view('Hiragana/geAlphabet');
+                  break;
+               case "go":
+                  return view('Hiragana/goAlphabet');
                   break;
                }
 
@@ -954,5 +992,55 @@ public function edit($id){
          }
       }  
 
-
+      public function viewGaAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'ga'
+            ]
+         );
+         return view('Hiragana/gaAlphabet');
+      }
+      public function viewGiAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'gi'
+            ]
+         );
+         return view('Hiragana/giAlphabet');
+      }
+      public function viewGuAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'gu'
+            ]
+         );
+         return view('Hiragana/guAlphabet');
+      }
+      public function viewGeAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'ge'
+            ]
+         );
+         return view('Hiragana/geAlphabet');
+      }
+      public function viewGoAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'go'
+            ]
+         );
+         return view('Hiragana/goAlphabet');
+      }
+      
 }

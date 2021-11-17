@@ -22,17 +22,17 @@
 	<p class = "font_word">ず
 
 	<audio id="audioZu">
-    <source src="hiragana/Zu/ず.mp3" type="audio/mp3">
+    <source src="hiragana/zu/ず.mp3" type="audio/mp3">
   </audio>
 	<img style="vertical-align:middle;" src="hiragana/zu/sound-s.png" onclick="playSoundZu()">
 </p>
     <div class = "letter_start">
 
-  <img class = "testBorder" src="hiragana/Zu/Zu.gif" alt="ずgif">
+  <img class = "testBorder" src="hiragana/zu/zu.gif" alt="ずgif">
   <img src="hiragana/zu/ず.png" alt="ずpng">
 </div><br>  
 
-<p class = "font_word">かず
+<p style="font-size:50px;">か<span style="color:red;">ず</span>
 
   <audio id="audio1">
     <source src="hiragana/zu/かず.mp3" type="audio/mp3">
@@ -41,7 +41,8 @@
 
   <br><img src="hiragana/zu/sample.png" alt="">
 </p>
-<p class = "font_word">ちず
+
+<p style="font-size:50px;">ち<span style="color:red;">ず</span>
   <audio id="audio2">
     <source src="hiragana/zu/ちず.mp3" type="audio/mp3">
   </audio>
@@ -50,7 +51,7 @@
   <br><img src="hiragana/zu/sample.png" alt="">
 </p>
 
-<p class = "font_word">みず
+<p style="font-size:50px;">み<span style="color:red;">ず</span>
   <audio id="audio3">
     <source src="hiragana/zu/みず.mp3" type="audio/mp3">
   </audio>
