@@ -13,7 +13,7 @@
 	<script language="JavaScript">
     function playSoundkitsupu() { document.getElementById('audio1').play(); } 
     function playSoundsenpuuki() { document.getElementById('audio2').play(); } 
-    function playSoundtenpura() { document.getElementById('audio3').play(); } playSoundtenpura
+    function playSoundtenpura() { document.getElementById('audio3').play(); } 
      function playSoundpu() { document.getElementById('audioPu').play(); } 
   </script>
 	<body>
