@@ -27,7 +27,7 @@
 </p>
     <div class = "letter_start">
 
-  <img class = "testBorder" src="hiragana/po/po.gif" alt="gagif">
+  <img class = "testBorder" src="hiragana/po/po.gif" alt="pogif">
   <img src="hiragana/po/po.png" alt="gapng">
 </div><br>  
 
