@@ -661,6 +661,67 @@ public function edit($id){
          return view('Hiragana/zoAlphabet');
       }
 
+
+
+      public function viewPaAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'pa'
+            ]
+         );
+         return view('Hiragana/paAlphabet');
+      }
+
+
+      public function viewPiAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'pi'
+            ]
+         );
+         return view('Hiragana/piAlphabet');
+      }
+
+      public function viewPuAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'pu'
+            ]
+         );
+         return view('Hiragana/puAlphabet');
+      }
+
+      
+      public function viewPeAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'pe'
+            ]
+         );
+         return view('Hiragana/peAlphabet');
+      }
+
+      public function viewPoAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'po'
+            ]
+         );
+         return view('Hiragana/poAlphabet');
+      }
+
+
+
    public function viewConstructPage()
       {
          $currentUserName = Session::get('userName');
@@ -877,8 +938,23 @@ public function edit($id){
                   return view('Hiragana/zeAlphabet');
                   break;
                case "zo":
-                  return view('Hiragana/zoAlphabet');
+                 return view('Hiragana/zoAlphabet');
                   break;
+               case "pa":
+                 return view('Hiragana/paAlphabet');
+                     break;
+               case "pi":
+                  return view('Hiragana/piAlphabet');
+                     break;
+               case "pu":
+                  return view('Hiragana/puAlphabet');
+                     break;
+               case "pe":
+                  return view('Hiragana/peAlphabet');
+                     break;
+               case "po":
+                  return view('Hiragana/poAlphabet');
+                     break;
                      
                }
 
