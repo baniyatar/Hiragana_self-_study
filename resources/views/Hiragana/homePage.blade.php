@@ -185,7 +185,7 @@
            <td >びゃ</td>
            <td >にゃ</td>
            <td >じゃ</td>
-           <td >ぎゃ</td>
+           <td ><a href="{{ url('/gyaAlphabet')}}"><div style="height:100%;width:100%">ぎゃ</div></a></td>
           </tr>
    
           
@@ -198,7 +198,7 @@
            <td >びゅ</td>
            <td >にゅ</td>
            <td >じゅ</td>
-           <td >ぎゅ</td>
+           <td ><a href="{{ url('/gyuAlphabet')}}"><div style="height:100%;width:100%">ぎゅ</div></a></td>
           </tr>
    
           <tr>
@@ -207,7 +207,7 @@
            <td >びょ</td>
            <td >にょ</td>
            <td >じょ</td>
-           <td >ぎょ</td>
+           <td ><a href="{{ url('/gyoAlphabet')}}"><div style="height:100%;width:100%">ぎょ</div></a></td>
           </tr>
    
    
