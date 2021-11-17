@@ -851,6 +851,15 @@ public function edit($id){
                case "zo":
                   return view('Hiragana/zoAlphabet');
                   break;
+               case "kya":
+                  return view('Hiragana/kyaAlphabet');
+                  break;
+               case "kyu":
+                  return view('Hiragana/kyuAlphabet');
+                  break;
+               case "kyo":
+                  return view('Hiragana/kyoAlphabet');
+                  break;
                      
                }
 

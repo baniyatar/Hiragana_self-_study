@@ -21,7 +21,7 @@
 	<div class="box">
 	<p class = "font_word">きゃ
 
-	<audio id="audioZa">
+	<audio id="audioKya">
     <source src="hiragana/kya/きゃ.mp3" type="audio/mp3">
   </audio>
 	<img style="vertical-align:middle;" src="hiragana/kya/sound-s.png" onclick="playSoundKya()">
@@ -31,7 +31,7 @@
   <img src="hiragana/kya/kya.png" alt="きゃpng">
 </div><br>  
 
-<p style="font-size:50px;">お<span style="color:red;">きゃく</span>さん
+<p style="font-size:50px;">お<span style="color:red;">きゃ</span>くさん
 
   <audio id="audio1">
     <source src="hiragana/kya/おきゃくさん.mp3" type="audio/mp3">
@@ -41,7 +41,7 @@
   <br><img src="hiragana/kya/sample.png" alt="">
 </p>
 
-<p style="font-size:50px;"><span style="color:red;">きゃく</span>しつ
+<p style="font-size:50px;"><span style="color:red;">きゃ</span>くしつ
   <audio id="audio2">
     <source src="hiragana/kya/きゃくしつ.mp3" type="audio/mp3">
   </audio>
@@ -50,7 +50,7 @@
   <br><img src="hiragana/kya/sample.png" alt="">
 </p>
 
-<p style="font-size:50px;">へん<span style="color:red;">きゃく</span>
+<p style="font-size:50px;">へん<span style="color:red;">きゃ</span>く
   <audio id="audio3">
     <source src="hiragana/kya/へんきゃく.mp3" type="audio/mp3">
   </audio>
