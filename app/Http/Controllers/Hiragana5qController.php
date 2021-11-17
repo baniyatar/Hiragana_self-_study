@@ -661,6 +661,37 @@ public function edit($id){
          return view('Hiragana/zoAlphabet');
       }
 
+   public function viewGyaAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'gya'
+            ]
+         );
+         return view('Hiragana/gyaAlphabet');
+      }
+   public function viewGyuAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'gyu'
+            ]
+         );
+         return view('Hiragana/gyuAlphabet');
+      }
+   public function viewGyoAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'gyo'
+            ]
+         );
+         return view('Hiragana/gyoAlphabet');
+      }
+
    public function viewConstructPage()
       {
          $currentUserName = Session::get('userName');
@@ -906,6 +937,15 @@ public function edit($id){
                   break;
                case "contractedConstruct":
                   return view('Hiragana/contractedConstruct');
+                  break;
+               case "gya":
+                  return view('Hiragana/gyaAlphabet');
+                  break;
+               case "gyu":
+                  return view('Hiragana/gyuAlphabet');
+                  break;
+               case "gyo":
+                  return view('Hiragana/gyoAlphabet');
                   break;
                }
 
