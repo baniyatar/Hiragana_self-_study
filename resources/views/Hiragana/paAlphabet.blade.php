@@ -52,7 +52,7 @@
   <!-- <img src="hiragana/a/foot.png" alt="">-->
 </p>
 
-<p style="font-size: 50px;">すつ<span style="color: red;">ぱ</span>い
+<p style="font-size: 50px;">すっ<span style="color: red;">ぱ</span>い
   <audio id="audio3">
     <source src="hiragana/pa/すっぱい.mp3" type="audio/mp3">
   </audio>

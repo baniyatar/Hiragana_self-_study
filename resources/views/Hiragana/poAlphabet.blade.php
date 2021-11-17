@@ -56,7 +56,7 @@
     <!-- <img src="hiragana/po/red.png" alt="">-->
   </p>
 
-  <p class = "font_word">ぽかぽか
+  <p class = "font_word">ぽか<span style="color: red;">ぽ</span>か
 
     <audio id="audio3">
       <source src="hiragana/po/ぽかぽか.mp3" type="audio/mp3">
