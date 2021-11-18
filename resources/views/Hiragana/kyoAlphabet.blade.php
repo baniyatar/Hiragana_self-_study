@@ -12,14 +12,14 @@
     </head>
 	<script language="JavaScript">
     function playSoundKyo() { document.getElementById('audioKyo').play(); } 
-    function playSoundOkyakusan() { document.getElementById('audio1').play(); } 
-    function playSoundKyakushitsu() { document.getElementById('audio2').play(); } 
-    function playSoundHenkyaku() { document.getElementById('audio3').play(); } 
+    function playSoundKyou() { document.getElementById('audio1').play(); } 
+    function playSoundKyoushitsu() { document.getElementById('audio2').play(); } 
+    function playSoundKyoudai() { document.getElementById('audio3').play(); } 
 
   </script>
 	<body>
 	<div class="box">
-	<p class = "font_word">きょ
+	<p style="font-size:50px;"><span style="color:red;">きょ</span>
 
 	<audio id="audioKyo">
     <source src="hiragana/kyo/きょ.mp3" type="audio/mp3">
