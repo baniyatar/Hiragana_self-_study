@@ -17,7 +17,7 @@
   </script>
 	<body>
 	<div class="box">
-        <p style="font-size: 50px;"><span style="color: red;">にゃ</span>
+        <p style="font-size: 50px;"><span style="color: red;">にょ</span>
 
             <audio id="audioNyo">
             <source src="hiragana/nyo/nyo.mp3" type="audio/mp3">
