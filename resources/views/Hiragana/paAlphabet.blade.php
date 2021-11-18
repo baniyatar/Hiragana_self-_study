@@ -28,8 +28,9 @@
     <div class = "letter_start">
 
   <img class = "testBorder" src="hiragana/pa/pa.gif" alt="pagif">
-  <img src="hiragana/pa/pa.png" alt="gapng">
 </div><br>  
+<div class = "letter_start">    <img src="hiragana/pa/pa.png" alt="gapng">
+  </div>
 
 <p style="font-size: 50px;">かん<span style="color: red;">ぱ</span>い
   <audio id="audio1">

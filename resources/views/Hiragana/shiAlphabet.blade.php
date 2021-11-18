@@ -30,8 +30,9 @@
     <div class = "letter_start">
 
   <img src="hiragana/gif/shi.gif" alt="しgif">
- <img src="/hiragana/shi/し-bw.png" alt="しpng">
 </div><br>  
+<div class = "letter_start">  <img src="/hiragana/shi/し-bw.png" alt="しpng">
+   </div>
 
 <p class = "font_word">しお
 

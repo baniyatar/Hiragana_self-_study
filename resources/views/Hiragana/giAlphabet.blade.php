@@ -28,8 +28,9 @@
     <div class = "letter_start">
 
   <img class = "testBorder" src="hiragana/gi/gi.gif" alt="gagif">
-  <img src="hiragana/gi/gi.png" alt="gapng">
 </div><br>  
+<div class = "letter_start">    <img src="hiragana/gi/gi.png" alt="gapng">
+  </div>
 
 
 

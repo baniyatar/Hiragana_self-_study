@@ -30,8 +30,9 @@
     <div class = "letter_start">
 
   <img class = "testBorder" src="hiragana/ki/ki.gif" alt="きgif">
-  <img src="hiragana/ki/き.png" alt="きpng">
 </div><br>  
+<div class = "letter_start">     <img src="hiragana/ki/き.png" alt="きpng">
+ </div>
 
 <p class = "font_word">きいろ
 
