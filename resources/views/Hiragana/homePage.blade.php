@@ -181,7 +181,7 @@
          
          <tr>
            <td ></td>
-           <td >みゃ</td>
+           <td ><a href="{{ url('/myaAlphabet')}}"><div style="height:100%;width:100%">みゃ</div> </a></td>
            <td >びゃ</td>
            <td >にゃ</td>
            <td >じゃ</td>
@@ -194,7 +194,7 @@
              
          <tr>
            <td ></td>
-           <td >みゅ</td>
+           <td ><a href="{{ url('/myuAlphabet')}}"><div style="height:100%;width:100%">みゅ</div> </a></td>
            <td >びゅ</td>
            <td >にゅ</td>
            <td >じゅ</td>
@@ -203,7 +203,7 @@
    
           <tr>
            <td ></td>
-           <td >みょ</td>
+           <td ><a href="{{ url('/myoAlphabet')}}"><div style="height:100%;width:100%">みょ</div> </a></td>
            <td >びょ</td>
            <td >にょ</td>
            <td >じょ</td>

@@ -693,6 +693,40 @@ public function edit($id){
          );
          return view('Hiragana/kyoAlphabet');
       }
+
+   public function viewMyaAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'mya'
+            ]
+         );
+         return view('Hiragana/myaAlphabet');
+      }
+
+   public function viewMyuAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'myu'
+            ]
+         );
+         return view('Hiragana/myuAlphabet');
+      }
+
+   public function viewMyoAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'myo'
+            ]
+         );
+         return view('Hiragana/myoAlphabet');
+      }
+
       public function viewPaAlphabet()
       {
          $currentUserName = Session::get('userName');
