@@ -152,7 +152,7 @@
 
    <table border="1" style ="font-size: 7vw; font-family: serif;" >
      <tbody>
-         <tr>  <td >りゃ</td>
+         <tr>  <td ><a href="{{ url('/ryaAlphabet')}}"><div style="height:100%;width:100%">りゃ</div> </a></td>
                <td >ぴゃ</td>
                <td >ひゃ</td>
                <td >ちゃ</td>
@@ -161,7 +161,7 @@
        </tr>
    
          <tr>
-           <td >りゅ</td>
+           <td ><a href="{{ url('/ryuAlphabet')}}"><div style="height:100%;width:100%">りゅ</div> </a></td>
            <td >ぴゅ</td>
            <td >ひゅ</td>
            <td >ちゅ</td>
@@ -170,7 +170,7 @@
    </tr>
    
          <tr>
-           <td >りょ</td>
+           <td ><a href="{{ url('/ryoAlphabet')}}"><div style="height:100%;width:100%">りょ</div> </a></td>
            <td >ぴょ</td>
            <td >ひょ</td>
            <td >ちょ</td>

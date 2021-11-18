@@ -11,7 +11,7 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script> -->
     </head>
 	<script language="JavaScript">
-    function playSoundMya() { document.getElementById('audioMyu').play(); } 
+    function playSoundMyu() { document.getElementById('audioMyu').play(); } 
 
   </script>
 	<body>
