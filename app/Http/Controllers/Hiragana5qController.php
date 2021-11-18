@@ -661,6 +661,38 @@ public function edit($id){
          return view('Hiragana/zoAlphabet');
       }
 
+   public function viewKyaAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'kya'
+            ]
+         );
+         return view('Hiragana/kyaAlphabet');
+      }
+
+   public function viewkyuAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'kyu'
+            ]
+         );
+         return view('Hiragana/kyuAlphabet');
+      }
+
+   public function viewKyoAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'kyo'
+            ]
+         );
+         return view('Hiragana/kyoAlphabet');
+      }
       public function viewPaAlphabet()
       {
          $currentUserName = Session::get('userName');
@@ -747,6 +779,38 @@ public function edit($id){
          );
          return view('Hiragana/gyoAlphabet');
       }
+   
+   public function viewPyaAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'pya'
+            ]
+         );
+         return view('Hiragana/pyaAlphabet');
+      }
+   public function viewPyuAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'pyu'
+            ]
+         );
+         return view('Hiragana/pyuAlphabet');
+      }
+   public function viewPyoAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'pyo'
+            ]
+         );
+         return view('Hiragana/pyoAlphabet');
+      }
+
 
       public function viewShaAlphabet()
       {
@@ -913,6 +977,17 @@ public function edit($id){
             ]
          );
          return view('Hiragana/contractedConstructPage');
+      }
+
+   public function viewEndPage()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'end'
+            ]
+         );
+         return view('Hiragana/endPage');
       }
 
    public function viewLastPointCheck()
@@ -1104,6 +1179,15 @@ public function edit($id){
                case "zo":
                  return view('Hiragana/zoAlphabet');
                   break;
+               case "kya":
+                  return view('Hiragana/kyaAlphabet');
+                  break;
+               case "kyu":
+                  return view('Hiragana/kyuAlphabet');
+                  break;
+               case "kyo":
+                  return view('Hiragana/kyoAlphabet');
+                  break;
                case "pa":
                  return view('Hiragana/paAlphabet');
                      break;
@@ -1134,6 +1218,15 @@ public function edit($id){
                   break;
                case "gyo":
                   return view('Hiragana/gyoAlphabet');
+                  break;
+               case "pya":
+                  return view('Hiragana/pyaAlphabet');
+                  break;
+               case "pyu":
+                  return view('Hiragana/pyuAlphabet');
+                  break;
+               case "pyo":
+                  return view('Hiragana/pyoAlphabet');
                   break;
                case "ga":
                   return view('Hiragana/gaAlphabet');
@@ -1205,6 +1298,9 @@ public function edit($id){
                   break;
                case "bo":
                   return view('Hiragana/boAlphabet');
+                  break;
+               case "end":
+                  return view('Hiragana/endPage');
                   break;
                }
 
