@@ -12,8 +12,8 @@
     </head>
 	<script language="JavaScript">
     function playSoundkitsupu() { document.getElementById('audio1').play(); } 
-    function playSoundtenpura() { document.getElementById('audio2').play(); } 
-    function playSoundsenpuuki() { document.getElementById('audio3').play(); } 
+    function playSoundsenpuuki() { document.getElementById('audio2').play(); } 
+    function playSoundtenpura() { document.getElementById('audio3').play(); } 
      function playSoundpu() { document.getElementById('audioPu').play(); } 
   </script>
 	<body>
@@ -55,7 +55,7 @@
     <!-- <img src="hiragana/pu/red.png" alt="">-->
   </p>
 
- <p style="font-size: 50px;">でん<span style="color: red;">ぷ</span>ら
+ <p style="font-size: 50px;">てん<span style="color: red;">ぷ</span>ら
   <audio id="audio3">
     <source src="hiragana/pu/てんぷら.mp3" type="audio/mp3">
   </audio>

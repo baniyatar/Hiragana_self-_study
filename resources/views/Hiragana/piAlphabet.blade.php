@@ -40,7 +40,7 @@
   <br>
   <!-- <img src="hiragana/pi/red.png" alt="">-->
 </p>
-<p style="font-size: 50px;">せいねんがっ<span style="color: red;">ぴ</span>
+<p style="font-size: 50px;">せいねんがつ<span style="color: red;">ぴ</span>
   <audio id="audio2">
     <source src="hiragana/pi/せいねんがっぴ.mp3" type="audio/mp3">
   </audio>
