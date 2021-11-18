@@ -26,8 +26,9 @@
     <div class = "letter_start">
 
   <img class = "testBorder" src="hiragana/di/di.gif" alt="ぢgif">
-  <img src="hiragana/di/ぢ.png" alt="ぢpng">
 </div><br>  
+<div class = "letter_start">    <img src="hiragana/di/ぢ.png" alt="ぢpng">
+  </div>
 
 <p>「ぢ」は<ruby><rb>語</rb><rt>ご</rt><rb>彙</rb><rt>い</rt></ruby>のなかで<ruby><rb>使</rb><rt>つか</rt></ruby>われることはありません。
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->

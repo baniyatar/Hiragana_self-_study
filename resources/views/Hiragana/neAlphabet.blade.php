@@ -30,8 +30,9 @@
     <div class = "letter_start">
 
   <img class = "testBorder" src="hiragana/ne/ne.gif" alt="ねgif">
-  <img src="hiragana/ne/ね.png" alt="ねpng">
 </div><br>  
+<div class = "letter_start">   <img src="hiragana/ne/ね.png" alt="ねpng">
+   </div>
 
 <p style="font-size: 50px;">あ<span style="color: red;">ね</span>
 
