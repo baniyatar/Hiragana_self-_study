@@ -18,7 +18,7 @@
   </script>
 	<body>
 	<div class="box">
-        <p style="font-size: 50px;"><span style="color: red;">にゃ</span>
+        <p style="font-size: 50px;"><span style="color: red;">にゅ</span>
 
             <audio id="audioNyu">
             <source src="hiragana/nyu/nyu.mp3" type="audio/mp3">
@@ -31,7 +31,7 @@
   <img src="hiragana/nyu/nyu.png" alt="にゅpng">
  </div><br>  
 
- <p style="font-size: 50px;">ぎゅう<span style="color: red;">にゃ</span>う
+ <p style="font-size: 50px;">ぎゅう<span style="color: red;">にゅ</span>う
 
   <audio id="audio1">
     <source src="hiragana/nyu/ぎゅうにゅう.mp3" type="audio/mp3">
@@ -42,7 +42,7 @@
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
 
-<p style="font-size: 50px;"><span style="color: red;">にゃ</span>うがく
+<p style="font-size: 50px;"><span style="color: red;">にゅ</span>うがく
 
     <audio id="audio2">
       <source src="hiragana/nyu/にゅうがく.mp3" type="audio/mp3">
