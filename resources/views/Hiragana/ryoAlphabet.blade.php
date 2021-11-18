@@ -34,7 +34,7 @@
     <audio id="audio1">
       <source src="hiragana/ryo/りょうしん.mp3" type="audio/mp3">
     </audio>
-    <img style="vertical-align:middle;" src="hiragana/ryo/sound-s.png" onclick="playSoundRyoushinn()">
+    <img style="vertical-align:middle;" src="hiragana/ryo/sound-s.png" onclick="playSoundRyoushin()">
     <br><img src="hiragana/ryo/sample.png" alt="">
   </p>
 
@@ -57,6 +57,6 @@
 	</div>
 	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
 	<button class="prev_btn" onclick="location.href='{{ url('/ryuAlphabet')}}'">&lt;PREV</button>
-	<button class="next_btn" onClick="location.href='{{ url('/ryoAlphabet')}}'">NEXT&gt;</button>
+	<button class="next_btn" onClick="location.href='{{ url('/end')}}'">NEXT&gt;</button>
 </body>
 </html>

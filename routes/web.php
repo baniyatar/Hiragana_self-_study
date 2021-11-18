@@ -179,7 +179,7 @@ Route::get('/gyaAlphabet', [Hiragana5qController::class, 'viewGyaAlphabet']);
 Route::get('/gyuAlphabet', [Hiragana5qController::class, 'viewGyuAlphabet']);
 Route::get('/gyoAlphabet', [Hiragana5qController::class, 'viewGyoAlphabet']);
 
-Route::get('/myaAlphabet', [Hiragana5qController::class, 'viewyaAlphabet']);
+Route::get('/myaAlphabet', [Hiragana5qController::class, 'viewMyaAlphabet']);
 Route::get('/myuAlphabet', [Hiragana5qController::class, 'viewMyuAlphabet']);
 Route::get('/myoAlphabet', [Hiragana5qController::class, 'viewMyoAlphabet']);
 Route::get('/ryaAlphabet', [Hiragana5qController::class, 'viewRyaAlphabet']);
