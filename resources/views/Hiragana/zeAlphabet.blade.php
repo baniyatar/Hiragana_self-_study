@@ -29,8 +29,9 @@
     <div class = "letter_start">
 
   <img class = "testBorder" src="hiragana/ze/ze.gif" alt="ぜgif">
-  <img src="hiragana/ze/ぜ.png" alt="ぜpng">
 </div><br>  
+<div class = "letter_start">     <img src="hiragana/ze/ぜ.png" alt="ぜpng">
+   </div>
 
 <p style="font-size:50px;">あん<span style="color:red;">ぜ</span>ん
   <audio id="audio1">

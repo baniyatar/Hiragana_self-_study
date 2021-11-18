@@ -28,9 +28,7 @@
   <img src="hiragana/jo/じょ.png" alt="じょpng">
 </div><br>  
 
-<p>「じょ」は<ruby><rb>語</rb><rt>ご</rt><rb>彙</rb><rt>い</rt></ruby>のなかで<ruby><rb>使</rb><rt>つか</rt></ruby>われることはありません。
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
-</p>
 
 	</div>
 	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

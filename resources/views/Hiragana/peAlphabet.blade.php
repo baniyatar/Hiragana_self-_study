@@ -27,9 +27,10 @@
     <div class = "letter_start">
 
   <img class = "testBorder" src="hiragana/pe/pe.gif" alt="pegif">
-  <img src="hiragana/pe/pe.png" alt="gapng">
 </div><br>  
 
+<div class = "letter_start">   <img src="hiragana/pe/pe.png" alt="gapng">
+   </div>
 
 
 <p class = "font_word">ぺこ<span style="color: red;">ぺ</span>こ

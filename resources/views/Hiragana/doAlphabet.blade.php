@@ -29,8 +29,9 @@
     <div class = "letter_start">
 
   <img class = "testBorder" src="hiragana/do/do.gif" alt="どgif">
-  <img src="hiragana/do/ど.png" alt="どpng">
 </div><br>  
+<div class = "letter_start">   <img src="hiragana/do/ど.png" alt="どpng">
+   </div>
 
 <p class = "font_word">どうぶつ
 

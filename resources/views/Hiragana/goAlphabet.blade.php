@@ -28,8 +28,9 @@
     <div class = "letter_start">
 
   <img class = "testBorder" src="hiragana/go/go.gif" alt="gagif">
-  <img src="hiragana/go/go.png" alt="gapng">
 </div><br>  
+<div class = "letter_start">    <img src="hiragana/go/go.png" alt="gapng">
+  </div>
 
 <p class = "font_word">ご<span style="color: red;">ご</span>
     
