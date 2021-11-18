@@ -30,8 +30,6 @@
   <img src="hiragana/pyu/ぴゅ.png" alt="ぴゅpng">
 </div><br>  
 
-<p>「ぴゅ」は<ruby><rb>語</rb><rt>ご</rt><rb>彙</rb><rt>い</rt></ruby>のなかで<ruby><rb>使</rb><rt>つか</rt></ruby>われることはありません。
-
 </div>
 	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
 	<button class="prev_btn" onclick="location.href='{{ url('/pyaAlphabet')}}'">&lt;PREV</button>
