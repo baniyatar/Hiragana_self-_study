@@ -154,6 +154,9 @@ Route::get('/zuAlphabet', [Hiragana5qController::class, 'viewZuAlphabet']);
 Route::get('/zeAlphabet', [Hiragana5qController::class, 'viewZeAlphabet']);
 Route::get('/zoAlphabet', [Hiragana5qController::class, 'viewZoAlphabet']);
 
+Route::get('/kyaAlphabet', [Hiragana5qController::class, 'viewKyaAlphabet']);
+Route::get('/kyuAlphabet', [Hiragana5qController::class, 'viewKyuAlphabet']);
+Route::get('/kyoAlphabet', [Hiragana5qController::class, 'viewKyoAlphabet']);
 Route::get('/daAlphabet', [Hiragana5qController::class, 'viewDaAlphabet']);
 Route::get('/diAlphabet', [Hiragana5qController::class, 'viewDiAlphabet']);
 Route::get('/duAlphabet', [Hiragana5qController::class, 'viewDuAlphabet']);
