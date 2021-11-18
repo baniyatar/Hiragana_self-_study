@@ -1243,6 +1243,34 @@ public function edit($id){
                case "go":
                   return view('Hiragana/goAlphabet');
                   break;
+               case "nya":
+                  return view('Hiragana/nyaAlphabet');
+                  break;
+               case "nyu":
+                  return view('Hiragana/nyuAlphabet');
+                  break;
+               case "nyo":
+                  return view('Hiragana/nyoAlphabet');
+                  break;
+               case "hya":
+                  return view('Hiragana/hyaAlphabet');
+                  break;
+               case "hyu":
+                  return view('Hiragana/hyuAlphabet');
+                     break;
+               case "hyo":
+                  return view('Hiragana/hyoAlphabet');
+                     break;
+                case "bya":
+                  return view('Hiragana/byaAlphabet');
+                     break;
+                case "byu":
+                  return view('Hiragana/byuAlphabet');
+                      break;
+                case "byo":
+                  return view('Hiragana/byoAlphabet');
+                      break;
+
                case "sha":
                   return view('Hiragana/shaAlphabet');
                   break;
@@ -1360,6 +1388,104 @@ public function edit($id){
          return view('Hiragana/goAlphabet');
       }
       
+      public function viewNyaAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'nya'
+            ]
+         );
+         return view('Hiragana/nyaAlphabet');
+      }
+
+      public function viewNyuAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'nyu'
+            ]
+         );
+         return view('Hiragana/nyuAlphabet');
+      }
+      
+      public function viewNyoAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'nyo'
+            ]
+         );
+         return view('Hiragana/nyoAlphabet');
+      } 
+      
+      public function viewHyaAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'hya'
+            ]
+         );
+         return view('Hiragana/hyaAlphabet');
+      }
+
+      public function viewHyuAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'hyu'
+            ]
+         );
+         return view('Hiragana/hyuAlphabet');
+      }
+      public function viewHyoAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'hyo'
+            ]
+         );
+         return view('Hiragana/hyoAlphabet');
+      }
+   
+      public function viewByaAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'bya'
+            ]
+         );
+         return view('Hiragana/byaAlphabet');
+      }
+
+      public function viewByuAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'byu'
+            ]
+         );
+         return view('Hiragana/byuAlphabet');
+      }
+
+      public function viewByoAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'byo'
+            ]
+         );
+         return view('Hiragana/byoAlphabet');
+      }
+      
       public function viewDaAlphabet()
       {
          $currentUserName = Session::get('userName');
@@ -1461,5 +1587,4 @@ public function edit($id){
          );
          return view('Hiragana/boAlphabet');
       }
-      
 }

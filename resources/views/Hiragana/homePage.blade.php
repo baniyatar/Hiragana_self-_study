@@ -154,8 +154,8 @@
      <tbody>
          <tr>  <td >りゃ</td>
                <td ><a href="{{ url('/pyaAlphabet')}}"><div style="height:100%;width:100%">ぴゃ</div></a></td>
-               <td >ひゃ</td>
-               <td ><a href="{{ url('/chaAlphabet')}}"><div style="height:100%;width:100%">ちゃ</div> </a></td>
+               <td ><a href="{{ url('/hyaAlphabet')}}"><div style="height:100%;width:100%">ひゃ</td>
+                <td ><a href="{{ url('/chaAlphabet')}}"><div style="height:100%;width:100%">ちゃ</div> </a></td>
                <td ><a href="{{ url('/shaAlphabet')}}"><div style="height:100%;width:100%">しゃ</div> </a></td>
                <td ><a href="{{ url('/kyaAlphabet')}}"><div style="height:100%;width:100%">きゃ</div> </a></td>
        </tr>
@@ -163,8 +163,8 @@
          <tr>
            <td >りゅ</td>
            <td ><a href="{{ url('/pyuAlphabet')}}"><div style="height:100%;width:100%">ぴゅ</div></a></td>
-           <td >ひゅ</td>
-           <td ><a href="{{ url('/chuAlphabet')}}"><div style="height:100%;width:100%">ちゅ</div> </a></td>
+           <td ><a href="{{ url('/hyuAlphabet')}}"><div style="height:100%;width:100%">ひゅ</td>
+            <td ><a href="{{ url('/chuAlphabet')}}"><div style="height:100%;width:100%">ちゅ</div> </a></td>
            <td ><a href="{{ url('/shuAlphabet')}}"><div style="height:100%;width:100%">しゅ</div> </a></td>
            <td ><a href="{{ url('/kyuAlphabet')}}"><div style="height:100%;width:100%">きゅ</div> </a></td>
    </tr>
@@ -172,8 +172,8 @@
          <tr>
            <td >りょ</td>
            <td ><a href="{{ url('/pyoAlphabet')}}"><div style="height:100%;width:100%">ぴょ</div></a></td>
-           <td >ひょ</td>
-           <td ><a href="{{ url('/choAlphabet')}}"><div style="height:100%;width:100%">ちょ</div> </a></td>
+           <td ><a href="{{ url('/hyoAlphabet')}}"><div style="height:100%;width:100%">ひょ</td>
+            <td ><a href="{{ url('/choAlphabet')}}"><div style="height:100%;width:100%">ちょ</div> </a></td>
            <td ><a href="{{ url('/shoAlphabet')}}"><div style="height:100%;width:100%">しょ</div> </a></td>
            <td ><a href="{{ url('/kyoAlphabet')}}"><div style="height:100%;width:100%">きょ</div> </a></td>
    
@@ -182,8 +182,8 @@
          <tr>
            <td ></td>
            <td >みゃ</td>
-           <td >びゃ</td>
-           <td >にゃ</td>
+           <td ><a href="{{ url('/byaAlphabet')}}"><div style="height:100%;width:100%">びゃ</td>
+           <td ><a href="{{ url('/nyaAlphabet')}}"><div style="height:100%;width:100%">にゃ</td>
            <td ><a href="{{ url('/jaAlphabet')}}"><div style="height:100%;width:100%">じゃ</div> </a></td>
            <td ><a href="{{ url('/gyaAlphabet')}}"><div style="height:100%;width:100%">ぎゃ</div></a></td>
           </tr>
@@ -195,8 +195,8 @@
          <tr>
            <td ></td>
            <td >みゅ</td>
-           <td >びゅ</td>
-           <td >にゅ</td>
+           <td ><a href="{{ url('/byuAlphabet')}}"><div style="height:100%;width:100%">びゅ</td>
+            <td ><a href="{{ url('/nyuAlphabet')}}"><div style="height:100%;width:100%">にゅ</td>
            <td ><a href="{{ url('/juAlphabet')}}"><div style="height:100%;width:100%">じゅ</div> </a></td>
            <td ><a href="{{ url('/gyuAlphabet')}}"><div style="height:100%;width:100%">ぎゅ</div></a></td>
           </tr>
@@ -204,8 +204,8 @@
           <tr>
            <td ></td>
            <td >みょ</td>
-           <td >びょ</td>
-           <td >にょ</td>
+           <td ><a href="{{ url('/byoAlphabet')}}"><div style="height:100%;width:100%">びょ</td>
+            <td ><a href="{{ url('/nyoAlphabet')}}"><div style="height:100%;width:100%">にょ</td>
            <td ><a href="{{ url('/joAlphabet')}}"><div style="height:100%;width:100%">じょ</div> </a></td>
            <td ><a href="{{ url('/gyoAlphabet')}}"><div style="height:100%;width:100%">ぎょ</div></a></td>
           </tr>
