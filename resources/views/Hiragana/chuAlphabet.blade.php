@@ -19,7 +19,7 @@
   </script>
 	<body>
 	<div class="box">
-	<p class = "font_word">ちゅ
+  <p style="font-size: 50px;"><span style="color: red;">ちゅ</span>
 
 	<audio id="audio0">
     <source src="hiragana/chu/ちゅ.mp3" type="audio/mp3">
@@ -28,7 +28,6 @@
 </p>
     <div class = "letter_start">
 
-  <img class = "testBorder" src="hiragana/chu/chu.gif" alt="ちゅgif">
   <img src="hiragana/chu/ちゅ.png" alt="ちゅpng">
 </div><br>  
 

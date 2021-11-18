@@ -19,7 +19,7 @@
   </script>
 	<body>
 	<div class="box">
-	<p class = "font_word">ちゃ
+  <p style="font-size: 50px;"><span style="color: red;">ちゃ</span>
 
 	<audio id="audio0">
     <source src="hiragana/cha/ちゃ.mp3" type="audio/mp3">
@@ -28,14 +28,13 @@
 </p>
     <div class = "letter_start">
 
-  <img class = "testBorder" src="hiragana/cha/cha.gif" alt="ちゃgif">
   <img src="hiragana/cha/ちゃ.png" alt="ちゃpng">
 </div><br>  
 
 <p style="font-size: 50px;">お<span style="color: red;">ちゃ</span>
 
   <audio id="audio1">
-    <source src="hiragana/cha/きょうかちゃ.mp3" type="audio/mp3">
+    <source src="hiragana/cha/おちゃ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/cha/sound-s.png" onclick="playSound1()">
 
@@ -44,7 +43,7 @@
 <p style="font-size: 50px;">おも<span style="color: red;">ちゃ</span>
 
   <audio id="audio2">
-    <source src="hiragana/cha/こちゃう.mp3" type="audio/mp3">
+    <source src="hiragana/cha/おもちゃ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/cha/sound-s.png" onclick="playSound2()">
 
@@ -54,7 +53,7 @@
 <p style="font-size: 50px;">かぼ<span style="color: red;">ちゃ</span>
 
   <audio id="audio3">
-    <source src="hiragana/cha/ちゃくじ.mp3" type="audio/mp3">
+    <source src="hiragana/cha/かぼちゃ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/cha/sound-s.png" onclick="playSound3()">
 

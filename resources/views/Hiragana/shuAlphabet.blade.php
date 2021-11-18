@@ -19,7 +19,7 @@
   </script>
 	<body>
 	<div class="box">
-	<p class = "font_word">しゅ
+  <p style="font-size: 50px;"><span style="color: red;">しゅ</span>
 
 	<audio id="audio0">
     <source src="hiragana/shu/しゅ.mp3" type="audio/mp3">
@@ -28,11 +28,10 @@
 </p>
     <div class = "letter_start">
 
-  <img class = "testBorder" src="hiragana/shu/shu.gif" alt="しゅgif">
   <img src="hiragana/shu/しゅ.png" alt="しゅpng">
 </div><br>  
 
-<p class = "font_word">しゅくじつ
+<p style="font-size: 50px;"><span style="color: red;">しゅ</span>くじつ
 
   <audio id="audio1">
     <source src="hiragana/shu/しゅくじつ.mp3" type="audio/mp3">
@@ -41,7 +40,8 @@
 
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
-<p class = "font_word">しゅくだい
+
+<p style="font-size: 50px;"><span style="color: red;">しゅ</span>くだい
 
   <audio id="audio2">
     <source src="hiragana/shu/しゅくだい.mp3" type="audio/mp3">
@@ -51,7 +51,7 @@
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
-<p class = "font_word">しゅみ
+<p style="font-size: 50px;"><span style="color: red;">しゅ</span>み
 
   <audio id="audio3">
     <source src="hiragana/shu/しゅみ.mp3" type="audio/mp3">

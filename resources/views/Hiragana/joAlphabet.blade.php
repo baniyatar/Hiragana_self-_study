@@ -16,7 +16,7 @@
   </script>
 	<body>
 	<div class="box">
-	<p class = "font_word">じょ
+  <p style="font-size: 50px;"><span style="color: red;">じょ</span>
 
 	<audio id="audio0">
     <source src="hiragana/jo/じょ.mp3" type="audio/mp3">
@@ -25,7 +25,6 @@
 </p>
     <div class = "letter_start">
 
-  <img class = "testBorder" src="hiragana/jo/jo.gif" alt="じょgif">
   <img src="hiragana/jo/じょ.png" alt="じょpng">
 </div><br>  
 
