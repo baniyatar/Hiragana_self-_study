@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <title>はじめに</title>
-    <meta charset="utf-8"> 
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
-    <!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"> -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script> -->
-    </head>
+
+<head>
+   <title>はじめに</title>
+   <meta charset="utf-8">
+   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+   <!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
+   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"> -->
+   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script> -->
+</head>
+
 <body>
-	<!-- <div class="box">
+   <!-- <div class="box">
     <div class="message-box" role="alertdialog" style="opacity: 1; left: 365px; top: 312px;">
    <div class="message-box__content">
       <div class="message-box__icon message-box__icon_type_question"></div>
@@ -36,41 +38,100 @@
     </div>
     </div>
 	</div> -->
-    <form method="post" action="{{ url('/return')}}" id="yourForm" name="yourForm">
-  {{ csrf_field() }}
-    <div class="box">
-    <div class="outPopUp">
-    <div style="opacity: 1">
-      <div >
-      <div style="overflow: hidden; max-width: 550px;">
-         <div>
-         <div><ruby><rb>前</rb><rt>ぜん</rt><rb>回</rb><rt>かい</rt></ruby>の<ruby><rb>続</rb><rt>つづ</rt></ruby>きから<ruby><rb>勉</rb><rt>べん</rt><rb>強</rb><rt>きょう</rt></ruby>しますか？</div>
+   <form method="post" action="{{ url('/return')}}" id="yourForm" name="yourForm">
+      {{ csrf_field() }}
+      <div class="box">
+         <div class="outPopUp">
+            @if ($agent->isMobile())
 
-</br>
-<div>Continue?  From the last time stopping point</div>
-            </br>
+            <div style="opacity: 1">
+               <div>
+                  <div style="overflow: hidden; max-width: 550px; font-size:35px;">
+                     <div>
+                        <div><ruby>
+                              <rb>前</rb>
+                              <rt>ぜん</rt>
+                              <rb>回</rb>
+                              <rt>かい</rt>
+                           </ruby>の<ruby>
+                              <rb>続</rb>
+                              <rt>つづ</rt>
+                           </ruby>きから<ruby>
+                              <rb>勉</rb>
+                              <rt>べん</rt>
+                              <rb>強</rb>
+                              <rt>きょう</rt>
+                           </ruby>しますか？</div>
+                        </br>
+                        <div>Continue? From the last time stopping point</div>
+                        </br>
+
+                     </div>
+                  </div>
+                  <div style="opacity: 0; display: none;">
+                     <div disabled=""></div>
+                     <div style="height: 0px; top: 0px;">
+                        <div></div>
+                     </div>
+                     <divdisabled="">
+                  </div>
+               </div>
+            </div>
+            <div>
+               <div class="testStyle">
+                  <button name="questionAnswer" type="submit" value="yes">YES 　はい</button>
+                  <button name="questionAnswer" type="submit" value="no">NO　いいえ</button>
+               </div>
+            </div>
+            @else
+            <div style="opacity: 1">
+               <div>
+                  <div style="overflow: hidden; max-width: 550px;">
+                     <div>
+                        <div><ruby>
+                              <rb>前</rb>
+                              <rt>ぜん</rt>
+                              <rb>回</rb>
+                              <rt>かい</rt>
+                           </ruby>の<ruby>
+                              <rb>続</rb>
+                              <rt>つづ</rt>
+                           </ruby>きから<ruby>
+                              <rb>勉</rb>
+                              <rt>べん</rt>
+                              <rb>強</rb>
+                              <rt>きょう</rt>
+                           </ruby>しますか？</div>
+
+                        </br>
+                        <div>Continue? From the last time stopping point</div>
+                        </br>
+
+                     </div>
+                  </div>
+                  <div style="opacity: 0; display: none;">
+                     <div disabled=""></div>
+                     <div style="height: 0px; top: 0px;">
+                        <div></div>
+                     </div>
+                     <divdisabled="">
+                  </div>
+               </div>
+            </div>
+            <div>
+               <div class="testStyle">
+                  <button name="questionAnswer" type="submit" value="yes">YES 　はい</button>
+                  <button name="questionAnswer" type="submit" value="no">NO　いいえ</button>
+               </div>
+            </div>
+            @endif
 
          </div>
       </div>
-      <div style="opacity: 0; display: none;">
-         <div disabled=""></div>
-         <div style="height: 0px; top: 0px;">
-            <div></div>
-         </div>
-         <divdisabled=""></div>
       </div>
-   </div>
-   <div>
-        <div class = "testStyle">
-          <button name = "questionAnswer" type="submit" value="yes">YES 　はい</button>
-          <button name = "questionAnswer" type="submit" value="no" >NO　いいえ</button>
-        </div>
-    </div>
-    </div>
-    </div>
-	</div>
 
-  </form>
+   </form>
 
 </body>
+
 </html>
