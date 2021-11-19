@@ -39,7 +39,7 @@
     <source src="hiragana/de/うで.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/de/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size: 50;">Arm</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 <p class = "font_word">でぐち
@@ -47,7 +47,7 @@
     <source src="hiragana/de/でぐち.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/de/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size: 50;">Exit</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -56,7 +56,7 @@
     <source src="hiragana/de/でんわ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/de/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size: 50;">Telephone</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 

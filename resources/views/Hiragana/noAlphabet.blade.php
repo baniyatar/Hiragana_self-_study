@@ -40,7 +40,7 @@
     <source src="hiragana/no/きのう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/no/sound-s.png" onclick="playSoundKinou()">
-
+  <p style="font-size: 50;">Yesterday</p>
   <br><img src="hiragana/no/sample.png" alt="">
 </p>
 <p style="font-size: 50px;">たても<span style="color: red;">の</span>
@@ -48,7 +48,7 @@
     <source src="hiragana/no/たてもの.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/no/sound-s.png" onclick="playSoundTatemono()">
-
+  <p style="font-size: 50;">Building</p>
   <br><img src="hiragana/no/sample.png" alt="">
 </p>
 
@@ -57,7 +57,7 @@
     <source src="hiragana/no/たのしい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/no/sound-s.png" onclick="playSoundTanoshii()">
-
+  <p style="font-size: 50;">Pleasant</p>
   <br><img src="hiragana/no/sample.png" alt="">
 </p>
 
@@ -66,7 +66,7 @@
     <source src="hiragana/no/のみもの.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/no/sound-s.png" onclick="playSoundNomimono()">
-
+  <p style="font-size: 50;">Beverage</p>
   <br><img src="hiragana/no/sample.png" alt="">
 </p>
 	</div>

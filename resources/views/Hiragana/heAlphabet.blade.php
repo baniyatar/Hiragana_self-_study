@@ -40,7 +40,7 @@
     <source src="hiragana/he/たいへん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/a/sound-s.png" onclick="playSoundTaihen()">
-
+  <p style="font-size: 50;">Tough</p>
   <br>
   <!--<img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -49,7 +49,7 @@
     <source src="hiragana/he/へや.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/he/sound-s.png" onclick="playSoundHeya()">
-
+  <p style="font-size: 50;">Room</p>
   <br>
   <!--<img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -59,7 +59,7 @@
     <source src="hiragana/he/へん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/he/sound-s.png" onclick="playSoundHen()">
-
+  <p style="font-size: 50;">Strange</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>
@@ -69,7 +69,7 @@
     <source src="hiragana/he/へんじ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/he/sound-s.png" onclick="playSoundHenji()">
-
+  <p style="font-size: 50;">Answer</p>
   <br>
   <!--<img src="hiragana/a/ame.jpg" alt="">-->
 </p>

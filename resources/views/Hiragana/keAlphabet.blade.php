@@ -40,7 +40,7 @@
     <source src="hiragana/ke/けいさつ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/a/sound-s.png" onclick="playSoundKeisatsu()">
-
+  <p style="font-size: 50;">Police</p>
   <br>
   <!--<img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -49,7 +49,7 @@
     <source src="hiragana/ke/けいたいでんわ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ke/sound-s.png" onclick="playSoundKeitaidenwa()">
-
+  <p style="font-size: 50;">Cellphone</p>
   <br>
   <!--<img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -59,7 +59,7 @@
     <source src="hiragana/ke/けしき.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ke/sound-s.png" onclick="playSoundKeshiki()">
-
+  <p style="font-size: 50;">Scenery</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>
@@ -69,7 +69,7 @@
     <source src="hiragana/ke/けしごむ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ke/sound-s.png" onclick="playSoundKeshigomu()">
-
+  <p style="font-size: 50;">Eraser</p>
   <br>
   <!--<img src="hiragana/a/ame.jpg" alt="">-->
 </p>

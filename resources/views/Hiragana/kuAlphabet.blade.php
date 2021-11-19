@@ -40,7 +40,7 @@
     <source src="hiragana/ku/くだもの.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ku/sound-s.png" onclick="playSoundKudamono()">
-
+  <p style="font-size: 50;">Fruit</p>
   <br>
   <!--<img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -49,7 +49,7 @@
     <source src="hiragana/ku/くち.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ku/sound-s.png" onclick="playSoundKuchi()">
-
+  <p style="font-size: 50;">Mouth</p>
   <br>
   <!--<img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -59,7 +59,7 @@
     <source src="hiragana/ku/くつ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ku/sound-s.png" onclick="playSoundKutsu()">
-
+  <p style="font-size: 50;">Shoes</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>
@@ -69,7 +69,7 @@
     <source src="hiragana/ku/くるま.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ku/sound-s.png" onclick="playSoundKuruma()">
-
+  <p style="font-size: 50;">Car</p>
   <br>
   <!--<img src="hiragana/a/ame.jpg" alt="">-->
 </p>

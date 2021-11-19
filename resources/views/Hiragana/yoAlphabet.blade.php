@@ -40,7 +40,7 @@
     <source src="hiragana/yo/つよい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/yo/sound-s.png" onclick="playSoundTsuyoi()">
-
+  <p style="font-size: 50;">Strong</p>
   <br><img src="hiragana/yo/sample.png" alt="">
 </p>
 <p class = "font_word">よい
@@ -48,7 +48,7 @@
     <source src="hiragana/yo/よい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/yo/sound-s.png" onclick="playSoundYoi()">
-
+  <p style="font-size: 50;">Good</p>
   <br><img src="hiragana/yo/sample.png" alt="">
 </p>
 
@@ -57,7 +57,7 @@
     <source src="hiragana/yo/ようふく.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/yo/sound-s.png" onclick="playSoundYoufuku()">
-
+  <p style="font-size: 50;">Clothes</p>
   <br><img src="hiragana/yo/sample.png" alt="">
 </p>
 
@@ -66,7 +66,7 @@
     <source src="hiragana/yo/よる.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/yo/sound-s.png" onclick="playSoundYoru()">
-
+  <p style="font-size: 50;">Night</p>
   <br><img src="hiragana/yo/sample.png" alt="">
 </p>
 	</div>

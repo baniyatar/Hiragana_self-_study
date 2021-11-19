@@ -40,7 +40,7 @@
       <source src="hiragana/pe/ぺこぺこ.mp3" type="audio/mp3">
     </audio>
     <img style="vertical-align:middle;" src="hiragana/pe/sound-s.png" onclick="playSoundpekopeko()">
-  
+    <p style="font-size: 50;">Starving</p>
     <br>
     <!-- <img src="hiragana/pe/red.png" alt="">-->
   </p>
@@ -50,7 +50,7 @@
       <source src="hiragana/pe/ぺらぺら.mp3" type="audio/mp3">
     </audio>
     <img style="vertical-align:middle;" src="hiragana/pe/sound-s.png" onclick="playSoundperapera()">
-  
+    <p style="font-size: 50;">Fluently</p>
     <br>
     <!-- <img src="hiragana/pe/red.png" alt="">-->
   </p>

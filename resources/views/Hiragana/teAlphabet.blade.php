@@ -40,7 +40,7 @@
     <source src="hiragana/te/て.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/te/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size: 50;">Hand</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 <p class = "font_word">てがみ
@@ -48,7 +48,7 @@
     <source src="hiragana/te/てがみ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/te/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size: 50;">Letter</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -57,7 +57,7 @@
     <source src="hiragana/te/てら.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/te/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size: 50;">Temple</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 
@@ -66,7 +66,7 @@
     <source src="hiragana/te/てんき.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/te/sound-s.png" onclick="playSound4()">
-
+  <p style="font-size: 50;">Weather</p>
   <!-- <br><img src="hiragana/ta/ame.jpg" alt=""> -->
 </p>
 	</div>

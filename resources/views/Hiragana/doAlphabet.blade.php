@@ -39,7 +39,7 @@
     <source src="hiragana/do/どうぶつ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/do/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size: 50;">Animal</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 <p class = "font_word">どこ
@@ -47,7 +47,7 @@
     <source src="hiragana/do/どこ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/do/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size: 50;">Where</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -56,7 +56,7 @@
     <source src="hiragana/do/どようび.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/do/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size: 50;">Saturday</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 

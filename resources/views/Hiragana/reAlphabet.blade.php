@@ -40,7 +40,7 @@
     <source src="hiragana/re/うれしい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/re/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size: 50;">Happy</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 
@@ -50,7 +50,7 @@
     <source src="hiragana/re/はれ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/re/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size: 50;">Sunny</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -59,7 +59,7 @@
     <source src="hiragana/re/れいぞうこ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size: 50;">Refrigerator</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 
@@ -68,7 +68,7 @@
     <source src="hiragana/re/れんしゅう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound4()">
-
+  <p style="font-size: 50;">Practice</p>
   <!-- <br><img src="hiragana/ta/ame.jpg" alt=""> -->
 </p>
 	</div>

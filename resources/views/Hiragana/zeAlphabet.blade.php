@@ -38,7 +38,7 @@
     <source src="hiragana/ze/あんぜん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ze/sound-s.png" onclick="playSoundAnzen()">
-
+  <p style="font-size: 50;">Safety</p>
   <br><img src="hiragana/ze/sample.png" alt="">
 </p>
 
@@ -47,7 +47,7 @@
     <source src="hiragana/ze/かぜ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ze/sound-s.png" onclick="playSoundKaze()">
-
+  <p style="font-size: 50;">Wind</p>
   <br><img src="hiragana/ze/sample.png" alt="">
 </p>
 
@@ -56,7 +56,7 @@
     <source src="hiragana/ze/ぜんぶ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ze/sound-s.png" onclick="playSoundZenbu()">
-
+  <p style="font-size: 50;">All</p>
   <br><img src="hiragana/ze/sample.png" alt="">
 </p>
 

@@ -40,7 +40,7 @@
     <source src="hiragana/go/ごご.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/go/sound-s.png" onclick="playSoundgogo()">
-
+  <p style="font-size: 50;">Afternoon</p>
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -49,7 +49,7 @@
     <source src="hiragana/go/ごぜん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/go/sound-s.png" onclick="playSoundgozen()">
-
+  <p style="font-size: 50;">Morning</p>
   <br>
   <!-- <img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -59,6 +59,7 @@
     <source src="hiragana/go/ごはん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/go/sound-s.png" onclick="playSoundtgohan()">
+  <p style="font-size: 50;">Rice</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>

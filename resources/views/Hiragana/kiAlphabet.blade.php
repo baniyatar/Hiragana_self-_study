@@ -40,6 +40,7 @@
     <source src="hiragana/ki/きいろ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ki/sound-s.png" onclick="playSoundKiiro()">
+  <p style="font-size: 50;">Yellow</p>
   <br>
   <!--<img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -48,7 +49,7 @@
     <source src="hiragana/ki/きた.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ki/sound-s.png" onclick="playSoundKita()">
-
+  <p style="font-size: 50;">North</p>
   <br>
   <!--<img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -58,7 +59,7 @@
     <source src="hiragana/ki/きって.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ki/sound-s.png" onclick="playSoundKitte()">
-
+  <p style="font-size: 50;">Mail Stamp</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>
@@ -68,7 +69,7 @@
     <source src="hiragana/ki/きっぷ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ki/sound-s.png" onclick="playSoundKippu()">
-
+  <p style="font-size: 50;">Ticket</p>
   <br>
   <!--<img src="hiragana/a/ame.jpg" alt="">-->
 </p>

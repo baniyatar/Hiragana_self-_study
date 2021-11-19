@@ -39,7 +39,7 @@
     <source src="hiragana/ji/じかん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ji/sound-s.png" onclick="playSoundJikan()">
-
+  <p style="font-size: 50;">Time</p>
   <br><img src="hiragana/ji/sample.png" alt="">
 </p>
 <p class = "font_word">じしん
@@ -47,7 +47,7 @@
     <source src="hiragana/ji/じしん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ji/sound-s.png" onclick="playSoundJishin()">
-
+  <p style="font-size: 50;">Earthquake</p>
   <br><img src="hiragana/ji/sample.png" alt="">
 </p>
 
@@ -56,7 +56,7 @@
     <source src="hiragana/ji/そうじ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ji/sound-s.png" onclick="playSoundSouji()">
-
+  <p style="font-size: 50;">Cleaning</p>
   <br><img src="hiragana/ji/sample.png" alt="">
 </p>
 

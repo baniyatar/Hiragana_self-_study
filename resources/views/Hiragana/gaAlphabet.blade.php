@@ -38,7 +38,7 @@
     <source src="hiragana/ga/がいこく.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ga/sound-s.png" onclick="playSoundgaigoku()">
-
+  <p style="font-size: 50;">Foreign Countries</p>
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -47,7 +47,7 @@
     <source src="hiragana/ga/がくせい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ga/sound-s.png" onclick="playSoundgakosei()">
-
+  <p style="font-size: 50;">Student</p>
   <br>
   <!-- <img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -57,6 +57,7 @@
     <source src="hiragana/ga/がっこう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ga/sound-s.png" onclick="playSoundgatsukou()">
+  <p style="font-size: 50;">School</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>

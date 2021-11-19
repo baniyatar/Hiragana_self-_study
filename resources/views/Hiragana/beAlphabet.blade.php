@@ -38,7 +38,7 @@
     <source src="hiragana/be/おべんとう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/be/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size: 50;">Lunch</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 <p style="font-size: 50px;">か<span style="color: red;">べ</span>
@@ -47,7 +47,7 @@
     <source src="hiragana/be/かべ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/be/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size: 50;">Wall</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -57,7 +57,7 @@
     <source src="hiragana/be/たべもの.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/be/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size: 50;">Food</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 

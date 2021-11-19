@@ -39,7 +39,7 @@
     <source src="hiragana/mo/くだもの.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/mo/sound-s.png" onclick="playSoundkudamono()">
-
+  <p style="font-size: 50;">Fruit</p>
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -48,7 +48,7 @@
     <source src="hiragana/mo/こども.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/mo/sound-s.png" onclick="playSoundkodomo()">
-
+  <p style="font-size: 50;">Child</p>
   <br>
   <!-- <img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -58,6 +58,7 @@
     <source src="hiragana/mo/もしもし.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/mo/sound-s.png" onclick="playSoundmoshimoshi()">
+  <p style="font-size: 50;">Hello</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>
@@ -67,6 +68,7 @@
     <source src="hiragana/mo/もも.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/mo/sound-s.png" onclick="playSoundMomo()">
+  <p style="font-size: 50;">Peach</p>
   <br>
   <!--<img src="hiragana/a/ame.jpg" alt="">-->
 </p>

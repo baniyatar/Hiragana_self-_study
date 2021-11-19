@@ -39,7 +39,7 @@
     <source src="hiragana/zu/かず.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/zu/sound-s.png" onclick="playSoundKazu()">
-
+  <p style="font-size: 50;">Number</p>
   <br><img src="hiragana/zu/sample.png" alt="">
 </p>
 
@@ -48,7 +48,7 @@
     <source src="hiragana/zu/ちず.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/zu/sound-s.png" onclick="playSoundChizu()">
-
+  <p style="font-size: 50;">Map</p>
   <br><img src="hiragana/zu/sample.png" alt="">
 </p>
 
@@ -57,7 +57,7 @@
     <source src="hiragana/zu/みず.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/zu/sound-s.png" onclick="playSoundMizu()">
-
+  <p style="font-size: 50;">Water</p>
   <br><img src="hiragana/zu/sample.png" alt="">
 </p>
 

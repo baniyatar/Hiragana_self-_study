@@ -39,7 +39,7 @@
     <source src="hiragana/wa/かわ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/wa/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size: 50;">River</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 <p style="font-size: 50px;">か<span style="color: red;">わ</span>いい
@@ -48,7 +48,7 @@
     <source src="hiragana/wa/かわいい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/wa/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size: 50;">Cute</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -58,7 +58,7 @@
     <source src="hiragana/wa/にわ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/wa/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size: 50;">Yard</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 
@@ -67,7 +67,7 @@
     <source src="hiragana/wa/わたし.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/wa/sound-s.png" onclick="playSound4()">
-
+  <p style="font-size: 50;">Me / Myself</p>
   <!-- <br><img src="hiragana/ta/ame.jpg" alt=""> -->
 </p>
 	</div>

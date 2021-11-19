@@ -40,7 +40,7 @@
     <source src="hiragana/so/そうじ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/so/sound-s.png" onclick="playSoundSouji()">
-
+  <p style="font-size: 50;">Cleaning</p>
   {{-- <br><img src="hiragana/a/red.png" alt=""> --}}
 </p>
 <p class = "font_word">そと
@@ -48,7 +48,7 @@
       <source src="hiragana/so/そと.mp3" type="audio/mp3"> 
     </audio>
     <img style="vertical-align:middle;" src="hiragana/so/sound-s.png" onclick="playSoundSoto()">
-  
+    <p style="font-size: 50;">Outside</p>
     {{-- <br><img src="hiragana/a/ame.jpg" alt=""> --}}
   </p>
 
@@ -57,7 +57,7 @@
     <source src="hiragana/so/そふ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/so/sound-s.png" onclick="playSoundSofu()">
-
+  <p style="font-size: 50;">Grandfather</p>
   {{-- <br><img src="hiragana/a/foot.png" alt=""> --}}
 </p>
 
@@ -66,7 +66,7 @@
     <source src="hiragana/so/そら.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/so/sound-s.png" onclick="playSoundSora()">
-
+  <p style="font-size: 50;">Sky</p>
   {{-- <br><img src="hiragana/a/head.png" alt=""> --}}
 </p>
 

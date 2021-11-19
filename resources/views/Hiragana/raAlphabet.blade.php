@@ -40,7 +40,7 @@
     <source src="hiragana/ra/さくら.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ra/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size: 50;">Cherry blossom</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 <p class = "font_word">らいげつ
@@ -48,7 +48,7 @@
     <source src="hiragana/ra/らいげつ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ra/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size: 50;">Next Month</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -57,7 +57,7 @@
     <source src="hiragana/ra/らいしゅう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ra/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size: 50;">Next Week</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 
@@ -66,7 +66,7 @@
     <source src="hiragana/ra/らいねん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ra/sound-s.png" onclick="playSound4()">
-
+  <p style="font-size: 50;">Next Year</p>
   <!-- <br><img src="hiragana/ta/ame.jpg" alt=""> -->
 </p>
 	</div>

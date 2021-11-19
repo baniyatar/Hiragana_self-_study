@@ -39,7 +39,7 @@
     <source src="hiragana/za/こうざ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/za/sound-s.png" onclick="playSoundKouza()">
-
+  <p style="font-size: 50;">Bank Account</p>
   <br><img src="hiragana/za/sample.png" alt="">
 </p>
 <p class = "font_word">ざっし
@@ -47,7 +47,7 @@
     <source src="hiragana/za/ざっし.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/za/sound-s.png" onclick="playSoundZasshi()">
-
+  <p style="font-size: 50;">Magazine</p>
   <br><img src="hiragana/za/sample.png" alt="">
 </p>
 
@@ -56,7 +56,7 @@
     <source src="hiragana/za/はいざら.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/za/sound-s.png" onclick="playSoundHaizara()">
-
+  <p style="font-size: 50;">Ash Tray</p>
   <br><img src="hiragana/za/sample.png" alt="">
 </p>
 

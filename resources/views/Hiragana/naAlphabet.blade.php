@@ -40,7 +40,7 @@
     <source src="hiragana/na/ながい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSoundNagai()">
-
+  <p style="font-size: 50;">Long</p>
   <br><img src="hiragana/na/sample.png" alt="">
 </p>
 <p class = "font_word">なつ
@@ -48,7 +48,7 @@
     <source src="hiragana/na/なつ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSoundNatsu()">
-
+  <p style="font-size: 50;">Summer</p>
   <br><img src="hiragana/na/sample.png" alt="">
 </p>
 
@@ -57,7 +57,7 @@
     <source src="hiragana/na/なつやすみ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSoundNatsuyasumi()">
-
+  <p style="font-size: 50;">Summer Vacation</p>
   <br><img src="hiragana/na/sample.png" alt="">
 </p>
 
@@ -66,7 +66,7 @@
     <source src="hiragana/na/なまえ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSoundNamae()">
-
+  <p style="font-size: 50;">Name</p>
   <br><img src="hiragana/na/sample.png" alt="">
 </p>
 	</div>

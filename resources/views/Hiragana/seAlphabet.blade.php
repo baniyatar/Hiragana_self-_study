@@ -40,7 +40,7 @@
     <source src="hiragana/se/せっけん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/se/sound-s.png" onclick="playSoundSetsuken()">
-
+  <p style="font-size: 50;">Soap</p>
   {{-- <br><img src="hiragana/a/red.png" alt=""> --}}
 </p>
 <p class = "font_word">せなか
@@ -48,7 +48,7 @@
       <source src="hiragana/se/せなか.mp3" type="audio/mp3"> 
     </audio>
     <img style="vertical-align:middle;" src="hiragana/se/sound-s.png" onclick="playSoundSenaka()">
-  
+    <p style="font-size: 50;">Back</p>
     {{-- <br><img src="hiragana/a/ame.jpg" alt=""> --}}
   </p>
 
@@ -57,7 +57,7 @@
     <source src="hiragana/se/せんせい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/se/sound-s.png" onclick="playSoundSensei()">
-
+  <p style="font-size: 50;">Teacher</p>
   {{-- <br><img src="hiragana/a/foot.png" alt=""> --}}
 </p>
 
@@ -66,7 +66,7 @@
     <source src="hiragana/se/せんたく.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/se/sound-s.png" onclick="playSoundSentaku()">
-
+  <p style="font-size: 50;">Laundry</p>
   {{-- <br><img src="hiragana/a/head.png" alt=""> --}}
 </p>
 

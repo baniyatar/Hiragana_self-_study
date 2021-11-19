@@ -40,7 +40,7 @@
     <source src="hiragana/tsu/つかれた.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/tsu/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size: 50;">Tired</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 <p class = "font_word">つくる
@@ -48,7 +48,7 @@
     <source src="hiragana/tsu/つくる.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/tsu/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size: 50;">To make</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -57,7 +57,7 @@
     <source src="hiragana/tsu/つめたい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/tsu/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size: 50;">Cold</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 
@@ -66,7 +66,7 @@
     <source src="hiragana/tsu/つよい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/tsu/sound-s.png" onclick="playSound4()">
-
+  <p style="font-size: 50;">Strong</p>
   <!-- <br><img src="hiragana/ta/ame.jpg" alt=""> -->
 </p>
 	</div>

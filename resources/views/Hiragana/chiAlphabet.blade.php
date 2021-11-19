@@ -40,7 +40,7 @@
     <source src="hiragana/chi/ちいさい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size: 50;">Small</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 <p class = "font_word">ちかい
@@ -48,7 +48,7 @@
     <source src="hiragana/chi/ちかい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size: 50;">Near</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -57,7 +57,7 @@
     <source src="hiragana/chi/ちかてつ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size: 50;">Subway</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 
@@ -66,7 +66,7 @@
     <source src="hiragana/chi/ちち.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound4()">
-
+  <p style="font-size: 50;">Father</p>
   <!-- <br><img src="hiragana/ta/ame.jpg" alt=""> -->
 </p>
 	</div>

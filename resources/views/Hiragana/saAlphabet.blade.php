@@ -39,7 +39,7 @@
     <source src="hiragana/sa/さいふ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/sa/sound-s.png" onclick="playSoundSaifu()">
-
+  <p style="font-size: 50;">Purce</p>
   {{-- <br><img src="hiragana/a/red.png" alt=""> --}}
 </p>
 <p class = "font_word">さかな
@@ -47,7 +47,7 @@
     <source src="hiragana/sa/さかな.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/sa/sound-s.png" onclick="playSoundSakana()">
-
+  <p style="font-size: 50;">Fish</p>
   {{-- <br><img src="hiragana/a/foot.png" alt=""> --}}
 </p>
 
@@ -56,7 +56,7 @@
     <source src="hiragana/sa/さくら.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/sa/sound-s.png" onclick="playSoundSakura()">
-
+  <p style="font-size: 50;">Cherry Blossom</p>
   {{-- <br><img src="hiragana/a/head.png" alt=""> --}}
 </p>
 
@@ -65,7 +65,7 @@
     <source src="hiragana/sa/さとう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/sa/sound-s.png" onclick="playSoundSatou()">
-
+  <p style="font-size: 50;">Suger</p>
   {{-- <br><img src="hiragana/a/ame.jpg" alt=""> --}}
 </p>
 	</div>

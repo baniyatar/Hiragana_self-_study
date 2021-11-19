@@ -38,7 +38,7 @@
     <source src="hiragana/zo/あおぞら.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/zo/sound-s.png" onclick="playSoundAozora()">
-
+  <p style="font-size: 50;">Blue Sky</p>
   <br><img src="hiragana/zo/sample.png" alt="">
 </p>
 
@@ -47,7 +47,7 @@
     <source src="hiragana/zo/かぞく.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/zo/sound-s.png" onclick="playSoundKazoku()">
-
+  <p style="font-size: 50;">Family</p>
   <br><img src="hiragana/zo/sample.png" alt="">
 </p>
 
@@ -56,7 +56,7 @@
     <source src="hiragana/zo/れいぞうこ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/zo/sound-s.png" onclick="playSoundReizouko()">
-
+  <p style="font-size: 50;">Refrigerator</p>
   <br><img src="hiragana/zo/sample.png" alt="">
 </p>
 

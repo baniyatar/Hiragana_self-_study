@@ -39,7 +39,7 @@
     <source src="hiragana/ma/まいにち.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ma/sound-s.png" onclick="playSoundMainichi()">
-
+  <p style="font-size: 50;">Everyday</p>
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -48,7 +48,7 @@
     <source src="hiragana/ma/まえ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ma/sound-s.png" onclick="playSoundmae()">
-
+  <p style="font-size: 50;">Before / In Front of</p>
   <br>
   <!-- <img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -58,6 +58,7 @@
     <source src="hiragana/ma/まくら.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ma/sound-s.png" onclick="playSoundmakura()">
+  <p style="font-size: 50;">Pillow</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>
@@ -67,6 +68,7 @@
     <source src="hiragana/ma/まち.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ma/sound-s.png" onclick="playSoundMachi()">
+  <p style="font-size: 50;">City / Town</p>
   <br>
   <!--<img src="hiragana/a/ame.jpg" alt="">-->
 </p>

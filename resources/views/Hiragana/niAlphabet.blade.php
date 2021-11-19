@@ -40,7 +40,7 @@
     <source src="hiragana/ni/にく.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ni/sound-s.png" onclick="playSoundNiku()">
-
+  <p style="font-size: 50;">Meat</p>
   <br><img src="hiragana/ni/sample.png" alt="">
 </p>
 <p class = "font_word">にし
@@ -48,7 +48,7 @@
     <source src="hiragana/ni/にし.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ni/sound-s.png" onclick="playSoundNishi()">
-
+  <p style="font-size: 50;">West</p>
   <br><img src="hiragana/ni/sample.png" alt="">
 </p>
 
@@ -57,7 +57,7 @@
     <source src="hiragana/ni/にほん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ni/sound-s.png" onclick="playSoundNihon()">
-
+  <p style="font-size: 50;">Japan</p>
   <br><img src="hiragana/ni/sample.png" alt="">
 </p>
 
@@ -66,7 +66,7 @@
     <source src="hiragana/ni/にわ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ni/sound-s.png" onclick="playSoundNiwa()">
-
+  <p style="font-size: 50;">Yard</p>
   <br><img src="hiragana/ni/sample.png" alt="">
 </p>
 	</div>

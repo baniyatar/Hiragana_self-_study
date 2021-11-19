@@ -38,7 +38,7 @@
     <source src="hiragana/ge/おみやげ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ge/sound-s.png" onclick="playSoundomiyage()">
-
+  <p style="font-size: 50;">Souvenir</p>
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -47,7 +47,7 @@
     <source src="hiragana/ge/げんかん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ge/sound-s.png" onclick="playSoundgenkan()">
-
+  <p style="font-size: 50;">Entrance</p>
   <br>
   <!-- <img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -57,6 +57,7 @@
     <source src="hiragana/ge/げんき.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ge/sound-s.png" onclick="playSoundgenki()">
+  <p style="font-size: 50;">Health</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>

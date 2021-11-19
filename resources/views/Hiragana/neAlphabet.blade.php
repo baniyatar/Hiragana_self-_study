@@ -40,7 +40,7 @@
     <source src="hiragana/ne/あね.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ne/sound-s.png" onclick="playSoundAne()">
-
+  <p style="font-size: 50;">Elder Sister</p>
   <br><img src="hiragana/ne/sample.png" alt="">
 </p>
 <p class = "font_word">ねこ
@@ -48,7 +48,7 @@
     <source src="hiragana/ne/ねこ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ne/sound-s.png" onclick="playSoundNeko()">
-
+  <p style="font-size: 50;">Cat</p>
   <br><img src="hiragana/ne/sample.png" alt="">
 </p>
 
@@ -57,7 +57,7 @@
     <source src="hiragana/ne/ねむい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ne/sound-s.png" onclick="playSoundNemui()">
-
+  <p style="font-size: 50;">Sleepy</p>
   <br><img src="hiragana/ne/sample.png" alt="">
 </p>
 
@@ -66,7 +66,7 @@
     <source src="hiragana/ne/めがね.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ne/sound-s.png" onclick="playSoundMegane()">
-
+  <p style="font-size: 50;">Glasses</p>
   <br><img src="hiragana/ne/sample.png" alt="">
 </p>
 	</div>

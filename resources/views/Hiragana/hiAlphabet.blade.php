@@ -40,6 +40,7 @@
     <source src="hiragana/hi/ひこうき.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/hi/sound-s.png" onclick="playSoundHikouki()">
+  <p style="font-size: 50;">Airplane</p>
   <br>
   <!--<img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -48,7 +49,7 @@
     <source src="hiragana/hi/ひらがな.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/hi/sound-s.png" onclick="playSoundHiragana()">
-
+  <p style="font-size: 50;">Hiragana Letters</p>
   <br>
   <!--<img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -58,7 +59,7 @@
     <source src="hiragana/hi/ひる.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/hi/sound-s.png" onclick="playSoundHiru()">
-
+  <p style="font-size: 50;">Noon / Day Time / Lunch</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>
@@ -68,7 +69,7 @@
     <source src="hiragana/hi/ひるごはん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/hi/sound-s.png" onclick="playSoundHirugohan()">
-
+  <p style="font-size: 50;">Lunch</p>
   <br>
   <!--<img src="hiragana/a/ame.jpg" alt="">-->
 </p>

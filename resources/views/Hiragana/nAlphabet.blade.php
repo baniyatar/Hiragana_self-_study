@@ -40,7 +40,7 @@
     <source src="hiragana/n/おんな.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/n/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size: 50;">Woman</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 <p style="font-size: 50px;">ごは<span style="color: red;">ん</span>
@@ -48,7 +48,7 @@
     <source src="hiragana/n/ごはん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/n/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size: 50;">Meal</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -58,7 +58,7 @@
     <source src="hiragana/n/でんわ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/n/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size: 50;">Telephone</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 
@@ -68,7 +68,7 @@
     <source src="hiragana/n/べんきょう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/n/sound-s.png" onclick="playSound4()">
-
+  <p style="font-size: 50;">Study</p>
   <!-- <br><img src="hiragana/ta/ame.jpg" alt=""> -->
 </p>
 	</div>

@@ -39,7 +39,7 @@
     <source src="hiragana/bo/そぼ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/bo/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size: 50;">Grandmather</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 <p style="font-size: 50px;">たん<span style="color: red;">ぼ</span>
@@ -48,7 +48,7 @@
     <source src="hiragana/bo/たんぼ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/bo/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size: 50;">Rice Field</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -57,7 +57,7 @@
     <source src="hiragana/bo/ぼうし.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/bo/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size: 50;">Hat</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 

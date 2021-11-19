@@ -41,7 +41,7 @@
     <source src="hiragana/gi/かぎ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/gi/sound-s.png" onclick="playSoundkagi()">
-
+  <p style="font-size: 50;">Key</p>
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -50,7 +50,7 @@
     <source src="hiragana/gi/ぎんこう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/gi/sound-s.png" onclick="playSoundginkou()">
-
+  <p style="font-size: 50;">Bank</p>
   <br>
   <!-- <img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -61,6 +61,7 @@
     <source src="hiragana/gi/つぎ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/gi/sound-s.png" onclick="playSoundtsugi()">
+  <p style="font-size: 50;">Next</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>

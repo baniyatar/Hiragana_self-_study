@@ -39,7 +39,7 @@
     <source src="hiragana/bu/どうぶつ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/bu/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size: 50;">Animal</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 <p class = "font_word">ぶた
@@ -47,7 +47,7 @@
     <source src="hiragana/bu/ぶた.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/bu/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size: 50;">Pig</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -56,7 +56,7 @@
     <source src="hiragana/bu/ぶどう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/bu/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size: 50;">Grapes</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 

@@ -40,7 +40,7 @@
       <source src="hiragana/pu/きっぷ.mp3" type="audio/mp3">
     </audio>
     <img style="vertical-align:middle;" src="hiragana/pu/sound-s.png" onclick="playSoundkitsupu()">
-  
+    <p style="font-size: 50;">Ticket</p>
     <br>
     <!-- <img src="hiragana/pu/red.png" alt="">-->
   </p>
@@ -51,7 +51,7 @@
       <source src="hiragana/pu/せんぷうき.mp3" type="audio/mp3">
     </audio>
     <img style="vertical-align:middle;" src="hiragana/pu/sound-s.png" onclick="playSoundsenpuuki()">
-  
+    <p style="font-size: 50;">Fan</p>
     <br>
     <!-- <img src="hiragana/pu/red.png" alt="">-->
   </p>
@@ -61,7 +61,7 @@
     <source src="hiragana/pu/てんぷら.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/pu/sound-s.png" onclick="playSoundtenpura()">
-
+  <p style="font-size: 50;">Tempura</p>
   <br>
   <!-- <img src="hiragana/a/foot.png" alt="">-->
 </p>

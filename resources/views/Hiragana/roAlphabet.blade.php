@@ -40,7 +40,7 @@
     <source src="hiragana/ro/いろ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size: 50;">Color</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 <p style="font-size: 50px;">うし<span style="color: red;">ろ</span>
@@ -49,7 +49,7 @@
     <source src="hiragana/ro/うしろ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size: 50;">Behind</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -59,7 +59,7 @@
     <source src="hiragana/ro/くろ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size: 50;">Black</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 
@@ -68,7 +68,7 @@
     <source src="hiragana/ro/ろく.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound4()">
-
+  <p style="font-size: 50;">Six</p>
   <!-- <br><img src="hiragana/ta/ame.jpg" alt=""> -->
 </p>
 	</div>

@@ -40,7 +40,7 @@
     <source src="hiragana/ru/くるま.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ru/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size: 50;">Car</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 
@@ -50,7 +50,7 @@
     <source src="hiragana/ru/ふるい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ru/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size: 50;">Old</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -60,7 +60,7 @@
     <source src="hiragana/ru/まるい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size: 50;">Round</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 
@@ -70,7 +70,7 @@
     <source src="hiragana/ru/よる.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound4()">
-
+  <p style="font-size: 50;">Night</p>
   <!-- <br><img src="hiragana/ta/ame.jpg" alt=""> -->
 </p>
 	</div>

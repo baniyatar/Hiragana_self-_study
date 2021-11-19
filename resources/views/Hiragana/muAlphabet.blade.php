@@ -39,7 +39,7 @@
     <source src="hiragana/mu/むいか.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/mu/sound-s.png" onclick="playSoundMuika()">
-
+  <p style="font-size: 50;">6th of Month</p>
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -48,7 +48,7 @@
     <source src="hiragana/mu/むこう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/mu/sound-s.png" onclick="playSoundmukou()">
-
+  <p style="font-size: 50;">Over There</p>
   <br>
   <!-- <img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -58,6 +58,7 @@
     <source src="hiragana/mu/むずかしい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/mu/sound-s.png" onclick="playSoundmuzukashii()">
+  <p style="font-size: 50;">Difficult</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>
@@ -67,6 +68,7 @@
     <source src="hiragana/mu/むっつ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/mu/sound-s.png" onclick="playSoundMutsutsu()">
+  <p style="font-size: 50;">Six / 6</p>
   <br>
   <!--<img src="hiragana/a/ame.jpg" alt="">-->
 </p>

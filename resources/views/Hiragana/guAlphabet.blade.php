@@ -38,7 +38,7 @@
     <source src="hiragana/gu/いりぐち.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/gu/sound-s.png" onclick="playSoundiriguchi()">
-
+  <p style="font-size: 50;">Entrance</p>
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -48,7 +48,7 @@
     <source src="hiragana/gu/でぐち.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/gu/sound-s.png" onclick="playSounddeguchi()">
-
+  <p style="font-size: 50;">Exit</p>
   <br>
   <!-- <img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -59,6 +59,7 @@
     <source src="hiragana/gu/まっすぐ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/gu/sound-s.png" onclick="playSoundmatsusugu()">
+  <p style="font-size: 50;">Straight</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>

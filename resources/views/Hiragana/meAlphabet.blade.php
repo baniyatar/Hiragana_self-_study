@@ -39,7 +39,7 @@
     <source src="hiragana/me/あめ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/me/sound-s.png" onclick="playSoundaame()">
-
+  <p style="font-size: 50;">Rain</p>
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -48,7 +48,7 @@
     <source src="hiragana/me/つめたい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/me/sound-s.png" onclick="playSoundtsumetai()">
-
+  <p style="font-size: 50;">Cold</p>
   <br>
   <!-- <img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -58,6 +58,7 @@
     <source src="hiragana/me/め.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/me/sound-s.png" onclick="playSoundMe()">
+  <p style="font-size: 50;">Eye</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>
@@ -67,6 +68,7 @@
     <source src="hiragana/me/めがね.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/me/sound-s.png" onclick="playSoundtmegane()">
+  <p style="font-size: 50;">Spectacles</p>
   <br>
   <!--<img src="hiragana/a/ame.jpg" alt="">-->
 </p>

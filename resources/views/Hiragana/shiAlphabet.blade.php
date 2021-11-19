@@ -40,7 +40,7 @@
     <source src="hiragana/shi/しお.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/shi/sound-s.png" onclick="playSoundShio()">
-
+  <p style="font-size: 50;">Salt</p>
   {{-- <br><img src="hiragana/a/red.png" alt=""> --}}
 </p>
 <p class = "font_word">しょくじ
@@ -48,7 +48,7 @@
       <source src="hiragana/shi/しょくじ.mp3" type="audio/mp3"> 
     </audio>
     <img style="vertical-align:middle;" src="hiragana/shi/sound-s.png" onclick="playSoundShokuji()">
-  
+    <p style="font-size: 50;">Meal</p>
     {{-- <br><img src="hiragana/a/ame.jpg" alt=""> --}}
   </p>
 
@@ -57,7 +57,7 @@
     <source src="hiragana/shi/しんごう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/shi/sound-s.png" onclick="playSoundShingou()">
-
+  <p style="font-size: 50;">Signal</p>
   {{-- <br><img src="hiragana/a/foot.png" alt=""> --}}
 </p>
 
@@ -66,7 +66,7 @@
     <source src="hiragana/shi/しんぶん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/shi/sound-s.png" onclick="playSoundshinbun()">
-
+  <p style="font-size: 50;">Newspaper</p>
   {{-- <br><img src="hiragana/a/head.png" alt=""> --}}
 </p>
 

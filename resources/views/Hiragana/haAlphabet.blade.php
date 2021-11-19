@@ -39,7 +39,7 @@
     <source src="hiragana/ha/は.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ha/sound-s.png" onclick="playSoundHa2()">
-
+  <p style="font-size: 50;">Teeth</p>
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -48,7 +48,7 @@
     <source src="hiragana/ha/はこ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ha/sound-s.png" onclick="playSoundHako()">
-
+  <p style="font-size: 50;">Box</p>
   <br>
   <!-- <img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -58,6 +58,7 @@
     <source src="hiragana/ha/はさみ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ha/sound-s.png" onclick="playSoundHasami()">
+  <p style="font-size: 50;">Scissors</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>
@@ -67,6 +68,7 @@
     <source src="hiragana/ha/はち.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ha/sound-s.png" onclick="playSoundHachi()">
+  <p style="font-size: 50;">Bee</p>
   <br>
   <!--<img src="hiragana/a/ame.jpg" alt="">-->
 </p>

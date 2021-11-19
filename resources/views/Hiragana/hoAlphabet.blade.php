@@ -40,7 +40,7 @@
     <source src="hiragana/ho/ほそい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ho/sound-s.png" onclick="playSoundHosoi()">
-
+  <p style="font-size: 50;">Narrow</p>
   <br>
   <!--<img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -49,7 +49,7 @@
     <source src="hiragana/ho/ほん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ho/sound-s.png" onclick="playSoundHon()">
-
+  <p style="font-size: 50;">Book</p>
   <br>
   <!--<img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -59,7 +59,7 @@
     <source src="hiragana/ho/ほんだな.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ho/sound-s.png" onclick="playSoundHondana()">
-
+  <p style="font-size: 50;">Book Shelf</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>
@@ -69,7 +69,7 @@
     <source src="hiragana/ho/ほんや.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ho/sound-s.png" onclick="playSoundHonya()">
-
+  <p style="font-size: 50;">Book Store</p>
   <br>
   <!--<img src="hiragana/a/ame.jpg" alt="">-->
 </p>

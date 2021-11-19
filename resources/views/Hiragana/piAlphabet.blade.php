@@ -37,7 +37,7 @@
     <source src="hiragana/pi/えんぴつ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/pi/sound-s.png" onclick="playSoundenpitsu()">
-
+  <p style="font-size: 50;">Pencil</p>
   <br>
   <!-- <img src="hiragana/pi/red.png" alt="">-->
 </p>
@@ -46,7 +46,7 @@
     <source src="hiragana/pi/せいねんがっぴ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/pi/sound-s.png" onclick="playSoundseinengatsupi()">
-
+  <p style="font-size: 50;">Birthday</p>
   <br>
   <!-- <img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -56,6 +56,7 @@
     <source src="hiragana/pi/ぴかぴか.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/pi/sound-s.png" onclick="playSoundpikapika()">
+  <p style="font-size: 50;">Shiny</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>

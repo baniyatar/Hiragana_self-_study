@@ -40,7 +40,7 @@
     <source src="hiragana/ko/こうえん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ko/sound-s.png" onclick="playSoundKouen()">
-
+  <p style="font-size: 50;">Park</p>
   <br>
   <!--<img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -49,7 +49,7 @@
     <source src="hiragana/ko/こうばん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ko/sound-s.png" onclick="playSoundKouban()">
-
+  <p style="font-size: 50;">Police Box</p>
   <br>
   <!--<img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -59,7 +59,7 @@
     <source src="hiragana/ko/こえ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/a/sound-s.png" onclick="playSoundKoe()">
-
+  <p style="font-size: 50;">Sound</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>
@@ -69,7 +69,7 @@
     <source src="hiragana/ko/こども.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ko/sound-s.png" onclick="playSoundKodomo()">
-
+  <p style="font-size: 50;">Child</p>
   <br>
   <!--<img src="hiragana/a/ame.jpg" alt="">-->
 </p>

@@ -40,7 +40,7 @@
       <source src="hiragana/po/かんぽうやく.mp3" type="audio/mp3">
     </audio>
     <img style="vertical-align:middle;" src="hiragana/po/sound-s.png" onclick="playSoundkanpouyaku()">
-  
+    <p style="font-size: 50;">Hebal Medicine</p>
     <br>
     <!-- <img src="hiragana/po/red.png" alt="">-->
   </p>
@@ -52,7 +52,7 @@
       <source src="hiragana/po/しんぽ　.mp3" type="audio/mp3">
     </audio>
     <img style="vertical-align:middle;" src="hiragana/po/sound-s.png" onclick="playSoundsinpo()">
-  
+    <p style="font-size: 50;">Stroll</p>
     <br>
     <!-- <img src="hiragana/po/red.png" alt="">-->
   </p>
@@ -63,7 +63,7 @@
       <source src="hiragana/po/ぽかぽか.mp3" type="audio/mp3">
     </audio>
     <img style="vertical-align:middle;" src="hiragana/po/sound-s.png" onclick="playSoundpokapoka()">
-  
+    <p style="font-size: 50;">Warm</p>
     <br>
     <!-- <img src="hiragana/po/red.png" alt="">-->
   </p>

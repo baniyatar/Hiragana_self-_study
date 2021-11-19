@@ -39,7 +39,7 @@
     <source src="hiragana/ka/かいだん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ka/sound-s.png" onclick="playSoundKaidan()">
-
+  <p style="font-size: 50;">Stairs</p>
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -48,7 +48,7 @@
     <source src="hiragana/ka/かさ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ka/sound-s.png" onclick="playSoundKasa()">
-
+  <p style="font-size: 50;">Umbrella</p>
   <br>
   <!-- <img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -58,6 +58,7 @@
     <source src="hiragana/ka/かばん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ka/sound-s.png" onclick="playSoundKaban()">
+  <p style="font-size: 50;">Bag</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>
@@ -67,6 +68,7 @@
     <source src="hiragana/ka/かわ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ka/sound-s.png" onclick="playSoundKawa()">
+  <p style="font-size: 50;">River</p>
   <br>
   <!--<img src="hiragana/a/ame.jpg" alt="">-->
 </p>

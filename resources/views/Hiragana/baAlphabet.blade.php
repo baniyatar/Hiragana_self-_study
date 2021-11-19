@@ -38,7 +38,7 @@
     <source src="hiragana/ba/かばん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ba/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size: 50;">Bag</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 <p style="font-size: 50px;">こう<span style="color: red;">ば</span>ん
@@ -47,7 +47,7 @@
     <source src="hiragana/ba/こうばん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ba/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size: 50;">Police Box</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -57,7 +57,7 @@
     <source src="hiragana/ba/たばこ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ba/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size: 50;">Cigarette</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 

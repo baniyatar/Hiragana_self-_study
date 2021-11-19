@@ -40,7 +40,7 @@
     <source src="hiragana/nu/いぬ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/nu/sound-s.png" onclick="playSoundInu()">
-
+  <p style="font-size: 50;">Dog</p>
   <br><img src="hiragana/nu/sample.png" alt="">
 </p>
 <p class = "font_word">ぬすみ
@@ -48,7 +48,7 @@
     <source src="hiragana/nu/ぬすみ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/nu/sound-s.png" onclick="playSoundNusumi()">
-
+  <p style="font-size: 50;">Thievery</p>
   <br><img src="hiragana/nu/sample.png" alt="">
 </p>
 
@@ -57,7 +57,7 @@
     <source src="hiragana/nu/ぬの.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/nu/sound-s.png" onclick="playSoundNuno()">
-
+  <p style="font-size: 50;">Cloth</p>
   <br><img src="hiragana/nu/sample.png" alt="">
 </p>
 
@@ -66,7 +66,7 @@
     <source src="hiragana/nu/ぬるい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/nu/sound-s.png" onclick="playSoundNurui()">
-
+  <p style="font-size: 50;">Lukewarm</p>
   <br><img src="hiragana/nu/sample.png" alt="">
 </p>
 	</div>

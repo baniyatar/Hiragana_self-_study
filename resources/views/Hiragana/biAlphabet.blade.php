@@ -39,7 +39,7 @@
     <source src="hiragana/bi/えび.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/bi/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size: 50;">shrimp</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 <p style="font-size: 50px;">はな<span style="color: red;">び</span>
@@ -48,7 +48,7 @@
     <source src="hiragana/bi/はなび.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/bi/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size: 50;">Fireworks</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -58,7 +58,7 @@
     <source src="hiragana/bi/ゆびわ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/bi/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size: 50;">Ring</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 

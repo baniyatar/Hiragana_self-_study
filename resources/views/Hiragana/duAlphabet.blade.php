@@ -38,7 +38,7 @@
     <source src="hiragana/du/おこづかい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/du/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size: 50;">Allowance</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 <p style="font-size: 50px;">かん<span style="color: red;">づ</span>め
@@ -46,7 +46,7 @@
     <source src="hiragana/du/かんづめ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/du/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size: 50;">Canning</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 

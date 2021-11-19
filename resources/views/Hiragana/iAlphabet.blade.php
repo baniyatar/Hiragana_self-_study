@@ -40,7 +40,7 @@
     <source src="hiragana/i/いしゃ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/i/sound-s.png" onclick="playSoundIsha()">
-
+  <p style="font-size: 50;">Medical Doctor</p>
   <!-- <br><img src="hiragana/a/red.png" alt=""> -->
 </p>
 <p class = "font_word">いす
@@ -48,7 +48,7 @@
     <source src="hiragana/i/いす.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/i/sound-s.png" onclick="playSoundIsu()">
-
+  <p style="font-size: 50;">Chair</p>
   <!-- <br><img src="hiragana/a/foot.png" alt=""> -->
 </p>
 
@@ -57,7 +57,7 @@
     <source src="hiragana/i/いぬ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/i/sound-s.png" onclick="playSoundInu()">
-
+  <p style="font-size: 50;">Dog</p>
   <!-- <br><img src="hiragana/a/head.png" alt=""> -->
 </p>
 
@@ -66,7 +66,7 @@
     <source src="hiragana/i/いりぐち.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/i/sound-s.png" onclick="playSoundIriguchi()">
-
+  <p style="font-size: 50;">Entrance</p>
   <!-- <br><img src="hiragana/a/ame.jpg" alt=""> -->
 </p>
 	</div>

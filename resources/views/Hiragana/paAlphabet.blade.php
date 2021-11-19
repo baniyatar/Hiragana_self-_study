@@ -37,7 +37,7 @@
     <source src="hiragana/pa/かんぱい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/pa/sound-s.png" onclick="playSoundkanpai()">
-
+  <p style="font-size: 50;">Toast</p>
   <br>
   <!-- <img src="hiragana/pa/red.png" alt="">-->
 </p>
@@ -48,7 +48,7 @@
     <source src="hiragana/pa/しんぱい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/pa/sound-s.png" onclick="playSoundshinpai()">
-
+  <p style="font-size: 50;">Worry</p>
   <br>
   <!-- <img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -58,6 +58,7 @@
     <source src="hiragana/pa/すっぱい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/pa/sound-s.png" onclick="playSoundsupai()">
+  <p style="font-size: 50;">Sour</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>

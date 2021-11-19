@@ -39,7 +39,7 @@
     <source src="hiragana/e/えいが.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/e/sound-s.png" onclick="playSoundEiga()">
-
+  <p style="font-size: 50;">Movie</p>
   <!-- <br><img src="hiragana/e/red.png" alt=""> -->
 </p>
 <p class = "font_word">えき
@@ -47,7 +47,7 @@
     <source src="hiragana/e/えき.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/e/sound-s.png" onclick="playSoundEki()">
-
+  <p style="font-size: 50;">Railway Station</p>
   <!-- <br><img src="hiragana/e/foot.png" alt=""> -->
 </p>
 
@@ -56,7 +56,7 @@
     <source src="hiragana/e/えんぴつ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/e/sound-s.png" onclick="playSoundEnPitsu()">
-
+  <p style="font-size: 50;">Pencil</p>
   <!-- <br><img src="hiragana/e/head.png" alt=""> -->
 </p>
 

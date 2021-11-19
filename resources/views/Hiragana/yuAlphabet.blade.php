@@ -40,7 +40,7 @@
     <source src="hiragana/yu/ゆうがた.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/yu/sound-s.png" onclick="playSoundYugata()">
-
+  <p style="font-size: 50;">Evening</p>
   <br><img src="hiragana/yu/sample.png" alt="">
 </p>
 <p class = "font_word">ゆうびんきょく
@@ -48,7 +48,7 @@
     <source src="hiragana/yu/ゆうびんきょく.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/yu/sound-s.png" onclick="playSoundYubinkyoku()">
-
+  <p style="font-size: 50;">Post Office</p>
   <br><img src="hiragana/yu/sample.png" alt="">
 </p>
 
@@ -57,7 +57,7 @@
     <source src="hiragana/yu/ゆうめい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/yu/sound-s.png" onclick="playSoundYumei()">
-
+  <p style="font-size: 50;">Famous</p>
   <br><img src="hiragana/yu/sample.png" alt="">
 </p>
 
@@ -66,7 +66,7 @@
     <source src="hiragana/yu/ゆき.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/yu/sound-s.png" onclick="playSoundYuki()">
-
+  <p style="font-size: 50;">Snow</p>
   <br><img src="hiragana/na/sample.png" alt="">
 </p>
 	</div>

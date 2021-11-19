@@ -40,7 +40,7 @@
     <source src="hiragana/fu/ふく.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/fu/sound-s.png" onclick="playSoundFuku()">
-
+  <p style="font-size: 50;">Clothes</p>
   <br>
   <!--<img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -49,7 +49,7 @@
     <source src="hiragana/fu/ふとい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/fu/sound-s.png" onclick="playSoundFutoi()">
-
+  <p style="font-size: 50;">Fat / Thick</p>
   <br>
   <!--<img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -59,7 +59,7 @@
     <source src="hiragana/fu/ふゆ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ku/sound-s.png" onclick="playSoundFuyu()">
-
+  <p style="font-size: 50;">Winter</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>
@@ -69,7 +69,7 @@
     <source src="hiragana/fu/ふゆやすみ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/fu/sound-s.png" onclick="playSoundFuyuyasumi()">
-
+  <p style="font-size: 50;">Winter Vacation</p>
   <br>
   <!--<img src="hiragana/a/ame.jpg" alt="">-->
 </p>

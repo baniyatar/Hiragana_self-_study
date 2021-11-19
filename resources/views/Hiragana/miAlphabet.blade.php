@@ -39,7 +39,7 @@
     <source src="hiragana/mi/みかん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/mi/sound-s.png" onclick="playSoundMikan()">
-
+  <p style="font-size: 50;">Orange</p>
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -48,7 +48,7 @@
     <source src="hiragana/mi/みせ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/mi/sound-s.png" onclick="playSoundmise()">
-
+  <p style="font-size: 50;">Shop</p>
   <br>
   <!-- <img src="hiragana/a/foot.png" alt="">-->
 </p>
@@ -58,6 +58,7 @@
     <source src="hiragana/mi/みち.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/mi/sound-s.png" onclick="playSoundmichi()">
+  <p style="font-size: 50;">Street</p>
   <br>
   <!--<img src="hiragana/a/head.png" alt="">-->
 </p>
@@ -67,6 +68,7 @@
     <source src="hiragana/mi/みみ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/mi/sound-s.png" onclick="playSoundMimi()">
+  <p style="font-size: 50;">Ear</p>
   <br>
   <!--<img src="hiragana/a/ame.jpg" alt="">-->
 </p>

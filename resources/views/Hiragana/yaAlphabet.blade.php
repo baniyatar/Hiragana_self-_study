@@ -40,7 +40,7 @@
     <source src="hiragana/ya/やおや.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ya/sound-s.png" onclick="playSoundYaoya()">
-
+  <p style="font-size: 50;">Vegetable Store</p>
   <br><img src="hiragana/ya/sample.png" alt="">
 </p>
 <p class = "font_word">やさい
@@ -48,7 +48,7 @@
     <source src="hiragana/ya/やさい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ya/sound-s.png" onclick="playSoundYasai()">
-
+  <p style="font-size: 50;">Vegetable</p>
   <br><img src="hiragana/ya/sample.png" alt="">
 </p>
 
@@ -57,7 +57,7 @@
     <source src="hiragana/ya/やすみ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ya/sound-s.png" onclick="playSoundYasumi()">
-
+  <p style="font-size: 50;">Rest</p>
   <br><img src="hiragana/ya/sample.png" alt="">
 </p>
 
@@ -66,7 +66,7 @@
     <source src="hiragana/ya/やま.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/ya/sound-s.png" onclick="playSoundYama()">
-
+  <p style="font-size: 50;">Mountain</p>
   <br><img src="hiragana/ya/sample.png" alt="">
 </p>
 	</div>
