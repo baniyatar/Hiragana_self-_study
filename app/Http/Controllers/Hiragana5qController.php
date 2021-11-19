@@ -1404,7 +1404,7 @@ public function edit($id){
                   break;
                case "ryo":
                   return view('Hiragana/ryoAlphabet');
-                  break;                                                                              }
+                  break;
                case "end":
                   return view('Hiragana/endPage');
                   break;
