@@ -1,67 +1,95 @@
 <!DOCTYPE html>
 <html>
- <head>
+
+<head>
   <title>きゅPAGE</title>
-    <meta charset="utf-8"> 
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
-    <!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"> -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script> -->
-    </head>
-	<script language="JavaScript">
-    function playSoundKyu() { document.getElementById('audioKyu').play(); } 
-    function playSoundOkyuukyuusha() { document.getElementById('audio1').play(); } 
-    function playSoundKyuujitsu() { document.getElementById('audio2').play(); } 
-    function playSoundKyuuri() { document.getElementById('audio3').play(); } 
+  <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"> -->
+  <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script> -->
+</head>
+<script language="JavaScript">
+  function audioStop() {
+    document.getElementById('audio1').pause();
+    document.getElementById('audio1').currentTime = 0;
+    document.getElementById('audio2').pause();
+    document.getElementById('audio2').currentTime = 0;
+    document.getElementById('audio3').pause();
+    document.getElementById('audio3').currentTime = 0;
+    document.getElementById('audioKyu').pause();
+    document.getElementById('audioKyu').currentTime = 0;
+  }
 
-  </script>
-	<body>
-	<div class="box">
-	<p style="font-size:50px;"><span style="color:red;">きゅ
+  function playSoundKyu() {
+    audioStop();
+    document.getElementById('audioKyu').play();
+  }
 
-	<audio id="audioKyu">
-    <source src="hiragana/kyu/きゅ.mp3" type="audio/mp3">
-  </audio>
-	<img style="vertical-align:middle;" src="hiragana/kyu/sound-s.png" onclick="playSoundKyu()">
-</p>
-    <div class = "letter_start">
+  function playSoundOkyuukyuusha() {
+    audioStop();
+    document.getElementById('audio1').play();
+  }
 
-  <img src="hiragana/kyu/kyu.png" alt="きゅpng">
-</div><br>  
+  function playSoundKyuujitsu() {
+    audioStop();
+    document.getElementById('audio2').play();
+  }
 
-<p style="font-size:50px;"><span style="color:red;">きゅ</span>う<span style="color:red;">きゅ</span>うしゃ
+  function playSoundKyuuri() {
+    audioStop();
+    document.getElementById('audio3').play();
+  }
+</script>
 
-  <audio id="audio1">
-    <source src="hiragana/kyu/きゅうきゅうしゃ.mp3" type="audio/mp3">
-  </audio>
-  <img style="vertical-align:middle;" src="hiragana/kyu/sound-s.png" onclick="playSoundOkyuukyuusha()">
-  <p style="font-size:50;">Ambulance
-  <br><img src="hiragana/kyu/sample.png" alt="">
-</p>
+<body>
+  <div class="box">
+    <p style="font-size:50px;"><span style="color:red;">きゅ
 
-<p style="font-size:50px;"><span style="color:red;">きゅ</span>うじつ
-  <audio id="audio2">
-    <source src="hiragana/kyu/きゅうじつ.mp3" type="audio/mp3">
-  </audio>
-  <img style="vertical-align:middle;" src="hiragana/kyu/sound-s.png" onclick="playSoundKyuujitsu()">
-  <p style="font-size:50;">Holiday
-  <br><img src="hiragana/kyu/sample.png" alt="">
-</p>
+        <audio id="audioKyu">
+          <source src="hiragana/kyu/きゅ.mp3" type="audio/mp3">
+        </audio>
+        <img style="vertical-align:middle;" src="hiragana/kyu/sound-s.png" onclick="playSoundKyu()">
+    </p>
+    <div class="letter_start">
 
-<p style="font-size:50px;"><span style="color:red;">きゅ</span>うり
-  <audio id="audio3">
-    <source src="hiragana/kyu/きゅうり.mp3" type="audio/mp3">
-  </audio>
-  <img style="vertical-align:middle;" src="hiragana/kyu/sound-s.png" onclick="playSoundKyuuri()">
-  <p style="font-size:50;">Cucumber
-  <br><img src="hiragana/kyu/sample.png" alt="">
-</p>
+      <img src="hiragana/kyu/kyu.png" alt="きゅpng">
+    </div><br>
 
-	</div>
-	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
-	<button class="prev_btn" onclick="location.href='{{ url('/kyaAlphabet')}}'">&lt;PREV</button>
-	<button class="next_btn" onClick="location.href='{{ url('/kyoAlphabet')}}'">NEXT&gt;</button>
+    <p style="font-size:50px;"><span style="color:red;">きゅ</span>う<span style="color:red;">きゅ</span>うしゃ
+
+      <audio id="audio1">
+        <source src="hiragana/kyu/きゅうきゅうしゃ.mp3" type="audio/mp3">
+      </audio>
+      <img style="vertical-align:middle;" src="hiragana/kyu/sound-s.png" onclick="playSoundOkyuukyuusha()">
+    <p style="font-size:50;">Ambulance
+      <br><img src="hiragana/kyu/sample.png" alt="">
+    </p>
+
+    <p style="font-size:50px;"><span style="color:red;">きゅ</span>うじつ
+      <audio id="audio2">
+        <source src="hiragana/kyu/きゅうじつ.mp3" type="audio/mp3">
+      </audio>
+      <img style="vertical-align:middle;" src="hiragana/kyu/sound-s.png" onclick="playSoundKyuujitsu()">
+    <p style="font-size:50;">Holiday
+      <br><img src="hiragana/kyu/sample.png" alt="">
+    </p>
+
+    <p style="font-size:50px;"><span style="color:red;">きゅ</span>うり
+      <audio id="audio3">
+        <source src="hiragana/kyu/きゅうり.mp3" type="audio/mp3">
+      </audio>
+      <img style="vertical-align:middle;" src="hiragana/kyu/sound-s.png" onclick="playSoundKyuuri()">
+    <p style="font-size:50;">Cucumber
+      <br><img src="hiragana/kyu/sample.png" alt="">
+    </p>
+
+  </div>
+  <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
+  <button class="prev_btn" onclick="location.href='{{ url('/kyaAlphabet')}}'">&lt;PREV</button>
+  <button class="next_btn" onClick="location.href='{{ url('/kyoAlphabet')}}'">NEXT&gt;</button>
 </body>
+
 </html>
