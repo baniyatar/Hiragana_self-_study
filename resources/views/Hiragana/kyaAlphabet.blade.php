@@ -19,7 +19,7 @@
   </script>
 	<body>
 	<div class="box">
-	<p class = "font_word">きゃ
+	<p style="font-size:50px;"><span style="color:red;">きゃ
 
 	<audio id="audioKya">
     <source src="hiragana/kya/きゃ.mp3" type="audio/mp3">
@@ -61,7 +61,7 @@
 
 	</div>
 	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
-	<button class="prev_btn" onclick="location.href='{{ url('/nAlphabet')}}'">&lt;PREV</button>
+	<button class="prev_btn" onclick="location.href='{{ url('/contractedConstruct')}}'">&lt;PREV</button>
 	<button class="next_btn" onClick="location.href='{{ url('/kyuAlphabet')}}'">NEXT&gt;</button>
 </body>
 </html>

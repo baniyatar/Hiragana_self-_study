@@ -19,7 +19,7 @@
   </script>
 	<body>
 	<div class="box">
-	<p class = "font_word">きゅ
+	<p style="font-size:50px;"><span style="color:red;">きゅ
 
 	<audio id="audioKyu">
     <source src="hiragana/kyu/きゅ.mp3" type="audio/mp3">

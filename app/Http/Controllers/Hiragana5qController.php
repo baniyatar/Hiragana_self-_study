@@ -779,8 +779,7 @@ public function edit($id){
          );
          return view('Hiragana/gyoAlphabet');
       }
-   
-   public function viewPyaAlphabet()
+      public function viewPyaAlphabet()
       {
          $currentUserName = Session::get('userName');
          User::where('username', $currentUserName)->update(
@@ -904,6 +903,67 @@ public function edit($id){
          );
          return view('Hiragana/choAlphabet');
       }
+   public function viewMyaAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'mya'
+            ]
+         );
+         return view('Hiragana/myaAlphabet');
+      }
+   public function viewMyuAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'myu'
+            ]
+         );
+         return view('Hiragana/myuAlphabet');
+      }
+   public function viewMyoAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'myo'
+            ]
+         );
+         return view('Hiragana/myoAlphabet');
+      }
+   public function viewRyaAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'rya'
+            ]
+         );
+         return view('Hiragana/ryaAlphabet');
+      }
+   public function viewRyuAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'ryu'
+            ]
+         );
+         return view('Hiragana/ryuAlphabet');
+      }
+   public function viewRyoAlphabet()
+      {
+         $currentUserName = Session::get('userName');
+         User::where('username', $currentUserName)->update(
+            [
+            'lastPointVisit'=>'ryo'
+            ]
+         );
+         return view('Hiragana/ryoAlphabet');
+      }
+
    public function viewConstructPage()
       {
          $currentUserName = Session::get('userName');
@@ -1327,6 +1387,24 @@ public function edit($id){
                case "bo":
                   return view('Hiragana/boAlphabet');
                   break;
+               case "mya":
+                  return view('Hiragana/myaAlphabet');
+                  break;
+               case "myu":
+                  return view('Hiragana/myuAlphabet');
+                  break;
+               case "myo":
+                  return view('Hiragana/myoAlphabet');
+                  break;
+               case "rya":
+                  return view('Hiragana/ryaAlphabet');
+                  break;
+               case "ryu":
+                  return view('Hiragana/ryuAlphabet');
+                  break;
+               case "ryo":
+                  return view('Hiragana/ryoAlphabet');
+                  break;                                                                              }
                case "end":
                   return view('Hiragana/endPage');
                   break;
