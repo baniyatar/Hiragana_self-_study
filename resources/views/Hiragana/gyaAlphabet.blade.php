@@ -36,6 +36,7 @@
     <source src="hiragana/gya/ぎゃく.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/gya/sound-s.png" onclick="playSoundGyaku()">
+  <p style="font-size:50;">Opposite
   <br>
   <!--<img src="hiragana/ya/sample.png" alt="">-->
 </p>
@@ -44,6 +45,7 @@
     <source src="hiragana/gya/ぎゃくこうか.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/gya/sound-s.png" onclick="playSoundGyakukouka()">
+  <p style="font-size:50;">Opposite effect
   <br>
   <!--<img src="hiragana/ya/sample.png" alt="">-->
 </p>
@@ -52,6 +54,7 @@
     <source src="hiragana/gya/ぎゃくてん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/gya/sound-s.png" onclick="playSoundGyakuten()">
+  <p style="font-size:50;">Reversal
   <br>
   <!--<img src="hiragana/ya/sample.png" alt="">-->
 </p>

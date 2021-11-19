@@ -37,7 +37,7 @@
     <source src="hiragana/hyo/じこくひょう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/hyo/sound-s.png" onclick="playSoundjikokuhyou()">
-
+  <p style="font-size:50;">Timetable</p>
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -49,7 +49,7 @@
     <source src="hiragana/hyo/ひょうざん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/hyo/sound-s.png" onclick="playhyoijan()">
-
+  <p style="font-size:50;">Iceberg</p>
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -61,7 +61,7 @@
     <source src="hiragana/hyo/ひょうじょう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/hyo/sound-s.png" onclick="playSoundhyoijiu()">
-
+  <p style="font-size:50;">Facial expression</p>
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>

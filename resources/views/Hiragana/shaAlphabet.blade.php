@@ -37,7 +37,7 @@
     <source src="hiragana/sha/いしゃ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/sha/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size:50;">Medical Doctor</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 <p style="font-size: 50px;">かい<span style="color: red;">しゃ</span>
@@ -46,7 +46,7 @@
     <source src="hiragana/sha/かいしゃ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/sha/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size:50;">Company</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -56,7 +56,7 @@
     <source src="hiragana/sha/しゃしん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/sha/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size:50;">Photograph</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 

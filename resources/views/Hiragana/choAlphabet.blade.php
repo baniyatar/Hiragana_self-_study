@@ -37,7 +37,7 @@
     <source src="hiragana/cho/ちょうしょく.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/cho/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size:50;">Breakfast</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 <p style="font-size: 50px;"><span style="color: red;">ちょ</span>きん
@@ -46,7 +46,7 @@
     <source src="hiragana/cho/ちょきん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/cho/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size:50;">Savings</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -56,7 +56,7 @@
     <source src="hiragana/cho/ちょくせん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/cho/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size:50;">Straight line</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 

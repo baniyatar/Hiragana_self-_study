@@ -37,7 +37,7 @@
     <source src="hiragana/nyu/ぎゅうにゅう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/nyu/sound-s.png" onclick="playSoundGyunyuu()">
-
+  <p style="font-size:50;">Milk</p>
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -48,7 +48,7 @@
       <source src="hiragana/nyu/にゅうがく.mp3" type="audio/mp3">
     </audio>
     <img style="vertical-align:middle;" src="hiragana/nyu/sound-s.png" onclick="playSoundNyuugaku()">
-  
+    <p style="font-size:50;">Enter to School</p>
     <br>
     <!-- <img src="hiragana/a/red.png" alt="">-->
   </p>

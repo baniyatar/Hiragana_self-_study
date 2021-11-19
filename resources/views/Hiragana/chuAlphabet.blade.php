@@ -37,7 +37,7 @@
     <source src="hiragana/chu/しょくちゅうどく.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/chu/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size:50;">Food Poisoning</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 <p style="font-size: 50px;"><span style="color: red;">ちゅ</span>うがっこう
@@ -46,7 +46,7 @@
     <source src="hiragana/chu/ちゅうがっこう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/chu/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size:50;">Junior High School</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -56,7 +56,7 @@
     <source src="hiragana/chu/ちゅうしゃじょう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/chu/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size:50;">Parking lot</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 

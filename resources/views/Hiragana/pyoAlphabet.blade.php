@@ -34,6 +34,7 @@
     <source src="hiragana/pyo/はっぴょう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/pyo/sound-s.png" onclick="playSoundHappyou()">
+  <p style="font-size:50;">Announcement</p>
   <br>
   <!--<img src="hiragana/yo/sample.png" alt="">-->
 </p>
@@ -42,6 +43,7 @@
     <source src="hiragana/pyo/ぴょんぴょん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/pyo/sound-s.png" onclick="playSoundPyonpyon()">
+  <p style="font-size:50;">Jump</p>
   <br>
   <!--<img src="hiragana/yo/sample.png" alt="">-->
 </p>

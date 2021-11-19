@@ -35,6 +35,7 @@
     <source src="hiragana/gyu/ぎゅうぎゅう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/gyu/sound-s.png" onclick="playSoundGyuuGyuu()">
+  <p style="font-size:50;">Squeeze
   <br>
   <!--<img src="hiragana/yu/sample.png" alt="">-->
 </p>
@@ -43,6 +44,7 @@
     <source src="hiragana/gyu/ぎゅうにく.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/gyu/sound-s.png" onclick="playSoundGyuuniku()">
+  <p style="font-size:50;">Beef
   <br>
   <!--<img src="hiragana/yu/sample.png" alt="">-->
 </p>
@@ -51,6 +53,7 @@
     <source src="hiragana/gyu/ぎゅうにゅう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/yu/sound-s.png" onclick="playSoundGyuunyuu()">
+  <p style="font-size:50;">Milk
   <br>
   <!--<img src="hiragana/yu/sample.png" alt="">-->
 </p>
