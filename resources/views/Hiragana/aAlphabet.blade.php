@@ -11,11 +11,38 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script> -->
     </head>
 	<script language="JavaScript">
-    function playSoundAka() { document.getElementById('audio1').play(); } 
-    function playSoundAshi() { document.getElementById('audio2').play(); } 
-    function playSoundAtama() { document.getElementById('audio3').play(); } 
-    function playSoundAme() { document.getElementById('audio4').play(); } 
-    function playSoundA() { document.getElementById('audioA').play(); } 
+    function audioStop() {
+      document.getElementById('audio1').pause();
+      document.getElementById('audio1').currentTime = 0;      
+      document.getElementById('audio2').pause();
+      document.getElementById('audio2').currentTime = 0;
+      document.getElementById('audio3').pause();
+      document.getElementById('audio3').currentTime = 0;
+      document.getElementById('audio4').pause();
+      document.getElementById('audio4').currentTime = 0;
+      document.getElementById('audioA').pause();
+      document.getElementById('audioA').currentTime = 0;
+    }
+    function playSoundAka() {
+      audioStop();
+      document.getElementById('audio1').play();
+    } 
+    function playSoundAshi() {
+      audioStop();
+      document.getElementById('audio2').play();
+    } 
+    function playSoundAtama() {
+      audioStop();
+      document.getElementById('audio3').play();
+    } 
+    function playSoundAme() {
+      audioStop();
+      document.getElementById('audio4').play();
+    } 
+    function playSoundA() {
+      audioStop();
+      document.getElementById('audioA').play();
+    } 
 
   </script>
 	<body>
