@@ -29,9 +29,10 @@
 </p>
     <div class = "letter_start">
 
-  <img src="hiragana/gif/su.gif" alt="すgif">
- <img src="/hiragana/su/す-bw.png" alt="すpng">
+  <img class ="testBorder" src="hiragana/gif/su.gif" alt="すgif">
 </div><br>  
+<div class = "letter_start">   <img src="/hiragana/su/す-bw.png" alt="すpng">
+  </div>
 
 <p class = "font_word">すいえい
 

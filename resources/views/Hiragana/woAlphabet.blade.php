@@ -26,8 +26,9 @@
     <div class = "letter_start">
 
   <img class = "testBorder" src="hiragana/wo/wo.gif" alt="をgif">
-  <img src="hiragana/wo/を.png" alt="をpng">
 </div><br>  
+<div class = "letter_start">      <img src="hiragana/wo/を.png" alt="をpng">
+  </div>
 
 <p>「を」は<ruby><rb>語</rb><rt>ご</rt><rb>彙</rb><rt>い</rt></ruby>のなかで<ruby><rb>使</rb><rt>つか</rt></ruby>われることはありません。つぎのように<ruby><rb>使</rb><rt>つか</rt></ruby>います。
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->

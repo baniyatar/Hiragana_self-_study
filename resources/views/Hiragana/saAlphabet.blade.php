@@ -30,8 +30,9 @@
     <div class = "letter_start">
 
   <img class = "testBorder" src="hiragana/gif/sa.gif" alt="さgif">
-  <img src="hiragana/sa/さ-bw.png" alt="さpng"> 
 </div><br>  
+<div class = "letter_start">    <img src="hiragana/sa/さ-bw.png" alt="さpng"> 
+  </div>
 <p class = "font_word">さいふ
 
   <audio id="audio1">

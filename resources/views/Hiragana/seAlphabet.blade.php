@@ -29,9 +29,10 @@
 </p>
     <div class = "letter_start">
 
-  <img src="hiragana/gif/se.gif" alt="せgif">
- <img src="/hiragana/se/せ-bw.png" alt="せpng">
+  <img class = "testBorder"  src="hiragana/gif/se.gif" alt="せgif">   
 </div><br>  
+<div class = "letter_start">  <img src="/hiragana/se/せ-bw.png" alt="せpng">
+   </div>
 
 <p class = "font_word">せっけん
 

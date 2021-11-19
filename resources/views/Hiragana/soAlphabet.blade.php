@@ -29,9 +29,10 @@
 </p>
     <div class = "letter_start">
 
-  <img src="hiragana/gif/so.gif" alt="そgif">
- <img src="/hiragana/so/そ-bw.png" alt="そpng">
+  <img  class="testBorder" src="hiragana/gif/so.gif" alt="そgif">
 </div><br>  
+<div class = "letter_start">   <img src="/hiragana/so/そ-bw.png" alt="そpng">
+  </div>
 
 <p class = "font_word">そうじ
 

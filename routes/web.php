@@ -182,9 +182,40 @@ Route::get('/gyoAlphabet', [Hiragana5qController::class, 'viewGyoAlphabet']);
 Route::get('/myaAlphabet', [Hiragana5qController::class, 'viewMyaAlphabet']);
 Route::get('/myuAlphabet', [Hiragana5qController::class, 'viewMyuAlphabet']);
 Route::get('/myoAlphabet', [Hiragana5qController::class, 'viewMyoAlphabet']);
+
 Route::get('/ryaAlphabet', [Hiragana5qController::class, 'viewRyaAlphabet']);
 Route::get('/ryuAlphabet', [Hiragana5qController::class, 'viewRyuAlphabet']);
 Route::get('/ryoAlphabet', [Hiragana5qController::class, 'viewRyoAlphabet']);
+
+Route::get('/nyaAlphabet', [Hiragana5qController::class, 'viewNyaAlphabet']);
+Route::get('/nyuAlphabet', [Hiragana5qController::class, 'viewNyuAlphabet']);
+Route::get('/nyoAlphabet', [Hiragana5qController::class, 'viewNyoAlphabet']);
+
+Route::get('/hyaAlphabet', [Hiragana5qController::class, 'viewHyaAlphabet']);
+Route::get('/hyuAlphabet', [Hiragana5qController::class, 'viewHyuAlphabet']);
+Route::get('/hyoAlphabet', [Hiragana5qController::class, 'viewHyoAlphabet']);
+
+
+Route::get('/byaAlphabet', [Hiragana5qController::class, 'viewByaAlphabet']);
+Route::get('/byuAlphabet', [Hiragana5qController::class, 'viewByuAlphabet']);
+Route::get('/byoAlphabet', [Hiragana5qController::class, 'viewByoAlphabet']);
+
+
+Route::get('/shaAlphabet', [Hiragana5qController::class, 'viewShaAlphabet']);
+Route::get('/shuAlphabet', [Hiragana5qController::class, 'viewShuAlphabet']);
+Route::get('/shoAlphabet', [Hiragana5qController::class, 'viewShoAlphabet']);
+
+Route::get('/jaAlphabet', [Hiragana5qController::class, 'viewJaAlphabet']);
+Route::get('/juAlphabet', [Hiragana5qController::class, 'viewJuAlphabet']);
+Route::get('/joAlphabet', [Hiragana5qController::class, 'viewJoAlphabet']);
+
+Route::get('/chaAlphabet', [Hiragana5qController::class, 'viewChaAlphabet']);
+Route::get('/chuAlphabet', [Hiragana5qController::class, 'viewChuAlphabet']);
+Route::get('/choAlphabet', [Hiragana5qController::class, 'viewChoAlphabet']);
+
+Route::get('/pyaAlphabet', [Hiragana5qController::class, 'viewPyaAlphabet']);
+Route::get('/pyuAlphabet', [Hiragana5qController::class, 'viewPyuAlphabet']);
+Route::get('/pyoAlphabet', [Hiragana5qController::class, 'viewPyoAlphabet']);
 
 Route::get('/intro', [Hiragana5qController::class, 'viewIntroPage']);
 Route::get('/construct', [Hiragana5qController::class, 'viewConstructPage']);
@@ -193,3 +224,4 @@ Route::get('/voicedConstruct', [Hiragana5qController::class, 'viewVoicedConstruc
 Route::get('/contractedIntro', [Hiragana5qController::class, 'viewContractedIntroPage']);
 Route::get('/contractedConstruct', [Hiragana5qController::class, 'viewContractedConstructPage']);
 Route::get('/home', [Hiragana5qController::class, 'viewHomePage']);
+Route::get('/end', [Hiragana5qController::class, 'viewEndPage']);

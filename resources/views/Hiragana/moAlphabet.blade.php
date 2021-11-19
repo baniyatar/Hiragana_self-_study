@@ -29,8 +29,9 @@
     <div class = "letter_start">
 
   <img class = "testBorder" src="hiragana/mo/mo.gif" alt="mogif">
-  <img src="hiragana/mo/も-bw.png" alt="もpng">
 </div><br>  
+<div class = "letter_start">   <img src="hiragana/mo/も-bw.png" alt="もpng">
+   </div>
 
 <p style="font-size: 50px;">くだ<span style="color: red;">も</span>の
 
