@@ -46,3 +46,14 @@
     border: 1px solid #000;
 
 }
+
+.outPopUp {
+    position: absolute;
+    z-index: 15;
+    top: 50%;
+    left: 45%;
+    margin: -100px 0 0 -150px;
+  }
+
+.testStyle{
+    padding-left: 25%;}
