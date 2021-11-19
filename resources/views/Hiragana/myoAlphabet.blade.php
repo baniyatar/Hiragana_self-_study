@@ -33,6 +33,7 @@
       <source src="hiragana/Myo/みょうじ.mp3" type="audio/mp3">
     </audio>
     <img style="vertical-align:middle;" src="hiragana/myo/sound-s.png" onclick="playSoundMyouji()">
+    <p style="font-size:50;">Last name</p>
     <br><img src="hiragana/myo/sample.png" alt="">
   </p>
 

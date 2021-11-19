@@ -37,7 +37,7 @@
     <source src="hiragana/sho/きょうかしょ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/sho/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size:50;">Textbook</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 <p style="font-size: 50px;">こ<span style="color: red;">しょ</span>う
@@ -46,7 +46,7 @@
     <source src="hiragana/sho/こしょう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/sho/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size:50;">Pepper</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -56,7 +56,7 @@
     <source src="hiragana/sho/しょくじ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/sho/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size:50;">Meal</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 

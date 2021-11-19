@@ -35,7 +35,7 @@
     <source src="hiragana/nya/にゃあにゃあ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/nya/sound-s.png" onclick="playSoundNyanya()">
-
+  <p style="font-size:50;">Cat's Meow</p>
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>

@@ -37,7 +37,7 @@
     <source src="hiragana/kyu/きゅうきゅうしゃ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/kyu/sound-s.png" onclick="playSoundOkyuukyuusha()">
-
+  <p style="font-size:50;">Ambulance
   <br><img src="hiragana/kyu/sample.png" alt="">
 </p>
 
@@ -46,7 +46,7 @@
     <source src="hiragana/kyu/きゅうじつ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/kyu/sound-s.png" onclick="playSoundKyuujitsu()">
-
+  <p style="font-size:50;">Holiday
   <br><img src="hiragana/kyu/sample.png" alt="">
 </p>
 
@@ -55,7 +55,7 @@
     <source src="hiragana/kyu/きゅうり.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/kyu/sound-s.png" onclick="playSoundKyuuri()">
-
+  <p style="font-size:50;">Cucumber
   <br><img src="hiragana/kyu/sample.png" alt="">
 </p>
 

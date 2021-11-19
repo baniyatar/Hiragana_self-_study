@@ -33,6 +33,7 @@
       <source src="hiragana/Mya/さんみゃく.mp3" type="audio/mp3">
     </audio>
     <img style="vertical-align:middle;" src="hiragana/mya/sound-s.png" onclick="playSoundSanmyaku()">
+    <p style="font-size:50;">Mountain belt / Mountain Range</p>
     <br><img src="hiragana/mya/sample.png" alt="">
   </p>
 

@@ -35,6 +35,7 @@
       <source src="hiragana/ryu/かいりゅう.mp3" type="audio/mp3">
     </audio>
     <img style="vertical-align:middle;" src="hiragana/ryu/sound-s.png" onclick="playSoundKairyuu()">
+    <p style="font-size:50;">Ocean Current</p>
     <br><img src="hiragana/ryu/sample.png" alt="">
   </p>
 
@@ -43,6 +44,7 @@
       <source src="hiragana/ryu/こうりゅう.mp3" type="audio/mp3">
     </audio>
     <img style="vertical-align:middle;" src="hiragana/ryu/sound-s.png" onclick="playSoundKouryuu()">
+    <p style="font-size:50;">Exchange</p>
     <br><img src="hiragana/ryu/sample.png" alt="">
   </p>
 
@@ -51,6 +53,7 @@
       <source src="hiragana/ryu/りゅうがくせい.mp3" type="audio/mp3">
     </audio>
     <img style="vertical-align:middle;" src="hiragana/ryu/sound-s.png" onclick="playSoundRyuugakusei()">
+    <p style="font-size:50;">Exchange student</p>
     <br><img src="hiragana/ryu/sample.png" alt="">
   </p>
 

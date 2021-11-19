@@ -35,6 +35,7 @@
       <source src="hiragana/ryo/りょうしん.mp3" type="audio/mp3">
     </audio>
     <img style="vertical-align:middle;" src="hiragana/ryo/sound-s.png" onclick="playSoundRyoushin()">
+    <p style="font-size:50;">Parents</p>
     <br><img src="hiragana/ryo/sample.png" alt="">
   </p>
 
@@ -43,6 +44,7 @@
       <source src="hiragana/ryo/りょうり.mp3" type="audio/mp3">
     </audio>
     <img style="vertical-align:middle;" src="hiragana/ryo/sound-s.png" onclick="playSoundRyouri()">
+    <p style="font-size:50;">Cooking</p>
     <br><img src="hiragana/ryo/sample.png" alt="">
   </p>
 
@@ -51,6 +53,7 @@
       <source src="hiragana/ryo/りょこう.mp3" type="audio/mp3">
     </audio>
     <img style="vertical-align:middle;" src="hiragana/ryo/sound-s.png" onclick="playSoundRyokou()">
+    <p style="font-size:50;">Trip</p>
     <br><img src="hiragana/ryo/sample.png" alt="">
   </p>
 

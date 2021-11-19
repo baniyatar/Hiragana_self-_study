@@ -37,7 +37,7 @@
     <source src="hiragana/shu/しゅくじつ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/shu/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size:50;">Public holiday</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 
@@ -47,7 +47,7 @@
     <source src="hiragana/shu/しゅくだい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/shu/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size:50;">Homework</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -57,7 +57,7 @@
     <source src="hiragana/shu/しゅみ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/shu/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size:50;">Hobby</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 

@@ -38,7 +38,7 @@
     <source src="hiragana/hya/ひゃく.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/hya/sound-s.png" onclick="playSoundhyaku()">
-
+  <p style="font-size:50;">Hundred</p>
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -49,7 +49,7 @@
     <source src="hiragana/hya/ひゃっかじてん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/hya/sound-s.png" onclick="playSoundhyaukajiten()">
-
+  <p style="font-size:50;">Encyclopedia</p>
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -61,7 +61,7 @@
     <source src="hiragana/hya/ひゃっかてん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/hya/sound-s.png" onclick="playSoundhyaukaten()">
-
+  <p style="font-size:50;">Department store</p>
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>

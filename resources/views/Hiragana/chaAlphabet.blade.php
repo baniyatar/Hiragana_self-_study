@@ -37,7 +37,7 @@
     <source src="hiragana/cha/おちゃ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/cha/sound-s.png" onclick="playSound1()">
-
+  <p style="font-size:50;">Tea</p>
   <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
 </p>
 <p style="font-size: 50px;">おも<span style="color: red;">ちゃ</span>
@@ -46,7 +46,7 @@
     <source src="hiragana/cha/おもちゃ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/cha/sound-s.png" onclick="playSound2()">
-
+  <p style="font-size:50;">Toys</p>
   <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
 </p>
 
@@ -56,7 +56,7 @@
     <source src="hiragana/cha/かぼちゃ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/cha/sound-s.png" onclick="playSound3()">
-
+  <p style="font-size:50;">Pumpkin</p>
   <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
 </p>
 

@@ -34,6 +34,7 @@
     <source src="hiragana/gyo/きんぎょ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/gyo/sound-s.png" onclick="playSoundKingyo()">
+  <p style="font-size:50;">Goldfish
   <br>
   <!--<img src="hiragana/yo/sample.png" alt="">-->
 </p>
@@ -42,6 +43,7 @@
     <source src="hiragana/gyo/ぎょうざ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/gyo/sound-s.png" onclick="playSoundGyouza()">
+  <p style="font-size:50;">Dumplings
   <br>
   <!--<img src="hiragana/yo/sample.png" alt="">-->
 </p>
@@ -50,6 +52,7 @@
     <source src="hiragana/gyo/じゅぎょう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/gyo/sound-s.png" onclick="playSoundJugyou()">
+  <p style="font-size:50;">Lesson
   <br>
   <!--<img src="hiragana/yo/sample.png" alt="">-->
 </p>

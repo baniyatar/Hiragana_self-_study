@@ -37,6 +37,8 @@
     <source src="hiragana/byo/びょう.mp3" type="audio/mp3">
   </audio>
 	<img style="vertical-align:middle;" src="hiragana/byo/sound-s.png" onclick="playSoundbyou()">
+  <p style="font-size:50;">Seconds Time</p>
+  <br>
 </p>
 
 <p style="font-size: 50px;"><span style="color: red;">びょ</span>ういん
@@ -44,7 +46,7 @@
     <source src="hiragana/byo/びょういん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/byo/sound-s.png" onclick="playSoundbyouin()">
-
+  <p style="font-size:50;">Hospital</p>
   <br>
   <!-- <img src="hiragana/byo/red.png" alt="">-->
 </p>
@@ -55,7 +57,7 @@
     <source src="hiragana/byo/びょうき.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/byo/sound-s.png" onclick="playSoundbyouki()">
-
+  <p style="font-size:50;">Sick</p>
   <br>
   <!-- <img src="hiragana/a/foot.png" alt="">-->
 </p>

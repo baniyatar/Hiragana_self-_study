@@ -37,7 +37,7 @@
     <source src="hiragana/kya/おきゃくさん.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/kya/sound-s.png" onclick="playSoundOkyakusan()">
-
+  <p style="font-size:50;">Guest / Customer</p>
   <br><img src="hiragana/kya/sample.png" alt="">
 </p>
 
@@ -46,7 +46,7 @@
     <source src="hiragana/kya/きゃくしつ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/kya/sound-s.png" onclick="playSoundKyakushitsu()">
-
+  <p style="font-size:50;">Guest Room / Passenger Cabin
   <br><img src="hiragana/kya/sample.png" alt="">
 </p>
 
@@ -55,7 +55,7 @@
     <source src="hiragana/kya/へんきゃく.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/kya/sound-s.png" onclick="playSoundHenkyaku()">
-
+  <p style="font-size:50;">Return
   <br><img src="hiragana/kya/sample.png" alt="">
 </p>
 

@@ -37,7 +37,7 @@
     <source src="hiragana/kyo/きょう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/kyo/sound-s.png" onclick="playSoundKyou()">
-
+  <p style="font-size:50;">Today
   <br><img src="hiragana/kyo/sample.png" alt="">
 </p>
 
@@ -46,7 +46,7 @@
     <source src="hiragana/kyo/きょうしつ.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/kyo/sound-s.png" onclick="playSoundKyoushitsu()">
-
+  <p style="font-size:50;">Classroom
   <br><img src="hiragana/kyo/sample.png" alt="">
 </p>
 
@@ -55,7 +55,7 @@
     <source src="hiragana/kyo/きょうだい.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/kyo/sound-s.png" onclick="playSoundKyoudai()">
-
+  <p style="font-size:50;">Siblings / Sister and Brother
   <br><img src="hiragana/kyo/sample.png" alt="">
 </p>
 

@@ -34,6 +34,7 @@
       <source src="hiragana/rya/がいりゃく.mp3" type="audio/mp3">
     </audio>
     <img style="vertical-align:middle;" src="hiragana/rya/sound-s.png" onclick="playSoundGairyaku()">
+    <p style="font-size:50;">Outline</p>
     <br><img src="hiragana/rya/sample.png" alt="">
   </p>
 
@@ -42,6 +43,7 @@
       <source src="hiragana/rya/しょうりゃく.mp3" type="audio/mp3">
     </audio>
     <img style="vertical-align:middle;" src="hiragana/rya/sound-s.png" onclick="playSoundShouryaku()">
+    <p style="font-size:50;">Omission / Abbreviation</p>
     <br><img src="hiragana/rya/sample.png" alt="">
   </p>
 

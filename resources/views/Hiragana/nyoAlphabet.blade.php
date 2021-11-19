@@ -36,7 +36,7 @@
     <source src="hiragana/nyo/にょう.mp3" type="audio/mp3">
   </audio>
   <img style="vertical-align:middle;" src="hiragana/nyo/sound-s.png" onclick="playSoundnyou()">
-
+  <p style="font-size:50;">Urine</p>
   <br>
   <!-- <img src="hiragana/a/red.png" alt="">-->
 </p>
@@ -47,7 +47,7 @@
       <source src="hiragana/nyo/にょうばう.mp3" type="audio/mp3">
     </audio>
     <img style="vertical-align:middle;" src="hiragana/nyo/sound-s.png" onclick="playSoundnyoubau()">
-  
+    <p style="font-size:50;">Wife</p>
     <br>
     <!-- <img src="hiragana/a/red.png" alt="">-->
   </p>
