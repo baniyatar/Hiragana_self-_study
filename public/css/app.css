@@ -57,3 +57,21 @@
 
 .testStyle{
     padding-left: 25%;}
+
+    .outPopUpForPhone {
+        position: absolute;
+        z-index: 15;
+        top: 40%;
+        left: 35%;
+        margin: -100px 0 0 -150px;
+      }
+
+.button-phone-size{
+    width:300px;
+    height:200px;
+    font-size:50px;
+
+}
+
+/* .testStylePhone{
+    padding-left: 15%;} */
