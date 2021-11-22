@@ -1228,6 +1228,21 @@ class Hiragana5qController extends Controller
                case "voicedConstruct":
                   return view('Hiragana/voicedConstruct');
                   break;
+               case "ga":
+                  return view('Hiragana/gaAlphabet');
+                  break;
+               case "gi":
+                  return view('Hiragana/giAlphabet');
+                  break;
+               case "gu":
+                  return view('Hiragana/guAlphabet');
+                  break;
+               case "ge":
+                  return view('Hiragana/geAlphabet');
+                  break;
+                  case "go":
+                     return view('Hiragana/goAlphabet');
+                     break;
                case "za":
                   return view('Hiragana/zaAlphabet');
                   break;
@@ -1243,124 +1258,6 @@ class Hiragana5qController extends Controller
                case "zo":
                   return view('Hiragana/zoAlphabet');
                   break;
-               case "kya":
-                  return view('Hiragana/kyaAlphabet');
-                  break;
-               case "kyu":
-                  return view('Hiragana/kyuAlphabet');
-                  break;
-               case "kyo":
-                  return view('Hiragana/kyoAlphabet');
-                  break;
-               case "pa":
-                  return view('Hiragana/paAlphabet');
-                  break;
-               case "pi":
-                  return view('Hiragana/piAlphabet');
-                  break;
-               case "pu":
-                  return view('Hiragana/puAlphabet');
-                  break;
-               case "pe":
-                  return view('Hiragana/peAlphabet');
-                  break;
-               case "po":
-                  return view('Hiragana/poAlphabet');
-                  break;
-
-               case "contractedIntro":
-                  return view('Hiragana/contractedIntro');
-                  break;
-               case "contractedConstruct":
-                  return view('Hiragana/contractedConstruct');
-                  break;
-               case "gya":
-                  return view('Hiragana/gyaAlphabet');
-                  break;
-               case "gyu":
-                  return view('Hiragana/gyuAlphabet');
-                  break;
-               case "gyo":
-                  return view('Hiragana/gyoAlphabet');
-                  break;
-               case "pya":
-                  return view('Hiragana/pyaAlphabet');
-                  break;
-               case "pyu":
-                  return view('Hiragana/pyuAlphabet');
-                  break;
-               case "pyo":
-                  return view('Hiragana/pyoAlphabet');
-                  break;
-               case "ga":
-                  return view('Hiragana/gaAlphabet');
-                  break;
-               case "gi":
-                  return view('Hiragana/giAlphabet');
-                  break;
-               case "gu":
-                  return view('Hiragana/guAlphabet');
-                  break;
-               case "ge":
-                  return view('Hiragana/geAlphabet');
-                  break;
-               case "go":
-                  return view('Hiragana/goAlphabet');
-                  break;
-               case "nya":
-                  return view('Hiragana/nyaAlphabet');
-                  break;
-               case "nyu":
-                  return view('Hiragana/nyuAlphabet');
-                  break;
-               case "nyo":
-                  return view('Hiragana/nyoAlphabet');
-                  break;
-               case "hya":
-                  return view('Hiragana/hyaAlphabet');
-                  break;
-               case "hyu":
-                  return view('Hiragana/hyuAlphabet');
-                  break;
-               case "hyo":
-                  return view('Hiragana/hyoAlphabet');
-                  break;
-               case "bya":
-                  return view('Hiragana/byaAlphabet');
-                  break;
-               case "byu":
-                  return view('Hiragana/byuAlphabet');
-                  break;
-               case "byo":
-                  return view('Hiragana/byoAlphabet');
-                  break;
-
-               case "sha":
-                  return view('Hiragana/shaAlphabet');
-                  break;
-               case "shu":
-                  return view('Hiragana/shuAlphabet');
-                  break;
-               case "sho":
-                  return view('Hiragana/shoAlphabet');
-                  break;
-               case "ja":
-                  return view('Hiragana/jaAlphabet');
-                  break;
-               case "ju":
-                  return view('Hiragana/juAlphabet');
-                  break;
-               case "jo":
-                  return view('Hiragana/joAlphabet');
-                  break;
-               case "cha":
-                  return view('Hiragana/chaAlphabet');
-                  break;
-               case "chu":
-                  return view('Hiragana/chuAlphabet');
-                  break;
-               case "cho":
-                  return view('Hiragana/choAlphabet');
                case "da":
                   return view('Hiragana/daAlphabet');
                   break;
@@ -1390,6 +1287,107 @@ class Hiragana5qController extends Controller
                   break;
                case "bo":
                   return view('Hiragana/boAlphabet');
+                  break;
+               case "pa":
+                  return view('Hiragana/paAlphabet');
+                  break;
+               case "pi":
+                  return view('Hiragana/piAlphabet');
+                  break;
+               case "pu":
+                  return view('Hiragana/puAlphabet');
+                  break;
+               case "pe":
+                  return view('Hiragana/peAlphabet');
+                  break;
+               case "po":
+                  return view('Hiragana/poAlphabet');
+                  break;
+               case "contractedIntro":
+                  return view('Hiragana/contractedIntro');
+                  break;
+               case "contractedConstruct":
+                  return view('Hiragana/contractedConstruct');
+                  break;
+               case "kya":
+                  return view('Hiragana/kyaAlphabet');
+                  break;
+               case "kyu":
+                  return view('Hiragana/kyuAlphabet');
+                  break;
+               case "kyo":
+                  return view('Hiragana/kyoAlphabet');
+                  break;
+               case "gya":
+                  return view('Hiragana/gyaAlphabet');
+                  break;
+               case "gyu":
+                  return view('Hiragana/gyuAlphabet');
+                  break;
+               case "gyo":
+                  return view('Hiragana/gyoAlphabet');
+                  break;
+               case "sha":
+                  return view('Hiragana/shaAlphabet');
+                  break;
+               case "shu":
+                  return view('Hiragana/shuAlphabet');
+                  break;
+               case "sho":
+                  return view('Hiragana/shoAlphabet');
+                  break;
+               case "ja":
+                  return view('Hiragana/jaAlphabet');
+                  break;
+               case "ju":
+                  return view('Hiragana/juAlphabet');
+                  break;
+               case "jo":
+                  return view('Hiragana/joAlphabet');
+                  break;
+               case "cha":
+                  return view('Hiragana/chaAlphabet');
+                  break;
+               case "chu":
+                  return view('Hiragana/chuAlphabet');
+                  break;
+               case "cho":
+                  return view('Hiragana/choAlphabet');
+               case "nya":
+                  return view('Hiragana/nyaAlphabet');
+                  break;
+               case "nyu":
+                  return view('Hiragana/nyuAlphabet');
+                  break;
+               case "nyo":
+                  return view('Hiragana/nyoAlphabet');
+                  break;
+               case "hya":
+                  return view('Hiragana/hyaAlphabet');
+                  break;
+               case "hyu":
+                  return view('Hiragana/hyuAlphabet');
+                  break;
+               case "hyo":
+                  return view('Hiragana/hyoAlphabet');
+                  break;
+               case "bya":
+                  return view('Hiragana/byaAlphabet');
+                  break;
+               case "byu":
+                  return view('Hiragana/byuAlphabet');
+                  break;
+               case "byo":
+                  return view('Hiragana/byoAlphabet');
+                  break;
+               case "pya":
+                  return view('Hiragana/pyaAlphabet');
+                  break;
+               case "pyu":
+                  return view('Hiragana/pyuAlphabet');
+                  break;
+               case "pyo":
+                  return view('Hiragana/pyoAlphabet');
                   break;
                case "mya":
                   return view('Hiragana/myaAlphabet');

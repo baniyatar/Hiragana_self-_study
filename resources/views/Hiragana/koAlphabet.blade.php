@@ -64,7 +64,7 @@
 
       <img class="testBorder" src="hiragana/ko/ko.gif" alt="こgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/ko/こ.png" style="width: 80%;" alt="こpng">
+    <div class="letter_start"> <img src="hiragana/ko/こ.png" style="width: 70%;" alt="こpng">
     </div>
 
     <p class="font_word">こうえん

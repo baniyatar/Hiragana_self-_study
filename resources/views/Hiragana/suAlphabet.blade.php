@@ -64,7 +64,7 @@
 
       <img class="testBorder" src="hiragana/gif/su.gif" alt="すgif">
     </div><br>
-    <div class="letter_start"> <img src="/hiragana/su/す-bw.png" style="width: 80%;" alt="すpng">
+    <div class="letter_start"> <img src="/hiragana/su/す-bw.png" style="width: 70%;" alt="すpng">
     </div>
 
     <p class="font_word">すいえい

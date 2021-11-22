@@ -64,7 +64,7 @@
 
       <img class="testBorder" src="hiragana/hi/hi.gif" alt="ひgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/hi/ひ.png" style="width: 50%;" alt="ひpng">
+    <div class="letter_start"> <img src="hiragana/hi/ひ.png" style="width: 40%;" alt="ひpng">
     </div>
 
     <p class="font_word">ひこうき

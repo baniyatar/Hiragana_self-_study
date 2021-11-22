@@ -64,7 +64,7 @@
 
       <img class="testBorder" src="hiragana/mi/mi.gif" alt="みgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/mi/み-bw.png" style="width: 80%;" alt="みpng">
+    <div class="letter_start"> <img src="hiragana/mi/み-bw.png" style="width: 70%;" alt="みpng">
     </div>
 
     <p class="font_word">みかん

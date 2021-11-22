@@ -57,7 +57,7 @@
 
       <img class="testBorder" src="hiragana/zu/zu.gif" alt="ずgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/zu/ず.png" alt="ずpng">
+    <div class="letter_start"> <img src="hiragana/zu/ず.png" style="width: 80%; "alt="ずpng">
     </div>
 
     <p style="font-size:50px;">か<span style="color:red;">ず</span>

@@ -57,7 +57,7 @@
 
       <img class="testBorder" src="hiragana/do/do.gif" alt="どgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/do/ど.png" alt="どpng">
+    <div class="letter_start"> <img src="hiragana/do/ど.png" style="width: 80%;" alt="どpng">
     </div>
 
     <p class="font_word">どうぶつ

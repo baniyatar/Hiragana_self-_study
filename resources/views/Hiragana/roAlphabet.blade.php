@@ -64,7 +64,7 @@
 
       <img class="testBorder" src="hiragana/ro/ro.gif" alt="ろgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/ro/ろ.png" style="width: 50%;" alt="ろpng">
+    <div class="letter_start"> <img src="hiragana/ro/ろ.png" style="width: 35%;" alt="ろpng">
     </div>
 
     <p style="font-size: 50px;">い<span style="color: red;">ろ</span>
