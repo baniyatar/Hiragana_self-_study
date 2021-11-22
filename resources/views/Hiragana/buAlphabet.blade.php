@@ -58,7 +58,7 @@
       <img class="testBorder" src="hiragana/bu/bu.gif" alt="ぶgif">
 
     </div><br>
-    <div class="letter_start"> <img src="hiragana/bu/ぶ.png" alt="ぶpng"> </div>
+    <div class="letter_start"> <img src="hiragana/bu/ぶ.png" style="width: 100%;" alt="ぶpng"> </div>
 
     <p style="font-size: 50px;">どう<span style="color: red;">ぶ</span>つ
 

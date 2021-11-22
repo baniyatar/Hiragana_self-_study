@@ -2,10 +2,10 @@
     position: fixed;
     font-family: serif;
     font-size: 30px;
-    top: 50px;
-    left: 50px;
-    bottom: 150px;
-    right: 50px;
+    top: 30px;
+    left: 30px;
+    bottom: 140px;
+    right: 30px;
     border: 0px solid #000;
       overflow-y: scroll;
 }

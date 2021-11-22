@@ -64,7 +64,7 @@
 
       <img class="testBorder" src="hiragana/wa/wa.gif" alt="わgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/wa/わ.png" alt="わpng">
+    <div class="letter_start"> <img src="hiragana/wa/わ.png" style="width: 80%;" alt="わpng">
     </div>
     <p style="font-size: 50px;">か<span style="color: red;">わ</span>
 

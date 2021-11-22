@@ -56,7 +56,7 @@
 
       <img class="testBorder" src="hiragana/gi/gi.gif" alt="gagif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/gi/gi.png" alt="gapng">
+    <div class="letter_start"> <img src="hiragana/gi/gi.png" style="width: 100%;" alt="gapng">
     </div>
 
 

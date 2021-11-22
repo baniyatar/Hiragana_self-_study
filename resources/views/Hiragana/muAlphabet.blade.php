@@ -64,7 +64,7 @@
 
       <img class="testBorder" src="hiragana/mu/mu.gif" alt="むgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/mu/む-bw.png" alt="むpng">
+    <div class="letter_start"> <img src="hiragana/mu/む-bw.png" style="width: 80%;" alt="むpng">
     </div>
 
     <p class="font_word">むいか

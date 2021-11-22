@@ -64,7 +64,7 @@
 
       <img class="testBorder" src="hiragana/ya/Ya.gif" alt="やgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/ya/や.png" alt="やpng">
+    <div class="letter_start"> <img src="hiragana/ya/や.png" style="width: 80%;" alt="やpng">
     </div>
 
     <p class="font_word">やお<span style="color: red;">や</span>

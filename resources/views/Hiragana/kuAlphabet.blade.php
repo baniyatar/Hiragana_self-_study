@@ -64,7 +64,7 @@
 
       <img class="testBorder" src="hiragana/ku/ku.gif" alt="くgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/ku/く.png" alt="くpng">
+    <div class="letter_start"> <img src="hiragana/ku/く.png" style="width: 50%;" alt="くpng">
     </div>
 
     <p class="font_word">くだもの

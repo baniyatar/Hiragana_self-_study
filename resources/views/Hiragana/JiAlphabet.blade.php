@@ -56,7 +56,7 @@
 
       <img class="testBorder" src="hiragana/ji/ji.gif" alt="じgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/ji/じ.png" alt="じpng">
+    <div class="letter_start"> <img src="hiragana/ji/じ.png" style="width: 80%;" alt="じpng">
     </div>
 
     <p class="font_word">じかん

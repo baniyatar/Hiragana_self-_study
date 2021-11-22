@@ -64,7 +64,7 @@
 
       <img class="testBorder" src="hiragana/na/na.gif" alt="なgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/na/な.png" alt="なpng">
+    <div class="letter_start"> <img src="hiragana/na/な.png" style="width: 80%;" alt="なpng">
     </div>
 
     <p class="font_word">ながい

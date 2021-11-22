@@ -64,7 +64,7 @@
 
       <img class="testBorder" src="hiragana/tsu/tsu.gif" alt="つgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/tsu/つ.png" alt="つpng">
+    <div class="letter_start"> <img src="hiragana/tsu/つ.png" style="width: 50%;" alt="つpng">
     </div>
 
     <p class="font_word">つかれた

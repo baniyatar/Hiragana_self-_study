@@ -64,7 +64,7 @@
 
       <img class="testBorder" src="hiragana/fu/fu.gif" alt="くgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/fu/ふ.png" alt="ふpng">
+    <div class="letter_start"> <img src="hiragana/fu/ふ.png" style="width: 80%;" alt="ふpng">
     </div>
 
     <p class="font_word">ふく

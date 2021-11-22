@@ -64,7 +64,7 @@
 
       <img class="testBorder" src="hiragana/ta/ta.gif" alt="たgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/ta/た.png" alt="たpng">
+    <div class="letter_start"> <img src="hiragana/ta/た.png" style="width: 80%;" alt="たpng">
     </div>
 
     <p class="font_word">たいしかん

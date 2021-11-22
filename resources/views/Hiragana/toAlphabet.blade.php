@@ -64,7 +64,7 @@
 
       <img class="testBorder" src="hiragana/to/to.gif" alt="とgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/to/と.png" alt="とpng">
+    <div class="letter_start"> <img src="hiragana/to/と.png" style="width: 60%;" alt="とpng">
     </div>
 
     <p class="font_word">とけい

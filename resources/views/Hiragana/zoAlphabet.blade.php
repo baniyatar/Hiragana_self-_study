@@ -57,7 +57,7 @@
 
       <img class="testBorder" src="hiragana/zo/zo.gif" alt="ぞgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/zo/ぞ.png" alt="ぞpng">
+    <div class="letter_start"> <img src="hiragana/zo/ぞ.png" style="width: 80%;" alt="ぞpng">
     </div>
 
     <p style="font-size:50px;">あお<span style="color:red;">ぞ</span>ら

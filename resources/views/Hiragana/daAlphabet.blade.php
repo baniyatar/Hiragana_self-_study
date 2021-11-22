@@ -57,7 +57,7 @@
 
       <img class="testBorder" src="hiragana/da/da.gif" alt="だgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/da/だ.png" alt="だpng">
+    <div class="letter_start"> <img src="hiragana/da/だ.png" style="width: 100%;" alt="だpng">
     </div>
 
     <p class="font_word">だいがく

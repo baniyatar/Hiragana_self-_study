@@ -64,7 +64,7 @@
 
       <img class="testBorder" src="hiragana/ma/ma.gif" alt="まgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/ma/ま.png" alt="まpng">
+    <div class="letter_start"> <img src="hiragana/ma/ま.png" style="width: 80%;" alt="まpng">
     </div>
 
     <p class="font_word">まいにち

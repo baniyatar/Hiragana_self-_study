@@ -51,7 +51,7 @@
       <img class="testBorder" src="hiragana/pe/pe.gif" alt="pegif">
     </div><br>
 
-    <div class="letter_start"> <img src="hiragana/pe/pe.png" alt="gapng">
+    <div class="letter_start"> <img src="hiragana/pe/pe.png" style="width: 80%;" alt="gapng">
     </div>
 
 

@@ -57,7 +57,7 @@
 
       <img class="testBorder" src="hiragana/gu/gu.gif" alt="gagif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/gu/gu.png" alt="gapng">
+    <div class="letter_start"> <img src="hiragana/gu/gu.png" style="width: 80%;" alt="gapng">
     </div>
 
     <p style="font-size: 50px;">いり<span style="color: red;">ぐ</span>ち

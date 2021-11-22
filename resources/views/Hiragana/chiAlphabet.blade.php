@@ -65,7 +65,7 @@
       <img class="testBorder" src="hiragana/chi/chi.gif" alt="ちgif">
 
     </div><br>
-    <div class="letter_start"> <img src="hiragana/chi/ち.png" alt="ちpng"> </div>
+    <div class="letter_start"> <img src="hiragana/chi/ち.png" style="width: 60%;" alt="ちpng"> </div>
 
     <p class="font_word">ちいさい
 

@@ -64,7 +64,7 @@
 
       <img class="testBorder" src="hiragana/ke/ke.gif" alt="けgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/ke/け.png" alt="けpng">
+    <div class="letter_start"> <img src="hiragana/ke/け.png" style="width: 80%;" alt="けpng">
     </div>
 
     <p class="font_word">けいさつ

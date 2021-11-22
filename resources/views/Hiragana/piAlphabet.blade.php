@@ -57,7 +57,7 @@
 
       <img class="testBorder" src="hiragana/pi/pi.gif" alt="pigif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/pi/pi.png" alt="gapng">
+    <div class="letter_start"> <img src="hiragana/pi/pi.png" style="width: 80%;" alt="gapng">
     </div>
 
     <p style="font-size: 50px;">えん<span style="color: red;">ぴ</span>つ

@@ -50,7 +50,7 @@
 
       <img class="testBorder" src="hiragana/du/du.gif" alt="づgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/du/づ.png" alt="づpng">
+    <div class="letter_start"> <img src="hiragana/du/づ.png" style="width: 80%;" alt="づpng">
     </div>
 
     <p style="font-size: 50px;">おこ<span style="color: red;">づ</span>かい

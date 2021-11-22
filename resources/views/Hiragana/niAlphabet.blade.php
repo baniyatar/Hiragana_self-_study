@@ -64,7 +64,7 @@
 
       <img class="testBorder" src="hiragana/ni/ni.gif" alt="にgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/ni/に.png" alt="にpng">
+    <div class="letter_start"> <img src="hiragana/ni/に.png" style="width: 80%;" alt="にpng">
     </div>
 
     <p class="font_word">にく

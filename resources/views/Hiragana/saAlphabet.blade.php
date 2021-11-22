@@ -64,7 +64,7 @@
 
       <img class="testBorder" src="hiragana/gif/sa.gif" alt="さgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/sa/さ-bw.png" alt="さpng">
+    <div class="letter_start"> <img src="hiragana/sa/さ-bw.png" style="width: 80%;" alt="さpng">
     </div>
     <p class="font_word">さいふ
 

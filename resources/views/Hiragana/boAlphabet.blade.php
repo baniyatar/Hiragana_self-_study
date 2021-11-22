@@ -58,7 +58,7 @@
       <img class="testBorder" src="hiragana/bo/bo.gif" alt="ぼgif">
 
     </div><br>
-    <div class="letter_start"> <img src="hiragana/bo/ぼ.png" alt="ぼpng"> </div>
+    <div class="letter_start"> <img src="hiragana/bo/ぼ.png" style="width: 100%;" alt="ぼpng"> </div>
 
     <p style="font-size: 50px;">そ<span style="color: red;">ぼ</span>
 

@@ -64,7 +64,7 @@
 
       <img class="testBorder" src="hiragana/ha/ha.gif" alt="はgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/ha/は.png" alt="はpng">
+    <div class="letter_start"> <img src="hiragana/ha/は.png" style="width: 80%;" alt="はpng">
     </div>
 
     <p class="font_word">は

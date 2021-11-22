@@ -57,7 +57,7 @@
 
       <img class="testBorder" src="hiragana/be/be.gif" alt="べgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/be/べ.png" alt="べpng"></div>
+    <div class="letter_start"> <img src="hiragana/be/べ.png" style="width: 80%;" alt="べpng"></div>
 
     <p style="font-size: 50px;">お<span style="color: red;">べ</span>んとう
 

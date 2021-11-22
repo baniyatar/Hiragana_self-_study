@@ -64,7 +64,7 @@
 
       <img class="testBorder" src="hiragana/yu/yu.gif" alt="ゆgif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/yu/ゆ.png" alt="ゆpng">
+    <div class="letter_start"> <img src="hiragana/yu/ゆ.png" style="width: 80%;" alt="ゆpng">
     </div>
 
     <p class="font_word">ゆうがた
