@@ -12,13 +12,14 @@
     </head>
     <body>
 	<div class="box">
-		<div style="font-weight:bold">Let's study contracted sound</div>
+	<div style="font-weight:bold"><ruby><rb>拗音</rb><rt>ようおん</rt></ruby></div>
+		<div style="font-weight:bold">Contracted sound</div>
 		<br>
-		<p>「きゃ」「きゅ」「きょ」などの<ruby><rb>拗音</rb><rt>ようおん</rt></ruby>を<ruby><rb>勉強</rb><rt>べんきょう</rt></ruby>しましょう。</p>
-		<p>Let's study contracted sounds きゃ、きゅ、きょ and so on.
+		<p>　ここでは「きゃ(Kya)」「きゅ(Kyu)」「きょ(Kyo)」などの<ruby><rb>拗音</rb><rt>ようおん</rt></ruby>を<ruby><rb>勉強</rb><rt>べんきょう</rt></ruby>しましょう。</p>
+		<p>　Let's study contracted sounds such as “きゃ(Kya)”、 “きゅ(Kyu)”、 “きょ(Kyo)”.</p>
 		<br>
-		<p>「きゃ」や「きゅ」や「きょ」などの「や」「ゆ」「よ」は<ruby><rb>小</rb><rt>ちい</rt></ruby>さく<ruby><rb>書</rb><rt>か</rt></ruby>きます。</p>
-		<p>や、ゆ、よ in きゃ、きゅ、きょ and so on are wrote in small.</p>
+		<p>　「きゃ(Kya)」「きゅ(Kyu)」「きょ(Kyo)」などの<ruby><rb>拗音</rb><rt>ようおん</rt></ruby>は「き(Ki)」はふつうの<ruby><rb>大</rb><rt>おお</rt></ruby>きさですが、つぎの「ゃ(ya)」「ゅ(yu)」「ょ(yo)」は<ruby><rb>小</rb><rt>ちい</rt></ruby>さく<ruby><rb>書</rb><rt>か</rt></ruby>きます。</p>
+		<p>　In Contracted sounds such as “きゃ(Kya)”,  “きゅ(Kyu)”, and “きょ(Kyo)”, “き(Ki)” in “きゃ(Kya)”,  “きゅ(Kyu)”, and “きょ(Kyo)” is written in normal size, but the following “ゃ(ya)”, “ゅ(yu)”, and “ょ(yo)” are written in small size.</p>
 	</div>
 	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
 	<button class="prev_btn" onclick="location.href='{{ url('/poAlphabet')}}'">&lt;PREV</button>

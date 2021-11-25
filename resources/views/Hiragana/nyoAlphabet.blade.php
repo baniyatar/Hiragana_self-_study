@@ -63,7 +63,7 @@
     <!-- <img src="hiragana/a/red.png" alt="">-->
     </p>
 
-    <p style="font-size: 50px;"><span style="color: red;">にょ</span>うばう
+    <p style="font-size: 50px;"><span style="color: red;">にょ</span>うぼう
 
       <audio id="audio2">
         <source src="hiragana/nyo/にょうばう.mp3" type="audio/mp3">

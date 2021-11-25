@@ -72,6 +72,8 @@
     font-size:50px;
 
 }
-
+.card .card-header {
+    font-weight: normal;
+  }
 /* .testStylePhone{
     padding-left: 15%;} */

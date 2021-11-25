@@ -73,7 +73,7 @@
         <source src="hiragana/to/とけい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/to/sound-s.png" onclick="playSound1()">
-    <p style="font-size: 50;">Clock; Watch</p>
+    <p style="font-size: 50;">Clock / Watch</p>
     <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
     </p>
     <p class="font_word">としょかん

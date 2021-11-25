@@ -30,10 +30,6 @@
 <div class = "letter_start">    <img src="hiragana/di/ぢ.png" style="width: 80%;" alt="ぢpng">
   </div>
 
-<p>「ぢ」は<ruby><rb>語</rb><rt>ご</rt><rb>彙</rb><rt>い</rt></ruby>のなかで<ruby><rb>使</rb><rt>つか</rt></ruby>われることはありません。
-  <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
-</p>
-
 	</div>
 	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
 	<button class="prev_btn" onclick="location.href='{{ url('/daAlphabet')}}'">&lt;PREV</button>

@@ -19,7 +19,7 @@
   <div class="box">
     <p style=" text-align:center;font-size:34pt; font-weight:bold"> <ruby><rb>勉強</rb><rt>べんきょう</rt></ruby>したい<ruby><rb>文字</rb><rt>もじ</rt></ruby>をクリックしてください。</p>
     <p style=" text-align:center;font-size:34pt; font-weight:bold"> Click Letter You Want To Study.</p>
-    <table border="1" style="font-size:8vw; font-family: serif; border: 1px">
+    <table border="1" style="font-size:8vw; font-family: serif; border: 1px; margin-left:auto">
 
 
 
@@ -198,7 +198,7 @@
     <br><br><br>
 
 
-    <table border="1" style="font-size: 8vw; font-family: serif;">
+    <table border="1" style="font-size: 8vw; font-family: serif; border: 1px; margin-left:auto">
       <tbody>
         <tr>
           <td><a href="{{ url('/paAlphabet')}}">
@@ -295,7 +295,7 @@
     </table>
     <br><br><br>
 
-    <table border="1" style="font-size: 7vw; font-family: serif;">
+    <table border="1" style="font-size: 7vw; font-family: serif; border: 1px; margin-left:auto">
       <tbody>
         <tr>
           <td><a href="{{ url('/ryaAlphabet')}}">

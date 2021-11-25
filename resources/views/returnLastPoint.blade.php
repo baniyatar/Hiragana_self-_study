@@ -63,7 +63,7 @@
                               <rt>きょう</rt>
                            </ruby>しますか？</div>
                         </br>
-                        <div>Continue? From the last time stopping point</div>
+                        <div>Do you want to continue from the previous stopping point?</div>
                         </br>
 
                      </div>
@@ -104,7 +104,7 @@
                            </ruby>しますか？</div>
 
                         </br>
-                        <div>Continue? From the last time stopping point</div>
+                        <div>Do you want to continue from the previous stopping point?</div>
                         </br>
 
                      </div>

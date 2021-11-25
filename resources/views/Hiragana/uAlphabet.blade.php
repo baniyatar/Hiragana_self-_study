@@ -73,7 +73,7 @@
         <source src="hiragana/u/うえ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/u/sound-s.png" onclick="playSoundUe()">
-    <p style="font-size: 50;">Above; Up</p>
+    <p style="font-size: 50;">Above / Up</p>
     <!-- <br><img src="hiragana/a/red.png" alt=""> -->
     </p>
     <p class="font_word">うし

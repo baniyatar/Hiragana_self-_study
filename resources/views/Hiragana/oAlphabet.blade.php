@@ -73,7 +73,7 @@
         <source src="hiragana/o/おさら.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/o/sound-s.png" onclick="playSoundOsara()">
-    <p style="font-size: 50;">Plate; Dish</p>
+    <p style="font-size: 50;">Plate / Dish</p>
     <!-- <br><img src="hiragana/o/red.png" alt=""> -->
     </p>
     <p class="font_word">おとこ
