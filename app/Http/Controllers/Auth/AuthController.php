@@ -64,10 +64,10 @@ class AuthController extends Controller
    'username' => 'required|alpha_num|unique:user|regex:/(^[A-Za-z0-9 ]+$)+/',
    'password' => 'required|min:6|regex:/^[ A-Za-z0-9_!"@#$%^&()*]*$/',
    'email' => 'required|email:rfc,dns,filter',
-   'firstname' => 'required|alpha|regex:/(^[A-Za-z ]+$)+/',
-   'surname' => 'required|alpha|regex:/(^[A-Za-z ]+$)+/',
+   'firstname' => 'required|regex:/(^[A-Za-z0-9 -]+$)+/',
+   'surname' => 'required|regex:/(^[A-Za-z0-9 -]+$)+/',
    'city' => 'required|regex:/(^[A-Za-z0-9 -]+$)+/',
-   'country' => 'required|alpha_num|regex:/(^[A-Za-z0-9 ]+$)+/',
+   'country' => 'required|regex:/(^[A-Za-z0-9 -]+$)+/',
    ]);
 
    $data = $request->all();

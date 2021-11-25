@@ -54,7 +54,7 @@
                                         登録名<rp></rp>
                                         <rt>とうろくめい</rt>
                                         <rp></rp>
-                                    </ruby> Username <small class="form-text text-muted">アルファベットで in alphabet</small></label>
+                                    </ruby> Username <small class="form-text text-muted">アルファベットで　in alphabet</small></label>
                                 <div class="col-md-6">
                                     <input type="text" id="username" class="form-control{{ $errors->has('username') ? ' is-invalid' : '' }}" name="username" name="username" value="{{ old('username') }}" required autofocus>
 
@@ -74,7 +74,7 @@
                                     <small id="password" class="form-text text-muted"> 6 <ruby> 桁以上<rp></rp>
                                             <rt> けたいじょう</rt>
                                             <rp></rp>
-                                        </ruby> 6 digits or more</small></label>
+                                        </ruby>　6 digits or more</small></label>
 
                                 <div class="col-md-6">
                                     <input type="password" id="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" value="{{ old('password') }}" data-error=" email address is invalid" required autofocus>
@@ -108,7 +108,7 @@
                             <div class="form-group row">
                                 <label for="firstname" class="col-md-4 col-form-label text-md-right"><ruby>名<rp></rp>
                                         <rt>めい</rt>
-                                    </ruby> Firstname<small class="form-text text-muted">アルファベットで in alphabet</small></label>
+                                    </ruby> Firstname<small class="form-text text-muted">アルファベットで　in alphabet</small></label>
                                 <div class="col-md-6">
                                     <input type="text" id="firstname" class="form-control{{ $errors->has('firstname') ? ' is-invalid' : '' }}" name="firstname" value="{{ old('firstname') }}" required autofocus>
                                     @if ($errors->has('firstname'))
@@ -122,7 +122,7 @@
                             <div class="form-group row">
                                 <label for="surname" class="col-md-4 col-form-label text-md-right"><ruby>姓<rp></rp>
                                         <rt>せい</rt>
-                                    </ruby> Surname <small class="form-text text-muted">アルファベットで in alphabet</small></label>
+                                    </ruby> Surname <small class="form-text text-muted">アルファベットで　in alphabet</small></label>
                                 <div class="col-md-6">
                                     <input type="text" id="surname" class="form-control{{ $errors->has('surname') ? ' is-invalid' : '' }}" name="surname" value="{{ old('surname') }}" required autofocus>
                                     @if ($errors->has('surname'))
@@ -144,7 +144,7 @@
                                         <rt>まち</rt>
                                         <rp>)</rp>
                                     </ruby>
-                                    City/town <small class="form-text text-muted">アルファベットで in alphabet</small></label>
+                                    City/town <small class="form-text text-muted">アルファベットで　in alphabet</small></label>
                                 <div class="col-md-6">
                                     <input type="text" id="city" class="form-control{{ $errors->has('city') ? ' is-invalid' : '' }}" name="city" value="{{ old('city') }}" required autofocus>
                                     @if ($errors->has('city'))
@@ -161,7 +161,7 @@
                                         国<rp>(</rp>
                                         <rt>くに</rt>
                                         <rp>)</rp>
-                                    </ruby> Country <small class="form-text text-muted">アルファベットで in alphabet</small></label>
+                                    </ruby> Country <small class="form-text text-muted">アルファベットで　in alphabet</small></label>
                                 <div class="col-md-6">
                                     <input list="country" name="country" class="countryTextBox"/>
                                     <datalist id="country">
