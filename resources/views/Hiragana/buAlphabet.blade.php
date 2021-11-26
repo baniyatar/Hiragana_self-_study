@@ -60,32 +60,32 @@
     </div><br>
     <div class="letter_start"> <img src="hiragana/bu/ぶ.png" style="width: 100%;" alt="ぶpng"> </div>
 
-    <p style="font-size: 50px;">どう<span style="color: red;">ぶ</span>つ
-
+    <p style="font-size: 50px;">どう<span style="color: red;">ぶ</span>つ　Animal
       <audio id="audio1">
         <source src="hiragana/bu/どうぶつ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/bu/sound-s.png" onclick="playSound1()">
-    <p style="font-size: 50;">Animal</p>
-    <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/bu/sample.png" alt="">
     </p>
-    <p class="font_word">ぶた
+    <br>
+
+    <p class="font_word">ぶた　Pig
       <audio id="audio2">
         <source src="hiragana/bu/ぶた.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/bu/sound-s.png" onclick="playSound2()">
-    <p style="font-size: 50;">Pig</p>
-    <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/bu/sample.png" alt="">
     </p>
+    <br>
 
-    <p class="font_word">ぶどう
+    <p class="font_word">ぶどう　Grapes
       <audio id="audio3">
         <source src="hiragana/bu/ぶどう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/bu/sound-s.png" onclick="playSound3()">
-    <p style="font-size: 50;">Grapes</p>
-    <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/bu/sample.png" alt="">
     </p>
+    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

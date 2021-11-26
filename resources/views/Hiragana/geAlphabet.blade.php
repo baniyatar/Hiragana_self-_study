@@ -60,35 +60,36 @@
     <div class="letter_start"> <img src="hiragana/ge/ge.png" alt="gapng">
     </div>
 
-    <p style="font-size: 50px;">おみや<span style="color: red;">げ</span>
+    <p style="font-size: 50px;">おみや<span style="color: red;">げ</span>　Souvenir
 
       <audio id="audio1">
         <source src="hiragana/ge/おみやげ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ge/sound-s.png" onclick="playSoundomiyage()">
-    <p style="font-size: 50;">Souvenir</p>
-    <br>
-    <!-- <img src="hiragana/a/red.png" alt="">-->
+      <br>
+    <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ge/sample.png" alt="">
     </p>
-    <p class="font_word">げんかん
+    <br>
+
+    <p class="font_word">げんかん　Entrance
       <audio id="audio2">
         <source src="hiragana/ge/げんかん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ge/sound-s.png" onclick="playSoundgenkan()">
-    <p style="font-size: 50;">Entrance</p>
-    <br>
-    <!-- <img src="hiragana/a/foot.png" alt="">-->
+      <br>
+    <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ge/sample.png" alt="">
     </p>
+    <br>
 
-    <p class="font_word">げんき
+    <p class="font_word">げんき　Health
       <audio id="audio3">
         <source src="hiragana/ge/げんき.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ge/sound-s.png" onclick="playSoundgenki()">
-    <p style="font-size: 50;">Health</p>
-    <br>
-    <!--<img src="hiragana/a/head.png" alt="">-->
+      <br>
+    <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ge/sample.png" alt="">
     </p>
+    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

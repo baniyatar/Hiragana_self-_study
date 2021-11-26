@@ -60,36 +60,35 @@
     <div class="letter_start"> <img src="hiragana/pa/pa.png" style="width: 80%;" alt="gapng">
     </div>
 
-    <p style="font-size: 50px;">かん<span style="color: red;">ぱ</span>い
+    <p style="font-size: 50px;">かん<span style="color: red;">ぱ</span>い　Toast
       <audio id="audio1">
         <source src="hiragana/pa/かんぱい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/pa/sound-s.png" onclick="playSoundkanpai()">
-    <p style="font-size: 50;">Toast</p>
-    <br>
-    <!-- <img src="hiragana/pa/red.png" alt="">-->
+      <br>
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pa/sample.png" alt="">
     </p>
+    <br>
 
-
-    <p style="font-size: 50px;">しん<span style="color: red;">ぱ</span>い
+    <p style="font-size: 50px;">しん<span style="color: red;">ぱ</span>い　Worry
       <audio id="audio2">
         <source src="hiragana/pa/しんぱい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/pa/sound-s.png" onclick="playSoundshinpai()">
-    <p style="font-size: 50;">Worry</p>
-    <br>
-    <!-- <img src="hiragana/a/foot.png" alt="">-->
+      <br>
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pa/sample.png" alt="">
     </p>
+    <br>
 
-    <p style="font-size: 50px;">すっ<span style="color: red;">ぱ</span>い
+    <p style="font-size: 50px;">すっ<span style="color: red;">ぱ</span>い　Sour
       <audio id="audio3">
         <source src="hiragana/pa/すっぱい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/pa/sound-s.png" onclick="playSoundsupai()">
-    <p style="font-size: 50;">Sour</p>
-    <br>
-    <!--<img src="hiragana/a/head.png" alt="">-->
+      <br>
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pa/sample.png" alt="">
     </p>
+    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

@@ -60,7 +60,7 @@
     <div class="letter_start"> <img src="hiragana/go/go.png" style="width: 80%;" alt="gapng">
     </div>
 
-    <p class="font_word">ご<span style="color: red;">ご</span>
+    <p class="font_word">ご<span style="color: red;">ご</span>　Afternoon
 
 
 
@@ -68,29 +68,30 @@
         <source src="hiragana/go/ごご.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/go/sound-s.png" onclick="playSoundgogo()">
-    <p style="font-size: 50;">Afternoon</p>
-    <br>
-    <!-- <img src="hiragana/a/red.png" alt="">-->
+      <br>
+    <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/go/sample.png" alt="">
     </p>
-    <p class="font_word">ごぜん
+    <br>
+
+    <p class="font_word">ごぜん　Morning
       <audio id="audio2">
         <source src="hiragana/go/ごぜん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/go/sound-s.png" onclick="playSoundgozen()">
-    <p style="font-size: 50;">Morning</p>
-    <br>
-    <!-- <img src="hiragana/a/foot.png" alt="">-->
+      <br>
+    <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/go/sample.png" alt="">
     </p>
+    <br>
 
-    <p class="font_word">ごはん
+    <p class="font_word">ごはん　Rice
       <audio id="audio3">
         <source src="hiragana/go/ごはん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/go/sound-s.png" onclick="playSoundtgohan()">
-    <p style="font-size: 50;">Rice</p>
-    <br>
-    <!--<img src="hiragana/a/head.png" alt="">-->
+      <br>
+    <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/go/sample.png" alt="">
     </p>
+    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

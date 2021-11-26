@@ -60,32 +60,33 @@
     <div class="letter_start"> <img src="hiragana/do/ど.png" style="width: 80%;" alt="どpng">
     </div>
 
-    <p class="font_word">どうぶつ
+    <p class="font_word">どうぶつ　Animal
 
       <audio id="audio1">
         <source src="hiragana/do/どうぶつ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/do/sound-s.png" onclick="playSound1()">
-    <p style="font-size: 50;">Animal</p>
-    <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/do/sample.png" alt="">
     </p>
-    <p class="font_word">どこ
+    <br>
+
+    <p class="font_word">どこ　Where
       <audio id="audio2">
         <source src="hiragana/do/どこ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/do/sound-s.png" onclick="playSound2()">
-    <p style="font-size: 50;">Where</p>
-    <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/do/sample.png" alt="">
     </p>
+    <br>
 
-    <p class="font_word">どようび
+    <p class="font_word">どようび　Saturday
       <audio id="audio3">
         <source src="hiragana/do/どようび.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/do/sound-s.png" onclick="playSound3()">
-    <p style="font-size: 50;">Saturday</p>
-    <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/do/sample.png" alt="">
     </p>
+    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
