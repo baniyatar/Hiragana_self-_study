@@ -60,35 +60,36 @@
     <div class="letter_start"> <img src="hiragana/ga/ga.png" alt="gapng">
     </div>
 
-    <p class="font_word">がいこく
+    <p class="font_word">がいこく　Foreign Countries
 
       <audio id="audio1">
         <source src="hiragana/ga/がいこく.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ga/sound-s.png" onclick="playSoundgaigoku()">
-    <p style="font-size: 50;">Foreign Countries</p>
     <br>
-    <!-- <img src="hiragana/a/red.png" alt="">-->
+    <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ga/sample.png" alt="">
     </p>
-    <p class="font_word">がくせい
+    <br>
+
+    <p class="font_word">がくせい　Student
       <audio id="audio2">
         <source src="hiragana/ga/がくせい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ga/sound-s.png" onclick="playSoundgakosei()">
-    <p style="font-size: 50;">Student</p>
     <br>
-    <!-- <img src="hiragana/a/foot.png" alt="">-->
+    <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ga/sample.png" alt="">
     </p>
+    <br>
 
-    <p class="font_word">がっこう
+    <p class="font_word">がっこう　School
       <audio id="audio3">
         <source src="hiragana/ga/がっこう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ga/sound-s.png" onclick="playSoundgatsukou()">
-    <p style="font-size: 50;">School</p>
     <br>
-    <!--<img src="hiragana/a/head.png" alt="">-->
+    <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ga/sample.png" alt="">
     </p>
+    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

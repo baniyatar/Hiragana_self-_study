@@ -59,34 +59,33 @@
     </div><br>
     <div class="letter_start"> <img src="hiragana/be/べ.png" style="width: 80%;" alt="べpng"></div>
 
-    <p style="font-size: 50px;">お<span style="color: red;">べ</span>んとう
+    <p style="font-size: 50px;">お<span style="color: red;">べ</span>んとう　Lunch
 
       <audio id="audio1">
         <source src="hiragana/be/おべんとう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/be/sound-s.png" onclick="playSound1()">
-    <p style="font-size: 50;">Lunch</p>
-    <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/be/sample.png" alt="">
     </p>
-    <p style="font-size: 50px;">か<span style="color: red;">べ</span>
+    <br>
 
+    <p style="font-size: 50px;">か<span style="color: red;">べ</span>　Wall
       <audio id="audio2">
         <source src="hiragana/be/かべ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/be/sound-s.png" onclick="playSound2()">
-    <p style="font-size: 50;">Wall</p>
-    <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/be/sample.png" alt="">
     </p>
+    <br>
 
-    <p style="font-size: 50px;">た<span style="color: red;">べ</span>もの
-
+    <p style="font-size: 50px;">た<span style="color: red;">べ</span>もの　Food
       <audio id="audio3">
         <source src="hiragana/be/たべもの.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/be/sound-s.png" onclick="playSound3()">
-    <p style="font-size: 50;">Food</p>
-    <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/be/sample.png" alt="">
     </p>
+    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

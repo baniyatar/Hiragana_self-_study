@@ -54,55 +54,50 @@
 <body>
   <div class="box">
     <p class="font_word">や
-
       <audio id="audioYa">
         <source src="hiragana/ya/や.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ya/sound-s.png" onclick="playSoundYa()">
     </p>
     <div class="letter_start">
-
       <img class="testBorder" src="hiragana/ya/Ya.gif" alt="やgif">
     </div><br>
     <div class="letter_start"> <img src="hiragana/ya/や.png" style="width: 80%;" alt="やpng">
     </div>
 
-    <p class="font_word">やお<span style="color: red;">や</span>
-
+    <p class="font_word">やお<span style="color: red;">や</span>　Vegetable Store
       <audio id="audio1">
         <source src="hiragana/ya/やおや.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ya/sound-s.png" onclick="playSoundYaoya()">
-    <p style="font-size: 50;">Vegetable Store</p>
-    <br><img src="hiragana/ya/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ya/sample.png" alt="">
     </p>
-    <p class="font_word">やさい
+    <br>
+    <p class="font_word">やさい　Vegetable
       <audio id="audio2">
         <source src="hiragana/ya/やさい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ya/sound-s.png" onclick="playSoundYasai()">
-    <p style="font-size: 50;">Vegetable</p>
-    <br><img src="hiragana/ya/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ya/sample.png" alt="">
     </p>
-
-    <p class="font_word">やすみ
+    <br>
+    <p class="font_word">やすみ　Rest
       <audio id="audio3">
         <source src="hiragana/ya/やすみ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ya/sound-s.png" onclick="playSoundYasumi()">
-    <p style="font-size: 50;">Rest</p>
-    <br><img src="hiragana/ya/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ya/sample.png" alt="">
     </p>
-
-    <p class="font_word">やま
+    <br>
+    <p class="font_word">やま　Mountain
       <audio id="audio4">
         <source src="hiragana/ya/やま.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ya/sound-s.png" onclick="playSoundYama()">
-    <p style="font-size: 50;">Mountain</p>
-    <br><img src="hiragana/ya/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ya/sample.png" alt="">
     </p>
   </div>
+
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/moAlphabet')}}'">&lt;PREV</button>
   <button class="next_btn" onClick="location.href='{{ url('/yuAlphabet')}}'">NEXT&gt;</button>

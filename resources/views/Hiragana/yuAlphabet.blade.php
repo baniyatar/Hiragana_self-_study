@@ -54,55 +54,49 @@
 <body>
   <div class="box">
     <p class="font_word">ゆ
-
       <audio id="audioYu">
         <source src="hiragana/yu/ゆ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/yu/sound-s.png" onclick="playSoundYu()">
     </p>
     <div class="letter_start">
-
       <img class="testBorder" src="hiragana/yu/yu.gif" alt="ゆgif">
     </div><br>
     <div class="letter_start"> <img src="hiragana/yu/ゆ.png" style="width: 60%;" alt="ゆpng">
     </div>
 
-    <p class="font_word">ゆうがた
-
+    <p class="font_word">ゆうがた　Evening
       <audio id="audio1">
         <source src="hiragana/yu/ゆうがた.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/yu/sound-s.png" onclick="playSoundYugata()">
-    <p style="font-size: 50;">Evening</p>
-    <br><img src="hiragana/yu/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/yu/sample.png" alt="">
     </p>
-    <p class="font_word">ゆうびんきょく
+    <p class="font_word">ゆうびんきょく　Post Office
       <audio id="audio2">
         <source src="hiragana/yu/ゆうびんきょく.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/yu/sound-s.png" onclick="playSoundYubinkyoku()">
-    <p style="font-size: 50;">Post Office</p>
-    <br><img src="hiragana/yu/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/yu/sample.png" alt="">
     </p>
 
-    <p class="font_word">ゆうめい
+    <p class="font_word">ゆうめい　Famous
       <audio id="audio3">
         <source src="hiragana/yu/ゆうめい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/yu/sound-s.png" onclick="playSoundYumei()">
-    <p style="font-size: 50;">Famous</p>
-    <br><img src="hiragana/yu/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/yu/sample.png" alt="">
     </p>
 
-    <p class="font_word">ゆき
+    <p class="font_word">ゆき　Snow
       <audio id="audio4">
         <source src="hiragana/yu/ゆき.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/yu/sound-s.png" onclick="playSoundYuki()">
-    <p style="font-size: 50;">Snow</p>
-    <br><img src="hiragana/na/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/yu/sample.png" alt="">
     </p>
   </div>
+
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/yaAlphabet')}}'">&lt;PREV</button>
   <button class="next_btn" onClick="location.href='{{ url('/yoAlphabet')}}'">NEXT&gt;</button>

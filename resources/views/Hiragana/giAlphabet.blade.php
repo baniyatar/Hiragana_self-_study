@@ -62,36 +62,36 @@
 
 
 
-    <p style="font-size: 50px;">か<span style="color: red;">ぎ</span>
+    <p style="font-size: 50px;">か<span style="color: red;">ぎ</span>　Key
 
       <audio id="audio1">
         <source src="hiragana/gi/かぎ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/gi/sound-s.png" onclick="playSoundkagi()">
-    <p style="font-size: 50;">Key</p>
-    <br>
-    <!-- <img src="hiragana/a/red.png" alt="">-->
+      <br>
+    <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gi/sample.png" alt="">
     </p>
-    <p class="font_word">ぎんこう
+    <br>
+
+    <p class="font_word">ぎんこう　Bank
       <audio id="audio2">
         <source src="hiragana/gi/ぎんこう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/gi/sound-s.png" onclick="playSoundginkou()">
-    <p style="font-size: 50;">Bank</p>
-    <br>
-    <!-- <img src="hiragana/a/foot.png" alt="">-->
+      <br>
+    <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gi/sample.png" alt="">
     </p>
+    <br>
 
-
-    <p style="font-size: 50px;">つ<span style="color: red;">ぎ</span>
+    <p style="font-size: 50px;">つ<span style="color: red;">ぎ</span>　Next
       <audio id="audio3">
         <source src="hiragana/gi/つぎ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/gi/sound-s.png" onclick="playSoundtsugi()">
-    <p style="font-size: 50;">Next</p>
-    <br>
-    <!--<img src="hiragana/a/head.png" alt="">-->
+      <br>
+    <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gi/sample.png" alt="">
     </p>
+    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

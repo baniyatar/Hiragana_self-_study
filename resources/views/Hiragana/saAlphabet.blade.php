@@ -61,45 +61,41 @@
       <img style="vertical-align:middle;" src="hiragana/sa/sound-s.png" onclick="playSoundSa()">
     </p>
     <div class="letter_start">
-
       <img class="testBorder" src="hiragana/gif/sa.gif" alt="さgif">
     </div><br>
     <div class="letter_start"> <img src="hiragana/sa/さ-bw.png" style="width: 80%;" alt="さpng">
     </div>
-    <p class="font_word">さいふ
 
+    <p class="font_word">さいふ　Purce
       <audio id="audio1">
         <source src="hiragana/sa/さいふ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/sa/sound-s.png" onclick="playSoundSaifu()">
-    <p style="font-size: 50;">Purce</p>
-    {{-- <br><img src="hiragana/a/red.png" alt=""> --}}
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/sa/sample.png" alt="">
     </p>
-    <p class="font_word">さかな
+    <br>
+    <p class="font_word">さかな　Fish
       <audio id="audio2">
         <source src="hiragana/sa/さかな.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/sa/sound-s.png" onclick="playSoundSakana()">
-    <p style="font-size: 50;">Fish</p>
-    {{-- <br><img src="hiragana/a/foot.png" alt=""> --}}
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/sa/sample.png" alt="">
     </p>
-
-    <p class="font_word">さくら
+    <br>
+    <p class="font_word">さくら　Cherry Blossom
       <audio id="audio3">
         <source src="hiragana/sa/さくら.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/sa/sound-s.png" onclick="playSoundSakura()">
-    <p style="font-size: 50;">Cherry Blossom</p>
-    {{-- <br><img src="hiragana/a/head.png" alt=""> --}}
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/sa/sample.png" alt="">
     </p>
-
-    <p class="font_word">さとう
+    <br>
+    <p class="font_word">さとう　Suger
       <audio id="audio4">
         <source src="hiragana/sa/さとう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/sa/sound-s.png" onclick="playSoundSatou()">
-    <p style="font-size: 50;">Suger</p>
-    {{-- <br><img src="hiragana/a/ame.jpg" alt=""> --}}
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/sa/sample.png" alt="">
     </p>
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

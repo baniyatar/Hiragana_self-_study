@@ -61,52 +61,44 @@
       <img style="vertical-align:middle;" src="hiragana/he/sound-s.png" onclick="playSoundHe()">
     </p>
     <div class="letter_start">
-
       <img class="testBorder" src="hiragana/he/he.gif" alt="へgif">
     </div><br>
     <div class="letter_start"> <img src="hiragana/he/へ.png" style="width: 40%;" alt="へpng">
     </div>
 
-    <p style="font-size: 50px;">たい<span style="color: red;">へ</span>ん
-
+    <p style="font-size: 50px;">たい<span style="color: red;">へ</span>ん　Tough
       <audio id="audio1">
         <source src="hiragana/he/たいへん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/a/sound-s.png" onclick="playSoundTaihen()">
-    <p style="font-size: 50;">Tough</p>
-    <br>
-    <!--<img src="hiragana/a/red.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/he/sample.png" alt="">
     </p>
-    <p class="font_word">へや
+    <br>
+    <p class="font_word">へや　Room
       <audio id="audio2">
         <source src="hiragana/he/へや.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/he/sound-s.png" onclick="playSoundHeya()">
-    <p style="font-size: 50;">Room</p>
-    <br>
-    <!--<img src="hiragana/a/foot.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/he/sample.png" alt="">
     </p>
-
-    <p class="font_word">へん
+    <br>
+    <p class="font_word">へん　Strange
       <audio id="audio3">
         <source src="hiragana/he/へん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/he/sound-s.png" onclick="playSoundHen()">
-    <p style="font-size: 50;">Strange</p>
-    <br>
-    <!--<img src="hiragana/a/head.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/he/sample.png" alt="">
     </p>
-
-    <p class="font_word">へんじ
+    <br>
+    <p class="font_word">へんじ　Answer
       <audio id="audio4">
         <source src="hiragana/he/へんじ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/he/sound-s.png" onclick="playSoundHenji()">
-    <p style="font-size: 50;">Answer</p>
-    <br>
-    <!--<img src="hiragana/a/ame.jpg" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/he/sample.png" alt="">
     </p>
   </div>
+
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/fuAlphabet')}}'">&lt;PREV</button>
   <button class="next_btn" onClick="location.href='{{ url('/hoAlphabet')}}'">NEXT&gt;</button>

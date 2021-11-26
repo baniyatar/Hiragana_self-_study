@@ -60,34 +60,32 @@
     </div><br>
     <div class="letter_start"> <img src="hiragana/bi/び.png" style="width: 80%;" alt="びpng"> </div>
 
-    <p style="font-size: 50px;">え<span style="color: red;">び</span>
-
+    <p style="font-size: 50px;">え<span style="color: red;">び</span>　Shrimp
       <audio id="audio1">
         <source src="hiragana/bi/えび.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/bi/sound-s.png" onclick="playSound1()">
-    <p style="font-size: 50;">shrimp</p>
-    <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/bi/sample.png" alt="">
     </p>
-    <p style="font-size: 50px;">はな<span style="color: red;">び</span>
+    <br>
 
+    <p style="font-size: 50px;">はな<span style="color: red;">び</span>　Fireworks
       <audio id="audio2">
         <source src="hiragana/bi/はなび.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/bi/sound-s.png" onclick="playSound2()">
-    <p style="font-size: 50;">Fireworks</p>
-    <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/bi/sample.png" alt="">
     </p>
+    <br>
 
-    <p style="font-size: 50px;">ゆ<span style="color: red;">び</span>わ
-
+    <p style="font-size: 50px;">ゆ<span style="color: red;">び</span>わ　Ring
       <audio id="audio3">
         <source src="hiragana/bi/ゆびわ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/bi/sound-s.png" onclick="playSound3()">
-    <p style="font-size: 50;">Ring</p>
-    <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/bi/sample.png" alt="">
     </p>
+    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

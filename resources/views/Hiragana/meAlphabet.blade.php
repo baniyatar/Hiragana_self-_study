@@ -55,59 +55,49 @@
 <body>
   <div class="box">
     <p class="font_word">め
-
       <audio id="audioMe">
         <source src="hiragana/me/め.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/me/sound-s.png" onclick="playSoundMe()">
     </p>
     <div class="letter_start">
-
       <img class="testBorder" src="hiragana/me/me.gif" alt="めgif">
     </div><br>
     <div class="letter_start"> <img src="hiragana/me/め-bw.png" style="width: 70%;" alt="png">
     </div>
 
-    <p style="font-size: 50px;">あ<span style="color: red;">め</span>
-
+    <p style="font-size: 50px;">あ<span style="color: red;">め</span>　Rain
       <audio id="audio1">
         <source src="hiragana/me/あめ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/me/sound-s.png" onclick="playSoundaame()">
-    <p style="font-size: 50;">Rain</p>
-    <br>
-    <!-- <img src="hiragana/a/red.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/me/sample.png" alt="">
     </p>
-    <p style="font-size: 50px;">つ<span style="color: red;">め</span>たい
+    <p style="font-size: 50px;">つ<span style="color: red;">め</span>たい　Cold
       <audio id="audio2">
         <source src="hiragana/me/つめたい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/me/sound-s.png" onclick="playSoundtsumetai()">
-    <p style="font-size: 50;">Cold</p>
-    <br>
-    <!-- <img src="hiragana/a/foot.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/me/sample.png" alt="">
     </p>
 
-    <p class="font_word">め
+    <p class="font_word">め　Eye
       <audio id="audio3">
         <source src="hiragana/me/め.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/me/sound-s.png" onclick="playSoundMe()">
-    <p style="font-size: 50;">Eye</p>
-    <br>
-    <!--<img src="hiragana/a/head.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/me/sample.png" alt="">
     </p>
 
-    <p class="font_word">めがね
+    <p class="font_word">めがね　Spectacles
       <audio id="audio4">
         <source src="hiragana/me/めがね.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/me/sound-s.png" onclick="playSoundtmegane()">
-    <p style="font-size: 50;">Spectacles</p>
-    <br>
-    <!--<img src="hiragana/a/ame.jpg" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/me/sample.png" alt="">
     </p>
   </div>
+
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/muAlphabet')}}'">&lt;PREV</button>
   <button class="next_btn" onClick="location.href='{{ url('/moAlphabet')}}'">NEXT&gt;</button>

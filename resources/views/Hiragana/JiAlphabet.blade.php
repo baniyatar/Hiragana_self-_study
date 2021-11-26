@@ -59,32 +59,33 @@
     <div class="letter_start"> <img src="hiragana/ji/じ.png" style="width: 80%;" alt="じpng">
     </div>
 
-    <p class="font_word">じかん
+    <p class="font_word">じかん　Time
 
       <audio id="audio1">
         <source src="hiragana/ji/じかん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ji/sound-s.png" onclick="playSoundJikan()">
-    <p style="font-size: 50;">Time</p>
-    <br><img src="hiragana/ji/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ji/sample.png" alt="">
     </p>
-    <p class="font_word">じしん
+    <br>
+
+    <p class="font_word">じしん　Earthquake
       <audio id="audio2">
         <source src="hiragana/ji/じしん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ji/sound-s.png" onclick="playSoundJishin()">
-    <p style="font-size: 50;">Earthquake</p>
-    <br><img src="hiragana/ji/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ji/sample.png" alt="">
     </p>
+    <br>
 
-    <p style="font-size:50px;">そう<span style="color:red;">じ</span>
+    <p style="font-size:50px;">そう<span style="color:red;">じ</span>　Cleaning
       <audio id="audio3">
         <source src="hiragana/ji/そうじ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ji/sound-s.png" onclick="playSoundSouji()">
-    <p style="font-size: 50;">Cleaning</p>
-    <br><img src="hiragana/ji/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ji/sample.png" alt="">
     </p>
+    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

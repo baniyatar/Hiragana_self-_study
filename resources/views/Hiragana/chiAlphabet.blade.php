@@ -61,48 +61,43 @@
       <img style="vertical-align:middle;" src="hiragana/chi/sound-s.png" onclick="playSound0()">
     </p>
     <div class="letter_start">
-
       <img class="testBorder" src="hiragana/chi/chi.gif" alt="ちgif">
-
     </div><br>
     <div class="letter_start"> <img src="hiragana/chi/ち.png" style="width: 60%;" alt="ちpng"> </div>
 
-    <p class="font_word">ちいさい
-
+    <p class="font_word">ちいさい　Small
       <audio id="audio1">
         <source src="hiragana/chi/ちいさい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound1()">
-    <p style="font-size: 50;">Small</p>
-    <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/chi/sample.png" alt="">
     </p>
-    <p class="font_word">ちかい
+    <br>
+    <p class="font_word">ちかい　Near
       <audio id="audio2">
         <source src="hiragana/chi/ちかい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound2()">
-    <p style="font-size: 50;">Near</p>
-    <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/chi/sample.png" alt="">
     </p>
-
-    <p class="font_word">ちかてつ
+    <br>
+    <p class="font_word">ちかてつ　Subway
       <audio id="audio3">
         <source src="hiragana/chi/ちかてつ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound3()">
-    <p style="font-size: 50;">Subway</p>
-    <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/chi/sample.png" alt="">
     </p>
-
-    <p class="font_word">ちち
+    <br>
+    <p class="font_word">ちち　Father
       <audio id="audio4">
         <source src="hiragana/chi/ちち.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound4()">
-    <p style="font-size: 50;">Father</p>
-    <!-- <br><img src="hiragana/ta/ame.jpg" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/chi/sample.png" alt="">
     </p>
   </div>
+
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/taAlphabet')}}'">&lt;PREV</button>
   <button class="next_btn" onClick="location.href='{{ url('/tsuAlphabet')}}'">NEXT&gt;</button>

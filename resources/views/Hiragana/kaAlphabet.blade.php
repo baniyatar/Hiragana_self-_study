@@ -67,44 +67,36 @@
     <div class="letter_start"> <img src="hiragana/ka/か.png" style="width: 80%;" alt="かpng">
     </div>
 
-    <p class="font_word">かいだん
-
+    <p class="font_word">かいだん　Stairs
       <audio id="audio1">
         <source src="hiragana/ka/かいだん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ka/sound-s.png" onclick="playSoundKaidan()">
-    <p style="font-size: 50;">Stairs</p>
-    <br>
-    <!-- <img src="hiragana/a/red.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ka/sample.png" alt="">
     </p>
-    <p class="font_word">かさ
+    <br>
+    <p class="font_word">かさ　Umbrella
       <audio id="audio2">
         <source src="hiragana/ka/かさ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ka/sound-s.png" onclick="playSoundKasa()">
-    <p style="font-size: 50;">Umbrella</p>
-    <br>
-    <!-- <img src="hiragana/a/foot.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ka/sample.png" alt="">
     </p>
-
-    <p class="font_word">かばん
+    <br>
+    <p class="font_word">かばん　Bag
       <audio id="audio3">
         <source src="hiragana/ka/かばん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ka/sound-s.png" onclick="playSoundKaban()">
-    <p style="font-size: 50;">Bag</p>
-    <br>
-    <!--<img src="hiragana/a/head.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ka/sample.png" alt="">
     </p>
-
-    <p class="font_word">かわ
+    <br>
+    <p class="font_word">かわ　River
       <audio id="audio4">
         <source src="hiragana/ka/かわ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ka/sound-s.png" onclick="playSoundKawa()">
-    <p style="font-size: 50;">River</p>
-    <br>
-    <!--<img src="hiragana/a/ame.jpg" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ka/sample.png" alt="">
     </p>
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

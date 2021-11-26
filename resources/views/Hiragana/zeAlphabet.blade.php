@@ -60,32 +60,32 @@
     <div class="letter_start"> <img src="hiragana/ze/ぜ.png" alt="ぜpng">
     </div>
 
-    <p style="font-size:50px;">あん<span style="color:red;">ぜ</span>ん
+    <p style="font-size:50px;">あん<span style="color:red;">ぜ</span>ん　Safety
       <audio id="audio1">
         <source src="hiragana/ze/あんぜん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ze/sound-s.png" onclick="playSoundAnzen()">
-    <p style="font-size: 50;">Safety</p>
-    <br><img src="hiragana/ze/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ze/sample.png" alt="">
     </p>
+    <br>
 
-    <p style="font-size:50px;">か<span style="color:red;">ぜ</span>
+    <p style="font-size:50px;">か<span style="color:red;">ぜ</span>　Wind
       <audio id="audio2">
         <source src="hiragana/ze/かぜ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ze/sound-s.png" onclick="playSoundKaze()">
-    <p style="font-size: 50;">Wind</p>
-    <br><img src="hiragana/ze/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ze/sample.png" alt="">
     </p>
+    <br>
 
-    <p class="font_word">ぜんぶ
+    <p class="font_word">ぜんぶ　All
       <audio id="audio3">
         <source src="hiragana/ze/ぜんぶ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ze/sound-s.png" onclick="playSoundZenbu()">
-    <p style="font-size: 50;">All</p>
-    <br><img src="hiragana/ze/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ze/sample.png" alt="">
     </p>
+    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

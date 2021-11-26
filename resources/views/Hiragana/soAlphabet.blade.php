@@ -61,48 +61,42 @@
       <img style="vertical-align:middle;" src="hiragana/so/sound-s.png" onclick="playSoundSo()">
     </p>
     <div class="letter_start">
-
       <img class="testBorder" src="hiragana/gif/so.gif" alt="そgif">
     </div><br>
     <div class="letter_start"> <img src="/hiragana/so/そ-bw.png" style="width: 40%;" alt="そpng">
     </div>
 
-    <p class="font_word">そうじ
-
+    <p class="font_word">そうじ　Cleaning
       <audio id="audio1">
         <source src="hiragana/so/そうじ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/so/sound-s.png" onclick="playSoundSouji()">
-    <p style="font-size: 50;">Cleaning</p>
-    {{-- <br><img src="hiragana/a/red.png" alt=""> --}}
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/so/sample.png" alt="">
     </p>
-    <p class="font_word">そと
+    <br>
+    <p class="font_word">そと　Outside
       <audio id="audio2">
         <source src="hiragana/so/そと.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/so/sound-s.png" onclick="playSoundSoto()">
-    <p style="font-size: 50;">Outside</p>
-    {{-- <br><img src="hiragana/a/ame.jpg" alt=""> --}}
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/so/sample.png" alt="">
     </p>
-
-    <p class="font_word">そふ
+    <br>
+    <p class="font_word">そふ　Grandfather
       <audio id="audio3">
         <source src="hiragana/so/そふ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/so/sound-s.png" onclick="playSoundSofu()">
-    <p style="font-size: 50;">Grandfather</p>
-    {{-- <br><img src="hiragana/a/foot.png" alt=""> --}}
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/so/sample.png" alt="">
     </p>
-
-    <p class="font_word">そら
+    <br>
+    <p class="font_word">そら　Sky
       <audio id="audio4">
         <source src="hiragana/so/そら.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/so/sound-s.png" onclick="playSoundSora()">
-    <p style="font-size: 50;">Sky</p>
-    {{-- <br><img src="hiragana/a/head.png" alt=""> --}}
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/so/sample.png" alt="">
     </p>
-
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

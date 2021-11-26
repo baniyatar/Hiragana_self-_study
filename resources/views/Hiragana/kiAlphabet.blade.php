@@ -67,44 +67,37 @@
     <div class="letter_start"> <img src="hiragana/ki/き.png" style="width: 80%;" alt="きpng">
     </div>
 
-    <p class="font_word">きいろ
+    <p class="font_word">きいろ　Yellow
 
       <audio id="audio1">
         <source src="hiragana/ki/きいろ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ki/sound-s.png" onclick="playSoundKiiro()">
-    <p style="font-size: 50;">Yellow</p>
-    <br>
-    <!--<img src="hiragana/a/red.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ki/sample.png" alt="">
     </p>
-    <p class="font_word">きた
+    <br>
+    <p class="font_word">きた　North
       <audio id="audio2">
         <source src="hiragana/ki/きた.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ki/sound-s.png" onclick="playSoundKita()">
-    <p style="font-size: 50;">North</p>
-    <br>
-    <!--<img src="hiragana/a/foot.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ki/sample.png" alt="">
     </p>
-
-    <p class="font_word">きって
+    <br>
+    <p class="font_word">きって　Mail Stamp
       <audio id="audio3">
         <source src="hiragana/ki/きって.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ki/sound-s.png" onclick="playSoundKitte()">
-    <p style="font-size: 50;">Mail Stamp</p>
-    <br>
-    <!--<img src="hiragana/a/head.png" alt="">-->
+    <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ki/sample.png" alt="">
     </p>
-
-    <p class="font_word">きっぷ
+    <br>
+    <p class="font_word">きっぷ　Ticket
       <audio id="audio4">
         <source src="hiragana/ki/きっぷ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ki/sound-s.png" onclick="playSoundKippu()">
-    <p style="font-size: 50;">Ticket</p>
-    <br>
-    <!--<img src="hiragana/a/ame.jpg" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ki/sample.png" alt="">
     </p>
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

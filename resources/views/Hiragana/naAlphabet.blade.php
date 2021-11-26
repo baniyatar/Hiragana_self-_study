@@ -61,48 +61,44 @@
       <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSoundNa()">
     </p>
     <div class="letter_start">
-
       <img class="testBorder" src="hiragana/na/na.gif" alt="なgif">
     </div><br>
     <div class="letter_start"> <img src="hiragana/na/な.png" style="width: 80%;" alt="なpng">
     </div>
 
-    <p class="font_word">ながい
-
+    <p class="font_word">ながい　Long
       <audio id="audio1">
         <source src="hiragana/na/ながい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSoundNagai()">
-    <p style="font-size: 50;">Long</p>
-    <br><img src="hiragana/na/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/na/sample.png" alt="">
     </p>
-    <p class="font_word">なつ
+    <br>
+    <p class="font_word">なつ　Summer
       <audio id="audio2">
         <source src="hiragana/na/なつ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSoundNatsu()">
-    <p style="font-size: 50;">Summer</p>
-    <br><img src="hiragana/na/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/na/sample.png" alt="">
     </p>
-
-    <p class="font_word">なつやすみ
+    <br>
+    <p class="font_word">なつやすみ　Summer Vacation
       <audio id="audio3">
         <source src="hiragana/na/なつやすみ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSoundNatsuyasumi()">
-    <p style="font-size: 50;">Summer Vacation</p>
-    <br><img src="hiragana/na/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/na/sample.png" alt="">
     </p>
-
-    <p class="font_word">なまえ
+    <br>
+    <p class="font_word">なまえ　Name
       <audio id="audio4">
         <source src="hiragana/na/なまえ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSoundNamae()">
-    <p style="font-size: 50;">Name</p>
-    <br><img src="hiragana/na/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/na/sample.png" alt="">
     </p>
   </div>
+
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/toAlphabet')}}'">&lt;PREV</button>
   <button class="next_btn" onClick="location.href='{{ url('/niAlphabet')}}'">NEXT&gt;</button>

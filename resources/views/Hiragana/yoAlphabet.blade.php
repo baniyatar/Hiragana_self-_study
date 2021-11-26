@@ -54,55 +54,50 @@
 <body>
   <div class="box">
     <p class="font_word">よ
-
       <audio id="audioYo">
         <source src="hiragana/yo/よ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/yo/sound-s.png" onclick="playSoundYo()">
     </p>
     <div class="letter_start">
-
       <img class="testBorder" src="hiragana/yo/yo.gif" alt="よgif">
     </div><br>
     <div class="letter_start"> <img src="hiragana/yo/よ.png" style="width: 60%;" alt="よpng">
     </div>
-
-    <p style="font-size: 50px;">つ<span style="color: red;">よ</span>い
-
+    <br>
+    <p style="font-size: 50px;">つ<span style="color: red;">よ</span>い　Strong
       <audio id="audio1">
         <source src="hiragana/yo/つよい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/yo/sound-s.png" onclick="playSoundTsuyoi()">
-    <p style="font-size: 50;">Strong</p>
-    <br><img src="hiragana/yo/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/yo/sample.png" alt="">
     </p>
-    <p class="font_word">よい
+    <br>
+    <p class="font_word">よい　Good
       <audio id="audio2">
         <source src="hiragana/yo/よい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/yo/sound-s.png" onclick="playSoundYoi()">
-    <p style="font-size: 50;">Good</p>
-    <br><img src="hiragana/yo/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/yo/sample.png" alt="">
     </p>
-
-    <p class="font_word">ようふく
+    <br>
+    <p class="font_word">ようふく　Clothes
       <audio id="audio3">
         <source src="hiragana/yo/ようふく.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/yo/sound-s.png" onclick="playSoundYoufuku()">
-    <p style="font-size: 50;">Clothes</p>
-    <br><img src="hiragana/yo/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/yo/sample.png" alt="">
     </p>
-
-    <p class="font_word">よる
+    <br>
+    <p class="font_word">よる　Night
       <audio id="audio4">
         <source src="hiragana/yo/よる.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/yo/sound-s.png" onclick="playSoundYoru()">
-    <p style="font-size: 50;">Night</p>
-    <br><img src="hiragana/yo/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/yo/sample.png" alt="">
     </p>
   </div>
+
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/yuAlphabet')}}'">&lt;PREV</button>
   <button class="next_btn" onClick="location.href='{{ url('/raAlphabet')}}'">NEXT&gt;</button>

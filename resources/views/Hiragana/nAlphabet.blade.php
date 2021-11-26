@@ -54,57 +54,50 @@
 <body>
   <div class="box">
     <p class="font_word">ん
-
       <audio id="audio0">
         <source src="hiragana/n/ん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/n/sound-s.png" onclick="playSound0()">
     </p>
     <div class="letter_start">
-
       <img class="testBorder" src="hiragana/n/n.gif" alt="んgif">
     </div><br>
     <div class="letter_start"> <img src="hiragana/n/ん.png" style="width: 40%;" alt="んpng">
     </div>
 
-    <p style="font-size: 50px;">お<span style="color: red;">ん</span>な
-
+    <p style="font-size: 50px;">お<span style="color: red;">ん</span>な　Woman
       <audio id="audio1">
         <source src="hiragana/n/おんな.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/n/sound-s.png" onclick="playSound1()">
-    <p style="font-size: 50;">Woman</p>
-    <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/n/sample.png" alt="">
     </p>
-    <p style="font-size: 50px;">ごは<span style="color: red;">ん</span>
+    <br>
+    <p style="font-size: 50px;">ごは<span style="color: red;">ん</span>　Meal
       <audio id="audio2">
         <source src="hiragana/n/ごはん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/n/sound-s.png" onclick="playSound2()">
-    <p style="font-size: 50;">Meal</p>
-    <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/n/sample.png" alt="">
     </p>
-
-    <p style="font-size: 50px;">で<span style="color: red;">ん</span>わ
-
+    <br>
+    <p style="font-size: 50px;">で<span style="color: red;">ん</span>わ　Telephone
       <audio id="audio3">
         <source src="hiragana/n/でんわ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/n/sound-s.png" onclick="playSound3()">
-    <p style="font-size: 50;">Telephone</p>
-    <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/n/sample.png" alt="">
     </p>
-
-    <p style="font-size: 50px;">べ<span style="color: red;">ん</span>きょう
-
+    <br>
+    <p style="font-size: 50px;">べ<span style="color: red;">ん</span>きょう　Study
       <audio id="audio4">
         <source src="hiragana/n/べんきょう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/n/sound-s.png" onclick="playSound4()">
-    <p style="font-size: 50;">Study</p>
-    <!-- <br><img src="hiragana/ta/ame.jpg" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/n/sample.png" alt="">
     </p>
   </div>
+
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/woAlphabet')}}'">&lt;PREV</button>
   <button class="next_btn" onClick="location.href='{{ url('/voicedIntro')}}'">NEXT&gt;</button>

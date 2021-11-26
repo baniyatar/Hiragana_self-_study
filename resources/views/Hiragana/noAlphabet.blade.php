@@ -61,48 +61,44 @@
       <img style="vertical-align:middle;" src="hiragana/no/sound-s.png" onclick="playSoundNo()">
     </p>
     <div class="letter_start">
-
       <img class="testBorder" src="hiragana/no/no.gif" alt="のgif">
     </div><br>
     <div class="letter_start"> <img src="hiragana/no/の.png" style="width: 50%;" alt="のpng">
     </div>
 
-    <p style="font-size: 50px;">き<span style="color: red;">の</span>う
-
+    <p style="font-size: 50px;">き<span style="color: red;">の</span>う　Yesterday
       <audio id="audio1">
         <source src="hiragana/no/きのう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/no/sound-s.png" onclick="playSoundKinou()">
-    <p style="font-size: 50;">Yesterday</p>
-    <br><img src="hiragana/no/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/no/sample.png" alt="">
     </p>
-    <p style="font-size: 50px;">たても<span style="color: red;">の</span>
+    <br>
+    <p style="font-size: 50px;">たても<span style="color: red;">の</span>　Building
       <audio id="audio2">
         <source src="hiragana/no/たてもの.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/no/sound-s.png" onclick="playSoundTatemono()">
-    <p style="font-size: 50;">Building</p>
-    <br><img src="hiragana/no/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/no/sample.png" alt="">
     </p>
-
-    <p style="font-size: 50px;">た<span style="color: red;">の</span>しい
+    <br>
+    <p style="font-size: 50px;">た<span style="color: red;">の</span>しい　Pleasant
       <audio id="audio3">
         <source src="hiragana/no/たのしい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/no/sound-s.png" onclick="playSoundTanoshii()">
-    <p style="font-size: 50;">Pleasant</p>
-    <br><img src="hiragana/no/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/no/sample.png" alt="">
     </p>
-
-    <p class="font_word">のみも<span style="color: red;">の</span>
+    <br>
+    <p class="font_word">のみも<span style="color: red;">の</span>　Beverage
       <audio id="audio4">
         <source src="hiragana/no/のみもの.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/no/sound-s.png" onclick="playSoundNomimono()">
-    <p style="font-size: 50;">Beverage</p>
-    <br><img src="hiragana/no/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/no/sample.png" alt="">
     </p>
   </div>
+
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/neAlphabet')}}'">&lt;PREV</button>
   <button class="next_btn" onClick="location.href='{{ url('/haAlphabet')}}'">NEXT&gt;</button>

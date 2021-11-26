@@ -67,40 +67,36 @@
     <div class="letter_start"> <img src="hiragana/i/i.png" alt="いpng">
     </div>
 
-    <p class="font_word">いしゃ
+    <p class="font_word">いしゃ　Medical Doctor
 
       <audio id="audio1">
         <source src="hiragana/i/いしゃ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/i/sound-s.png" onclick="playSoundIsha()">
-    <p style="font-size: 50;">Medical Doctor</p>
-    <!-- <br><img src="hiragana/a/red.png" alt=""> -->
+    <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/i/sample.png" alt="">
     </p>
-    <p class="font_word">いす
+    <p class="font_word">いす　Chair
       <audio id="audio2">
         <source src="hiragana/i/いす.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/i/sound-s.png" onclick="playSoundIsu()">
-    <p style="font-size: 50;">Chair</p>
-    <!-- <br><img src="hiragana/a/foot.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/i/sample.png" alt="">
     </p>
 
-    <p class="font_word">いぬ
+    <p class="font_word">いぬ　Dog
       <audio id="audio3">
         <source src="hiragana/i/いぬ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/i/sound-s.png" onclick="playSoundInu()">
-    <p style="font-size: 50;">Dog</p>
-    <!-- <br><img src="hiragana/a/head.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/i/sample.png" alt="">
     </p>
 
-    <p class="font_word">いりぐち
+    <p class="font_word">いりぐち　Entrance
       <audio id="audio4">
         <source src="hiragana/i/いりぐち.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/i/sound-s.png" onclick="playSoundIriguchi()">
-    <p style="font-size: 50;">Entrance</p>
-    <!-- <br><img src="hiragana/a/ame.jpg" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/i/sample.png" alt="">
     </p>
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

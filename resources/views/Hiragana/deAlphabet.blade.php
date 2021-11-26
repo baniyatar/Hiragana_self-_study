@@ -60,32 +60,33 @@
     <div class="letter_start"> <img src="hiragana/de/で.png" style="width: 80%;" alt="でpng">
     </div>
 
-    <p style="font-size: 50px;">う<span style="color: red;">で</span>
+    <p style="font-size: 50px;">う<span style="color: red;">で</span>　Arm
 
       <audio id="audio1">
         <source src="hiragana/de/うで.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/de/sound-s.png" onclick="playSound1()">
-    <p style="font-size: 50;">Arm</p>
-    <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/de/sample.png" alt="">
     </p>
-    <p class="font_word">でぐち
+    <br>
+
+    <p class="font_word">でぐち　Exit
       <audio id="audio2">
         <source src="hiragana/de/でぐち.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/de/sound-s.png" onclick="playSound2()">
-    <p style="font-size: 50;">Exit</p>
-    <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/de/sample.png" alt="">
     </p>
+    <br>
 
-    <p class="font_word">でんわ
+    <p class="font_word">でんわ　Telephone
       <audio id="audio3">
         <source src="hiragana/de/でんわ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/de/sound-s.png" onclick="playSound3()">
-    <p style="font-size: 50;">Telephone</p>
-    <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/de/sample.png" alt="">
     </p>
+    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
