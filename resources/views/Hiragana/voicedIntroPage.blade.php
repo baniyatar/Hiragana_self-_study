@@ -12,8 +12,8 @@
     </head>
     <body>
 	<div class="box">
-		<div style="font-weight:bold"><ruby><rb>濁音</rb><rt>だくおん</rt></ruby>、<ruby><rb>半濁音</rb><rt>はんだくおん</rt></ruby></div>
-		<div style="font-weight:bold">Dakuon (‘voiced sound’) and Handakuon (‘aspirated sound’)</div>
+		<div style="font-weight:bold; text-align: center; font-size: 50px;"><ruby><rb>濁音</rb><rt>だくおん</rt></ruby>、<ruby><rb>半濁音</rb><rt>はんだくおん</rt></ruby></div>
+		<div style="font-weight:bold; text-align: center; font-size: 40px;">Dakuon (‘voiced sound’) and Handakuon (‘aspirated sound’)</div>
 		<br>
 		<p>　「が(Ga)」「ぎ(Gi)」などの<ruby><rb>濁音</rb><rt>だくおん</rt></ruby>、「ぱ(Pa)」「ぴ(Pi)」などの<ruby><rb>半濁音</rb><rt>はんだくおん</rt></ruby>を<ruby><rb>勉強</rb><rt>べんきょう</rt></ruby>しましょう。</p>
 		<p>　Let's study the Dakuon (‘voiced sound’) such as 「が(Ga)」、「ぎ(Gi)」, and the Handakuon (‘aspirated sound’) such as 「ぱ(Pa)」、「ぴ(Pi)」.</p>

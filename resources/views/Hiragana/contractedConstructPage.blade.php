@@ -12,7 +12,7 @@
     </head>
 <body>
 	<div class="box">
-		<div style="font-weight:bold; font-size: 45;">Contracted Sound</div>
+		<div style="font-weight:bold; font-size: 50px; text-align: center;">Contracted Sound</div>
     <br>
     <img src="/hiragana/image/拗音表.bmp" width="90%"/>
 	</div>

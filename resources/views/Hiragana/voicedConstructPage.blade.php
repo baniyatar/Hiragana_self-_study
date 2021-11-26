@@ -12,7 +12,7 @@
     </head>
 <body>
 	<div class="box">
-		<div style="font-weight:bold; font-size: 45;">Voiced Sound</div>
+		<div style="font-weight:bold; font-size: 50px; text-align: center;">Voiced Sound</div>
     <br>
     <img src="/hiragana/image/濁音半濁音表.png" width="90%"/>
 	</div>

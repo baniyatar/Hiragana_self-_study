@@ -12,8 +12,8 @@
     </head>
     <body>
 	<div class="box">
-	<div style="font-weight:bold"><ruby><rb>拗音</rb><rt>ようおん</rt></ruby></div>
-		<div style="font-weight:bold">Contracted sound</div>
+	<div style="font-weight:bold; font-size: 50px; text-align: center;"><ruby><rb>拗音</rb><rt>ようおん</rt></ruby></div>
+		<div style="font-weight:bold; font-size: 50px; text-align: center;">Contracted sound</div>
 		<br>
 		<p>　ここでは「きゃ(Kya)」「きゅ(Kyu)」「きょ(Kyo)」などの<ruby><rb>拗音</rb><rt>ようおん</rt></ruby>を<ruby><rb>勉強</rb><rt>べんきょう</rt></ruby>しましょう。</p>
 		<p>　Let's study contracted sounds such as “きゃ(Kya)”、 “きゅ(Kyu)”、 “きょ(Kyo)”.</p>

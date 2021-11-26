@@ -25,7 +25,7 @@ iframe {
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">ひらがな <span style="font-family: serif;font-weight: bold; font-size: larger;">Hiragana</span></div>
+                <div class="card-header" style="text-align: center;"><span style="font-family: serif;font-weight: bold; font-size: 30px;">ひらがな</span>　<span style="font-family: serif;font-weight: bold; font-size: 30px;">Hiragana</span></div>
                
                 <div class="card-body">
                   
@@ -49,7 +49,7 @@ iframe {
                 {{-- <button type="button" class="btn btn-Secondary btn-lg btn-block">Kanji </button>
                     <button type="button" class="btn btn-Secondary btn-lg btn-block">Katakana </button> --}}
                
-                    <a class="nav-link" href="{{ url('/logout') }}">やめる <span style="font-family: serif;">Log out</span></a> </div>
+               <!--     <a class="nav-link" href="{{ url('/logout') }}">やめる <span style="font-family: serif;">Log out</span></a> </div>-->
             </div>
         </div>
     </div>
