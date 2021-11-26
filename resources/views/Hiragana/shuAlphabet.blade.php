@@ -78,12 +78,12 @@
       <br>
     </p>
 
-    <p style="font-size: 50px;"><span style="color: red;">しゅ</span>み
+    <p style="font-size: 50px;"><span style="color: red;">しゅ</span>み Hobby
 
       <audio id="audio3">
         <source src="hiragana/shu/しゅみ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/shu/sound-s.png" onclick="playSound3()"> Hobby
+      <img style="vertical-align:middle;" src="hiragana/shu/sound-s.png" onclick="playSound3()"> 
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/shu/sample.png" alt="">
       <br>
     </p>

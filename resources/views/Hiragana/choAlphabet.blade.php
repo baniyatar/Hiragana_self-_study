@@ -58,12 +58,12 @@
       <img src="hiragana/cho/ちょ.png" alt="ちょpng">
     </div><br>
 
-    <p style="font-size: 50px;"><span style="color: red;">ちょ</span>うしょく
+    <p style="font-size: 50px;"><span style="color: red;">ちょ</span>うしょく Breakfast
 
       <audio id="audio1">
         <source src="hiragana/cho/ちょうしょく.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/cho/sound-s.png" onclick="playSound1()">Breakfast
+      <img style="vertical-align:middle;" src="hiragana/cho/sound-s.png" onclick="playSound1()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/cho/sample.png" alt="">
       <br>
     </p>

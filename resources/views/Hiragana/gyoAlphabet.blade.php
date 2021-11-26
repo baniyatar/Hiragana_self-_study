@@ -65,11 +65,11 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gyo/sample.png" alt="">
       <br>
     </p>
-    <p style="font-size: 50px;"><span style="color: red;">ぎょ</span>うざ
+    <p style="font-size: 50px;"><span style="color: red;">ぎょ</span>うざ Dumplings
       <audio id="audio2">
         <source src="hiragana/gyo/ぎょうざ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/gyo/sound-s.png" onclick="playSoundGyouza()"> Dumplings
+      <img style="vertical-align:middle;" src="hiragana/gyo/sound-s.png" onclick="playSoundGyouza()"> 
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gyo/sample.png" alt="">
       <br>
     </p>
