@@ -54,59 +54,50 @@
 <body>
   <div class="box">
     <p class="font_word">ま
-
       <audio id="audioMa">
         <source src="hiragana/ma/ま.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ma/sound-s.png" onclick="playSoundMa()">
     </p>
     <div class="letter_start">
-
       <img class="testBorder" src="hiragana/ma/ma.gif" alt="まgif">
     </div><br>
     <div class="letter_start"> <img src="hiragana/ma/ま.png" style="width: 80%;" alt="まpng">
     </div>
 
-    <p class="font_word">まいにち
-
+    <p class="font_word">まいにち　Everyday
       <audio id="audio1">
         <source src="hiragana/ma/まいにち.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ma/sound-s.png" onclick="playSoundMainichi()">
-    <p style="font-size: 50;">Everyday</p>
-    <br>
-    <!-- <img src="hiragana/a/red.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ma/sample.png" alt="">
     </p>
-    <p class="font_word">まえ
+    <br>
+    <p class="font_word">まえ　Before / In Front of
       <audio id="audio2">
         <source src="hiragana/ma/まえ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ma/sound-s.png" onclick="playSoundmae()">
-    <p style="font-size: 50;">Before / In Front of</p>
-    <br>
-    <!-- <img src="hiragana/a/foot.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ma/sample.png" alt="">
     </p>
-
-    <p class="font_word">まくら
+    <br>
+    <p class="font_word">まくら　Pillow
       <audio id="audio3">
         <source src="hiragana/ma/まくら.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ma/sound-s.png" onclick="playSoundmakura()">
-    <p style="font-size: 50;">Pillow</p>
-    <br>
-    <!--<img src="hiragana/a/head.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ma/sample.png" alt="">
     </p>
-
-    <p class="font_word">まち
+    <br>
+    <p class="font_word">まち　City / Town
       <audio id="audio4">
         <source src="hiragana/ma/まち.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ma/sound-s.png" onclick="playSoundMachi()">
-    <p style="font-size: 50;">City / Town</p>
-    <br>
-    <!--<img src="hiragana/a/ame.jpg" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ma/sample.png" alt="">
     </p>
   </div>
+
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/hoAlphabet')}}'">&lt;PREV</button>
   <button class="next_btn" onClick="location.href='{{ url('/miAlphabet')}}'">NEXT&gt;</button>

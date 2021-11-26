@@ -54,59 +54,50 @@
 <body>
   <div class="box">
     <p class="font_word">ふ
-
       <audio id="audioKu">
         <source src="hiragana/fu/ふ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/fu/sound-s.png" onclick="playSoundFu()">
     </p>
     <div class="letter_start">
-
       <img class="testBorder" src="hiragana/fu/fu.gif" alt="くgif">
     </div><br>
     <div class="letter_start"> <img src="hiragana/fu/ふ.png" style="width: 80%;" alt="ふpng">
     </div>
 
-    <p class="font_word">ふく
-
+    <p class="font_word">ふく　Clothes
       <audio id="audio1">
         <source src="hiragana/fu/ふく.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/fu/sound-s.png" onclick="playSoundFuku()">
-    <p style="font-size: 50;">Clothes</p>
-    <br>
-    <!--<img src="hiragana/a/red.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/fu/sample.png" alt="">
     </p>
-    <p class="font_word">ふとい
+    <br>
+    <p class="font_word">ふとい　Fat / Thick
       <audio id="audio2">
         <source src="hiragana/fu/ふとい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/fu/sound-s.png" onclick="playSoundFutoi()">
-    <p style="font-size: 50;">Fat / Thick</p>
-    <br>
-    <!--<img src="hiragana/a/foot.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/fu/sample.png" alt="">
     </p>
-
-    <p class="font_word">ふゆ
+    <br>
+    <p class="font_word">ふゆ　Winter
       <audio id="audio3">
         <source src="hiragana/fu/ふゆ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ku/sound-s.png" onclick="playSoundFuyu()">
-    <p style="font-size: 50;">Winter</p>
-    <br>
-    <!--<img src="hiragana/a/head.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/fu/sample.png" alt="">
     </p>
-
-    <p class="font_word">ふゆやすみ
+    <br>
+    <p class="font_word">ふゆやすみ　Winter Vacation
       <audio id="audio4">
         <source src="hiragana/fu/ふゆやすみ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/fu/sound-s.png" onclick="playSoundFuyuyasumi()">
-    <p style="font-size: 50;">Winter Vacation</p>
-    <br>
-    <!--<img src="hiragana/a/ame.jpg" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/fu/sample.png" alt="">
     </p>
   </div>
+
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/hiAlphabet')}}'">&lt;PREV</button>
   <button class="next_btn" onClick="location.href='{{ url('/heAlphabet')}}'">NEXT&gt;</button>

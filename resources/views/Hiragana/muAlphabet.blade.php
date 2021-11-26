@@ -54,59 +54,50 @@
 <body>
   <div class="box">
     <p class="font_word">む
-
       <audio id="audioMu">
         <source src="hiragana/mu/む.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/mu/sound-s.png" onclick="playSoundMu()">
     </p>
     <div class="letter_start">
-
       <img class="testBorder" src="hiragana/mu/mu.gif" alt="むgif">
     </div><br>
     <div class="letter_start"> <img src="hiragana/mu/む-bw.png" style="width: 80%;" alt="むpng">
     </div>
 
-    <p class="font_word">むいか
-
+    <p class="font_word">むいか　6th of Month
       <audio id="audio1">
         <source src="hiragana/mu/むいか.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/mu/sound-s.png" onclick="playSoundMuika()">
-    <p style="font-size: 50;">6th of Month</p>
-    <br>
-    <!-- <img src="hiragana/a/red.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mu/sample.png" alt="">
     </p>
-    <p class="font_word">むこう
+    <br>
+    <p class="font_word">むこう　Over There
       <audio id="audio2">
         <source src="hiragana/mu/むこう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/mu/sound-s.png" onclick="playSoundmukou()">
-    <p style="font-size: 50;">Over There</p>
-    <br>
-    <!-- <img src="hiragana/a/foot.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mu/sample.png" alt="">
     </p>
-
-    <p class="font_word">むずかしい
+    <br>
+    <p class="font_word">むずかしい　Difficult
       <audio id="audio3">
         <source src="hiragana/mu/むずかしい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/mu/sound-s.png" onclick="playSoundmuzukashii()">
-    <p style="font-size: 50;">Difficult</p>
-    <br>
-    <!--<img src="hiragana/a/head.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mu/sample.png" alt="">
     </p>
-
-    <p class="font_word">むっつ
+    <br>
+    <p class="font_word">むっつ　Six / 6
       <audio id="audio4">
         <source src="hiragana/mu/むっつ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/mu/sound-s.png" onclick="playSoundMutsutsu()">
-    <p style="font-size: 50;">Six / 6</p>
-    <br>
-    <!--<img src="hiragana/a/ame.jpg" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mu/sample.png" alt="">
     </p>
   </div>
+
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/miAlphabet')}}'">&lt;PREV</button>
   <button class="next_btn" onClick="location.href='{{ url('/meAlphabet')}}'">NEXT&gt;</button>

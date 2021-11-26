@@ -54,59 +54,50 @@
 <body>
   <div class="box">
     <p class="font_word">み
-
       <audio id="audioMi">
         <source src="hiragana/mi/み.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/mi/sound-s.png" onclick="playSoundMi()">
     </p>
     <div class="letter_start">
-
       <img class="testBorder" src="hiragana/mi/mi.gif" alt="みgif">
     </div><br>
     <div class="letter_start"> <img src="hiragana/mi/み-bw.png" style="width: 70%;" alt="みpng">
     </div>
 
-    <p class="font_word">みかん
-
+    <p class="font_word">みかん　Orange
       <audio id="audio1">
         <source src="hiragana/mi/みかん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/mi/sound-s.png" onclick="playSoundMikan()">
-    <p style="font-size: 50;">Orange</p>
-    <br>
-    <!-- <img src="hiragana/a/red.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mi/sample.png" alt="">
     </p>
-    <p class="font_word">みせ
+    <br>
+    <p class="font_word">みせ　Shop
       <audio id="audio2">
         <source src="hiragana/mi/みせ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/mi/sound-s.png" onclick="playSoundmise()">
-    <p style="font-size: 50;">Shop</p>
-    <br>
-    <!-- <img src="hiragana/a/foot.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mi/sample.png" alt="">
     </p>
-
-    <p class="font_word">みち
+    <br>
+    <p class="font_word">みち　Street
       <audio id="audio3">
         <source src="hiragana/mi/みち.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/mi/sound-s.png" onclick="playSoundmichi()">
-    <p style="font-size: 50;">Street</p>
-    <br>
-    <!--<img src="hiragana/a/head.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mi/sample.png" alt="">
     </p>
-
-    <p class="font_word">みみ
+    <br>
+    <p class="font_word">み<span style="color: red;">み</span>　Ear
       <audio id="audio4">
         <source src="hiragana/mi/みみ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/mi/sound-s.png" onclick="playSoundMimi()">
-    <p style="font-size: 50;">Ear</p>
-    <br>
-    <!--<img src="hiragana/a/ame.jpg" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mi/sample.png" alt="">
     </p>
   </div>
+
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/maAlphabet')}}'">&lt;PREV</button>
   <button class="next_btn" onClick="location.href='{{ url('/muAlphabet')}}'">NEXT&gt;</button>

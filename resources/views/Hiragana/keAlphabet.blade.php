@@ -67,44 +67,36 @@
     <div class="letter_start"> <img src="hiragana/ke/け.png" style="width: 80%;" alt="けpng">
     </div>
 
-    <p class="font_word">けいさつ
-
+    <p class="font_word">けいさつ　Police
       <audio id="audio1">
         <source src="hiragana/ke/けいさつ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/a/sound-s.png" onclick="playSoundKeisatsu()">
-    <p style="font-size: 50;">Police</p>
-    <br>
-    <!--<img src="hiragana/a/red.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ke/sample.png" alt="">
     </p>
-    <p class="font_word">けいたいでんわ
+    <br>
+    <p class="font_word">けいたいでんわ　Cellphone
       <audio id="audio2">
         <source src="hiragana/ke/けいたいでんわ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ke/sound-s.png" onclick="playSoundKeitaidenwa()">
-    <p style="font-size: 50;">Cellphone</p>
-    <br>
-    <!--<img src="hiragana/a/foot.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ke/sample.png" alt="">
     </p>
-
-    <p class="font_word">けしき
+    <br>
+    <p class="font_word">けしき　Scenery
       <audio id="audio3">
         <source src="hiragana/ke/けしき.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ke/sound-s.png" onclick="playSoundKeshiki()">
-    <p style="font-size: 50;">Scenery</p>
-    <br>
-    <!--<img src="hiragana/a/head.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ke/sample.png" alt="">
     </p>
-
-    <p class="font_word">けしごむ
+    <br>
+    <p class="font_word">けしごむ　Eraser
       <audio id="audio4">
         <source src="hiragana/ke/けしごむ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ke/sound-s.png" onclick="playSoundKeshigomu()">
-    <p style="font-size: 50;">Eraser</p>
-    <br>
-    <!--<img src="hiragana/a/ame.jpg" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ke/sample.png" alt="">
     </p>
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

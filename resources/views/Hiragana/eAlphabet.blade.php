@@ -60,33 +60,29 @@
     <div class="letter_start"> <img src="hiragana/e/e.png" alt="えpng">
     </div>
 
-    <p class="font_word">えいが
-
+    <p class="font_word">えいが　Movie
       <audio id="audio1">
         <source src="hiragana/e/えいが.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/e/sound-s.png" onclick="playSoundEiga()">
-    <p style="font-size: 50;">Movie</p>
-    <!-- <br><img src="hiragana/e/red.png" alt=""> -->
+    <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/e/sample.png" alt="">
     </p>
-    <p class="font_word">えき
+    <br>
+    <p class="font_word">えき　Railway Station
       <audio id="audio2">
         <source src="hiragana/e/えき.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/e/sound-s.png" onclick="playSoundEki()">
-    <p style="font-size: 50;">Railway Station</p>
-    <!-- <br><img src="hiragana/e/foot.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/e/sample.png" alt="">
     </p>
-
-    <p class="font_word">えんぴつ
+    <br>
+    <p class="font_word">えんぴつ　Pencil
       <audio id="audio3">
         <source src="hiragana/e/えんぴつ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/e/sound-s.png" onclick="playSoundEnPitsu()">
-    <p style="font-size: 50;">Pencil</p>
-    <!-- <br><img src="hiragana/e/head.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/e/sample.png" alt="">
     </p>
-
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

@@ -67,42 +67,37 @@
     <div class="letter_start"> <img src="/hiragana/shi/し-bw.png" style="width: 40%;" alt="しpng">
     </div>
 
-    <p class="font_word">しお
-
+    <p class="font_word">しお　Salt
       <audio id="audio1">
         <source src="hiragana/shi/しお.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/shi/sound-s.png" onclick="playSoundShio()">
-    <p style="font-size: 50;">Salt</p>
-    {{-- <br><img src="hiragana/a/red.png" alt=""> --}}
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/shi/sample.png" alt="">
     </p>
-    <p class="font_word">しょくじ
+    <br>
+    <p class="font_word">しょくじ　Meal
       <audio id="audio2">
         <source src="hiragana/shi/しょくじ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/shi/sound-s.png" onclick="playSoundShokuji()">
-    <p style="font-size: 50;">Meal</p>
-    {{-- <br><img src="hiragana/a/ame.jpg" alt=""> --}}
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/shi/sample.png" alt="">
     </p>
-
-    <p class="font_word">しんごう
+    <br>
+    <p class="font_word">しんごう　Signal
       <audio id="audio3">
         <source src="hiragana/shi/しんごう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/shi/sound-s.png" onclick="playSoundShingou()">
-    <p style="font-size: 50;">Signal</p>
-    {{-- <br><img src="hiragana/a/foot.png" alt=""> --}}
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/shi/sample.png" alt="">
     </p>
-
-    <p class="font_word">しんぶん
+    <br>
+    <p class="font_word">しんぶん　Newspaper
       <audio id="audio4">
         <source src="hiragana/shi/しんぶん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/shi/sound-s.png" onclick="playSoundshinbun()">
-    <p style="font-size: 50;">Newspaper</p>
-    {{-- <br><img src="hiragana/a/head.png" alt=""> --}}
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/shi/sample.png" alt="">
     </p>
-
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

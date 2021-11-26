@@ -67,42 +67,39 @@
     <div class="letter_start"> <img src="hiragana/ni/に.png" style="width: 80%;" alt="にpng">
     </div>
 
-    <p class="font_word">にく
-
+    <p class="font_word">にく　Meat
       <audio id="audio1">
         <source src="hiragana/ni/にく.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ni/sound-s.png" onclick="playSoundNiku()">
-    <p style="font-size: 50;">Meat</p>
-    <br><img src="hiragana/ni/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ni/sample.png" alt="">
     </p>
-    <p class="font_word">にし
+    <br>
+    <p class="font_word">にし　West
       <audio id="audio2">
         <source src="hiragana/ni/にし.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ni/sound-s.png" onclick="playSoundNishi()">
-    <p style="font-size: 50;">West</p>
-    <br><img src="hiragana/ni/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ni/sample.png" alt="">
     </p>
-
-    <p class="font_word">にほん／にっぽん
+    <br>
+    <p class="font_word">にほん／にっぽん　Japan
       <audio id="audio3">
         <source src="hiragana/ni/にほん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ni/sound-s.png" onclick="playSoundNihon()">
-    <p style="font-size: 50;">Japan</p>
-    <br><img src="hiragana/ni/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ni/sample.png" alt="">
     </p>
-
-    <p class="font_word">にわ
+    <br>
+    <p class="font_word">にわ　Yard
       <audio id="audio4">
         <source src="hiragana/ni/にわ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ni/sound-s.png" onclick="playSoundNiwa()">
-    <p style="font-size: 50;">Yard</p>
-    <br><img src="hiragana/ni/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ni/sample.png" alt="">
     </p>
   </div>
+
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/naAlphabet')}}'">&lt;PREV</button>
   <button class="next_btn" onClick="location.href='{{ url('/nuAlphabet')}}'">NEXT&gt;</button>

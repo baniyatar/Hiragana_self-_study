@@ -67,40 +67,36 @@
     <div class="letter_start"> <img src="hiragana/o/o.png" alt="おpng">
     </div>
 
-    <p class="font_word">おさら
-
+    <p class="font_word">おさら　Plate / Dish
       <audio id="audio1">
         <source src="hiragana/o/おさら.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/o/sound-s.png" onclick="playSoundOsara()">
-    <p style="font-size: 50;">Plate / Dish</p>
-    <!-- <br><img src="hiragana/o/red.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/o/sample.png" alt="">
     </p>
-    <p class="font_word">おとこ
+    <br>
+    <p class="font_word">おとこ　Man
       <audio id="audio2">
         <source src="hiragana/o/おとこ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/o/sound-s.png" onclick="playSoundOtoko()">
-    <p style="font-size: 50;">Man</p>
-    <!-- <br><img src="hiragana/a/foot.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/o/sample.png" alt="">
     </p>
-
-    <p class="font_word">おなか
+    <br>
+    <p class="font_word">おなか　Stomach
       <audio id="audio3">
         <source src="hiragana/o/おなか.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/o/sound-s.png" onclick="playSoundOnaka()">
-    <p style="font-size: 50;">Stomach</p>
-    <!-- <br><img src="hiragana/a/head.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/o/sample.png" alt="">
     </p>
-
-    <p class="font_word">おんな
+    <br>
+    <p class="font_word">おんな　Women
       <audio id="audio4">
         <source src="hiragana/o/おんな.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/o/sound-s.png" onclick="playSoundOnna()">
-    <p style="font-size: 50;">Women</p>
-    <!-- <br><img src="hiragana/a/ame.jpg" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/o/sample.png" alt="">
     </p>
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

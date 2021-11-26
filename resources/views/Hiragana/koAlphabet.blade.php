@@ -67,44 +67,36 @@
     <div class="letter_start"> <img src="hiragana/ko/こ.png" style="width: 70%;" alt="こpng">
     </div>
 
-    <p class="font_word">こうえん
-
+    <p class="font_word">こうえん　Park
       <audio id="audio1">
         <source src="hiragana/ko/こうえん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ko/sound-s.png" onclick="playSoundKouen()">
-    <p style="font-size: 50;">Park</p>
-    <br>
-    <!--<img src="hiragana/a/red.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ko/sample.png" alt="">
     </p>
-    <p class="font_word">こうばん
+    <br>
+    <p class="font_word">こうばん　Police Box
       <audio id="audio2">
         <source src="hiragana/ko/こうばん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ko/sound-s.png" onclick="playSoundKouban()">
-    <p style="font-size: 50;">Police Box</p>
-    <br>
-    <!--<img src="hiragana/a/foot.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ko/sample.png" alt="">
     </p>
-
-    <p class="font_word">こえ
+    <br>
+    <p class="font_word">こえ　Sound
       <audio id="audio3">
         <source src="hiragana/ko/こえ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/a/sound-s.png" onclick="playSoundKoe()">
-    <p style="font-size: 50;">Sound</p>
-    <br>
-    <!--<img src="hiragana/a/head.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ko/sample.png" alt="">
     </p>
-
-    <p class="font_word">こども
+    <br>
+    <p class="font_word">こども　Child
       <audio id="audio4">
         <source src="hiragana/ko/こども.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ko/sound-s.png" onclick="playSoundKodomo()">
-    <p style="font-size: 50;">Child</p>
-    <br>
-    <!--<img src="hiragana/a/ame.jpg" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ko/sample.png" alt="">
     </p>
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

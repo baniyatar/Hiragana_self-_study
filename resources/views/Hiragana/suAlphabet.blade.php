@@ -67,42 +67,37 @@
     <div class="letter_start"> <img src="/hiragana/su/す-bw.png" style="width: 70%;" alt="すpng">
     </div>
 
-    <p class="font_word">すいえい
-
+    <p class="font_word">すいえい　Swimming
       <audio id="audio1">
         <source src="hiragana/su/すいえい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/su/sound-s.png" onclick="playSoundSuiei()">
-    <p style="font-size: 50;">Swimming</p>
-    {{-- <br><img src="hiragana/a/red.png" alt=""> --}}
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/su/sample.png" alt="">
     </p>
-    <p class="font_word">すき
+    <br>
+    <p class="font_word">すき　Favorite
       <audio id="audio2">
         <source src="hiragana/su/すき.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/su/sound-s.png" onclick="playSoundSuki()">
-    <p style="font-size: 50;">Favorite</p>
-    {{-- <br><img src="hiragana/a/ame.jpg" alt=""> --}}
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/su/sample.png" alt="">
     </p>
-
-    <p class="font_word">すくない
+    <br>
+    <p class="font_word">すくない　Few
       <audio id="audio3">
         <source src="hiragana/su/すくない.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/su/sound-s.png" onclick="playSoundSukunai()">
-    <p style="font-size: 50;">Few</p>
-    {{-- <br><img src="hiragana/a/foot.png" alt=""> --}}
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/su/sample.png" alt="">
     </p>
-
-    <p class="font_word">すずしい
+    <br>
+    <p class="font_word">すずしい　Cool
       <audio id="audio4">
         <source src="hiragana/su/すずしい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/su/sound-s.png" onclick="playSoundSuzushii()">
-    <p style="font-size: 50;">Cool</p>
-    {{-- <br><img src="hiragana/a/head.png" alt=""> --}}
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/su/sample.png" alt="">
     </p>
-
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

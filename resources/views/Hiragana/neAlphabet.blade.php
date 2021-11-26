@@ -61,48 +61,44 @@
       <img style="vertical-align:middle;" src="hiragana/ne/sound-s.png" onclick="playSoundNe()">
     </p>
     <div class="letter_start">
-
       <img class="testBorder" src="hiragana/ne/ne.gif" alt="ねgif">
     </div><br>
     <div class="letter_start"> <img src="hiragana/ne/ね.png" style="width: 70%;" alt="ねpng">
     </div>
 
-    <p style="font-size: 50px;">あ<span style="color: red;">ね</span>
-
+    <p style="font-size: 50px;">あ<span style="color: red;">ね</span>　Elder Sister
       <audio id="audio1">
         <source src="hiragana/ne/あね.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ne/sound-s.png" onclick="playSoundAne()">
-    <p style="font-size: 50;">Elder Sister</p>
-    <br><img src="hiragana/ne/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ne/sample.png" alt="">
     </p>
-    <p class="font_word">ねこ
+    <br>
+    <p class="font_word">ねこ　Cat
       <audio id="audio2">
         <source src="hiragana/ne/ねこ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ne/sound-s.png" onclick="playSoundNeko()">
-    <p style="font-size: 50;">Cat</p>
-    <br><img src="hiragana/ne/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ne/sample.png" alt="">
     </p>
-
-    <p class="font_word">ねむい
+    <br>
+    <p class="font_word">ねむい　Sleepy
       <audio id="audio3">
         <source src="hiragana/ne/ねむい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ne/sound-s.png" onclick="playSoundNemui()">
-    <p style="font-size: 50;">Sleepy</p>
-    <br><img src="hiragana/ne/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ne/sample.png" alt="">
     </p>
-
-    <p class="font_word">めがね
+    <br>
+    <p class="font_word">めがね　Glasses
       <audio id="audio4">
         <source src="hiragana/ne/めがね.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ne/sound-s.png" onclick="playSoundMegane()">
-    <p style="font-size: 50;">Glasses</p>
-    <br><img src="hiragana/ne/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ne/sample.png" alt="">
     </p>
   </div>
+
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/nuAlphabet')}}'">&lt;PREV</button>
   <button class="next_btn" onClick="location.href='{{ url('/noAlphabet')}}'">NEXT&gt;</button>

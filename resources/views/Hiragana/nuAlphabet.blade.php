@@ -67,42 +67,39 @@
     <div class="letter_start"> <img src="hiragana/nu/ぬ.png" style="width: 70%;" alt="ぬpng">
     </div>
 
-    <p style="font-size: 50px;">い<span style="color: red;">ぬ</span>
-
+    <p style="font-size: 50px;">い<span style="color: red;">ぬ</span>　Dog
       <audio id="audio1">
         <source src="hiragana/nu/いぬ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/nu/sound-s.png" onclick="playSoundInu()">
-    <p style="font-size: 50;">Dog</p>
-    <br><img src="hiragana/nu/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/nu/sample.png" alt="">
     </p>
-    <p class="font_word">ぬすみ
+    <br>
+    <p class="font_word">ぬすみ　Thievery
       <audio id="audio2">
         <source src="hiragana/nu/ぬすみ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/nu/sound-s.png" onclick="playSoundNusumi()">
-    <p style="font-size: 50;">Thievery</p>
-    <br><img src="hiragana/nu/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/nu/sample.png" alt="">
     </p>
-
-    <p class="font_word">ぬの
+    <br>
+    <p class="font_word">ぬの　Cloth
       <audio id="audio3">
         <source src="hiragana/nu/ぬの.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/nu/sound-s.png" onclick="playSoundNuno()">
-    <p style="font-size: 50;">Cloth</p>
-    <br><img src="hiragana/nu/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/nu/sample.png" alt="">
     </p>
-
-    <p class="font_word">ぬるい
+    <br>
+    <p class="font_word">ぬるい　Lukewarm
       <audio id="audio4">
         <source src="hiragana/nu/ぬるい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/nu/sound-s.png" onclick="playSoundNurui()">
-    <p style="font-size: 50;">Lukewarm</p>
-    <br><img src="hiragana/nu/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/nu/sample.png" alt="">
     </p>
   </div>
+
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/niAlphabet')}}'">&lt;PREV</button>
   <button class="next_btn" onClick="location.href='{{ url('/neAlphabet')}}'">NEXT&gt;</button>
