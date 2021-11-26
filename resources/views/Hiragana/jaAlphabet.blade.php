@@ -67,10 +67,10 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ja/sample.png" alt="">
       <br>
     </p>
-    <p style="font-size: 50px;"><span style="color: red;">じゃ</span>がいも
+    <p style="font-size: 50px;"><span style="color: red;">じゃ</span>がいも Potato
 
       <audio id="audio2">
-        <source src="hiragana/ja/じゃがいも.mp3" type="audio/mp3">Potato
+        <source src="hiragana/ja/じゃがいも.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ja/sound-s.png" onclick="playSound2()">Potato
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ja/sample.png" alt="">
