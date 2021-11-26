@@ -53,23 +53,24 @@
     <div class="letter_start"> <img src="hiragana/du/づ.png" style="width: 80%;" alt="づpng">
     </div>
 
-    <p style="font-size: 50px;">おこ<span style="color: red;">づ</span>かい
+    <p style="font-size: 50px;">おこ<span style="color: red;">づ</span>かい　Allowance
 
       <audio id="audio1">
         <source src="hiragana/du/おこづかい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/du/sound-s.png" onclick="playSound1()">
-    <p style="font-size: 50;">Allowance</p>
-    <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/du/sample.png" alt="">
     </p>
-    <p style="font-size: 50px;">かん<span style="color: red;">づ</span>め
+    <br>
+
+    <p style="font-size: 50px;">かん<span style="color: red;">づ</span>め　Canning
       <audio id="audio2">
         <source src="hiragana/du/かんづめ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/du/sound-s.png" onclick="playSound2()">
-    <p style="font-size: 50;">Canning</p>
-    <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/du/sample.png" alt="">
     </p>
+    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

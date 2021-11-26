@@ -62,39 +62,36 @@
 
 
 
-    <p style="font-size: 50px;">きっ<span style="color: red;">ぷ</span>
-
+    <p style="font-size: 50px;">きっ<span style="color: red;">ぷ</span>　Ticket
       <audio id="audio1">
         <source src="hiragana/pu/きっぷ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/pu/sound-s.png" onclick="playSoundkitsupu()">
-    <p style="font-size: 50;">Ticket</p>
-    <br>
-    <!-- <img src="hiragana/pu/red.png" alt="">-->
+      <br>
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pu/sample.png" alt="">
     </p>
+    <br>
 
     </audio>
-    <p style="font-size: 50px;">せん<span style="color: red;">ぷ</span>うき
+    <p style="font-size: 50px;">せん<span style="color: red;">ぷ</span>うき　Fan
       <audio id="audio2">
         <source src="hiragana/pu/せんぷうき.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/pu/sound-s.png" onclick="playSoundsenpuuki()">
-    <p style="font-size: 50;">Fan</p>
-    <br>
-    <!-- <img src="hiragana/pu/red.png" alt="">-->
+      <br>
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pu/sample.png" alt="">
     </p>
+    <br>
 
-    <p style="font-size: 50px;">てん<span style="color: red;">ぷ</span>ら
+    <p style="font-size: 50px;">てん<span style="color: red;">ぷ</span>ら　Tempura
       <audio id="audio3">
         <source src="hiragana/pu/てんぷら.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/pu/sound-s.png" onclick="playSoundtenpura()">
-    <p style="font-size: 50;">Tempura</p>
-    <br>
-    <!-- <img src="hiragana/a/foot.png" alt="">-->
+      <br>
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pu/sample.png" alt="">
     </p>
-
-
+    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

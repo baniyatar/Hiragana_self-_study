@@ -59,34 +59,32 @@
     </div><br>
     <div class="letter_start"> <img src="hiragana/ba/ば.png" alt="ばpng"></div>
 
-    <p style="font-size: 50px;">か<span style="color: red;">ば</span>ん
-
+    <p style="font-size: 50px;">か<span style="color: red;">ば</span>ん　Bag
       <audio id="audio1">
         <source src="hiragana/ba/かばん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ba/sound-s.png" onclick="playSound1()">
-    <p style="font-size: 50;">Bag</p>
-    <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ba/sample.png" alt="">
     </p>
-    <p style="font-size: 50px;">こう<span style="color: red;">ば</span>ん
+    <br>
 
+    <p style="font-size: 50px;">こう<span style="color: red;">ば</span>ん　Police Box
       <audio id="audio2">
         <source src="hiragana/ba/こうばん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ba/sound-s.png" onclick="playSound2()">
-    <p style="font-size: 50;">Police Box</p>
-    <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ba/sample.png" alt="">
     </p>
+    <br>
 
-    <p style="font-size: 50px;">た<span style="color: red;">ば</span>こ
-
+    <p style="font-size: 50px;">た<span style="color: red;">ば</span>こ　Cigarette
       <audio id="audio3">
         <source src="hiragana/ba/たばこ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ba/sound-s.png" onclick="playSound3()">
-    <p style="font-size: 50;">Cigarette</p>
-    <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ba/sample.png" alt="">
     </p>
+    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

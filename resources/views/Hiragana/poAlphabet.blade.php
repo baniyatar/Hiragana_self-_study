@@ -62,42 +62,36 @@
 
 
     　
-    <p style="font-size: 50px;">かん<span style="color: red;">ぽ</span>うやく
-
+    <p style="font-size: 50px;">かん<span style="color: red;">ぽ</span>うやく　Hebal Medicine
       <audio id="audio1">
         <source src="hiragana/po/かんぽうやく.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/po/sound-s.png" onclick="playSoundkanpouyaku()">
-    <p style="font-size: 50;">Hebal Medicine</p>
-    <br>
-    <!-- <img src="hiragana/po/red.png" alt="">-->
+      <br>
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/po/sample.png" alt="">
     </p>
+    <br>
 
-
-    <p style="font-size: 50px;">しん<span style="color: red;">ぽ</span>
+    <p style="font-size: 50px;">さん<span style="color: red;">ぽ</span>　Stroll
 
       <audio id="audio2">
-        <source src="hiragana/po/しんぽ　.mp3" type="audio/mp3">
+        <source src="hiragana/po/さんぽ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/po/sound-s.png" onclick="playSoundsinpo()">
-    <p style="font-size: 50;">Stroll</p>
-    <br>
-    <!-- <img src="hiragana/po/red.png" alt="">-->
+      <img style="vertical-align:middle;" src="hiragana/po/sound-s.png" onclick="playSoundsanpo()">
+      <br>
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/po/sample.png" alt="">
     </p>
+    <br>
 
-    <p class="font_word">ぽか<span style="color: red;">ぽ</span>か
-
+    <p class="font_word">ぽか<span style="color: red;">ぽ</span>か　Warm
       <audio id="audio3">
         <source src="hiragana/po/ぽかぽか.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/po/sound-s.png" onclick="playSoundpokapoka()">
-    <p style="font-size: 50;">Warm</p>
-    <br>
-    <!-- <img src="hiragana/po/red.png" alt="">-->
+      <br>
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/po/sample.png" alt="">
     </p>
-
-
-
+    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

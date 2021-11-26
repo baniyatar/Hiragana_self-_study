@@ -28,7 +28,7 @@
     document.getElementById('audio1').play();
   }
 
-  function playSoundseinengatsupi() {
+  function playSoundseinengappi() {
     audioStop();
     document.getElementById('audio2').play();
   }
@@ -60,34 +60,35 @@
     <div class="letter_start"> <img src="hiragana/pi/pi.png" style="width: 70%;" alt="gapng">
     </div>
 
-    <p style="font-size: 50px;">えん<span style="color: red;">ぴ</span>つ
+    <p style="font-size: 50px;">えん<span style="color: red;">ぴ</span>つ　Pencil
       <audio id="audio1">
         <source src="hiragana/pi/えんぴつ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/pi/sound-s.png" onclick="playSoundenpitsu()">
-    <p style="font-size: 50;">Pencil</p>
-    <br>
-    <!-- <img src="hiragana/pi/red.png" alt="">-->
+      <br>
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pi/sample.png" alt="">
     </p>
-    <p style="font-size: 50px;">せいねんがつ<span style="color: red;">ぴ</span>
+    <br>
+
+    <p style="font-size: 50px;">せいねんがっ<span style="color: red;">ぴ</span>　Birthday
       <audio id="audio2">
         <source src="hiragana/pi/せいねんがっぴ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/pi/sound-s.png" onclick="playSoundseinengatsupi()">
-    <p style="font-size: 50;">Birthday</p>
-    <br>
-    <!-- <img src="hiragana/a/foot.png" alt="">-->
+      <img style="vertical-align:middle;" src="hiragana/pi/sound-s.png" onclick="playSoundseinengappi()">
+      <br>
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pi/sample.png" alt="">
     </p>
+    <br>
 
-    <p class="font_word">ぴか<span style="color: red;">ぴ</span>か
+    <p class="font_word">ぴか<span style="color: red;">ぴ</span>か　Shiny
       <audio id="audio3">
         <source src="hiragana/pi/ぴかぴか.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/pi/sound-s.png" onclick="playSoundpikapika()">
-    <p style="font-size: 50;">Shiny</p>
-    <br>
-    <!--<img src="hiragana/a/head.png" alt="">-->
+      <br>
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pi/sample.png" alt="">
     </p>
+    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

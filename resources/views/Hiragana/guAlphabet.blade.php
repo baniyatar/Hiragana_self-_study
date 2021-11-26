@@ -60,37 +60,36 @@
     <div class="letter_start"> <img src="hiragana/gu/gu.png" style="width: 80%;" alt="gapng">
     </div>
 
-    <p style="font-size: 50px;">いり<span style="color: red;">ぐ</span>ち
+    <p style="font-size: 50px;">いり<span style="color: red;">ぐ</span>ち　Entrance
 
       <audio id="audio1">
         <source src="hiragana/gu/いりぐち.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/gu/sound-s.png" onclick="playSoundiriguchi()">
-    <p style="font-size: 50;">Entrance</p>
-    <br>
-    <!-- <img src="hiragana/a/red.png" alt="">-->
+      <br>
+    <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gu/sample.png" alt="">
     </p>
+    <br>
 
-    <p style="font-size: 50px;">で<span style="color: red;">ぐ</span>ち
+    <p style="font-size: 50px;">で<span style="color: red;">ぐ</span>ち　Exit
       <audio id="audio2">
         <source src="hiragana/gu/でぐち.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/gu/sound-s.png" onclick="playSounddeguchi()">
-    <p style="font-size: 50;">Exit</p>
-    <br>
-    <!-- <img src="hiragana/a/foot.png" alt="">-->
+      <br>
+    <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gu/sample.png" alt="">
     </p>
+    <br>
 
-
-    <p style="font-size: 50px;">まっす<span style="color: red;">ぐ</span>
+    <p style="font-size: 50px;">まっす<span style="color: red;">ぐ</span>　Straight
       <audio id="audio3">
         <source src="hiragana/gu/まっすぐ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/gu/sound-s.png" onclick="playSoundmatsusugu()">
-    <p style="font-size: 50;">Straight</p>
-    <br>
-    <!--<img src="hiragana/a/head.png" alt="">-->
+      <br>
+    <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gu/sample.png" alt="">
     </p>
+    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

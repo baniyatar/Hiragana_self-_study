@@ -55,30 +55,25 @@
     </div>
 
 
-    <p class="font_word">ぺこ<span style="color: red;">ぺ</span>こ
-
-
+    <p class="font_word">ぺこ<span style="color: red;">ぺ</span>こ　Starving
       <audio id="audio1">
         <source src="hiragana/pe/ぺこぺこ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/pe/sound-s.png" onclick="playSoundpekopeko()">
-    <p style="font-size: 50;">Starving</p>
-    <br>
-    <!-- <img src="hiragana/pe/red.png" alt="">-->
+      <br>
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pe/sample.png" alt="">
     </p>
-    <p class="font_word">ぺら<span style="color: red;">ぺ</span>ら
+    <br>
 
+    <p class="font_word">ぺら<span style="color: red;">ぺ</span>ら　Fluently
       <audio id="audio2">
         <source src="hiragana/pe/ぺらぺら.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/pe/sound-s.png" onclick="playSoundperapera()">
-    <p style="font-size: 50;">Fluently</p>
-    <br>
-    <!-- <img src="hiragana/pe/red.png" alt="">-->
+      <br>
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pe/sample.png" alt="">
     </p>
-
-
-
+    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

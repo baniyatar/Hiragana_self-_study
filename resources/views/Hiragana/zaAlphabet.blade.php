@@ -60,32 +60,33 @@
     <div class="letter_start"> <img src="hiragana/za/ざ.png" alt="ざpng">
     </div>
 
-    <p style="font-size:50px;">こう<span style="color:red;">ざ</span>
+    <p style="font-size:50px;">こう<span style="color:red;">ざ</span>　Bank Account
 
       <audio id="audio1">
         <source src="hiragana/za/こうざ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/za/sound-s.png" onclick="playSoundKouza()">
-    <p style="font-size: 50;">Bank Account</p>
-    <br><img src="hiragana/za/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/za/sample.png" alt="">
     </p>
-    <p class="font_word">ざっし
+    <br>
+
+    <p class="font_word">ざっし　Magazine
       <audio id="audio2">
         <source src="hiragana/za/ざっし.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/za/sound-s.png" onclick="playSoundZasshi()">
-    <p style="font-size: 50;">Magazine</p>
-    <br><img src="hiragana/za/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/za/sample.png" alt="">
     </p>
+    <br>
 
-    <p style="font-size:50px;">はい<span style="color:red;">ざ</span>ら
+    <p style="font-size:50px;">はい<span style="color:red;">ざ</span>ら　Ash Tray
       <audio id="audio3">
         <source src="hiragana/za/はいざら.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/za/sound-s.png" onclick="playSoundHaizara()">
-    <p style="font-size: 50;">Ash Tray</p>
-    <br><img src="hiragana/za/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/za/sample.png" alt="">
     </p>
+    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
