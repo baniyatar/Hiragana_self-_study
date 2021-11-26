@@ -51,23 +51,22 @@
       <img src="hiragana/pyo/ぴょ.png" alt="ぴょpng">
     </div><br>
 
-    <p style="font-size: 50px;">はっ<span style="color: red;">ぴょ</span>う
+    <p style="font-size: 50px;">はっ<span style="color: red;">ぴょ</span>う Announcement
       <audio id="audio1">
         <source src="hiragana/pyo/はっぴょう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/pyo/sound-s.png" onclick="playSoundHappyou()">
-    <p style="font-size:50;">Announcement</p>
+   
+    <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pyo/sample.png" alt="">
     <br>
-    <!--<img src="hiragana/yo/sample.png" alt="">-->
     </p>
-    <p style="font-size: 50px;"><span style="color: red;">ぴょ</span>ん<span style="color: red;">ぴょ</span>ん
+    <p style="font-size: 50px;"><span style="color: red;">ぴょ</span>ん<span style="color: red;">ぴょ</span>ん Jump
       <audio id="audio2">
         <source src="hiragana/pyo/ぴょんぴょん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/pyo/sound-s.png" onclick="playSoundPyonpyon()">
-    <p style="font-size:50;">Jump</p>
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pyo/sample.png" alt="">
     <br>
-    <!--<img src="hiragana/yo/sample.png" alt="">-->
     </p>
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

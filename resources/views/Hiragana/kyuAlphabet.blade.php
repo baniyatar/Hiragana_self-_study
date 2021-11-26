@@ -58,23 +58,24 @@
       <img src="hiragana/kyu/kyu.png" alt="きゅpng">
     </div><br>
 
-    <p style="font-size:50px;"><span style="color:red;">きゅ</span>う<span style="color:red;">きゅ</span>うしゃ
+    <p style="font-size:50px;"><span style="color:red;">きゅ</span>う<span style="color:red;">きゅ</span>うしゃ Ambulance
 
       <audio id="audio1">
         <source src="hiragana/kyu/きゅうきゅうしゃ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/kyu/sound-s.png" onclick="playSoundOkyuukyuusha()">
-    <p style="font-size:50;">Ambulance
-      <br><img src="hiragana/kyu/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/kyu/sample.png" alt="">
+    <br>
+  
     </p>
 
-    <p style="font-size:50px;"><span style="color:red;">きゅ</span>うじつ
+    <p style="font-size:50px;"><span style="color:red;">きゅ</span>うじつ Holiday
       <audio id="audio2">
         <source src="hiragana/kyu/きゅうじつ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/kyu/sound-s.png" onclick="playSoundKyuujitsu()">
-    <p style="font-size:50;">Holiday
-      <br><img src="hiragana/kyu/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/kyu/sample.png" alt="">
+      <br>
     </p>
 
     <p style="font-size:50px;"><span style="color:red;">きゅ</span>うり
@@ -82,8 +83,8 @@
         <source src="hiragana/kyu/きゅうり.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/kyu/sound-s.png" onclick="playSoundKyuuri()">
-    <p style="font-size:50;">Cucumber
-      <br><img src="hiragana/kyu/sample.png" alt="">
+   
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/kyu/sample.png" alt="">
     </p>
 
   </div>

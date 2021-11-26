@@ -60,38 +60,35 @@
     </div><br>
 
 
-    <p style="font-size: 50px;"><span style="color: red;">ひゃ</span>く
+    <p style="font-size: 50px;"><span style="color: red;">ひゃ</span>く Hundred
 
       <audio id="audio1">
         <source src="hiragana/hya/ひゃく.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/hya/sound-s.png" onclick="playSoundhyaku()">
-    <p style="font-size:50;">Hundred</p>
-    <br>
-    <!-- <img src="hiragana/a/red.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/hya/sample.png" alt="">
+      <br>
     </p>
 
-    <p style="font-size: 50px;"><span style="color: red;">ひゃ</span>っかじてん
+    <p style="font-size: 50px;"><span style="color: red;">ひゃ</span>っかじてん Encyclopedia
 
       <audio id="audio2">
         <source src="hiragana/hya/ひゃっかじてん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/hya/sound-s.png" onclick="playSoundhyaukajiten()">
-    <p style="font-size:50;">Encyclopedia</p>
-    <br>
-    <!-- <img src="hiragana/a/red.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/hya/sample.png" alt="">
+      <br>
     </p>
 
 
-    <p style="font-size: 50px;"><span style="color: red;">ひゃ</span>っかてん
+    <p style="font-size: 50px;"><span style="color: red;">ひゃ</span>っかてん Department store
 
       <audio id="audio3">
         <source src="hiragana/hya/ひゃっかてん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/hya/sound-s.png" onclick="playSoundhyaukaten()">
-    <p style="font-size:50;">Department store</p>
-    <br>
-    <!-- <img src="hiragana/a/red.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/hya/sample.png" alt="">
+      <br>
     </p>
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

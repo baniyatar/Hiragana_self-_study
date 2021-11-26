@@ -57,31 +57,31 @@
       <img src="hiragana/ryo/ryo.png" alt="りょpng">
     </div><br>
 
-    <p style="font-size:50px;"><span style="color:red;">りょ</span>うしん
+    <p style="font-size:50px;"><span style="color:red;">りょ</span>うしん Parents
       <audio id="audio1">
         <source src="hiragana/ryo/りょうしん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ryo/sound-s.png" onclick="playSoundRyoushin()">
-    <p style="font-size:50;">Parents</p>
-    <br><img src="hiragana/ryo/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ryo/sample.png" alt="">
+      <br>
     </p>
 
-    <p style="font-size:50px;"><span style="color:red;">りょ</span>うり
+    <p style="font-size:50px;"><span style="color:red;">りょ</span>うり Cooking
       <audio id="audio2">
         <source src="hiragana/ryo/りょうり.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ryo/sound-s.png" onclick="playSoundRyouri()">
-    <p style="font-size:50;">Cooking</p>
-    <br><img src="hiragana/ryo/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ryo/sample.png" alt="">
+      <br>
     </p>
 
-    <p style="font-size:50px;"><span style="color:red;">りょ</span>こう
+    <p style="font-size:50px;"><span style="color:red;">りょ</span>こう Trip
       <audio id="audio3">
         <source src="hiragana/ryo/りょこう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ryo/sound-s.png" onclick="playSoundRyokou()">
-    <p style="font-size:50;">Trip</p>
-    <br><img src="hiragana/ryo/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ryo/sample.png" alt="">
+      <br>
     </p>
 
   </div>

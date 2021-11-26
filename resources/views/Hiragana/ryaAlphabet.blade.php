@@ -50,22 +50,22 @@
       <img src="hiragana/rya/rya.png" alt="りゃpng">
     </div><br>
 
-    <p style="font-size:50px;">がい<span style="color:red;">りゃ</span>く
+    <p style="font-size:50px;">がい<span style="color:red;">りゃ</span>く Outline
       <audio id="audio1">
         <source src="hiragana/rya/がいりゃく.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/rya/sound-s.png" onclick="playSoundGairyaku()">
-    <p style="font-size:50;">Outline</p>
-    <br><img src="hiragana/rya/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/rya/sample.png" alt="">
+      <br>
     </p>
 
-    <p style="font-size:50px;">しょう<span style="color:red;">りゃ</span>く
+    <p style="font-size:50px;">しょう<span style="color:red;">りゃ</span>く Omission / Abbreviation
       <audio id="audio2">
         <source src="hiragana/rya/しょうりゃく.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/rya/sound-s.png" onclick="playSoundShouryaku()">
-    <p style="font-size:50;">Omission / Abbreviation</p>
-    <br><img src="hiragana/rya/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/rya/sample.png" alt="">
+      <br>
     </p>
 
   </div>

@@ -58,32 +58,30 @@
       <img src="hiragana/gyu/ぎゅ.png" alt="ぎゅpng">
     </div><br>
 
-    <p style="font-size: 50px;"><span style="color: red;">ぎゅ</span>う<span style="color: red;">ぎゅ</span>う
+    <p style="font-size: 50px;"><span style="color: red;">ぎゅ</span>う<span style="color: red;">ぎゅ</span>う Squeeze
       <audio id="audio1">
         <source src="hiragana/gyu/ぎゅうぎゅう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/gyu/sound-s.png" onclick="playSoundGyuuGyuu()">
-    <p style="font-size:50;">Squeeze
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gyu/sample.png" alt="">
       <br>
-      <!--<img src="hiragana/yu/sample.png" alt="">-->
+     
     </p>
-    <p style="font-size: 50px;"><span style="color: red;">ぎゅ</span>うにく
+    <p style="font-size: 50px;"><span style="color: red;">ぎゅ</span>うにく Beef
       <audio id="audio2">
         <source src="hiragana/gyu/ぎゅうにく.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/gyu/sound-s.png" onclick="playSoundGyuuniku()">
-    <p style="font-size:50;">Beef
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gyu/sample.png" alt="">
       <br>
-      <!--<img src="hiragana/yu/sample.png" alt="">-->
     </p>
-    <p style="font-size: 50px;"><span style="color: red;">ぎゅ</span>うにゅう
+    <p style="font-size: 50px;"><span style="color: red;">ぎゅ</span>うにゅう Milk 
       <audio id="audio3">
         <source src="hiragana/gyu/ぎゅうにゅう.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/yu/sound-s.png" onclick="playSoundGyuunyuu()">
-    <p style="font-size:50;">Milk
+      <img style="vertical-align:middle;" src="hiragana/gyu/sound-s.png" onclick="playSoundGyuunyuu()">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gyu/sample.png" alt="">
       <br>
-      <!--<img src="hiragana/yu/sample.png" alt="">-->
     </p>
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

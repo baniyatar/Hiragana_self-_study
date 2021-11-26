@@ -52,26 +52,24 @@
       <img src="hiragana/nyo/nyo.png" alt="にゅpng">
     </div><br>
 
-    <p style="font-size: 50px;"><span style="color: red;">にょ</span>う
+    <p style="font-size: 50px;"><span style="color: red;">にょ</span>う Urine
 
       <audio id="audio1">
         <source src="hiragana/nyo/にょう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/nyo/sound-s.png" onclick="playSoundnyou()">
-    <p style="font-size:50;">Urine</p>
-    <br>
-    <!-- <img src="hiragana/a/red.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/nyo/sample.png" alt="">
+      <br>
     </p>
 
-    <p style="font-size: 50px;"><span style="color: red;">にょ</span>うぼう
+    <p style="font-size: 50px;"><span style="color: red;">にょ</span>うぼう Wife
 
       <audio id="audio2">
         <source src="hiragana/nyo/にょうばう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/nyo/sound-s.png" onclick="playSoundnyoubau()">
-    <p style="font-size:50;">Wife</p>
-    <br>
-    <!-- <img src="hiragana/a/red.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/nyo/sample.png" alt="">
+      <br>
     </p>
 
   </div>

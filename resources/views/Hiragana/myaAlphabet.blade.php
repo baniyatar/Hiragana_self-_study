@@ -42,13 +42,13 @@
       <img src="hiragana/mya/mya.png" alt="みゃpng">
     </div><br>
 
-    <p style="font-size:50px;">さん<span style="color:red;">みゃ</span>く
+    <p style="font-size:50px;">さん<span style="color:red;">みゃ</span>く Mountain belt / Mountain Range
       <audio id="audio1">
         <source src="hiragana/Mya/さんみゃく.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/mya/sound-s.png" onclick="playSoundSanmyaku()">
-    <p style="font-size:50;">Mountain belt / Mountain Range</p>
-    <br><img src="hiragana/mya/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mya/sample.png" alt="">
+      <br>
     </p>
 
   </div>

@@ -59,39 +59,38 @@
       <img src="hiragana/hyo/hyo.png" alt="hyapng">
     </div><br>
 
-    <p style="font-size: 50px;">じこく<span style="color: red;">ひょ</span>う
+    <p style="font-size: 50px;">じこく<span style="color: red;">ひょ</span>う Timetable
 
       <audio id="audio1">
         <source src="hiragana/hyo/じこくひょう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/hyo/sound-s.png" onclick="playSoundjikokuhyou()">
-    <p style="font-size:50;">Timetable</p>
+
+    <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/hyo/sample.png" alt="">
     <br>
-    <!-- <img src="hiragana/a/red.png" alt="">-->
     </p>
 
 
-    <p style="font-size: 50px;"><span style="color: red;">ひょ</span>うざん
+    <p style="font-size: 50px;"><span style="color: red;">ひょ</span>うざん Iceberg
 
       <audio id="audio2">
         <source src="hiragana/hyo/ひょうざん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/hyo/sound-s.png" onclick="playhyoijan()">
-    <p style="font-size:50;">Iceberg</p>
-    <br>
-    <!-- <img src="hiragana/a/red.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/hyo/sample.png" alt="">
+      <br>
     </p>
 
 
-    <p style="font-size: 50px;"><span style="color: red;">ひょ</span>うじょう
+    <p style="font-size: 50px;"><span style="color: red;">ひょ</span>うじょう Facial expression
 
       <audio id="audio3">
         <source src="hiragana/hyo/ひょうじょう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/hyo/sound-s.png" onclick="playSoundhyoijiu()">
-    <p style="font-size:50;">Facial expression</p>
-    <br>
-    <!-- <img src="hiragana/a/red.png" alt="">-->
+  
+    <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/hyo/sample.png" alt="">
+      <br>
     </p>
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

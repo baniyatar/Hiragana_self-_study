@@ -57,33 +57,29 @@
       <img src="hiragana/gyo/ぎょ.png" alt="ぎょpng">
     </div><br>
 
-    <p style="font-size: 50px;">きん<span style="color: red;">ぎょ</span>
+    <p style="font-size: 50px;">きん<span style="color: red;">ぎょ</span> GoldFish
       <audio id="audio1">
         <source src="hiragana/gyo/きんぎょ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/gyo/sound-s.png" onclick="playSoundKingyo()">
-    <p style="font-size:50;">Goldfish
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gyo/sample.png" alt="">
       <br>
-      <!--<img src="hiragana/yo/sample.png" alt="">-->
     </p>
     <p style="font-size: 50px;"><span style="color: red;">ぎょ</span>うざ
       <audio id="audio2">
         <source src="hiragana/gyo/ぎょうざ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/gyo/sound-s.png" onclick="playSoundGyouza()">
-    <p style="font-size:50;">Dumplings
+      <img style="vertical-align:middle;" src="hiragana/gyo/sound-s.png" onclick="playSoundGyouza()"> Dumplings
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gyo/sample.png" alt="">
       <br>
-      <!--<img src="hiragana/yo/sample.png" alt="">-->
     </p>
-    <p style="font-size: 50px;">じゅ<span style="color: red;">ぎょ</span>う
+    <p style="font-size: 50px;">じゅ<span style="color: red;">ぎょ</span>う Lesson
       <audio id="audio3">
         <source src="hiragana/gyo/じゅぎょう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/gyo/sound-s.png" onclick="playSoundJugyou()">
-    <p style="font-size:50;">Lesson
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gyo/sample.png" alt="">
       <br>
-      <!--<img src="hiragana/yo/sample.png" alt="">-->
-    </p>
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/gyuAlphabet')}}'">&lt;PREV</button>

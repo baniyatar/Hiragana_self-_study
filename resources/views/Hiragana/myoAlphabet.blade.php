@@ -43,13 +43,13 @@
       <img src="hiragana/myo/myo.png" alt="みょpng">
     </div><br>
 
-    <p style="font-size:50px;"><span style="color:red;">みょ</span>うじ
+    <p style="font-size:50px;"><span style="color:red;">みょ</span>うじ Last name
       <audio id="audio1">
         <source src="hiragana/Myo/みょうじ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/myo/sound-s.png" onclick="playSoundMyouji()">
-    <p style="font-size:50;">Last name</p>
-    <br><img src="hiragana/myo/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/myo/sample.png" alt="">
+      <br>
     </p>
 
   </div>

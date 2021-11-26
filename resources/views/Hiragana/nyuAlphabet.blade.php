@@ -52,26 +52,24 @@
       <img src="hiragana/nyu/nyu.png" alt="にゅpng">
     </div><br>
 
-    <p style="font-size: 50px;">ぎゅう<span style="color: red;">にゅ</span>う
+    <p style="font-size: 50px;">ぎゅう<span style="color: red;">にゅ</span>う Milk
 
       <audio id="audio1">
         <source src="hiragana/nyu/ぎゅうにゅう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/nyu/sound-s.png" onclick="playSoundGyunyuu()">
-    <p style="font-size:50;">Milk</p>
-    <br>
-    <!-- <img src="hiragana/a/red.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/nyu/sample.png" alt="">
+      <br>
     </p>
 
-    <p style="font-size: 50px;"><span style="color: red;">にゅ</span>うがく
+    <p style="font-size: 50px;"><span style="color: red;">にゅ</span>うがく Enter to School
 
       <audio id="audio2">
         <source src="hiragana/nyu/にゅうがく.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/nyu/sound-s.png" onclick="playSoundNyuugaku()">
-    <p style="font-size:50;">Enter to School</p>
-    <br>
-    <!-- <img src="hiragana/a/red.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/nyu/sample.png" alt="">
+      <br>
     </p>
 
   </div>

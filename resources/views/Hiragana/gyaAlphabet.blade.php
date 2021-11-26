@@ -59,32 +59,30 @@
       <img src="hiragana/gya/ぎゃ.png" alt="ぎゃpng">
     </div><br>
 
-    <p style="font-size: 50px;"><span style="color: red;">ぎゃ</span>く
+    <p style="font-size: 50px;"><span style="color: red;">ぎゃ</span>く Opposite
       <audio id="audio1">
         <source src="hiragana/gya/ぎゃく.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/gya/sound-s.png" onclick="playSoundGyaku()">
-    <p style="font-size:50;">Opposite
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gya/sample.png" alt="">
       <br>
-      <!--<img src="hiragana/ya/sample.png" alt="">-->
+    
     </p>
-    <p style="font-size: 50px;"><span style="color: red;">ぎゃ</span>くこうか
+    <p style="font-size: 50px;"><span style="color: red;">ぎゃ</span>くこうか Opposite effect
       <audio id="audio2">
         <source src="hiragana/gya/ぎゃくこうか.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/gya/sound-s.png" onclick="playSoundGyakukouka()">
-    <p style="font-size:50;">Opposite effect
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gya/sample.png" alt="">
       <br>
-      <!--<img src="hiragana/ya/sample.png" alt="">-->
     </p>
-    <p style="font-size: 50px;"><span style="color: red;">ぎゃ</span>くてん
+    <p style="font-size: 50px;"><span style="color: red;">ぎゃ</span>くてん Reversal
       <audio id="audio3">
         <source src="hiragana/gya/ぎゃくてん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/gya/sound-s.png" onclick="playSoundGyakuten()">
-    <p style="font-size:50;">Reversal
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gya/sample.png" alt="">
       <br>
-      <!--<img src="hiragana/ya/sample.png" alt="">-->
     </p>
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

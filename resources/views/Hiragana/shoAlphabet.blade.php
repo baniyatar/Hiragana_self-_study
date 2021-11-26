@@ -58,33 +58,33 @@
       <img src="hiragana/sho/しょ.png" alt="しょpng">
     </div><br>
 
-    <p style="font-size: 50px;">きょうか<span style="color: red;">しょ</span>
+    <p style="font-size: 50px;">きょうか<span style="color: red;">しょ</span> Textbook
 
       <audio id="audio1">
         <source src="hiragana/sho/きょうかしょ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/sho/sound-s.png" onclick="playSound1()">
-    <p style="font-size:50;">Textbook</p>
-    <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/sho/sample.png" alt="">
+      <br>
     </p>
-    <p style="font-size: 50px;">こ<span style="color: red;">しょ</span>う
+    <p style="font-size: 50px;">こ<span style="color: red;">しょ</span>う Pepper
 
       <audio id="audio2">
         <source src="hiragana/sho/こしょう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/sho/sound-s.png" onclick="playSound2()">
-    <p style="font-size:50;">Pepper</p>
-    <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/sho/sample.png" alt="">
+      <br>
     </p>
 
-    <p style="font-size: 50px;"><span style="color: red;">しょ</span>くじ
+    <p style="font-size: 50px;"><span style="color: red;">しょ</span>くじ Meal
 
       <audio id="audio3">
         <source src="hiragana/sho/しょくじ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/sho/sound-s.png" onclick="playSound3()">
-    <p style="font-size:50;">Meal</p>
-    <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/sho/sample.png" alt="">
+      <br>
     </p>
 
   </div>

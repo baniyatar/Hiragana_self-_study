@@ -58,33 +58,33 @@
       <img src="hiragana/cha/ちゃ.png" alt="ちゃpng">
     </div><br>
 
-    <p style="font-size: 50px;">お<span style="color: red;">ちゃ</span>
+    <p style="font-size: 50px;">お<span style="color: red;">ちゃ</span>Tea
 
       <audio id="audio1">
         <source src="hiragana/cha/おちゃ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/cha/sound-s.png" onclick="playSound1()">
-    <p style="font-size:50;">Tea</p>
-    <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/cha/sample.png" alt="">
+      <br>
     </p>
-    <p style="font-size: 50px;">おも<span style="color: red;">ちゃ</span>
+    <p style="font-size: 50px;">おも<span style="color: red;">ちゃ</span>Toys
 
       <audio id="audio2">
         <source src="hiragana/cha/おもちゃ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/cha/sound-s.png" onclick="playSound2()">
-    <p style="font-size:50;">Toys</p>
-    <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/cha/sample.png" alt="">
+      <br>
     </p>
 
-    <p style="font-size: 50px;">かぼ<span style="color: red;">ちゃ</span>
+    <p style="font-size: 50px;">かぼ<span style="color: red;">ちゃ</span>Pumpkin
 
       <audio id="audio3">
         <source src="hiragana/cha/かぼちゃ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/cha/sound-s.png" onclick="playSound3()">
-    <p style="font-size:50;">Pumpkin</p>
-    <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/cha/sample.png" alt="">
+      <br>
     </p>
 
   </div>

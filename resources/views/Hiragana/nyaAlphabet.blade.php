@@ -44,15 +44,15 @@
       <img src="hiragana/nya/nya.png" alt="まpng">
     </div><br>
 
-    <p style="font-size: 50px;"><span style="color: red;">にゃ</span>あ<span style="color: red;">にゃ</span>あ
+    <p style="font-size: 50px;"><span style="color: red;">にゃ</span>あ<span style="color: red;">にゃ</span>あ Cat's Meow
 
       <audio id="audio1">
         <source src="hiragana/nya/にゃあにゃあ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/nya/sound-s.png" onclick="playSoundNyanya()">
-    <p style="font-size:50;">Cat's Meow</p>
-    <br>
-    <!-- <img src="hiragana/a/red.png" alt="">-->
+ 
+    <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/chu/sample.png" alt="">
+      <br>
     </p>
 
   </div>

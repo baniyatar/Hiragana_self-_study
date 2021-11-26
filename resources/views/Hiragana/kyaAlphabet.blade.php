@@ -45,44 +45,49 @@
 
 <body>
   <div class="box">
-    <p style="font-size:50px;"><span style="color:red;">きゃ
+    <p style="font-size:50px;"><span style="color:red;">きゃ 
 
         <audio id="audioKya">
           <source src="hiragana/kya/きゃ.mp3" type="audio/mp3">
         </audio>
         <img style="vertical-align:middle;" src="hiragana/kya/sound-s.png" onclick="playSoundKya()">
+
+     
     </p>
+    <br>
     <div class="letter_start">
 
       <img src="hiragana/kya/kya.png" alt="きゃpng">
-    </div><br>
+    </div>
 
-    <p style="font-size:50px;">お<span style="color:red;">きゃ</span>くさん
+    <p style="font-size:50px;">お<span style="color:red;">きゃ</span>くさん Guest/Customer
 
       <audio id="audio1">
         <source src="hiragana/kya/おきゃくさん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/kya/sound-s.png" onclick="playSoundOkyakusan()">
-    <p style="font-size:50;">Guest / Customer</p>
-    <br><img src="hiragana/kya/sample.png" alt="">
-    </p>
 
-    <p style="font-size:50px;"><span style="color:red;">きゃ</span>くしつ
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/kya/sample.png" alt="">
+    </p>
+<br>
+    <p style="font-size:50px;"><span style="color:red;">きゃ</span>くしつ Guest Room/Passenger Cabin
+  
       <audio id="audio2">
         <source src="hiragana/kya/きゃくしつ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/kya/sound-s.png" onclick="playSoundKyakushitsu()">
-    <p style="font-size:50;">Guest Room / Passenger Cabin
-      <br><img src="hiragana/kya/sample.png" alt="">
+    <p style="font-size:50;">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/kya/sample.png" alt="">
     </p>
+    <br>
 
-    <p style="font-size:50px;">へん<span style="color:red;">きゃ</span>く
+    <p style="font-size:50px;">へん<span style="color:red;">きゃ</span>く Return
       <audio id="audio3">
         <source src="hiragana/kya/へんきゃく.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/kya/sound-s.png" onclick="playSoundHenkyaku()">
-    <p style="font-size:50;">Return
-      <br><img src="hiragana/kya/sample.png" alt="">
+    
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/kya/sample.png" alt="">
     </p>
 
   </div>

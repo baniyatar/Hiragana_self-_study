@@ -57,31 +57,31 @@
       <img src="hiragana/ryu/ryu.png" alt="りゅpng">
     </div><br>
 
-    <p style="font-size:50px;">かい<span style="color:red;">りゅ</span>う
+    <p style="font-size:50px;">かい<span style="color:red;">りゅ</span>う Ocean Current
       <audio id="audio1">
         <source src="hiragana/ryu/かいりゅう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ryu/sound-s.png" onclick="playSoundKairyuu()">
-    <p style="font-size:50;">Ocean Current</p>
-    <br><img src="hiragana/ryu/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ryu/sample.png" alt="">
+    <br>
     </p>
 
-    <p style="font-size:50px;">こう<span style="color:red;">りゅ</span>う
+    <p style="font-size:50px;">こう<span style="color:red;">りゅ</span>う Exchange
       <audio id="audio2">
         <source src="hiragana/ryu/こうりゅう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ryu/sound-s.png" onclick="playSoundKouryuu()">
-    <p style="font-size:50;">Exchange</p>
-    <br><img src="hiragana/ryu/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ryu/sample.png" alt="">
+      <br>
     </p>
 
-    <p style="font-size:50px;"><span style="color:red;">りゅ</span>うがくせい
+    <p style="font-size:50px;"><span style="color:red;">りゅ</span>うがくせい Exchange student
       <audio id="audio3">
         <source src="hiragana/ryu/りゅうがくせい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ryu/sound-s.png" onclick="playSoundRyuugakusei()">
-    <p style="font-size:50;">Exchange student</p>
-    <br><img src="hiragana/ryu/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ryu/sample.png" alt="">
+      <br>
     </p>
 
   </div>

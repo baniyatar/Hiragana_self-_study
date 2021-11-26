@@ -59,35 +59,34 @@
 
       <img src="hiragana/byo/byo.png" alt="gapng">
     </div><br>
-    <p style="font-size: 50px;"><span style="color: red;">びょ</span>う
+    <p style="font-size: 50px;"><span style="color: red;">びょ</span>う Seconds Time
 
       <audio id="audio1">
         <source src="hiragana/byo/びょう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/byo/sound-s.png" onclick="playSoundbyou()">
-    <p style="font-size:50;">Seconds Time</p>
-    <br>
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/byo/sample.png" alt="">
+      <br>
     </p>
 
-    <p style="font-size: 50px;"><span style="color: red;">びょ</span>ういん
+    <p style="font-size: 50px;"><span style="color: red;">びょ</span>ういん Hospital
       <audio id="audio2">
         <source src="hiragana/byo/びょういん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/byo/sound-s.png" onclick="playSoundbyouin()">
-    <p style="font-size:50;">Hospital</p>
-    <br>
-    <!-- <img src="hiragana/byo/red.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/byo/sample.png" alt="">
+      <br>
+   
     </p>
 
 
-    <p style="font-size: 50px;"><span style="color: red;">びょ</span>うき
+    <p style="font-size: 50px;"><span style="color: red;">びょ</span>うき Sick
       <audio id="audio3">
         <source src="hiragana/byo/びょうき.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/byo/sound-s.png" onclick="playSoundbyouki()">
-    <p style="font-size:50;">Sick</p>
-    <br>
-    <!-- <img src="hiragana/a/foot.png" alt="">-->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/byo/sample.png" alt="">
+      <br>
     </p>
 
 

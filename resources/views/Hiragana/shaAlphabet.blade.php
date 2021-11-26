@@ -58,33 +58,33 @@
       <img src="hiragana/sha/しゃ.png" alt="しゃpng">
     </div><br>
 
-    <p style="font-size: 50px;">い<span style="color: red;">しゃ</span>
+    <p style="font-size: 50px;">い<span style="color: red;">しゃ</span> Medical Doctor 
 
       <audio id="audio1">
         <source src="hiragana/sha/いしゃ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/sha/sound-s.png" onclick="playSound1()">
-    <p style="font-size:50;">Medical Doctor</p>
-    <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/sha/sample.png" alt="">
+      <br>
     </p>
-    <p style="font-size: 50px;">かい<span style="color: red;">しゃ</span>
+    <p style="font-size: 50px;">かい<span style="color: red;">しゃ</span> Company
 
       <audio id="audio2">
         <source src="hiragana/sha/かいしゃ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/sha/sound-s.png" onclick="playSound2()">
-    <p style="font-size:50;">Company</p>
-    <!-- <br><img src="hiragana/ta/foot.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/sha/sample.png" alt="">
+      <br>
     </p>
 
-    <p style="font-size: 50px;"><span style="color: red;">しゃ</span>しん
+    <p style="font-size: 50px;"><span style="color: red;">しゃ</span>しん Photograph
 
       <audio id="audio3">
         <source src="hiragana/sha/しゃしん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/sha/sound-s.png" onclick="playSound3()">
-    <p style="font-size:50;">Photograph</p>
-    <!-- <br><img src="hiragana/ta/head.png" alt=""> -->
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/sha/sample.png" alt="">
+      <br>
     </p>
 
   </div>
