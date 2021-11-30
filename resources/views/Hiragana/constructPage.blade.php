@@ -18,7 +18,7 @@
         <div style="font-weight:bold;"><ruby><rb>五十音表</rb><rt>ごじゅうおんひょう</rt></ruby></div>
         <div style="font-weight:bold;">Japanese syllabary</div>
         <br>
-        <img src="/hiragana/image/五十音表.bmp" width="90%"/>
+        <img src="hiragana/image/五十音表.bmp" width="90%"/>
 
         <ruby><rb></rb><rt></rt></ruby>
         <p>　「ひらがな」は<ruby><rb>上記</rb><rt>じょうき</rt></ruby>のような「<ruby><rb>五十音表</rb><rt>ごじゅうおんひょう</rt></ruby>」であらわすことができます。</p>
