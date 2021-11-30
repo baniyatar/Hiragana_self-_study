@@ -15,8 +15,8 @@
   function audioStop() {
     document.getElementById('audio1').pause();
     document.getElementById('audio1').currentTime = 0;
-    document.getElementById('audio2').pause();
-    document.getElementById('audio2').currentTime = 0;
+    // document.getElementById('audio2').pause();
+    // document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
     document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio4').pause();
@@ -30,11 +30,10 @@
     document.getElementById('audio1').play();
   }
 
-  function playSoundtsumetai() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
-  playSoundtsumetai
+  // function playSoundtsumetai() {
+  //   audioStop();
+  //   document.getElementById('audio2').play();
+  // }
 
   function playSoundMe() {
     audioStop();
@@ -73,6 +72,8 @@
       <img style="vertical-align:middle;" src="hiragana/me/sound-s.png" onclick="playSoundaame()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/me/sample.png" alt="">
     </p>
+<!--
+    <br>
     <p style="font-size: 50px;">つ<span style="color: red;">め</span>たい　Cold
       <audio id="audio2">
         <source src="hiragana/me/つめたい.mp3" type="audio/mp3">
@@ -80,7 +81,8 @@
       <img style="vertical-align:middle;" src="hiragana/me/sound-s.png" onclick="playSoundtsumetai()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/me/sample.png" alt="">
     </p>
-
+-->
+    <br>
     <p class="font_word">め　Eye
       <audio id="audio3">
         <source src="hiragana/me/め.mp3" type="audio/mp3">
@@ -88,7 +90,7 @@
       <img style="vertical-align:middle;" src="hiragana/me/sound-s.png" onclick="playSoundMe()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/me/sample.png" alt="">
     </p>
-
+    <br>
     <p class="font_word">めがね　Spectacles
       <audio id="audio4">
         <source src="hiragana/me/めがね.mp3" type="audio/mp3">

@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio4').pause();
     document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioNo').pause();
@@ -40,10 +40,10 @@
     document.getElementById('audio2').play();
   }
 
-  function playSoundTanoshii() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundTanoshii() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSoundNomimono() {
     audioStop();
@@ -81,6 +81,7 @@
       <img style="vertical-align:middle;" src="hiragana/no/sound-s.png" onclick="playSoundTatemono()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/no/sample.png" alt="">
     </p>
+<!--
     <br>
     <p style="font-size: 50px;">た<span style="color: red;">の</span>しい　Pleasant
       <audio id="audio3">
@@ -89,6 +90,7 @@
       <img style="vertical-align:middle;" src="hiragana/no/sound-s.png" onclick="playSoundTanoshii()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/no/sample.png" alt="">
     </p>
+-->
     <br>
     <p class="font_word">のみも<span style="color: red;">の</span>　Beverage
       <audio id="audio4">

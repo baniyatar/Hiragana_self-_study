@@ -19,8 +19,8 @@
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
     document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audio4').pause();
-    document.getElementById('audio4').currentTime = 0;
+    // document.getElementById('audio4').pause();
+    // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioNu').pause();
     document.getElementById('audioNu').currentTime = 0;
   }
@@ -45,10 +45,10 @@
     document.getElementById('audio3').play();
   }
 
-  function playSoundNurui() {
-    audioStop();
-    document.getElementById('audio4').play();
-  }
+  // function playSoundNurui() {
+  //   audioStop();
+  //   document.getElementById('audio4').play();
+  // }
 </script>
 
 <body>
@@ -90,6 +90,7 @@
       <img style="vertical-align:middle;" src="hiragana/nu/sound-s.png" onclick="playSoundNuno()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/nu/sample.png" alt="">
     </p>
+<!--
     <br>
     <p class="font_word">ぬるい　Lukewarm
       <audio id="audio4">
@@ -98,6 +99,7 @@
       <img style="vertical-align:middle;" src="hiragana/nu/sound-s.png" onclick="playSoundNurui()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/nu/sample.png" alt="">
     </p>
+-->
   </div>
 
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

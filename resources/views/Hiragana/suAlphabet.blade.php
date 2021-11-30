@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio4').pause();
     document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioSu').pause();
@@ -35,10 +35,10 @@
     document.getElementById('audio2').play();
   }
 
-  function playSoundSukunai() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundSukunai() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSoundSuzushii() {
     audioStop();
@@ -54,14 +54,12 @@
 <body>
   <div class="box">
     <p class="font_word">す
-
       <audio id="audioSu">
         <source src="hiragana/su/す.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/su/sound-s.png" onclick="playSoundSu()">
     </p>
     <div class="letter_start">
-
       <img class="testBorder" src="hiragana/gif/su.gif" alt="すgif">
     </div><br>
     <div class="letter_start"> <img src="/hiragana/su/す-bw.png" style="width: 70%;" alt="すpng">
@@ -82,6 +80,7 @@
       <img style="vertical-align:middle;" src="hiragana/su/sound-s.png" onclick="playSoundSuki()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/su/sample.png" alt="">
     </p>
+<!--
     <br>
     <p class="font_word">すくない　Few
       <audio id="audio3">
@@ -90,6 +89,7 @@
       <img style="vertical-align:middle;" src="hiragana/su/sound-s.png" onclick="playSoundSukunai()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/su/sample.png" alt="">
     </p>
+-->
     <br>
     <p class="font_word">すずしい　Cool
       <audio id="audio4">

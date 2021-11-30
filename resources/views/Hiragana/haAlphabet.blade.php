@@ -19,8 +19,8 @@
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
     document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audio4').pause();
-    document.getElementById('audio4').currentTime = 0;
+    // document.getElementById('audio4').pause();
+    // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioHa').pause();
     document.getElementById('audioHa').currentTime = 0;
   }
@@ -40,10 +40,10 @@
     document.getElementById('audio3').play();
   }
 
-  function playSoundHachi() {
-    audioStop();
-    document.getElementById('audio4').play();
-  }
+  // function playSoundHachi() {
+  //   audioStop();
+  //   document.getElementById('audio4').play();
+  // }
 
   function playSoundHa() {
     audioStop();
@@ -88,6 +88,7 @@
       <img style="vertical-align:middle;" src="hiragana/ha/sound-s.png" onclick="playSoundHasami()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ha/sample.png" alt="">
     </p>
+<!--
     <br>
     <p class="font_word">はち　Bee
       <audio id="audio4">
@@ -96,6 +97,7 @@
       <img style="vertical-align:middle;" src="hiragana/ha/sound-s.png" onclick="playSoundHachi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ha/sample.png" alt="">
     </p>
+-->
   </div>
 
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

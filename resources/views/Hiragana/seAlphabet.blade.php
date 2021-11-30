@@ -19,8 +19,8 @@
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
     document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audio4').pause();
-    document.getElementById('audio4').currentTime = 0;
+    // document.getElementById('audio4').pause();
+    // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioSe').pause();
     document.getElementById('audioSe').currentTime = 0;
   }
@@ -40,10 +40,10 @@
     document.getElementById('audio3').play();
   }
 
-  function playSoundSentaku() {
-    audioStop();
-    document.getElementById('audio4').play();
-  }
+  // function playSoundSentaku() {
+  //   audioStop();
+  //   document.getElementById('audio4').play();
+  // }
 
   function playSoundSe() {
     audioStop();
@@ -54,14 +54,12 @@
 <body>
   <div class="box">
     <p class="font_word">せ
-
       <audio id="audioSe">
         <source src="hiragana/se/せ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/se/sound-s.png" onclick="playSoundSe()">
     </p>
     <div class="letter_start">
-
       <img class="testBorder" src="hiragana/gif/se.gif" alt="せgif">
     </div><br>
     <div class="letter_start"> <img src="/hiragana/se/せ-bw.png" style="width: 80%;" alt="せpng">
@@ -90,6 +88,7 @@
       <img style="vertical-align:middle;" src="hiragana/se/sound-s.png" onclick="playSoundSensei()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/se/sample.png" alt="">
     </p>
+<!--
     <br>
     <p class="font_word">せんたく　Laundry
       <audio id="audio4">
@@ -98,7 +97,7 @@
       <img style="vertical-align:middle;" src="hiragana/se/sound-s.png" onclick="playSoundSentaku()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/se/sample.png" alt="">
     </p>
-
+-->
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/suAlphabet')}}'">&lt;PREV</button>

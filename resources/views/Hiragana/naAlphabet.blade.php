@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio4').pause();
     document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioNa').pause();
@@ -40,10 +40,10 @@
     document.getElementById('audio2').play();
   }
 
-  function playSoundNatsuyasumi() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundNatsuyasumi() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSoundNamae() {
     audioStop();
@@ -81,6 +81,7 @@
       <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSoundNatsu()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/na/sample.png" alt="">
     </p>
+<!--
     <br>
     <p class="font_word">なつやすみ　Summer Vacation
       <audio id="audio3">
@@ -89,6 +90,7 @@
       <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSoundNatsuyasumi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/na/sample.png" alt="">
     </p>
+-->
     <br>
     <p class="font_word">なまえ　Name
       <audio id="audio4">

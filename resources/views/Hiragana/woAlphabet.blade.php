@@ -34,7 +34,7 @@
 <p>　The character(Case-marking particle)“を(Wo)” is not used in lexicon. It is used in the following way.</p>
 <br>
 <p>　<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>本</rb><rt>ほん</rt></ruby><span style="color: red;">を</span><ruby><rb>買</rb><rt>か</rt></ruby>います。</p>
-<p>　I am going to buy a book.</p>
+<p>　I buy a book.</p>
 	</div>
 	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
 	<button class="prev_btn" onclick="location.href='{{ url('/waAlphabet')}}'">&lt;PREV</button>

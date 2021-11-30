@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
@@ -25,10 +25,10 @@
     document.getElementById('audioMu').currentTime = 0;
   }
 
-  function playSoundMuika() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundMuika() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
   function playSoundmukou() {
     audioStop();
@@ -65,6 +65,7 @@
     <div class="letter_start"> <img src="hiragana/mu/む-bw.png" style="width: 80%;" alt="むpng">
     </div>
 
+<!--
     <p class="font_word">むいか　6th of Month
       <audio id="audio1">
         <source src="hiragana/mu/むいか.mp3" type="audio/mp3">
@@ -72,6 +73,7 @@
       <img style="vertical-align:middle;" src="hiragana/mu/sound-s.png" onclick="playSoundMuika()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mu/sample.png" alt="">
     </p>
+-->
     <br>
     <p class="font_word">むこう　Over There
       <audio id="audio2">

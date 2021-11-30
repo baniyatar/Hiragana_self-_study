@@ -21,6 +21,10 @@
     document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio4').pause();
     document.getElementById('audio4').currentTime = 0;
+    document.getElementById('audio5').pause();
+    document.getElementById('audio5').currentTime = 0;
+    document.getElementById('audio6').pause();
+    document.getElementById('audio6').currentTime = 0;
     document.getElementById('audioYa').pause();
     document.getElementById('audioYa').currentTime = 0;
   }
@@ -48,6 +52,16 @@
   function playSoundYama() {
     audioStop();
     document.getElementById('audio4').play();
+  }
+
+  function playSoundYakan() {
+    audioStop();
+    document.getElementById('audio5').play();
+  }
+
+  function playSoundYakyuu() {
+    audioStop();
+    document.getElementById('audio6').play();
   }
 </script>
 
@@ -94,6 +108,22 @@
         <source src="hiragana/ya/やま.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ya/sound-s.png" onclick="playSoundYama()">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ya/sample.png" alt="">
+    </p>
+    <br>
+    <p class="font_word">やかん　Kettle
+      <audio id="audio5">
+        <source src="hiragana/ya/やかん.mp3" type="audio/mp3">
+      </audio>
+      <img style="vertical-align:middle;" src="hiragana/ya/sound-s.png" onclick="playSoundYakan()">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ya/sample.png" alt="">
+    </p>
+    <br>
+    <p class="font_word">やきゅう　Baseball
+      <audio id="audio6">
+        <source src="hiragana/ya/やきゅう.mp3" type="audio/mp3">
+      </audio>
+      <img style="vertical-align:middle;" src="hiragana/ya/sound-s.png" onclick="playSoundYakyuu()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ya/sample.png" alt="">
     </p>
   </div>

@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio4').pause();
     document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioKe').pause();
@@ -35,10 +35,10 @@
     document.getElementById('audio2').play();
   }
 
-  function playSoundKeshiki() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundKeshiki() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSoundKeshigomu() {
     audioStop();
@@ -54,14 +54,12 @@
 <body>
   <div class="box">
     <p class="font_word">け
-
       <audio id="audioKe">
         <source src="hiragana/ke/け.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ke/sound-s.png" onclick="playSoundKe()">
     </p>
     <div class="letter_start">
-
       <img class="testBorder" src="hiragana/ke/ke.gif" alt="けgif">
     </div><br>
     <div class="letter_start"> <img src="hiragana/ke/け.png" style="width: 80%;" alt="けpng">
@@ -82,6 +80,7 @@
       <img style="vertical-align:middle;" src="hiragana/ke/sound-s.png" onclick="playSoundKeitaidenwa()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ke/sample.png" alt="">
     </p>
+<!--
     <br>
     <p class="font_word">けしき　Scenery
       <audio id="audio3">
@@ -90,6 +89,7 @@
       <img style="vertical-align:middle;" src="hiragana/ke/sound-s.png" onclick="playSoundKeshiki()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ke/sample.png" alt="">
     </p>
+-->
     <br>
     <p class="font_word">けしごむ　Eraser
       <audio id="audio4">

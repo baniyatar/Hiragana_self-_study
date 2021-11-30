@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio4').pause();
     document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioKe').pause();
@@ -35,10 +35,10 @@
     document.getElementById('audio2').play();
   }
 
-  function playSoundHen() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundHen() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSoundHenji() {
     audioStop();
@@ -81,6 +81,7 @@
       <img style="vertical-align:middle;" src="hiragana/he/sound-s.png" onclick="playSoundHeya()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/he/sample.png" alt="">
     </p>
+<!--
     <br>
     <p class="font_word">へん　Strange
       <audio id="audio3">
@@ -89,6 +90,7 @@
       <img style="vertical-align:middle;" src="hiragana/he/sound-s.png" onclick="playSoundHen()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/he/sample.png" alt="">
     </p>
+-->
     <br>
     <p class="font_word">へんじ　Answer
       <audio id="audio4">

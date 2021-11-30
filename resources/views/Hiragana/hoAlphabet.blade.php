@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio4').pause();
     document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioKo').pause();
@@ -35,10 +35,10 @@
     document.getElementById('audio2').play();
   }
 
-  function playSoundHondana() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundHondana() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSoundHonya() {
     audioStop();
@@ -80,6 +80,7 @@
       <img style="vertical-align:middle;" src="hiragana/ho/sound-s.png" onclick="playSoundHon()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ho/sample.png" alt="">
     </p>
+<!--
     <br>
     <p class="font_word">ほんだな　Book Shelf
       <audio id="audio3">
@@ -88,6 +89,7 @@
       <img style="vertical-align:middle;" src="hiragana/ho/sound-s.png" onclick="playSoundHondana()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ho/sample.png" alt="">
     </p>
+-->
     <br>
     <p class="font_word">ほんや　Book Store
       <audio id="audio4">

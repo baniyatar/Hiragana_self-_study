@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
@@ -25,10 +25,10 @@
     document.getElementById('audioO').currentTime = 0;
   }
 
-  function playSoundOsara() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundOsara() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
   function playSoundOtoko() {
     audioStop();
@@ -54,19 +54,18 @@
 <body>
   <div class="box">
     <p class="font_word">お
-
       <audio id="audioO">
         <source src="hiragana/o/お.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/o/sound-s.png" onclick="playSoundO()">
     </p>
     <div class="letter_start">
-
       <img class="testBorder" src="hiragana/o/o.gif" alt="おgif">
     </div><br>
     <div class="letter_start"> <img src="hiragana/o/o.png" alt="おpng">
     </div>
 
+<!--
     <p class="font_word">おさら　Plate / Dish
       <audio id="audio1">
         <source src="hiragana/o/おさら.mp3" type="audio/mp3">
@@ -75,6 +74,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/o/sample.png" alt="">
     </p>
     <br>
+-->
     <p class="font_word">おとこ　Man
       <audio id="audio2">
         <source src="hiragana/o/おとこ.mp3" type="audio/mp3">
@@ -99,6 +99,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/o/sample.png" alt="">
     </p>
   </div>
+
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/eAlphabet')}}'">&lt;PREV</button>
   <button class="next_btn" onClick="location.href='{{ url('/kaAlphabet')}}'">NEXT&gt;</button>

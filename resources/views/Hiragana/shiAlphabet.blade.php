@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
@@ -25,10 +25,10 @@
     document.getElementById('audioShi').currentTime = 0;
   }
 
-  function playSoundShio() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundShio() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
   function playSoundShokuji() {
     audioStop();
@@ -54,19 +54,18 @@
 <body>
   <div class="box">
     <p class="font_word">し
-
       <audio id="audioShi">
         <source src="hiragana/shi/し.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/shi/sound-s.png" onclick="playSoundShi()">
     </p>
     <div class="letter_start">
-
       <img class="testBorder" src="hiragana/gif/shi.gif" alt="しgif">
     </div><br>
     <div class="letter_start"> <img src="/hiragana/shi/し-bw.png" style="width: 40%;" alt="しpng">
     </div>
 
+<!--
     <p class="font_word">しお　Salt
       <audio id="audio1">
         <source src="hiragana/shi/しお.mp3" type="audio/mp3">
@@ -75,6 +74,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/shi/sample.png" alt="">
     </p>
     <br>
+-->
     <p class="font_word">しょくじ　Meal
       <audio id="audio2">
         <source src="hiragana/shi/しょくじ.mp3" type="audio/mp3">

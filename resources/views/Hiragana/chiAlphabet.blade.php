@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
@@ -25,10 +25,10 @@
     document.getElementById('audio0').currentTime = 0;
   }
 
-  function playSound1() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSound1() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
   function playSound2() {
     audioStop();
@@ -65,6 +65,7 @@
     </div><br>
     <div class="letter_start"> <img src="hiragana/chi/ち.png" style="width: 60%;" alt="ちpng"> </div>
 
+<!--
     <p class="font_word">ちいさい　Small
       <audio id="audio1">
         <source src="hiragana/chi/ちいさい.mp3" type="audio/mp3">
@@ -73,6 +74,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/chi/sample.png" alt="">
     </p>
     <br>
+-->
     <p class="font_word">ちかい　Near
       <audio id="audio2">
         <source src="hiragana/chi/ちかい.mp3" type="audio/mp3">

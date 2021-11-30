@@ -19,8 +19,8 @@
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
     document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audio4').pause();
-    document.getElementById('audio4').currentTime = 0;
+    // document.getElementById('audio4').pause();
+    // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioKu').pause();
     document.getElementById('audioKu').currentTime = 0;
   }
@@ -40,10 +40,10 @@
     document.getElementById('audio3').play();
   }
 
-  function playSoundFuyuyasumi() {
-    audioStop();
-    document.getElementById('audio4').play();
-  }
+  // function playSoundFuyuyasumi() {
+  //   audioStop();
+  //   document.getElementById('audio4').play();
+  // }
 
   function playSoundFu() {
     audioStop();
@@ -88,6 +88,7 @@
       <img style="vertical-align:middle;" src="hiragana/ku/sound-s.png" onclick="playSoundFuyu()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/fu/sample.png" alt="">
     </p>
+<!--
     <br>
     <p class="font_word">ふゆやすみ　Winter Vacation
       <audio id="audio4">
@@ -96,6 +97,7 @@
       <img style="vertical-align:middle;" src="hiragana/fu/sound-s.png" onclick="playSoundFuyuyasumi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/fu/sample.png" alt="">
     </p>
+-->
   </div>
 
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

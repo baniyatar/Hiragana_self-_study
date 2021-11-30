@@ -18,8 +18,8 @@
       document.getElementById('audio2').currentTime = 0;
       document.getElementById('audio3').pause();
       document.getElementById('audio3').currentTime = 0;
-      document.getElementById('audio4').pause();
-      document.getElementById('audio4').currentTime = 0;
+      // document.getElementById('audio4').pause();
+      // document.getElementById('audio4').currentTime = 0;
       document.getElementById('audioA').pause();
       document.getElementById('audioA').currentTime = 0;
     }
@@ -35,10 +35,10 @@
       audioStop();
       document.getElementById('audio3').play();
     } 
-    function playSoundAme() {
-      audioStop();
-      document.getElementById('audio4').play();
-    } 
+    // function playSoundAme() {
+    //   audioStop();
+    //   document.getElementById('audio4').play();
+    // } 
     function playSoundA() {
       audioStop();
       document.getElementById('audioA').play();
@@ -59,7 +59,7 @@
   <img class = "testBorder" src="hiragana/a/a.gif" alt="あgif">
 </div><br>  
 <div class = "letter_start">    <img src="hiragana/a/あ.png" alt="あpng"></div>
-<p class = "font_word">あか Red
+<p class = "font_word">あか　Red
   <audio id="audio1">
     <source src="hiragana/a/あか.mp3" type="audio/mp3">
   </audio>
@@ -82,6 +82,7 @@
   <img style="vertical-align:middle;" src="hiragana/a/sound-s.png" onclick="playSoundAtama()">
   <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/a/sample.png" alt="">
 </p>
+<!--
 <br>
 <p class = "font_word">あめ　Rain
   <audio id="audio4">
@@ -90,6 +91,7 @@
   <img style="vertical-align:middle;" src="hiragana/a/sound-s.png" onclick="playSoundAme()">
   <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/a/sample.png" alt="">
 </p>
+-->
 	</div>
 	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
 	<button class="prev_btn" onclick="location.href='{{ url('/home')}}'">&lt;PREV</button>

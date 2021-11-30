@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio0').pause();
     document.getElementById('audio0').currentTime = 0;
   }
@@ -33,10 +33,10 @@
     document.getElementById('audio2').play();
   }
 
-  function playSound3() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSound3() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSound0() {
     audioStop();
@@ -61,7 +61,6 @@
     </div>
 
     <p class="font_word">だいがく　University
-
       <audio id="audio1">
         <source src="hiragana/da/だいがく.mp3" type="audio/mp3">
       </audio>
@@ -69,7 +68,6 @@
       <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/da/sample.png" alt="">
     </p>
     <br>
-
     <p class="font_word">だいどころ　Kitchen
       <audio id="audio2">
         <source src="hiragana/da/だいどころ.mp3" type="audio/mp3">
@@ -77,8 +75,8 @@
       <img style="vertical-align:middle;" src="hiragana/da/sound-s.png" onclick="playSound2()">
       <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/da/sample.png" alt="">
     </p>
+<!--
     <br>
-
     <p class="font_word">だれ　Who
       <audio id="audio3">
         <source src="hiragana/da/だれ.mp3" type="audio/mp3">
@@ -87,7 +85,7 @@
       <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/da/sample.png" alt="">
     </p>
     <br>
-
+-->
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/zoAlphabet')}}'">&lt;PREV</button>

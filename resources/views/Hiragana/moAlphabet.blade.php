@@ -19,8 +19,8 @@
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
     document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audio4').pause();
-    document.getElementById('audio4').currentTime = 0;
+    // document.getElementById('audio4').pause();
+    // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioMo').pause();
     document.getElementById('audioMo').currentTime = 0;
   }
@@ -40,10 +40,10 @@
     document.getElementById('audio3').play();
   }
 
-  function playSoundMomo() {
-    audioStop();
-    document.getElementById('audio4').play();
-  }
+  // function playSoundMomo() {
+  //   audioStop();
+  //   document.getElementById('audio4').play();
+  // }
 
   function playSoundMo() {
     audioStop();
@@ -88,6 +88,7 @@
       <img style="vertical-align:middle;" src="hiragana/mo/sound-s.png" onclick="playSoundmoshimoshi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mo/sample.png" alt="">
     </p>
+<!--
     <br>
     <p class="font_word">も<span style="color: red;">も</span>　Peach
       <audio id="audio4">
@@ -96,6 +97,7 @@
       <img style="vertical-align:middle;" src="hiragana/mo/sound-s.png" onclick="playSoundMomo()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mo/sample.png" alt="">
     </p>
+-->
   </div>
 
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

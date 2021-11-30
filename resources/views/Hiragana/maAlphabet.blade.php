@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
@@ -25,10 +25,10 @@
     document.getElementById('audioMa').currentTime = 0;
   }
 
-  function playSoundMainichi() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundMainichi() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
   function playSoundmae() {
     audioStop();
@@ -65,6 +65,7 @@
     <div class="letter_start"> <img src="hiragana/ma/ま.png" style="width: 80%;" alt="まpng">
     </div>
 
+<!--
     <p class="font_word">まいにち　Everyday
       <audio id="audio1">
         <source src="hiragana/ma/まいにち.mp3" type="audio/mp3">
@@ -73,6 +74,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ma/sample.png" alt="">
     </p>
     <br>
+-->
     <p class="font_word">まえ　Before / In Front of
       <audio id="audio2">
         <source src="hiragana/ma/まえ.mp3" type="audio/mp3">

@@ -15,12 +15,14 @@
   function audioStop() {
     document.getElementById('audio1').pause();
     document.getElementById('audio1').currentTime = 0;
-    document.getElementById('audio2').pause();
-    document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio2').pause();
+    // document.getElementById('audio2').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio4').pause();
     document.getElementById('audio4').currentTime = 0;
+    document.getElementById('audio5').pause();
+    document.getElementById('audio5').currentTime = 0;
     document.getElementById('audio0').pause();
     document.getElementById('audio0').currentTime = 0;
   }
@@ -30,19 +32,24 @@
     document.getElementById('audio1').play();
   }
 
-  function playSound2() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
+  // function playSound2() {
+  //   audioStop();
+  //   document.getElementById('audio2').play();
+  // }
 
-  function playSound3() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSound3() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSound4() {
     audioStop();
     document.getElementById('audio4').play();
+  }
+
+  function playSound5() {
+    audioStop();
+    document.getElementById('audio5').play();
   }
 
   function playSound0() {
@@ -72,6 +79,7 @@
       <img style="vertical-align:middle;" src="hiragana/ri/sound-s.png" onclick="playSound1()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ri/sample.png" alt="">
     </p>
+<!--
     <br>
     <p class="font_word">りゅうがくせい　Exchange Student
       <audio id="audio2">
@@ -88,12 +96,21 @@
       <img style="vertical-align:middle;" src="hiragana/ri/sound-s.png" onclick="playSound3()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ri/sample.png" alt="">
     </p>
+-->
     <br>
     <p class="font_word">りんご　Apple
       <audio id="audio4">
         <source src="hiragana/ri/りんご.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ri/sound-s.png" onclick="playSound4()">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ri/sample.png" alt="">
+    </p>
+    <br>
+    <p class="font_word">りか　Chemistry
+      <audio id="audio5">
+        <source src="hiragana/ri/りか.mp3" type="audio/mp3">
+      </audio>
+      <img style="vertical-align:middle;" src="hiragana/ri/sound-s.png" onclick="playSound5()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ri/sample.png" alt="">
     </p>
   </div>

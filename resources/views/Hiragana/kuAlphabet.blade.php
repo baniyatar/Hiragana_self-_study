@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio4').pause();
     document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioKu').pause();
@@ -35,10 +35,10 @@
     document.getElementById('audio2').play();
   }
 
-  function playSoundKutsu() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundKutsu() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSoundKuruma() {
     audioStop();
@@ -82,6 +82,7 @@
       <img style="vertical-align:middle;" src="hiragana/ku/sound-s.png" onclick="playSoundKuchi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ku/sample.png" alt="">
     </p>
+<!--
     <br>
     <p class="font_word">くつ　Shoes
       <audio id="audio3">
@@ -90,6 +91,7 @@
       <img style="vertical-align:middle;" src="hiragana/ku/sound-s.png" onclick="playSoundKutsu()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ku/sample.png" alt="">
     </p>
+-->
     <br>
     <p class="font_word">くるま　Car
       <audio id="audio4">

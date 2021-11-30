@@ -15,8 +15,8 @@
   function audioStop() {
     document.getElementById('audio1').pause();
     document.getElementById('audio1').currentTime = 0;
-    document.getElementById('audio2').pause();
-    document.getElementById('audio2').currentTime = 0;
+    // document.getElementById('audio2').pause();
+    // document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
     document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio4').pause();
@@ -30,10 +30,10 @@
     document.getElementById('audio1').play();
   }
 
-  function playSoundSoto() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
+  // function playSoundSoto() {
+  //   audioStop();
+  //   document.getElementById('audio2').play();
+  // }
 
   function playSoundSofu() {
     audioStop();
@@ -54,7 +54,6 @@
 <body>
   <div class="box">
     <p class="font_word">そ
-
       <audio id="audioSo">
         <source src="hiragana/so/そ.mp3" type="audio/mp3">
       </audio>
@@ -73,6 +72,7 @@
       <img style="vertical-align:middle;" src="hiragana/so/sound-s.png" onclick="playSoundSouji()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/so/sample.png" alt="">
     </p>
+<!--
     <br>
     <p class="font_word">そと　Outside
       <audio id="audio2">
@@ -81,6 +81,7 @@
       <img style="vertical-align:middle;" src="hiragana/so/sound-s.png" onclick="playSoundSoto()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/so/sample.png" alt="">
     </p>
+-->
     <br>
     <p class="font_word">そふ　Grandfather
       <audio id="audio3">

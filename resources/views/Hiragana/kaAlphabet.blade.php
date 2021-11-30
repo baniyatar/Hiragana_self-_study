@@ -19,8 +19,8 @@
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
     document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audio4').pause();
-    document.getElementById('audio4').currentTime = 0;
+    // document.getElementById('audio4').pause();
+    // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioKa').pause();
     document.getElementById('audioKa').currentTime = 0;
   }
@@ -40,10 +40,10 @@
     document.getElementById('audio3').play();
   }
 
-  function playSoundKawa() {
-    audioStop();
-    document.getElementById('audio4').play();
-  }
+  // function playSoundKawa() {
+  //   audioStop();
+  //   document.getElementById('audio4').play();
+  // }
 
   function playSoundKa() {
     audioStop();
@@ -90,6 +90,7 @@
       <img style="vertical-align:middle;" src="hiragana/ka/sound-s.png" onclick="playSoundKaban()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ka/sample.png" alt="">
     </p>
+<!--
     <br>
     <p class="font_word">かわ　River
       <audio id="audio4">
@@ -98,6 +99,7 @@
       <img style="vertical-align:middle;" src="hiragana/ka/sound-s.png" onclick="playSoundKawa()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ka/sample.png" alt="">
     </p>
+-->
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/oAlphabet')}}'">&lt;PREV</button>

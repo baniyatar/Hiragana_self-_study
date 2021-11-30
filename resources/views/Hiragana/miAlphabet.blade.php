@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio4').pause();
     document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioMi').pause();
@@ -35,10 +35,10 @@
     document.getElementById('audio2').play();
   }
 
-  function playSoundmichi() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundmichi() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSoundMimi() {
     audioStop();
@@ -80,6 +80,7 @@
       <img style="vertical-align:middle;" src="hiragana/mi/sound-s.png" onclick="playSoundmise()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mi/sample.png" alt="">
     </p>
+<!--
     <br>
     <p class="font_word">みち　Street
       <audio id="audio3">
@@ -88,6 +89,7 @@
       <img style="vertical-align:middle;" src="hiragana/mi/sound-s.png" onclick="playSoundmichi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mi/sample.png" alt="">
     </p>
+-->
     <br>
     <p class="font_word">み<span style="color: red;">み</span>　Ear
       <audio id="audio4">

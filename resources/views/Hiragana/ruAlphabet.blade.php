@@ -15,8 +15,8 @@
   function audioStop() {
     document.getElementById('audio1').pause();
     document.getElementById('audio1').currentTime = 0;
-    document.getElementById('audio2').pause();
-    document.getElementById('audio2').currentTime = 0;
+    // document.getElementById('audio2').pause();
+    // document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
     document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio4').pause();
@@ -30,10 +30,10 @@
     document.getElementById('audio1').play();
   }
 
-  function playSound2() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
+  // function playSound2() {
+  //   audioStop();
+  //   document.getElementById('audio2').play();
+  // }
 
   function playSound3() {
     audioStop();
@@ -72,6 +72,7 @@
       <img style="vertical-align:middle;" src="hiragana/ru/sound-s.png" onclick="playSound1()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ru/sample.png" alt="">
     </p>
+<!--
     <br>
     <p style="font-size: 50px;">ふ<span style="color: red;">る</span>い　Old
       <audio id="audio2">
@@ -80,6 +81,7 @@
       <img style="vertical-align:middle;" src="hiragana/ru/sound-s.png" onclick="playSound2()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ru/sample.png" alt="">
     </p>
+-->
     <br>
     <p style="font-size: 50px;">ま<span style="color: red;">る</span>い　Round
       <audio id="audio3">

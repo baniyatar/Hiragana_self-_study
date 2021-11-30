@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio4').pause();
     document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioNe').pause();
@@ -40,10 +40,10 @@
     document.getElementById('audio2').play();
   }
 
-  function playSoundNemui() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundNemui() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSoundMegane() {
     audioStop();
@@ -81,6 +81,7 @@
       <img style="vertical-align:middle;" src="hiragana/ne/sound-s.png" onclick="playSoundNeko()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ne/sample.png" alt="">
     </p>
+<!--
     <br>
     <p class="font_word">ねむい　Sleepy
       <audio id="audio3">
@@ -89,8 +90,9 @@
       <img style="vertical-align:middle;" src="hiragana/ne/sound-s.png" onclick="playSoundNemui()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ne/sample.png" alt="">
     </p>
+-->
     <br>
-    <p class="font_word">めがね　Glasses
+    <p style="font-size: 50px;">めが<span style="color: red;">ね</span>　Glasses
       <audio id="audio4">
         <source src="hiragana/ne/めがね.mp3" type="audio/mp3">
       </audio>

@@ -15,8 +15,8 @@
   function audioStop() {
     document.getElementById('audio1').pause();
     document.getElementById('audio1').currentTime = 0;
-    document.getElementById('audio2').pause();
-    document.getElementById('audio2').currentTime = 0;
+    // document.getElementById('audio2').pause();
+    // document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
     document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio4').pause();
@@ -35,10 +35,10 @@
     document.getElementById('audio1').play();
   }
 
-  function playSoundYoi() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
+  // function playSoundYoi() {
+  //   audioStop();
+  //   document.getElementById('audio2').play();
+  // }
 
   function playSoundYoufuku() {
     audioStop();
@@ -72,6 +72,7 @@
       <img style="vertical-align:middle;" src="hiragana/yo/sound-s.png" onclick="playSoundTsuyoi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/yo/sample.png" alt="">
     </p>
+<!--
     <br>
     <p class="font_word">よい　Good
       <audio id="audio2">
@@ -80,6 +81,7 @@
       <img style="vertical-align:middle;" src="hiragana/yo/sound-s.png" onclick="playSoundYoi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/yo/sample.png" alt="">
     </p>
+-->
     <br>
     <p class="font_word">ようふく　Clothes
       <audio id="audio3">

@@ -19,8 +19,8 @@
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
     document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audio4').pause();
-    document.getElementById('audio4').currentTime = 0;
+    // document.getElementById('audio4').pause();
+    // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioSa').pause();
     document.getElementById('audioSa').currentTime = 0;
   }
@@ -40,10 +40,10 @@
     document.getElementById('audio3').play();
   }
 
-  function playSoundSatou() {
-    audioStop();
-    document.getElementById('audio4').play();
-  }
+  // function playSoundSatou() {
+  //   audioStop();
+  //   document.getElementById('audio4').play();
+  // }
 
   function playSoundSa() {
     audioStop();
@@ -54,7 +54,6 @@
 <body>
   <div class="box">
     <p class="font_word">さ
-
       <audio id="audioSa">
         <source src="hiragana/sa/さ.mp3" type="audio/mp3">
       </audio>
@@ -89,6 +88,7 @@
       <img style="vertical-align:middle;" src="hiragana/sa/sound-s.png" onclick="playSoundSakura()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/sa/sample.png" alt="">
     </p>
+<!--
     <br>
     <p class="font_word">さとう　Suger
       <audio id="audio4">
@@ -97,6 +97,7 @@
       <img style="vertical-align:middle;" src="hiragana/sa/sound-s.png" onclick="playSoundSatou()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/sa/sample.png" alt="">
     </p>
+-->
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/koAlphabet')}}'">&lt;PREV</button>

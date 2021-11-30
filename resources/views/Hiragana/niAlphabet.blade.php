@@ -15,8 +15,8 @@
   function audioStop() {
     document.getElementById('audio1').pause();
     document.getElementById('audio1').currentTime = 0;
-    document.getElementById('audio2').pause();
-    document.getElementById('audio2').currentTime = 0;
+    // document.getElementById('audio2').pause();
+    // document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
     document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio4').pause();
@@ -35,10 +35,10 @@
     document.getElementById('audio1').play();
   }
 
-  function playSoundNishi() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
+  // function playSoundNishi() {
+  //   audioStop();
+  //   document.getElementById('audio2').play();
+  // }
 
   function playSoundNihon() {
     audioStop();
@@ -74,6 +74,7 @@
       <img style="vertical-align:middle;" src="hiragana/ni/sound-s.png" onclick="playSoundNiku()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ni/sample.png" alt="">
     </p>
+<!--
     <br>
     <p class="font_word">にし　West
       <audio id="audio2">
@@ -82,6 +83,7 @@
       <img style="vertical-align:middle;" src="hiragana/ni/sound-s.png" onclick="playSoundNishi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ni/sample.png" alt="">
     </p>
+-->
     <br>
     <p class="font_word">にほん／にっぽん　Japan
       <audio id="audio3">

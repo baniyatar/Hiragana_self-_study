@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio4').pause();
     document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioU').pause();
@@ -35,10 +35,10 @@
     document.getElementById('audio2').play();
   }
 
-  function playSoundUta() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundUta() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSoundUmi() {
     audioStop();
@@ -83,6 +83,7 @@
       <img style="vertical-align:middle;" src="hiragana/u/sound-s.png" onclick="playSoundUshi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/u/sample.png" alt="">
     </p>
+<!--
     <br>
     <p class="font_word">うた　Song
       <audio id="audio3">
@@ -91,6 +92,7 @@
       <img style="vertical-align:middle;" src="hiragana/u/sound-s.png" onclick="playSoundUta()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/u/sample.png" alt="">
     </p>
+-->
     <br>
     <p class="font_word">うみ　Sea
       <audio id="audio4">

@@ -11,8 +11,20 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script> -->
     </head>
 	<script language="JavaScript">
-    function playSound0() { document.getElementById('audio0').play(); } 
-
+    function audioStop() {
+      document.getElementById('audio0').pause();
+      document.getElementById('audio0').currentTime = 0;
+      document.getElementById('audio1').pause();
+      document.getElementById('audio1').currentTime = 0;
+    }
+    function playSound0() {
+      audioStop();
+      document.getElementById('audio0').play();
+    } 
+    function playSound1() {
+      audioStop();
+      document.getElementById('audio1').play();
+    } 
   </script>
 	<body>
 	<div class="box">
@@ -28,7 +40,13 @@
   <img src="hiragana/jo/じょ.png" alt="じょpng">
 </div><br>  
 
-  <!-- <br><img src="hiragana/ta/red.png" alt=""> -->
+  <p class="font_word">ＸＸＸＸ　XXXX
+      <audio id="audio1">
+        <source src="hiragana/di/サンプル.mp3" type="audio/mp3">
+      </audio>
+      <img style="vertical-align:middle;" src="hiragana/da/sound-s.png" onclick="playSound1()">
+      <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/da/sample.png" alt="">
+  </p>
 
 	</div>
 	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

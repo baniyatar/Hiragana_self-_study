@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
@@ -23,10 +23,10 @@
     document.getElementById('audioByo').currentTime = 0;
   }
 
-  function playSoundbyou() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundbyou() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
   function playSoundbyouin() {
     audioStop();
@@ -48,19 +48,17 @@
   <div class="box">
 
     <p style="font-size: 50px;"><span style="color: red;">びょ</span>
-
       <audio id="audioByo">
         <source src="hiragana/byo/byo.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/byo/sound-s.png" onclick="playSoundByo()">
     </p>
     <div class="letter_start">
-
-
       <img src="hiragana/byo/byo.png" alt="gapng">
-    </div><br>
+    </div>
+    <br>
+<!--
     <p style="font-size: 50px;"><span style="color: red;">びょ</span>う Seconds Time
-
       <audio id="audio1">
         <source src="hiragana/byo/びょう.mp3" type="audio/mp3">
       </audio>
@@ -68,7 +66,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/byo/sample.png" alt="">
       <br>
     </p>
-
+-->
     <p style="font-size: 50px;"><span style="color: red;">びょ</span>ういん Hospital
       <audio id="audio2">
         <source src="hiragana/byo/びょういん.mp3" type="audio/mp3">
@@ -76,9 +74,7 @@
       <img style="vertical-align:middle;" src="hiragana/byo/sound-s.png" onclick="playSoundbyouin()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/byo/sample.png" alt="">
       <br>
-   
     </p>
-
 
     <p style="font-size: 50px;"><span style="color: red;">びょ</span>うき Sick
       <audio id="audio3">
@@ -88,7 +84,6 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/byo/sample.png" alt="">
       <br>
     </p>
-
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

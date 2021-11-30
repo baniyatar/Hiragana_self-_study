@@ -16,7 +16,7 @@
 		<div style="font-weight:bold; font-size: 50px; text-align: center;">Contracted sound</div>
 		<br>
 		<p>　ここでは「きゃ(Kya)」「きゅ(Kyu)」「きょ(Kyo)」などの<ruby><rb>拗音</rb><rt>ようおん</rt></ruby>を<ruby><rb>勉強</rb><rt>べんきょう</rt></ruby>しましょう。</p>
-		<p>　Let's study contracted sounds such as “きゃ(Kya)”、 “きゅ(Kyu)”、 “きょ(Kyo)”.</p>
+		<p>　Let's study contracted sounds such as “きゃ(Kya)”, “きゅ(Kyu)”, “きょ(Kyo)”.</p>
 		<br>
 		<p>　「きゃ(Kya)」「きゅ(Kyu)」「きょ(Kyo)」などの<ruby><rb>拗音</rb><rt>ようおん</rt></ruby>は「き(Ki)」はふつうの<ruby><rb>大</rb><rt>おお</rt></ruby>きさですが、つぎの「ゃ(ya)」「ゅ(yu)」「ょ(yo)」は<ruby><rb>小</rb><rt>ちい</rt></ruby>さく<ruby><rb>書</rb><rt>か</rt></ruby>きます。</p>
 		<p>　In Contracted sounds such as “きゃ(Kya)”,  “きゅ(Kyu)”, and “きょ(Kyo)”, “き(Ki)” in “きゃ(Kya)”,  “きゅ(Kyu)”, and “きょ(Kyo)” is written in normal size, but the following “ゃ(ya)”, “ゅ(yu)”, and “ょ(yo)” are written in small size.</p>
