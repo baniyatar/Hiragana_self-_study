@@ -28,7 +28,7 @@
     document.getElementById('audio1').play();
   }
 
-  function playSoundsinpo() {
+  function playSoundsanpo() {
     audioStop();
     document.getElementById('audio2').play();
   }
