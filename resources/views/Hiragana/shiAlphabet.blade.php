@@ -62,7 +62,7 @@
     <div class="letter_start">
       <img class="testBorder" src="hiragana/gif/shi.gif" alt="しgif">
     </div><br>
-    <div class="letter_start"> <img src="/hiragana/shi/し-bw.png" style="width: 40%;" alt="しpng">
+    <div class="letter_start"> <img src="hiragana/shi/し-bw.png" style="width: 40%;" alt="しpng">
     </div>
 
 <!--

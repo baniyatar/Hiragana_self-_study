@@ -62,7 +62,7 @@
     <div class="letter_start">
       <img class="testBorder" src="hiragana/gif/so.gif" alt="そgif">
     </div><br>
-    <div class="letter_start"> <img src="/hiragana/so/そ-bw.png" style="width: 40%;" alt="そpng">
+    <div class="letter_start"> <img src="hiragana/so/そ-bw.png" style="width: 40%;" alt="そpng">
     </div>
 
     <p class="font_word">そうじ　Cleaning
