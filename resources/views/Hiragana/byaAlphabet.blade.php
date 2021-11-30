@@ -29,7 +29,6 @@
 	<body>
 	<div class="box">
         <p style="font-size: 50px;"><span style="color: red;">びゃ</span>
-
             <audio id="audioBya">
             <source src="hiragana/bya/bya.mp3" type="audio/mp3">
           </audio>

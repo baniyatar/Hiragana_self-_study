@@ -47,28 +47,25 @@
 <body>
   <div class="box">
     <p class="font_word">ぎ<span style="color: red;">ゃ</span>
-
       <audio id="audioYa">
         <source src="hiragana/gya/ぎゃ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ya/sound-s.png" onclick="playSoundGya()">
     </p>
     <div class="letter_start">
-
       <!--  <img class = "testBorder" src="hiragana/ya/Ya.gif" alt="やgif">-->
       <img src="hiragana/gya/ぎゃ.png" alt="ぎゃpng">
     </div><br>
 
-    <p style="font-size: 50px;"><span style="color: red;">ぎゃ</span>く Opposite
+    <p style="font-size: 50px;"><span style="color: red;">ぎゃ</span>く　Opposite
       <audio id="audio1">
         <source src="hiragana/gya/ぎゃく.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/gya/sound-s.png" onclick="playSoundGyaku()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gya/sample.png" alt="">
       <br>
-    
     </p>
-    <p style="font-size: 50px;"><span style="color: red;">ぎゃ</span>くこうか Opposite effect
+    <p style="font-size: 50px;"><span style="color: red;">ぎゃ</span>くこうか　Opposite effect
       <audio id="audio2">
         <source src="hiragana/gya/ぎゃくこうか.mp3" type="audio/mp3">
       </audio>
@@ -76,7 +73,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gya/sample.png" alt="">
       <br>
     </p>
-    <p style="font-size: 50px;"><span style="color: red;">ぎゃ</span>くてん Reversal
+    <p style="font-size: 50px;"><span style="color: red;">ぎゃ</span>くてん　Reversal
       <audio id="audio3">
         <source src="hiragana/gya/ぎゃくてん.mp3" type="audio/mp3">
       </audio>

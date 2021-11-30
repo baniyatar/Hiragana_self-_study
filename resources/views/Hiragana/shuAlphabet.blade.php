@@ -47,19 +47,16 @@
 <body>
   <div class="box">
     <p style="font-size: 50px;"><span style="color: red;">しゅ</span>
-
       <audio id="audio0">
         <source src="hiragana/shu/しゅ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/shu/sound-s.png" onclick="playSound0()">
     </p>
     <div class="letter_start">
-
       <img src="hiragana/shu/しゅ.png" alt="しゅpng">
     </div><br>
 
-    <p style="font-size: 50px;"><span style="color: red;">しゅ</span>くじつ Public holiday
-
+    <p style="font-size: 50px;"><span style="color: red;">しゅ</span>くじつ　Public holiday
       <audio id="audio1">
         <source src="hiragana/shu/しゅくじつ.mp3" type="audio/mp3">
       </audio>
@@ -67,9 +64,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/shu/sample.png" alt="">
       <br>
     </p>
-
-    <p style="font-size: 50px;"><span style="color: red;">しゅ</span>くだい Homework
-
+    <p style="font-size: 50px;"><span style="color: red;">しゅ</span>くだい　Homework
       <audio id="audio2">
         <source src="hiragana/shu/しゅくだい.mp3" type="audio/mp3">
       </audio>
@@ -77,9 +72,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/shu/sample.png" alt="">
       <br>
     </p>
-
-    <p style="font-size: 50px;"><span style="color: red;">しゅ</span>み Hobby
-
+    <p style="font-size: 50px;"><span style="color: red;">しゅ</span>み　Hobby
       <audio id="audio3">
         <source src="hiragana/shu/しゅみ.mp3" type="audio/mp3">
       </audio>

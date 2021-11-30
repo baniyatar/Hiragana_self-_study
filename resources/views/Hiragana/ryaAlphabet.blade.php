@@ -50,7 +50,7 @@
       <img src="hiragana/rya/rya.png" alt="りゃpng">
     </div><br>
 
-    <p style="font-size:50px;">がい<span style="color:red;">りゃ</span>く Outline
+    <p style="font-size:50px;">がい<span style="color:red;">りゃ</span>く　Outline
       <audio id="audio1">
         <source src="hiragana/rya/がいりゃく.mp3" type="audio/mp3">
       </audio>
@@ -59,7 +59,7 @@
       <br>
     </p>
 
-    <p style="font-size:50px;">しょう<span style="color:red;">りゃ</span>く Omission / Abbreviation
+    <p style="font-size:50px;">しょう<span style="color:red;">りゃ</span>く　Omission / Abbreviation
       <audio id="audio2">
         <source src="hiragana/rya/しょうりゃく.mp3" type="audio/mp3">
       </audio>

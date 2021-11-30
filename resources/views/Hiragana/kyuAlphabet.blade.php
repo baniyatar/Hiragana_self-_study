@@ -47,29 +47,24 @@
 <body>
   <div class="box">
     <p style="font-size:50px;"><span style="color:red;">きゅ
-
         <audio id="audioKyu">
           <source src="hiragana/kyu/きゅ.mp3" type="audio/mp3">
         </audio>
         <img style="vertical-align:middle;" src="hiragana/kyu/sound-s.png" onclick="playSoundKyu()">
     </p>
     <div class="letter_start">
-
       <img src="hiragana/kyu/kyu.png" alt="きゅpng">
     </div><br>
 
-    <p style="font-size:50px;"><span style="color:red;">きゅ</span>う<span style="color:red;">きゅ</span>うしゃ Ambulance
-
+    <p style="font-size:50px;"><span style="color:red;">きゅ</span>う<span style="color:red;">きゅ</span>うしゃ　Ambulance
       <audio id="audio1">
         <source src="hiragana/kyu/きゅうきゅうしゃ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/kyu/sound-s.png" onclick="playSoundOkyuukyuusha()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/kyu/sample.png" alt="">
     <br>
-  
     </p>
-
-    <p style="font-size:50px;"><span style="color:red;">きゅ</span>うじつ Holiday
+    <p style="font-size:50px;"><span style="color:red;">きゅ</span>うじつ　Holiday
       <audio id="audio2">
         <source src="hiragana/kyu/きゅうじつ.mp3" type="audio/mp3">
       </audio>
@@ -77,16 +72,13 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/kyu/sample.png" alt="">
       <br>
     </p>
-
-    <p style="font-size:50px;"><span style="color:red;">きゅ</span>うり
+    <p style="font-size:50px;"><span style="color:red;">きゅ</span>うり　Cucumber
       <audio id="audio3">
         <source src="hiragana/kyu/きゅうり.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/kyu/sound-s.png" onclick="playSoundKyuuri()">
-   
-      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/kyu/sample.png" alt="">
+         <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/kyu/sample.png" alt="">
     </p>
-
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/kyaAlphabet')}}'">&lt;PREV</button>

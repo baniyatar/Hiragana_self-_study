@@ -18,7 +18,7 @@
     <br><br><br><br>
     <div style="text-align: center; font-size: 75px;"><a href="{{ url('/intro')}}">はじめから<br>Start from beginning</a></div>
 </div>
-<button class="home_btn" onclick="location.href='{{ url('/construct')}}'">HOME</button>
+<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
 <button class="prev_btn" onclick="location.href='{{ url('/ryoAlphabet')}}'">&lt;PREV</button>
 <!--<button class="next_btn" onclick="location.href='{{ url('/aAlphabet')}}'">NEXT&gt;</button>-->
 </body>

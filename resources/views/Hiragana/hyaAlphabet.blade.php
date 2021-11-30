@@ -47,21 +47,17 @@
 <body>
   <div class="box">
     <p style="font-size: 50px;"><span style="color: red;">ひゃ</span>
-
       <audio id="audioHya">
         <source src="hiragana/hya/hya.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/hya/sound-s.png" onclick="playSoundHya()">
     </p>
     <div class="letter_start">
-
       {{-- <img class = "testBorder" src="hiragana/hya/hya.gif" alt="まgif"> --}}
       <img src="hiragana/hya/hya.png" alt="hyapng">
     </div><br>
 
-
-    <p style="font-size: 50px;"><span style="color: red;">ひゃ</span>く Hundred
-
+    <p style="font-size: 50px;"><span style="color: red;">ひゃ</span>く　Hundred
       <audio id="audio1">
         <source src="hiragana/hya/ひゃく.mp3" type="audio/mp3">
       </audio>
@@ -69,9 +65,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/hya/sample.png" alt="">
       <br>
     </p>
-
-    <p style="font-size: 50px;"><span style="color: red;">ひゃ</span>っかじてん Encyclopedia
-
+    <p style="font-size: 50px;"><span style="color: red;">ひゃ</span>っかじてん　Encyclopedia
       <audio id="audio2">
         <source src="hiragana/hya/ひゃっかじてん.mp3" type="audio/mp3">
       </audio>
@@ -79,10 +73,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/hya/sample.png" alt="">
       <br>
     </p>
-
-
-    <p style="font-size: 50px;"><span style="color: red;">ひゃ</span>っかてん Department store
-
+    <p style="font-size: 50px;"><span style="color: red;">ひゃ</span>っかてん　Department store
       <audio id="audio3">
         <source src="hiragana/hya/ひゃっかてん.mp3" type="audio/mp3">
       </audio>

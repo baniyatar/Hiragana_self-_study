@@ -30,7 +30,7 @@
 <div class = "letter_start"><img src="hiragana/wo/を.png" style="width: 80%;" alt="をpng">
   </div>
 
-<p>　「を」は<ruby><rb>語</rb><rt>ご</rt><rb>彙</rb><rt>い</rt></ruby>のなかで<ruby><rb>使</rb><rt>つか</rt></ruby>われることはありません。つぎのように<ruby><rb>使</rb><rt>つか</rt></ruby>います。</p>
+<p>　「を」は<ruby><rb>語彙</rb><rt>ごい</rt></ruby>のなかで<ruby><rb>使</rb><rt>つか</rt></ruby>われることはありません。つぎのように<ruby><rb>使</rb><rt>つか</rt></ruby>います。</p>
 <p>　The character(Case-marking particle)“を(Wo)” is not used in lexicon. It is used in the following way.</p>
 <br>
 <p>　<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>本</rb><rt>ほん</rt></ruby><span style="color: red;">を</span><ruby><rb>買</rb><rt>か</rt></ruby>います。</p>

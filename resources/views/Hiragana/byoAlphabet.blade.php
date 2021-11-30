@@ -67,7 +67,7 @@
       <br>
     </p>
 -->
-    <p style="font-size: 50px;"><span style="color: red;">びょ</span>ういん Hospital
+    <p style="font-size: 50px;"><span style="color: red;">びょ</span>ういん　Hospital
       <audio id="audio2">
         <source src="hiragana/byo/びょういん.mp3" type="audio/mp3">
       </audio>
@@ -76,7 +76,7 @@
       <br>
     </p>
 
-    <p style="font-size: 50px;"><span style="color: red;">びょ</span>うき Sick
+    <p style="font-size: 50px;"><span style="color: red;">びょ</span>うき　Sick
       <audio id="audio3">
         <source src="hiragana/byo/びょうき.mp3" type="audio/mp3">
       </audio>

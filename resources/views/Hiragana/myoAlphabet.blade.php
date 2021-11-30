@@ -38,12 +38,11 @@
         </audio>
         <img style="vertical-align:middle;" src="hiragana/myo/sound-s.png" onclick="playSoundMyo()">
     </p>
-
     <div class="letter_start">
       <img src="hiragana/myo/myo.png" alt="みょpng">
     </div><br>
 
-    <p style="font-size:50px;"><span style="color:red;">みょ</span>うじ Last name
+    <p style="font-size:50px;"><span style="color:red;">みょ</span>うじ　Last name
       <audio id="audio1">
         <source src="hiragana/Myo/みょうじ.mp3" type="audio/mp3">
       </audio>

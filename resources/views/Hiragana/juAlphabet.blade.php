@@ -47,19 +47,16 @@
 <body>
   <div class="box">
     <p style="font-size: 50px;"><span style="color: red;">じゅ</span>
-
       <audio id="audio0">
         <source src="hiragana/ju/じゅ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ju/sound-s.png" onclick="playSound0()">
     </p>
     <div class="letter_start">
-
       <img src="hiragana/ju/じゅ.png" alt="じゅpng">
     </div><br>
 
-    <p style="font-size: 50px;">きょう<span style="color: red;">じゅ</span>Professor
-
+    <p style="font-size: 50px;">きょう<span style="color: red;">じゅ</span>　Professor
       <audio id="audio1">
         <source src="hiragana/ju/きょうじゅ.mp3" type="audio/mp3">
       </audio>
@@ -67,8 +64,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gyu/sample.png" alt="">
       <br>
     </p>
-    <p style="font-size: 50px;"><span style="color: red;">じゅ</span>ぎょう Lesson
-
+    <p style="font-size: 50px;"><span style="color: red;">じゅ</span>ぎょう　Lesson
       <audio id="audio2">
         <source src="hiragana/ju/じゅぎょう.mp3" type="audio/mp3">
       </audio>
@@ -76,9 +72,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gyu/sample.png" alt="">
       <br>
     </p>
-
-    <p style="font-size: 50px;">び<span style="color: red;">じゅ</span>つかん Art museum
-
+    <p style="font-size: 50px;">び<span style="color: red;">じゅ</span>つかん　Art museum
       <audio id="audio3">
         <source src="hiragana/ju/びじゅつかん.mp3" type="audio/mp3">
       </audio>

@@ -46,32 +46,25 @@
 <body>
   <div class="box">
     <p style="font-size:50px;"><span style="color:red;">きゃ 
-
         <audio id="audioKya">
           <source src="hiragana/kya/きゃ.mp3" type="audio/mp3">
         </audio>
         <img style="vertical-align:middle;" src="hiragana/kya/sound-s.png" onclick="playSoundKya()">
-
-     
     </p>
     <br>
     <div class="letter_start">
-
       <img src="hiragana/kya/kya.png" alt="きゃpng">
     </div>
 
-    <p style="font-size:50px;">お<span style="color:red;">きゃ</span>くさん Guest/Customer
-
+    <p style="font-size:50px;">お<span style="color:red;">きゃ</span>くさん　Guest/Customer
       <audio id="audio1">
         <source src="hiragana/kya/おきゃくさん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/kya/sound-s.png" onclick="playSoundOkyakusan()">
-
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/kya/sample.png" alt="">
     </p>
 <br>
-    <p style="font-size:50px;"><span style="color:red;">きゃ</span>くしつ Guest Room/Passenger Cabin
-  
+    <p style="font-size:50px;"><span style="color:red;">きゃ</span>くしつ　Guest Room/Passenger Cabin
       <audio id="audio2">
         <source src="hiragana/kya/きゃくしつ.mp3" type="audio/mp3">
       </audio>
@@ -80,13 +73,11 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/kya/sample.png" alt="">
     </p>
     <br>
-
-    <p style="font-size:50px;">へん<span style="color:red;">きゃ</span>く Return
+    <p style="font-size:50px;">へん<span style="color:red;">きゃ</span>く　Return
       <audio id="audio3">
         <source src="hiragana/kya/へんきゃく.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/kya/sound-s.png" onclick="playSoundHenkyaku()">
-    
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/kya/sample.png" alt="">
     </p>
 

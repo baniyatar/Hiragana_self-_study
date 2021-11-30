@@ -47,19 +47,15 @@
 <body>
   <div class="box">
     <p style="font-size: 50px;"><span style="color: red;">ちゅ</span>
-
       <audio id="audio0">
         <source src="hiragana/chu/ちゅ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/chu/sound-s.png" onclick="playSound0()">
     </p>
     <div class="letter_start">
-
       <img src="hiragana/chu/ちゅ.png" alt="ちゅpng">
     </div><br>
-
-    <p style="font-size: 50px;">しょく<span style="color: red;">ちゅ</span>うどく Food Poisoning
-
+    <p style="font-size: 50px;">しょく<span style="color: red;">ちゅ</span>うどく　Food Poisoning
       <audio id="audio1">
         <source src="hiragana/chu/しょくちゅうどく.mp3" type="audio/mp3">
       </audio>
@@ -67,8 +63,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/chu/sample.png" alt="">
       <br>
     </p>
-    <p style="font-size: 50px;"><span style="color: red;">ちゅ</span>うがっこう Junior High School
-
+    <p style="font-size: 50px;"><span style="color: red;">ちゅ</span>うがっこう　Junior High School
       <audio id="audio2">
         <source src="hiragana/chu/ちゅうがっこう.mp3" type="audio/mp3">
       </audio>
@@ -76,9 +71,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/chu/sample.png" alt="">
       <br>
     </p>
-
-    <p style="font-size: 50px;"><span style="color: red;">ちゅ</span>うしゃじょう Parking lot
-
+    <p style="font-size: 50px;"><span style="color: red;">ちゅ</span>うしゃじょう　Parking lot
       <audio id="audio3">
         <source src="hiragana/chu/ちゅうしゃじょう.mp3" type="audio/mp3">
       </audio>

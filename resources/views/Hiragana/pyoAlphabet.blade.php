@@ -41,7 +41,6 @@
 <body>
   <div class="box">
     <p class="font_word">ぴ<span style="color: red;">ょ</span>
-
       <audio id="audioPyo">
         <source src="hiragana/pyo/ぴょ.mp3" type="audio/mp3">
       </audio>
@@ -51,16 +50,15 @@
       <img src="hiragana/pyo/ぴょ.png" alt="ぴょpng">
     </div><br>
 
-    <p style="font-size: 50px;">はっ<span style="color: red;">ぴょ</span>う Announcement
+    <p style="font-size: 50px;">はっ<span style="color: red;">ぴょ</span>う　Announcement
       <audio id="audio1">
         <source src="hiragana/pyo/はっぴょう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/pyo/sound-s.png" onclick="playSoundHappyou()">
-   
-    <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pyo/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pyo/sample.png" alt="">
     <br>
     </p>
-    <p style="font-size: 50px;"><span style="color: red;">ぴょ</span>ん<span style="color: red;">ぴょ</span>ん Jump
+    <p style="font-size: 50px;"><span style="color: red;">ぴょ</span>ん<span style="color: red;">ぴょ</span>ん　Jump
       <audio id="audio2">
         <source src="hiragana/pyo/ぴょんぴょん.mp3" type="audio/mp3">
       </audio>
@@ -71,7 +69,7 @@
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/pyuAlphabet')}}'">&lt;PREV</button>
-  <button class="next_btn" onClick="location.href='{{ url('/ryaAlphabet')}}'">NEXT&gt;</button>
+  <button class="next_btn" onClick="location.href='{{ url('/myaAlphabet')}}'">NEXT&gt;</button>
 </body>
 
 </html>

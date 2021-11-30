@@ -47,19 +47,16 @@
 <body>
   <div class="box">
     <p style="font-size: 50px;"><span style="color: red;">しゃ</span>
-
       <audio id="audio0">
         <source src="hiragana/sha/しゃ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/sha/sound-s.png" onclick="playSound0()">
     </p>
     <div class="letter_start">
-
       <img src="hiragana/sha/しゃ.png" alt="しゃpng">
     </div><br>
 
-    <p style="font-size: 50px;">い<span style="color: red;">しゃ</span> Medical Doctor 
-
+    <p style="font-size: 50px;">い<span style="color: red;">しゃ</span>　Medical Doctor 
       <audio id="audio1">
         <source src="hiragana/sha/いしゃ.mp3" type="audio/mp3">
       </audio>
@@ -67,8 +64,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/sha/sample.png" alt="">
       <br>
     </p>
-    <p style="font-size: 50px;">かい<span style="color: red;">しゃ</span> Company
-
+    <p style="font-size: 50px;">かい<span style="color: red;">しゃ</span>　Company
       <audio id="audio2">
         <source src="hiragana/sha/かいしゃ.mp3" type="audio/mp3">
       </audio>
@@ -76,9 +72,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/sha/sample.png" alt="">
       <br>
     </p>
-
-    <p style="font-size: 50px;"><span style="color: red;">しゃ</span>しん Photograph
-
+    <p style="font-size: 50px;"><span style="color: red;">しゃ</span>しん　Photograph
       <audio id="audio3">
         <source src="hiragana/sha/しゃしん.mp3" type="audio/mp3">
       </audio>

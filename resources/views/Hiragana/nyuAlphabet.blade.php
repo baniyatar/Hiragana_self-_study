@@ -40,20 +40,17 @@
 <body>
   <div class="box">
     <p style="font-size: 50px;"><span style="color: red;">にゅ</span>
-
       <audio id="audioNyu">
         <source src="hiragana/nyu/nyu.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/nyu/sound-s.png" onclick="playSoundNyu()">
     </p>
     <div class="letter_start">
-
       {{-- <img class = "testBorder" src="hiragana/nyu/nyu.gif" alt="まgif"> --}}
       <img src="hiragana/nyu/nyu.png" alt="にゅpng">
     </div><br>
 
-    <p style="font-size: 50px;">ぎゅう<span style="color: red;">にゅ</span>う Milk
-
+    <p style="font-size: 50px;">ぎゅう<span style="color: red;">にゅ</span>う　Milk
       <audio id="audio1">
         <source src="hiragana/nyu/ぎゅうにゅう.mp3" type="audio/mp3">
       </audio>
@@ -61,9 +58,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/nyu/sample.png" alt="">
       <br>
     </p>
-
-    <p style="font-size: 50px;"><span style="color: red;">にゅ</span>うがく Enter to School
-
+    <p style="font-size: 50px;"><span style="color: red;">にゅ</span>うがく　Enter to School
       <audio id="audio2">
         <source src="hiragana/nyu/にゅうがく.mp3" type="audio/mp3">
       </audio>
@@ -71,7 +66,6 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/nyu/sample.png" alt="">
       <br>
     </p>
-
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/nyaAlphabet')}}'">&lt;PREV</button>

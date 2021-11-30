@@ -32,26 +32,22 @@
 <body>
   <div class="box">
     <p style="font-size: 50px;"><span style="color: red;">にゃ</span>
-
       <audio id="audioNya">
         <source src="hiragana/nya/nya.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/mi/sound-s.png" onclick="playSoundNya()">
     </p>
     <div class="letter_start">
-
       {{-- <img class = "testBorder" src="hiragana/nya/nya.gif" alt="まgif"> --}}
       <img src="hiragana/nya/nya.png" alt="まpng">
     </div><br>
 
-    <p style="font-size: 50px;"><span style="color: red;">にゃ</span>あ<span style="color: red;">にゃ</span>あ Cat's Meow
-
+    <p style="font-size: 50px;"><span style="color: red;">にゃ</span>あ<span style="color: red;">にゃ</span>あ　Cat's Meow
       <audio id="audio1">
         <source src="hiragana/nya/にゃあにゃあ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/nya/sound-s.png" onclick="playSoundNyanya()">
- 
-    <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/chu/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/chu/sample.png" alt="">
       <br>
     </p>
 

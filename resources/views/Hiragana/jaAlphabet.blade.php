@@ -47,19 +47,16 @@
 <body>
   <div class="box">
     <p style="font-size: 50px;"><span style="color: red;">じゃ</span>
-
       <audio id="audio0">
         <source src="hiragana/ja/じゃ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ja/sound-s.png" onclick="playSound0()">
     </p>
     <div class="letter_start">
-
       <img src="hiragana/ja/じゃ.png" alt="じゃpng">
     </div><br>
 
-    <p style="font-size: 50px;">かん<span style="color: red;">じゃ</span> Patient
-
+    <p style="font-size: 50px;">かん<span style="color: red;">じゃ</span>　Patient
       <audio id="audio1">
         <source src="hiragana/ja/かんじゃ.mp3" type="audio/mp3">
       </audio>
@@ -67,8 +64,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ja/sample.png" alt="">
       <br>
     </p>
-    <p style="font-size: 50px;"><span style="color: red;">じゃ</span>がいも Potato
-
+    <p style="font-size: 50px;"><span style="color: red;">じゃ</span>がいも　Potato
       <audio id="audio2">
         <source src="hiragana/ja/じゃがいも.mp3" type="audio/mp3">
       </audio>
@@ -76,8 +72,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ja/sample.png" alt="">
       <br>
     </p>
-
-    <p style="font-size: 50px;">じん<span style="color: red;">じゃ</span> Shrine
+    <p style="font-size: 50px;">じん<span style="color: red;">じゃ</span>　Shrine
 
       <audio id="audio3">
         <source src="hiragana/ja/じんじゃ.mp3" type="audio/mp3">

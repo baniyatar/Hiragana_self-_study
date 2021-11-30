@@ -41,12 +41,12 @@
    <form method="post" action="{{ url('/return')}}" id="yourForm" name="yourForm">
       {{ csrf_field() }}
       <div class="box">
+         
+@if ($agent->isMobile())
          <div class="outPopUpForPhone">
-            @if ($agent->isMobile())
-
             <div style="opacity: 1">
                <div>
-                  <div style="overflow: hidden; max-width: 550px; font-size:60px;">
+                  <div style="overflow: hidden; max-width: 900px; font-size:60px;">
                      <div>
                         <div><ruby>
                               <rb>前</rb>
@@ -83,7 +83,9 @@
                   <button class = "button-phone-size" name="questionAnswer" type="submit" value="no">NO　いいえ</button>
                </div>
             </div>
-            @else
+         </div>
+@else
+         <div class="outPopUp">
             <div style="opacity: 1">
                <div>
                   <div style="overflow: hidden; max-width: 550px;">
@@ -124,9 +126,10 @@
                   <button name="questionAnswer" type="submit" value="no">NO　いいえ</button>
                </div>
             </div>
-            @endif
-
          </div>
+@endif
+
+         
       </div>
       </div>
 

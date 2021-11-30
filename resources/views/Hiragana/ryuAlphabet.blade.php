@@ -57,7 +57,7 @@
       <img src="hiragana/ryu/ryu.png" alt="りゅpng">
     </div><br>
 
-    <p style="font-size:50px;">かい<span style="color:red;">りゅ</span>う Ocean Current
+    <p style="font-size:50px;">かい<span style="color:red;">りゅ</span>う　Ocean Current
       <audio id="audio1">
         <source src="hiragana/ryu/かいりゅう.mp3" type="audio/mp3">
       </audio>
@@ -66,7 +66,7 @@
     <br>
     </p>
 
-    <p style="font-size:50px;">こう<span style="color:red;">りゅ</span>う Exchange
+    <p style="font-size:50px;">こう<span style="color:red;">りゅ</span>う　Exchange
       <audio id="audio2">
         <source src="hiragana/ryu/こうりゅう.mp3" type="audio/mp3">
       </audio>
@@ -75,7 +75,7 @@
       <br>
     </p>
 
-    <p style="font-size:50px;"><span style="color:red;">りゅ</span>うがくせい Exchange student
+    <p style="font-size:50px;"><span style="color:red;">りゅ</span>うがくせい　Exchange student
       <audio id="audio3">
         <source src="hiragana/ryu/りゅうがくせい.mp3" type="audio/mp3">
       </audio>

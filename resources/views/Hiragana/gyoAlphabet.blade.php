@@ -47,7 +47,6 @@
 <body>
   <div class="box">
     <p class="font_word">ぎ<span style="color: red;">ょ</span>
-
       <audio id="audioGyo">
         <source src="hiragana/gyo/ぎょ.mp3" type="audio/mp3">
       </audio>
@@ -56,8 +55,7 @@
     <div class="letter_start">
       <img src="hiragana/gyo/ぎょ.png" alt="ぎょpng">
     </div><br>
-
-    <p style="font-size: 50px;">きん<span style="color: red;">ぎょ</span> GoldFish
+    <p style="font-size: 50px;">きん<span style="color: red;">ぎょ</span>　Goldfish
       <audio id="audio1">
         <source src="hiragana/gyo/きんぎょ.mp3" type="audio/mp3">
       </audio>
@@ -65,7 +63,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gyo/sample.png" alt="">
       <br>
     </p>
-    <p style="font-size: 50px;"><span style="color: red;">ぎょ</span>うざ Dumplings
+    <p style="font-size: 50px;"><span style="color: red;">ぎょ</span>うざ　Dumplings
       <audio id="audio2">
         <source src="hiragana/gyo/ぎょうざ.mp3" type="audio/mp3">
       </audio>
@@ -73,7 +71,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gyo/sample.png" alt="">
       <br>
     </p>
-    <p style="font-size: 50px;">じゅ<span style="color: red;">ぎょ</span>う Lesson
+    <p style="font-size: 50px;">じゅ<span style="color: red;">ぎょ</span>う　Lesson
       <audio id="audio3">
         <source src="hiragana/gyo/じゅぎょう.mp3" type="audio/mp3">
       </audio>

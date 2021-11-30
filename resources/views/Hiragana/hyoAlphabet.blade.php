@@ -47,32 +47,25 @@
 <body>
   <div class="box">
     <p style="font-size: 50px;"><span style="color: red;">ひょ</span>
-
       <audio id="audioHyo">
         <source src="hiragana/hyo/hyo.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/hyo/sound-s.png" onclick="playSoundHyo()">
     </p>
     <div class="letter_start">
-
       {{-- <img class = "testBorder" src="hiragana/hyo/hyo.gif" alt="まgif"> --}}
       <img src="hiragana/hyo/hyo.png" alt="hyapng">
     </div><br>
 
-    <p style="font-size: 50px;">じこく<span style="color: red;">ひょ</span>う Timetable
-
+    <p style="font-size: 50px;">じこく<span style="color: red;">ひょ</span>う　Timetable
       <audio id="audio1">
         <source src="hiragana/hyo/じこくひょう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/hyo/sound-s.png" onclick="playSoundjikokuhyou()">
-
-    <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/hyo/sample.png" alt="">
-    <br>
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/hyo/sample.png" alt="">
+      <br>
     </p>
-
-
-    <p style="font-size: 50px;"><span style="color: red;">ひょ</span>うざん Iceberg
-
+    <p style="font-size: 50px;"><span style="color: red;">ひょ</span>うざん　Iceberg
       <audio id="audio2">
         <source src="hiragana/hyo/ひょうざん.mp3" type="audio/mp3">
       </audio>
@@ -80,16 +73,12 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/hyo/sample.png" alt="">
       <br>
     </p>
-
-
-    <p style="font-size: 50px;"><span style="color: red;">ひょ</span>うじょう Facial expression
-
+    <p style="font-size: 50px;"><span style="color: red;">ひょ</span>うじょう　Facial expression
       <audio id="audio3">
         <source src="hiragana/hyo/ひょうじょう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/hyo/sound-s.png" onclick="playSoundhyoijiu()">
-  
-    <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/hyo/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/hyo/sample.png" alt="">
       <br>
     </p>
   </div>

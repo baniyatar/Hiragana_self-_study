@@ -47,19 +47,16 @@
 <body>
   <div class="box">
     <p style="font-size: 50px;"><span style="color: red;">ちょ</span>
-
       <audio id="audio0">
         <source src="hiragana/cho/ちょ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/cho/sound-s.png" onclick="playSound0()">
     </p>
     <div class="letter_start">
-
       <img src="hiragana/cho/ちょ.png" alt="ちょpng">
     </div><br>
 
-    <p style="font-size: 50px;"><span style="color: red;">ちょ</span>うしょく Breakfast
-
+    <p style="font-size: 50px;"><span style="color: red;">ちょ</span>うしょく　Breakfast
       <audio id="audio1">
         <source src="hiragana/cho/ちょうしょく.mp3" type="audio/mp3">
       </audio>
@@ -67,8 +64,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/cho/sample.png" alt="">
       <br>
     </p>
-    <p style="font-size: 50px;"><span style="color: red;">ちょ</span>きん Savings
-
+    <p style="font-size: 50px;"><span style="color: red;">ちょ</span>きん　Savings
       <audio id="audio2">
         <source src="hiragana/cho/ちょきん.mp3" type="audio/mp3">
       </audio>
@@ -76,9 +72,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/cho/sample.png" alt="">
       <br>
     </p>
-
-    <p style="font-size: 50px;"><span style="color: red;">ちょ</span>くせん Straight line
-
+    <p style="font-size: 50px;"><span style="color: red;">ちょ</span>くせん　Straight line
       <audio id="audio3">
         <source src="hiragana/cho/ちょくせん.mp3" type="audio/mp3">
       </audio>
