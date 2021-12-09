@@ -19,18 +19,18 @@
     document.getElementById('audio2').currentTime = 0;
     // document.getElementById('audio3').pause();
     // document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audio4').pause();
-    document.getElementById('audio4').currentTime = 0;
+    // document.getElementById('audio4').pause();
+    // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioKu').pause();
     document.getElementById('audioKu').currentTime = 0;
   }
 
-  function playSoundKudamono() {
+  function playSoundKutsu() {
     audioStop();
     document.getElementById('audio1').play();
   }
 
-  function playSoundKuchi() {
+  function playSoundKusuri() {
     audioStop();
     document.getElementById('audio2').play();
   }
@@ -40,10 +40,10 @@
   //   document.getElementById('audio3').play();
   // }
 
-  function playSoundKuruma() {
-    audioStop();
-    document.getElementById('audio4').play();
-  }
+  // function playSoundKuruma() {
+  //   audioStop();
+  //   document.getElementById('audio4').play();
+  // }
 
   function playSoundKu() {
     audioStop();
@@ -67,39 +67,29 @@
     <div class="letter_start"> <img src="hiragana/ku/く.png" style="width: 40%;" alt="くpng">
     </div>
 
-    <p class="font_word">くだもの　Fruit
-      <audio id="audio1">
-        <source src="hiragana/ku/くだもの.mp3" type="audio/mp3">
-      </audio>
-      <img style="vertical-align:middle;" src="hiragana/ku/sound-s.png" onclick="playSoundKudamono()">
-      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ku/sample.png" alt="">
-    </p>
-    <br>
-    <p class="font_word">くち　Mouth
-      <audio id="audio2">
-        <source src="hiragana/ku/くち.mp3" type="audio/mp3">
-      </audio>
-      <img style="vertical-align:middle;" src="hiragana/ku/sound-s.png" onclick="playSoundKuchi()">
-      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ku/sample.png" alt="">
-    </p>
-<!--
-    <br>
     <p class="font_word">くつ　Shoes
-      <audio id="audio3">
+      <audio id="audio1">
         <source src="hiragana/ku/くつ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ku/sound-s.png" onclick="playSoundKutsu()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ku/sample.png" alt="">
     </p>
--->
     <br>
+    <p class="font_word">くすり　medicine
+      <audio id="audio2">
+        <source src="hiragana/ku/くすり.mp3" type="audio/mp3">
+      </audio>
+      <img style="vertical-align:middle;" src="hiragana/ku/sound-s.png" onclick="playSoundKusuri()">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ku/sample.png" alt="">
+    </p>
+    <!-- <br>
     <p class="font_word">くるま　Car
       <audio id="audio4">
         <source src="hiragana/ku/くるま.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ku/sound-s.png" onclick="playSoundKuruma()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ku/sample.png" alt="">
-    </p>
+    </p> -->
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/kiAlphabet')}}'">&lt;PREV</button>

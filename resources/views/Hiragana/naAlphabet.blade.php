@@ -19,8 +19,8 @@
     document.getElementById('audio2').currentTime = 0;
     // document.getElementById('audio3').pause();
     // document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audio4').pause();
-    document.getElementById('audio4').currentTime = 0;
+    // document.getElementById('audio4').pause();
+    // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioNa').pause();
     document.getElementById('audioNa').currentTime = 0;
   }
@@ -30,12 +30,12 @@
     document.getElementById('audioNa').play();
   }
 
-  function playSoundNagai() {
+  function playSoundSakana() {
     audioStop();
     document.getElementById('audio1').play();
   }
 
-  function playSoundNatsu() {
+  function playSoundHana() {
     audioStop();
     document.getElementById('audio2').play();
   }
@@ -45,10 +45,10 @@
   //   document.getElementById('audio3').play();
   // }
 
-  function playSoundNamae() {
-    audioStop();
-    document.getElementById('audio4').play();
-  }
+  // function playSoundNamae() {
+  //   audioStop();
+  //   document.getElementById('audio4').play();
+  // }
 </script>
 
 <body>
@@ -66,19 +66,19 @@
     <div class="letter_start"> <img src="hiragana/na/な.png" style="width: 80%;" alt="なpng">
     </div>
 
-    <p class="font_word">ながい　Long
+    <p style="font-size: 50px;">さか<span style="color: red;">な</span>　Fish
       <audio id="audio1">
-        <source src="hiragana/na/ながい.mp3" type="audio/mp3">
+        <source src="hiragana/na/さかな.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSoundNagai()">
+      <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSoundSakana()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/na/sample.png" alt="">
     </p>
     <br>
-    <p class="font_word">なつ　Summer
+    <p style="font-size: 50px;">は<span style="color: red;">な</span>　Flower
       <audio id="audio2">
-        <source src="hiragana/na/なつ.mp3" type="audio/mp3">
+        <source src="hiragana/na/はな.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSoundNatsu()">
+      <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSoundHana()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/na/sample.png" alt="">
     </p>
 <!--
@@ -91,14 +91,14 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/na/sample.png" alt="">
     </p>
 -->
-    <br>
+    <!-- <br>
     <p class="font_word">なまえ　Name
       <audio id="audio4">
         <source src="hiragana/na/なまえ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/na/sound-s.png" onclick="playSoundNamae()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/na/sample.png" alt="">
-    </p>
+    </p> -->
   </div>
 
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

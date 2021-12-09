@@ -17,28 +17,28 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     // document.getElementById('audio4').pause();
     // document.getElementById('audio4').currentTime = 0;
-    document.getElementById('audioKu').pause();
-    document.getElementById('audioKu').currentTime = 0;
+    document.getElementById('audioFu').pause();
+    document.getElementById('audioFu').currentTime = 0;
   }
 
-  function playSoundFuku() {
+  function playSoundFune() {
     audioStop();
     document.getElementById('audio1').play();
   }
 
-  function playSoundFutoi() {
+  function playSoundSaifu() {
     audioStop();
     document.getElementById('audio2').play();
   }
 
-  function playSoundFuyu() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundFuyu() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   // function playSoundFuyuyasumi() {
   //   audioStop();
@@ -47,47 +47,47 @@
 
   function playSoundFu() {
     audioStop();
-    document.getElementById('audioKu').play();
+    document.getElementById('audioFu').play();
   }
 </script>
 
 <body>
   <div class="box">
     <p class="font_word">ふ
-      <audio id="audioKu">
+      <audio id="audioFu">
         <source src="hiragana/fu/ふ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/fu/sound-s.png" onclick="playSoundFu()">
     </p>
     <div class="letter_start">
-      <img class="testBorder" src="hiragana/fu/fu.gif" alt="くgif">
+      <img class="testBorder" src="hiragana/fu/fu.gif" alt="ふgif">
     </div><br>
     <div class="letter_start"> <img src="hiragana/fu/ふ.png" style="width: 80%;" alt="ふpng">
     </div>
 
-    <p class="font_word">ふく　Clothes
+    <p class="font_word">ふね　Ship
       <audio id="audio1">
-        <source src="hiragana/fu/ふく.mp3" type="audio/mp3">
+        <source src="hiragana/fu/ふね.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/fu/sound-s.png" onclick="playSoundFuku()">
+      <img style="vertical-align:middle;" src="hiragana/fu/sound-s.png" onclick="playSoundFune()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/fu/sample.png" alt="">
     </p>
     <br>
-    <p class="font_word">ふとい　Fat / Thick
+    <p style="font-size: 50px;">さい<span style="color: red;">ふ</span>　Wallet
       <audio id="audio2">
-        <source src="hiragana/fu/ふとい.mp3" type="audio/mp3">
+        <source src="hiragana/fu/さいふ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/fu/sound-s.png" onclick="playSoundFutoi()">
+      <img style="vertical-align:middle;" src="hiragana/fu/sound-s.png" onclick="playSoundSaifu()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/fu/sample.png" alt="">
     </p>
-    <br>
+    <!-- <br>
     <p class="font_word">ふゆ　Winter
       <audio id="audio3">
         <source src="hiragana/fu/ふゆ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ku/sound-s.png" onclick="playSoundFuyu()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/fu/sample.png" alt="">
-    </p>
+    </p> -->
 <!--
     <br>
     <p class="font_word">ふゆやすみ　Winter Vacation

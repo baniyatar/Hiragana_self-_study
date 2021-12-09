@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     // document.getElementById('audio2').pause();
     // document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
@@ -25,22 +25,22 @@
     document.getElementById('audio0').currentTime = 0;
   }
 
-  function playSound1() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSound1() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
   // function playSound2() {
   //   audioStop();
   //   document.getElementById('audio2').play();
   // }
 
-  function playSound3() {
+  function playSoundOsara() {
     audioStop();
     document.getElementById('audio3').play();
   }
 
-  function playSound4() {
+  function playSoundKarada() {
     audioStop();
     document.getElementById('audio4').play();
   }
@@ -65,13 +65,13 @@
     <div class="letter_start"> <img src="hiragana/ra/ら.png" style="width: 60%;" alt="らpng">
     </div>
 
-    <p style="font-size: 50px;">さく<span style="color: red;">ら</span>　Cherry blossom
+    <!-- <p style="font-size: 50px;">さく<span style="color: red;">ら</span>　Cherry blossom
       <audio id="audio1">
         <source src="hiragana/ra/さくら.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ra/sound-s.png" onclick="playSound1()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ra/sample.png" alt="">
-    </p>
+    </p> -->
 <!--
     <br>
     <p class="font_word">らいげつ　Next Month
@@ -83,19 +83,19 @@
     </p>
 -->
     <br>
-    <p class="font_word">らいしゅう　Next Week
+    <p style="font-size: 50px;">おさ<span style="color: red;">ら</span>　Plate
       <audio id="audio3">
-        <source src="hiragana/ra/らいしゅう.mp3" type="audio/mp3">
+        <source src="hiragana/ra/おさら.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/ra/sound-s.png" onclick="playSound3()">
+      <img style="vertical-align:middle;" src="hiragana/ra/sound-s.png" onclick="playSoundOsara()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ra/sample.png" alt="">
     </p>
     <br>
-    <p class="font_word">らいねん　Next Year
+    <p style="font-size: 50px;">か<span style="color: red;">ら</span>だ　Body
       <audio id="audio4">
-        <source src="hiragana/ra/らいねん.mp3" type="audio/mp3">
+        <source src="hiragana/ra/からだ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/ra/sound-s.png" onclick="playSound4()">
+      <img style="vertical-align:middle;" src="hiragana/ra/sound-s.png" onclick="playSoundKarada()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ra/sample.png" alt="">
     </p>
   </div>

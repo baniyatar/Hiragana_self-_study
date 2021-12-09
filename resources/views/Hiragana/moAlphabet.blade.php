@@ -17,32 +17,25 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
-    // document.getElementById('audio4').pause();
-    // document.getElementById('audio4').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audioMo').pause();
     document.getElementById('audioMo').currentTime = 0;
   }
 
-  function playSoundkudamono() {
+  function playSoundKudamono() {
     audioStop();
     document.getElementById('audio1').play();
   }
 
-  function playSoundkodomo() {
+  function playSoundMon() {
     audioStop();
     document.getElementById('audio2').play();
   }
 
-  function playSoundmoshimoshi() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
-
-  // function playSoundMomo() {
+  // function playSoundmoshimoshi() {
   //   audioStop();
-  //   document.getElementById('audio4').play();
+  //   document.getElementById('audio3').play();
   // }
 
   function playSoundMo() {
@@ -69,35 +62,25 @@
       <audio id="audio1">
         <source src="hiragana/mo/くだもの.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/mo/sound-s.png" onclick="playSoundkudamono()">
+      <img style="vertical-align:middle;" src="hiragana/mo/sound-s.png" onclick="playSoundKudamono()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mo/sample.png" alt="">
     </p>
     <br>
-    <p style="font-size: 50px;">こど<span style="color: red;">も</span>　Child
+    <p class="font_word">もん　Gate
       <audio id="audio2">
-        <source src="hiragana/mo/こども.mp3" type="audio/mp3">
+        <source src="hiragana/mo/もん.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/mo/sound-s.png" onclick="playSoundkodomo()">
+      <img style="vertical-align:middle;" src="hiragana/mo/sound-s.png" onclick="playSoundMon()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mo/sample.png" alt="">
     </p>
-    <br>
+    <!-- <br>
     <p class="font_word">もし<span style="color: red;">も</span>し　Hello
       <audio id="audio3">
         <source src="hiragana/mo/もしもし.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/mo/sound-s.png" onclick="playSoundmoshimoshi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mo/sample.png" alt="">
-    </p>
-<!--
-    <br>
-    <p class="font_word">も<span style="color: red;">も</span>　Peach
-      <audio id="audio4">
-        <source src="hiragana/mo/もも.mp3" type="audio/mp3">
-      </audio>
-      <img style="vertical-align:middle;" src="hiragana/mo/sound-s.png" onclick="playSoundMomo()">
-      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mo/sample.png" alt="">
-    </p>
--->
+    </p> -->
   </div>
 
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

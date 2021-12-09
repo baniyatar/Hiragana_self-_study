@@ -19,13 +19,13 @@
     document.getElementById('audio2').currentTime = 0;
     // document.getElementById('audio3').pause();
     // document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audio4').pause();
-    document.getElementById('audio4').currentTime = 0;
-    document.getElementById('audioKo').pause();
-    document.getElementById('audioKo').currentTime = 0;
+      // document.getElementById('audio4').pause();
+      // document.getElementById('audio4').currentTime = 0;
+    document.getElementById('audioHo').pause();
+    document.getElementById('audioHo').currentTime = 0;
   }
 
-  function playSoundHosoi() {
+  function playSoundHoshi() {
     audioStop();
     document.getElementById('audio1').play();
   }
@@ -40,21 +40,21 @@
   //   document.getElementById('audio3').play();
   // }
 
-  function playSoundHonya() {
-    audioStop();
-    document.getElementById('audio4').play();
-  }
+  // function playSoundHonya() {
+  //   audioStop();
+  //   document.getElementById('audio4').play();
+  // }
 
   function playSoundHo() {
     audioStop();
-    document.getElementById('audioKo').play();
+    document.getElementById('audioHo').play();
   }
 </script>
 
 <body>
   <div class="box">
     <p class="font_word">ほ
-      <audio id="audioKo">
+      <audio id="audioHo">
         <source src="hiragana/ho/ほ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ho/sound-s.png" onclick="playSoundHo()">
@@ -65,11 +65,11 @@
     <div class="letter_start"> <img src="hiragana/ho/ほ.png" style="width: 80%;" alt="ほpng">
     </div>
 
-    <p class="font_word">ほそい　Narrow
+    <p class="font_word">ほし　Star
       <audio id="audio1">
-        <source src="hiragana/ho/ほそい.mp3" type="audio/mp3">
+        <source src="hiragana/ho/ほし.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/ho/sound-s.png" onclick="playSoundHosoi()">
+      <img style="vertical-align:middle;" src="hiragana/ho/sound-s.png" onclick="playSoundHoshi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ho/sample.png" alt="">
     </p>
     <br>
@@ -90,14 +90,14 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ho/sample.png" alt="">
     </p>
 -->
-    <br>
+    <!-- <br>
     <p class="font_word">ほんや　Book Store
       <audio id="audio4">
         <source src="hiragana/ho/ほんや.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ho/sound-s.png" onclick="playSoundHonya()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ho/sample.png" alt="">
-    </p>
+    </p> -->
   </div>
 
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

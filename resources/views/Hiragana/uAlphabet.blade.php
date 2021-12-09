@@ -19,18 +19,18 @@
     document.getElementById('audio2').currentTime = 0;
     // document.getElementById('audio3').pause();
     // document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audio4').pause();
-    document.getElementById('audio4').currentTime = 0;
+    // document.getElementById('audio4').pause();
+    // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioU').pause();
     document.getElementById('audioU').currentTime = 0;
   }
 
-  function playSoundUe() {
+  function playSoundUshi() {
     audioStop();
     document.getElementById('audio1').play();
   }
 
-  function playSoundUshi() {
+  function playSoundGakkou() {
     audioStop();
     document.getElementById('audio2').play();
   }
@@ -40,10 +40,10 @@
   //   document.getElementById('audio3').play();
   // }
 
-  function playSoundUmi() {
-    audioStop();
-    document.getElementById('audio4').play();
-  }
+  // function playSoundUmi() {
+  //   audioStop();
+  //   document.getElementById('audio4').play();
+  // }
 
   function playSoundU() {
     audioStop();
@@ -67,20 +67,20 @@
     <div class="letter_start"> <img src="hiragana/u/u.png" alt="うpng">
     </div>
     <br>
-    <p class="font_word">うえ　Above / Up
-
-      <audio id="audio1">
-        <source src="hiragana/u/うえ.mp3" type="audio/mp3">
-      </audio>
-      <img style="vertical-align:middle;" src="hiragana/u/sound-s.png" onclick="playSoundUe()">
-      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/u/sample.png" alt="">
-    </p>
-    <br>
+    
     <p class="font_word">うし　Cow
-      <audio id="audio2">
+      <audio id="audio1">
         <source src="hiragana/u/うし.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/u/sound-s.png" onclick="playSoundUshi()">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/u/sample.png" alt="">
+    </p>
+    <br>
+    <p class="font_word">がっこう　School
+      <audio id="audio2">
+        <source src="hiragana/u/がっこう.mp3" type="audio/mp3">
+      </audio>
+      <img style="vertical-align:middle;" src="hiragana/u/sound-s.png" onclick="playSoundGakkou()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/u/sample.png" alt="">
     </p>
 <!--
@@ -93,14 +93,14 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/u/sample.png" alt="">
     </p>
 -->
-    <br>
+    <!-- <br>
     <p class="font_word">うみ　Sea
       <audio id="audio4">
         <source src="hiragana/u/うみ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/u/sound-s.png" onclick="playSoundUmi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/u/sample.png" alt="">
-    </p>
+    </p> -->
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/iAlphabet')}}'">&lt;PREV</button>

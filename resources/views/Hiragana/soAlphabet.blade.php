@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     // document.getElementById('audio2').pause();
     // document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio4').pause();
     document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioSo').pause();
@@ -35,10 +35,10 @@
   //   document.getElementById('audio2').play();
   // }
 
-  function playSoundSofu() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundSofu() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSoundSora() {
     audioStop();
@@ -72,25 +72,26 @@
       <img style="vertical-align:middle;" src="hiragana/so/sound-s.png" onclick="playSoundSouji()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/so/sample.png" alt="">
     </p>
-<!--
     <br>
-    <p class="font_word">そと　Outside
+
+    <!-- <p class="font_word">そと　Outside
       <audio id="audio2">
         <source src="hiragana/so/そと.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/so/sound-s.png" onclick="playSoundSoto()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/so/sample.png" alt="">
-    </p>
--->
-    <br>
-    <p class="font_word">そふ　Grandfather
+    </p> 
+    <br> -->
+
+    <!-- <p class="font_word">そふ　Grandfather
       <audio id="audio3">
         <source src="hiragana/so/そふ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/so/sound-s.png" onclick="playSoundSofu()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/so/sample.png" alt="">
     </p>
-    <br>
+    <br> -->
+    
     <p class="font_word">そら　Sky
       <audio id="audio4">
         <source src="hiragana/so/そら.mp3" type="audio/mp3">

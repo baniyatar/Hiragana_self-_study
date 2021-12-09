@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     // document.getElementById('audio2').pause();
     // document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
@@ -30,10 +30,10 @@
     document.getElementById('audioYo').play();
   }
 
-  function playSoundTsuyoi() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundTsuyoi() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
   // function playSoundYoi() {
   //   audioStop();
@@ -45,7 +45,7 @@
     document.getElementById('audio3').play();
   }
 
-  function playSoundYoru() {
+  function playSoundYokka() {
     audioStop();
     document.getElementById('audio4').play();
   }
@@ -65,13 +65,13 @@
     <div class="letter_start"> <img src="hiragana/yo/よ.png" style="width: 60%;" alt="よpng">
     </div>
     <br>
-    <p style="font-size: 50px;">つ<span style="color: red;">よ</span>い　Strong
+    <!-- <p style="font-size: 50px;">つ<span style="color: red;">よ</span>い　Strong
       <audio id="audio1">
         <source src="hiragana/yo/つよい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/yo/sound-s.png" onclick="playSoundTsuyoi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/yo/sample.png" alt="">
-    </p>
+    </p> -->
 <!--
     <br>
     <p class="font_word">よい　Good
@@ -91,11 +91,11 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/yo/sample.png" alt="">
     </p>
     <br>
-    <p class="font_word">よる　Night
+    <p class="font_word">よっか　Yokka
       <audio id="audio4">
-        <source src="hiragana/yo/よる.mp3" type="audio/mp3">
+        <source src="hiragana/yo/よっか.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/yo/sound-s.png" onclick="playSoundYoru()">
+      <img style="vertical-align:middle;" src="hiragana/yo/sound-s.png" onclick="playSoundYokka()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/yo/sample.png" alt="">
     </p>
   </div>

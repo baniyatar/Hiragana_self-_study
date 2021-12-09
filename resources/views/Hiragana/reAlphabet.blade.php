@@ -19,8 +19,8 @@
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
     document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audio4').pause();
-    document.getElementById('audio4').currentTime = 0;
+    // document.getElementById('audio4').pause();
+    // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audio0').pause();
     document.getElementById('audio0').currentTime = 0;
   }
@@ -40,10 +40,10 @@
     document.getElementById('audio3').play();
   }
 
-  function playSound4() {
-    audioStop();
-    document.getElementById('audio4').play();
-  }
+  // function playSound4() {
+  //   audioStop();
+  //   document.getElementById('audio4').play();
+  // }
 
   function playSound0() {
     audioStop();
@@ -87,17 +87,17 @@
       <audio id="audio3">
         <source src="hiragana/re/れいぞうこ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound3()">
+      <img style="vertical-align:middle;" src="hiragana/re/sound-s.png" onclick="playSound3()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/re/sample.png" alt="">
     </p>
-    <br>
+    <!-- <br>
     <p class="font_word">れんしゅう　Practice
       <audio id="audio4">
         <source src="hiragana/re/れんしゅう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound4()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/re/sample.png" alt="">
-    </p>
+    </p> -->
   </div>
 
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

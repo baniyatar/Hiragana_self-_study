@@ -13,37 +13,37 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    // document.getElementById('audio3').pause();
-    // document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audio4').pause();
-    document.getElementById('audio4').currentTime = 0;
+    document.getElementById('audio3').pause();
+    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio4').pause();
+    // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioMi').pause();
     document.getElementById('audioMi').currentTime = 0;
   }
 
-  function playSoundMikan() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundMikan() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
-  function playSoundmise() {
+  function playSoundMise() {
     audioStop();
     document.getElementById('audio2').play();
   }
 
-  // function playSoundmichi() {
-  //   audioStop();
-  //   document.getElementById('audio3').play();
-  // }
-
-  function playSoundMimi() {
+  function playSoundUmi() {
     audioStop();
-    document.getElementById('audio4').play();
+    document.getElementById('audio3').play();
   }
+
+  // function playSoundMimi() {
+  //   audioStop();
+  //   document.getElementById('audio4').play();
+  // }
 
   function playSoundMi() {
     audioStop();
@@ -65,39 +65,39 @@
     <div class="letter_start"> <img src="hiragana/mi/み-bw.png" style="width: 70%;" alt="みpng">
     </div>
 
-    <p class="font_word">みかん　Orange
+    <!-- <p class="font_word">みかん　Orange
       <audio id="audio1">
         <source src="hiragana/mi/みかん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/mi/sound-s.png" onclick="playSoundMikan()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mi/sample.png" alt="">
     </p>
-    <br>
+    <br> -->
     <p class="font_word">みせ　Shop
       <audio id="audio2">
         <source src="hiragana/mi/みせ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/mi/sound-s.png" onclick="playSoundmise()">
+      <img style="vertical-align:middle;" src="hiragana/mi/sound-s.png" onclick="playSoundMise()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mi/sample.png" alt="">
     </p>
-<!--
+
     <br>
-    <p class="font_word">みち　Street
+    <p style="font-size: 50px;">う<span style="color: red;">み</span>　Sea
       <audio id="audio3">
-        <source src="hiragana/mi/みち.mp3" type="audio/mp3">
+        <source src="hiragana/mi/うみ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/mi/sound-s.png" onclick="playSoundmichi()">
+      <img style="vertical-align:middle;" src="hiragana/mi/sound-s.png" onclick="playSoundUmi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mi/sample.png" alt="">
     </p>
--->
-    <br>
+
+    <!-- <br>
     <p class="font_word">み<span style="color: red;">み</span>　Ear
       <audio id="audio4">
         <source src="hiragana/mi/みみ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/mi/sound-s.png" onclick="playSoundMimi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mi/sample.png" alt="">
-    </p>
+    </p> -->
   </div>
 
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

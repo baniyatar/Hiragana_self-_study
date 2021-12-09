@@ -19,31 +19,31 @@
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
     document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audio4').pause();
-    document.getElementById('audio4').currentTime = 0;
+    // document.getElementById('audio4').pause();
+    // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioO').pause();
     document.getElementById('audioO').currentTime = 0;
   }
 
-  // function playSoundOsara() {
+  // function playSoundOnaka() {
   //   audioStop();
   //   document.getElementById('audio1').play();
   // }
 
-  function playSoundOtoko() {
+  function playSoundOkane() {
     audioStop();
     document.getElementById('audio2').play();
   }
 
-  function playSoundOnaka() {
+  function playSoundKao() {
     audioStop();
     document.getElementById('audio3').play();
   }
 
-  function playSoundOnna() {
-    audioStop();
-    document.getElementById('audio4').play();
-  }
+  // function playSoundOnna() {
+  //   audioStop();
+  //   document.getElementById('audio4').play();
+  // }
 
   function playSoundO() {
     audioStop();
@@ -75,29 +75,29 @@
     </p>
     <br>
 -->
-    <p class="font_word">おとこ　Man
+    <p class="font_word">おかね　Money
       <audio id="audio2">
-        <source src="hiragana/o/おとこ.mp3" type="audio/mp3">
+        <source src="hiragana/o/おかね.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/o/sound-s.png" onclick="playSoundOtoko()">
+      <img style="vertical-align:middle;" src="hiragana/o/sound-s.png" onclick="playSoundOkane()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/o/sample.png" alt="">
     </p>
     <br>
-    <p class="font_word">おなか　Stomach
+    <p style="font-size: 50px;">か<span style="color: red;">お</span>　Face
       <audio id="audio3">
-        <source src="hiragana/o/おなか.mp3" type="audio/mp3">
+        <source src="hiragana/o/かお.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/o/sound-s.png" onclick="playSoundOnaka()">
+      <img style="vertical-align:middle;" src="hiragana/o/sound-s.png" onclick="playSoundKao()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/o/sample.png" alt="">
     </p>
-    <br>
+    <!-- <br>
     <p class="font_word">おんな　Women
       <audio id="audio4">
         <source src="hiragana/o/おんな.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/o/sound-s.png" onclick="playSoundOnna()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/o/sample.png" alt="">
-    </p>
+    </p> -->
   </div>
 
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

@@ -19,8 +19,8 @@
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
     document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audio4').pause();
-    document.getElementById('audio4').currentTime = 0;
+    // document.getElementById('audio4').pause();
+    // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audio0').pause();
     document.getElementById('audio0').currentTime = 0;
   }
@@ -40,10 +40,10 @@
     document.getElementById('audio3').play();
   }
 
-  function playSound4() {
-    audioStop();
-    document.getElementById('audio4').play();
-  }
+  // function playSound4() {
+  //   audioStop();
+  //   document.getElementById('audio4').play();
+  // }
 
   function playSound0() {
     audioStop();
@@ -75,9 +75,9 @@
     </p>
     <br>
 -->
-    <p class="font_word">ちかい　Near
+    <p class="font_word">ちず　Map
       <audio id="audio2">
-        <source src="hiragana/chi/ちかい.mp3" type="audio/mp3">
+        <source src="hiragana/chi/ちず.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound2()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/chi/sample.png" alt="">
@@ -90,14 +90,14 @@
       <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound3()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/chi/sample.png" alt="">
     </p>
-    <br>
+    <!-- <br>
     <p class="font_word">ちち　Father
       <audio id="audio4">
         <source src="hiragana/chi/ちち.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound4()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/chi/sample.png" alt="">
-    </p>
+    </p> -->
   </div>
 
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

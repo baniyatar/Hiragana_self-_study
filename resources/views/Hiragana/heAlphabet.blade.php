@@ -19,13 +19,13 @@
     document.getElementById('audio2').currentTime = 0;
     // document.getElementById('audio3').pause();
     // document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audio4').pause();
-    document.getElementById('audio4').currentTime = 0;
-    document.getElementById('audioKe').pause();
-    document.getElementById('audioKe').currentTime = 0;
+    // document.getElementById('audio4').pause();
+    // document.getElementById('audio4').currentTime = 0;
+    document.getElementById('audioHe').pause();
+    document.getElementById('audioHe').currentTime = 0;
   }
 
-  function playSoundTaihen() {
+  function playSoundHebi() {
     audioStop();
     document.getElementById('audio1').play();
   }
@@ -40,14 +40,14 @@
   //   document.getElementById('audio3').play();
   // }
 
-  function playSoundHenji() {
-    audioStop();
-    document.getElementById('audio4').play();
-  }
+  // function playSoundHenji() {
+  //   audioStop();
+  //   document.getElementById('audio4').play();
+  // }
 
   function playSoundHe() {
     audioStop();
-    document.getElementById('audioKe').play();
+    document.getElementById('audioHe').play();
   }
 </script>
 
@@ -55,7 +55,7 @@
   <div class="box">
     <p class="font_word">へ
 
-      <audio id="audioKe">
+      <audio id="audioHe">
         <source src="hiragana/he/へ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/he/sound-s.png" onclick="playSoundHe()">
@@ -66,11 +66,11 @@
     <div class="letter_start"> <img src="hiragana/he/へ.png" style="width: 40%;" alt="へpng">
     </div>
 
-    <p style="font-size: 50px;">たい<span style="color: red;">へ</span>ん　Tough
+    <p class="font_word">へび　Snake
       <audio id="audio1">
-        <source src="hiragana/he/たいへん.mp3" type="audio/mp3">
+        <source src="hiragana/he/へび.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/a/sound-s.png" onclick="playSoundTaihen()">
+      <img style="vertical-align:middle;" src="hiragana/a/sound-s.png" onclick="playSoundHebi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/he/sample.png" alt="">
     </p>
     <br>
@@ -91,14 +91,14 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/he/sample.png" alt="">
     </p>
 -->
-    <br>
+    <!-- <br>
     <p class="font_word">へんじ　Answer
       <audio id="audio4">
         <source src="hiragana/he/へんじ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/he/sound-s.png" onclick="playSoundHenji()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/he/sample.png" alt="">
-    </p>
+    </p> -->
   </div>
 
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

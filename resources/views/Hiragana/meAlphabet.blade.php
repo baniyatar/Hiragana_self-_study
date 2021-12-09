@@ -17,15 +17,15 @@
     document.getElementById('audio1').currentTime = 0;
     // document.getElementById('audio2').pause();
     // document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audio4').pause();
-    document.getElementById('audio4').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio4').pause();
+    // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioMe').pause();
     document.getElementById('audioMe').currentTime = 0;
   }
 
-  function playSoundaame() {
+  function playSoundAme() {
     audioStop();
     document.getElementById('audio1').play();
   }
@@ -35,15 +35,15 @@
   //   document.getElementById('audio2').play();
   // }
 
-  function playSoundMe() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundMe() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
-  function playSoundtmegane() {
-    audioStop();
-    document.getElementById('audio4').play();
-  }
+  // function playSoundtmegane() {
+  //   audioStop();
+  //   document.getElementById('audio4').play();
+  // }
 
   function playSoundMe() {
     audioStop();
@@ -69,7 +69,7 @@
       <audio id="audio1">
         <source src="hiragana/me/あめ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/me/sound-s.png" onclick="playSoundaame()">
+      <img style="vertical-align:middle;" src="hiragana/me/sound-s.png" onclick="playSoundAme()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/me/sample.png" alt="">
     </p>
 <!--
@@ -84,20 +84,20 @@
 -->
     <br>
     <p class="font_word">め　Eye
-      <audio id="audio3">
+      <audio id="audioMe">
         <source src="hiragana/me/め.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/me/sound-s.png" onclick="playSoundMe()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/me/sample.png" alt="">
     </p>
-    <br>
+    <!-- <br>
     <p class="font_word">めがね　Spectacles
       <audio id="audio4">
         <source src="hiragana/me/めがね.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/me/sound-s.png" onclick="playSoundtmegane()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/me/sample.png" alt="">
-    </p>
+    </p> -->
   </div>
 
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

@@ -17,10 +17,6 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
-    // document.getElementById('audio4').pause();
-    // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audio0').pause();
     document.getElementById('audio0').currentTime = 0;
   }
@@ -34,16 +30,6 @@
     audioStop();
     document.getElementById('audio2').play();
   }
-
-  function playSound3() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
-
-  // function playSound4() {
-  //   audioStop();
-  //   document.getElementById('audio4').play();
-  // }
 
   function playSound0() {
     audioStop();
@@ -66,40 +52,23 @@
     <div class="letter_start"> <img src="hiragana/tsu/つ.png" style="width: 50%;" alt="つpng">
     </div>
 
-    <p class="font_word">つかれた　Tired
+    <p class="font_word">つくえ　Desk
       <audio id="audio1">
-        <source src="hiragana/tsu/つかれた.mp3" type="audio/mp3">
+        <source src="hiragana/tsu/つくえ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/tsu/sound-s.png" onclick="playSound1()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/tsu/sample.png" alt="">
     </p>
     <br>
-    <p class="font_word">つくる　To make
+    <p class="font_word">つき　Moon
       <audio id="audio2">
-        <source src="hiragana/tsu/つくる.mp3" type="audio/mp3">
+        <source src="hiragana/tsu/つき.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/tsu/sound-s.png" onclick="playSound2()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/tsu/sample.png" alt="">
     </p>
     <br>
-    <p class="font_word">つめたい　Cold
-      <audio id="audio3">
-        <source src="hiragana/tsu/つめたい.mp3" type="audio/mp3">
-      </audio>
-      <img style="vertical-align:middle;" src="hiragana/tsu/sound-s.png" onclick="playSound3()">
-      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/tsu/sample.png" alt="">
-    </p>
-<!--
-    <br>
-    <p class="font_word">つよい　Strong
-      <audio id="audio4">
-        <source src="hiragana/tsu/つよい.mp3" type="audio/mp3">
-      </audio>
-      <img style="vertical-align:middle;" src="hiragana/tsu/sound-s.png" onclick="playSound4()">
-      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/tsu/sample.png" alt="">
-    </p>
--->
-    <br>
+
     <p>　<ruby><rb>語彙</rb><rt>ごい</rt></ruby>のなかで、<ruby><rb>小</rb><rt>ちい</rt></ruby>さい「っ」を<ruby><rb>使</rb><rt>つか</rt></ruby>うときがあります。</p>
     <p>　Small "っ(tsu)" is used as follows,</p>
     <p><ruby><rb>本</rb><rt>ほん</rt></ruby>があ<span style="color: red;">っ</span>た。There was a book.<br>

@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     // document.getElementById('audio2').pause();
     // document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
@@ -25,10 +25,10 @@
     document.getElementById('audio0').currentTime = 0;
   }
 
-  function playSound1() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSound1() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
   // function playSound2() {
   //   audioStop();
@@ -66,14 +66,13 @@
     <div class="letter_start"> <img src="hiragana/ta/た.png" style="width: 80%;" alt="たpng">
     </div>
 
-    <p class="font_word">たいしかん　Embassy
+    <!-- <p class="font_word">たいしかん　Embassy
       <audio id="audio1">
         <source src="hiragana/ta/たいしかん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound1()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ta/sample.png" alt="">
     </p>
-<!--
     <br>
     <p class="font_word">たてもの　Building
       <audio id="audio2">
@@ -82,8 +81,7 @@
       <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound2()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ta/sample.png" alt="">
     </p>
--->
-    <br>
+    <br> -->
     <p class="font_word">たばこ　Cigarette
       <audio id="audio3">
         <source src="hiragana/ta/たばこ.mp3" type="audio/mp3">
