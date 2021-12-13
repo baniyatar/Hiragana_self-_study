@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Auth;
   
 use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\Hiragana5qController;
-
+use App\Http\Controllers\MailController;
 
   
 
@@ -59,8 +59,8 @@ return view('/Admin/edit');});
 Route::get('users',   [AuthController::class,'edit'])->name('users');
 
 // ## Create
-// Route::get('/Admin/create', [AuthController::class,'create'])->name('users.create');
-// Route::post('/Admin/store', [AuthController::class,'store'])->name('users.store');
+Route::get('/Admin/create', [AuthController::class,'create'])->name('users.create');
+ Route::post('/Admin/store', [AuthController::class,'store'])->name('users.store');
 
 // ## Update
 // Route::get('/Admins/store/{id}', [AuthController::class,'edit'])->name('users.edit');
@@ -223,3 +223,5 @@ Route::get('/contractedIntro', [Hiragana5qController::class, 'viewContractedIntr
 Route::get('/contractedConstruct', [Hiragana5qController::class, 'viewContractedConstructPage']);
 Route::get('/home', [Hiragana5qController::class, 'viewHomePage']);
 Route::get('/end', [Hiragana5qController::class, 'viewEndPage']);
+
+Route::get('/mail-test', [MailController::class, 'send']);
