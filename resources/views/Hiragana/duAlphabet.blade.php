@@ -13,18 +13,18 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio0').pause();
     document.getElementById('audio0').currentTime = 0;
   }
 
-  function playSound1() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSound1() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
   function playSound2() {
     audioStop();
@@ -53,7 +53,7 @@
     <div class="letter_start"> <img src="hiragana/du/づ.png" style="width: 80%;" alt="づpng">
     </div>
 
-    <p style="font-size: 50px;">おこ<span style="color: red;">づ</span>かい　Allowance
+    <!-- <p style="font-size: 50px;">おこ<span style="color: red;">づ</span>かい　Allowance
 
       <audio id="audio1">
         <source src="hiragana/du/おこづかい.mp3" type="audio/mp3">
@@ -61,7 +61,7 @@
       <img style="vertical-align:middle;" src="hiragana/du/sound-s.png" onclick="playSound1()">
       <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/du/sample.png" alt="">
     </p>
-    <br>
+    <br> -->
 
     <p style="font-size: 50px;">かん<span style="color: red;">づ</span>め　Canning
       <audio id="audio2">

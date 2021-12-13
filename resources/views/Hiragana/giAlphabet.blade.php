@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audioGi').pause();
     document.getElementById('audioGi').currentTime = 0;
   }
@@ -32,10 +32,10 @@
     document.getElementById('audio2').play();
   }
 
-  function playSoundtsugi() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundtsugi() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSoundgi() {
     audioStop();
@@ -83,7 +83,7 @@
     </p>
     <br>
 
-    <p style="font-size: 50px;">つ<span style="color: red;">ぎ</span>　Next
+    <!-- <p style="font-size: 50px;">つ<span style="color: red;">ぎ</span>　Next
       <audio id="audio3">
         <source src="hiragana/gi/つぎ.mp3" type="audio/mp3">
       </audio>
@@ -91,7 +91,7 @@
       <br>
     <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gi/sample.png" alt="">
     </p>
-    <br>
+    <br> -->
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

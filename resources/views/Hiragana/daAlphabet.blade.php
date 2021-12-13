@@ -60,17 +60,17 @@
     <div class="letter_start"> <img src="hiragana/da/だ.png" style="width: 100%;" alt="だpng">
     </div>
 
-    <p class="font_word">だいがく　University
+    <p style="font-size: 50px;">ほん<span style="color: red;">だ</span>な　Bookshelf
       <audio id="audio1">
-        <source src="hiragana/da/だいがく.mp3" type="audio/mp3">
+        <source src="hiragana/da/ほんだな.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/da/sound-s.png" onclick="playSound1()">
       <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/da/sample.png" alt="">
     </p>
     <br>
-    <p class="font_word">だいどころ　Kitchen
+    <p style="font-size: 50px;">から<span style="color: red;">だ</span>　Body
       <audio id="audio2">
-        <source src="hiragana/da/だいどころ.mp3" type="audio/mp3">
+        <source src="hiragana/da/からだ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/da/sound-s.png" onclick="playSound2()">
       <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/da/sample.png" alt="">
