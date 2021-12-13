@@ -15,32 +15,32 @@
   function audioStop() {
     document.getElementById('audio1').pause();
     document.getElementById('audio1').currentTime = 0;
-    document.getElementById('audio2').pause();
-    document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audioGi').pause();
-    document.getElementById('audioGi').currentTime = 0;
+    // document.getElementById('audio2').pause();
+    // document.getElementById('audio2').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
+    document.getElementById('audioGe').pause();
+    document.getElementById('audioGe').currentTime = 0;
   }
 
-  function playSoundomiyage() {
+  function playSoundHige() {
     audioStop();
     document.getElementById('audio1').play();
   }
 
-  function playSoundgenkan() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
+  // function playSoundgenkan() {
+  //   audioStop();
+  //   document.getElementById('audio2').play();
+  // }
 
-  function playSoundgenki() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundgenki() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
-  function playSoundge() {
+  function playSoundGe() {
     audioStop();
-    document.getElementById('audioGi').play();
+    document.getElementById('audioGe').play();
   }
 </script>
 
@@ -48,28 +48,28 @@
   <div class="box">
     <p class="font_word">げ
 
-      <audio id="audioGi">
+      <audio id="audioGe">
         <source src="hiragana/ge/ge.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/ge/sound-s.png" onclick="playSoundge()">
+      <img style="vertical-align:middle;" src="hiragana/ge/sound-s.png" onclick="playSoundGe()">
     </p>
     <div class="letter_start">
 
-      <img class="testBorder" src="hiragana/ge/ge.gif" alt="gagif">
+      <img class="testBorder" src="hiragana/ge/ge.gif" alt="gegif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/ge/ge.png" alt="gapng">
+    <div class="letter_start"> <img src="hiragana/ge/ge.png" alt="gepng">
     </div>
 
-    <p style="font-size: 50px;">おみや<span style="color: red;">げ</span>　Souvenir
+    <p style="font-size: 50px;">ひ<span style="color: red;">げ</span>　Beard
 
       <audio id="audio1">
-        <source src="hiragana/ge/おみやげ.mp3" type="audio/mp3">
+        <source src="hiragana/ge/ひげ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/ge/sound-s.png" onclick="playSoundomiyage()">
+      <img style="vertical-align:middle;" src="hiragana/ge/sound-s.png" onclick="playSoundHige()">
       <br>
     <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ge/sample.png" alt="">
     </p>
-    <br>
+    <!-- <br>
 
     <p class="font_word">げんかん　Entrance
       <audio id="audio2">
@@ -89,7 +89,7 @@
       <br>
     <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ge/sample.png" alt="">
     </p>
-    <br>
+    <br> -->
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

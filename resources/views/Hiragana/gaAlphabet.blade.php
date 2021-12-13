@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
@@ -23,22 +23,22 @@
     document.getElementById('audioGa').currentTime = 0;
   }
 
-  function playSoundgaigoku() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundgaigoku() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
-  function playSoundgakosei() {
+  function playSoundEiga() {
     audioStop();
     document.getElementById('audio2').play();
   }
 
-  function playSoundgatsukou() {
+  function playSoundGakkou() {
     audioStop();
     document.getElementById('audio3').play();
   }
 
-  function playSoundga() {
+  function playSoundGa() {
     audioStop();
     document.getElementById('audioGa').play();
   }
@@ -51,7 +51,7 @@
       <audio id="audioGa">
         <source src="hiragana/ga/ga.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/ga/sound-s.png" onclick="playSoundga()">
+      <img style="vertical-align:middle;" src="hiragana/ga/sound-s.png" onclick="playSoundGa()">
     </p>
     <div class="letter_start">
 
@@ -60,7 +60,7 @@
     <div class="letter_start"> <img src="hiragana/ga/ga.png" alt="gapng">
     </div>
 
-    <p class="font_word">がいこく　Foreign Countries
+    <!-- <p class="font_word">がいこく　Foreign Countries
 
       <audio id="audio1">
         <source src="hiragana/ga/がいこく.mp3" type="audio/mp3">
@@ -69,13 +69,13 @@
     <br>
     <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ga/sample.png" alt="">
     </p>
-    <br>
+    <br> -->
 
-    <p class="font_word">がくせい　Student
+    <p style="font-size: 50px;">えい<span style="color: red;">が</span>　Movie
       <audio id="audio2">
-        <source src="hiragana/ga/がくせい.mp3" type="audio/mp3">
+        <source src="hiragana/ga/えいが.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/ga/sound-s.png" onclick="playSoundgakosei()">
+      <img style="vertical-align:middle;" src="hiragana/ga/sound-s.png" onclick="playSoundEiga()">
     <br>
     <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ga/sample.png" alt="">
     </p>
@@ -85,7 +85,7 @@
       <audio id="audio3">
         <source src="hiragana/ga/がっこう.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/ga/sound-s.png" onclick="playSoundgatsukou()">
+      <img style="vertical-align:middle;" src="hiragana/ga/sound-s.png" onclick="playSoundGakkou()">
     <br>
     <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ga/sample.png" alt="">
     </p>
