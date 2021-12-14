@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audioKyu').pause();
     document.getElementById('audioKyu').currentTime = 0;
   }
@@ -33,15 +33,15 @@
     document.getElementById('audio1').play();
   }
 
-  function playSoundKyuujitsu() {
+  function playSoundYakyuu() {
     audioStop();
     document.getElementById('audio2').play();
   }
 
-  function playSoundKyuuri() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundKyuuri() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 </script>
 
 <body>
@@ -64,21 +64,21 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/kyu/sample.png" alt="">
     <br>
     </p>
-    <p style="font-size:50px;"><span style="color:red;">きゅ</span>うじつ　Holiday
+    <p style="font-size:50px;">や<span style="color:red;">きゅ</span>う　Baseball
       <audio id="audio2">
-        <source src="hiragana/kyu/きゅうじつ.mp3" type="audio/mp3">
+        <source src="hiragana/kyu/やきゅう.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/kyu/sound-s.png" onclick="playSoundKyuujitsu()">
+      <img style="vertical-align:middle;" src="hiragana/kyu/sound-s.png" onclick="playSoundYakyuu()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/kyu/sample.png" alt="">
       <br>
     </p>
-    <p style="font-size:50px;"><span style="color:red;">きゅ</span>うり　Cucumber
+    <!-- <p style="font-size:50px;"><span style="color:red;">きゅ</span>うり　Cucumber
       <audio id="audio3">
         <source src="hiragana/kyu/きゅうり.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/kyu/sound-s.png" onclick="playSoundKyuuri()">
          <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/kyu/sample.png" alt="">
-    </p>
+    </p> -->
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/kyaAlphabet')}}'">&lt;PREV</button>

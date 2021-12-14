@@ -15,10 +15,10 @@
   function audioStop() {
     document.getElementById('audio1').pause();
     document.getElementById('audio1').currentTime = 0;
-    document.getElementById('audio2').pause();
-    document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio2').pause();
+    // document.getElementById('audio2').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio0').pause();
     document.getElementById('audio0').currentTime = 0;
   }
@@ -28,15 +28,15 @@
     document.getElementById('audio1').play();
   }
 
-  function playSound2() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
+  // function playSound2() {
+  //   audioStop();
+  //   document.getElementById('audio2').play();
+  // }
 
-  function playSound3() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSound3() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSound0() {
     audioStop();
@@ -56,15 +56,15 @@
       <img src="hiragana/sho/しょ.png" alt="しょpng">
     </div><br>
 
-    <p style="font-size: 50px;">きょうか<span style="color: red;">しょ</span>　Textbook
+    <p style="font-size: 50px;">と<span style="color: red;">しょ</span>かん　Library
       <audio id="audio1">
-        <source src="hiragana/sho/きょうかしょ.mp3" type="audio/mp3">
+        <source src="hiragana/sho/としょかん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/sho/sound-s.png" onclick="playSound1()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/sho/sample.png" alt="">
       <br>
     </p>
-    <p style="font-size: 50px;">こ<span style="color: red;">しょ</span>う　Pepper
+    <!-- <p style="font-size: 50px;">こ<span style="color: red;">しょ</span>う　Pepper
       <audio id="audio2">
         <source src="hiragana/sho/こしょう.mp3" type="audio/mp3">
       </audio>
@@ -79,7 +79,7 @@
       <img style="vertical-align:middle;" src="hiragana/sho/sound-s.png" onclick="playSound3()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/sho/sample.png" alt="">
       <br>
-    </p>
+    </p> -->
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

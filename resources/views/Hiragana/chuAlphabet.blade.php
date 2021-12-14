@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
@@ -23,10 +23,10 @@
     document.getElementById('audio0').currentTime = 0;
   }
 
-  function playSound1() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSound1() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
   function playSound2() {
     audioStop();
@@ -55,17 +55,18 @@
     <div class="letter_start">
       <img src="hiragana/chu/ちゅ.png" alt="ちゅpng">
     </div><br>
-    <p style="font-size: 50px;">しょく<span style="color: red;">ちゅ</span>うどく　Food Poisoning
+
+    <!-- <p style="font-size: 50px;">しょく<span style="color: red;">ちゅ</span>うどく　Food Poisoning
       <audio id="audio1">
         <source src="hiragana/chu/しょくちゅうどく.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/chu/sound-s.png" onclick="playSound1()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/chu/sample.png" alt="">
       <br>
-    </p>
-    <p style="font-size: 50px;"><span style="color: red;">ちゅ</span>うがっこう　Junior High School
+    </p> -->
+    <p style="font-size: 50px;"><span style="color: red;">ちゅ</span>うしゃ　Injection
       <audio id="audio2">
-        <source src="hiragana/chu/ちゅうがっこう.mp3" type="audio/mp3">
+        <source src="hiragana/chu/ちゅうしゃ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/chu/sound-s.png" onclick="playSound2()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/chu/sample.png" alt="">

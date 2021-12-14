@@ -13,34 +13,35 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
-    document.getElementById('audio2').pause();
-    document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio2').pause();
+    // document.getElementById('audio2').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audioKya').pause();
     document.getElementById('audioKya').currentTime = 0;
   }
+
   function playSoundKya() {
     audioStop();
     document.getElementById('audioKya').play();
   }
 
-  function playSoundOkyakusan() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundOkyakusan() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
-  function playSoundKyakushitsu() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
+  // function playSoundKyakushitsu() {
+  //   audioStop();
+  //   document.getElementById('audio2').play();
+  // }
 
-  function playSoundHenkyaku() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundHenkyaku() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 </script>
 
 <body>
@@ -56,7 +57,7 @@
       <img src="hiragana/kya/kya.png" alt="きゃpng">
     </div>
 
-    <p style="font-size:50px;">お<span style="color:red;">きゃ</span>くさん　Guest/Customer
+    <!-- <p style="font-size:50px;">お<span style="color:red;">きゃ</span>くさん　Guest/Customer
       <audio id="audio1">
         <source src="hiragana/kya/おきゃくさん.mp3" type="audio/mp3">
       </audio>
@@ -79,7 +80,7 @@
       </audio>
       <img style="vertical-align:middle;" src="hiragana/kya/sound-s.png" onclick="playSoundHenkyaku()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/kya/sample.png" alt="">
-    </p>
+    </p> -->
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

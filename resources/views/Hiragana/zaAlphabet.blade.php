@@ -78,7 +78,7 @@
     </p>
     <br>
 
-    <p style="font-size:50px;">はい<span style="color:red;">ざ</span>ら　Ash Tray
+    <p style="font-size:50px;">はい<span style="color:red;">ざ</span>ら　Ashtray
       <audio id="audio3">
         <source src="hiragana/za/はいざら.mp3" type="audio/mp3">
       </audio>

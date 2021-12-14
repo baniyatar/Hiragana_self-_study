@@ -13,12 +13,12 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
-    document.getElementById('audio2').pause();
-    document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio2').pause();
+    // document.getElementById('audio2').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audioRyu').pause();
     document.getElementById('audioRyu').currentTime = 0;
   }
@@ -28,20 +28,20 @@
     document.getElementById('audioRyu').play();
   }
 
-  function playSoundKairyuu() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundKairyuu() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
-  function playSoundKouryuu() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
+  // function playSoundKouryuu() {
+  //   audioStop();
+  //   document.getElementById('audio2').play();
+  // }
 
-  function playSoundRyuugakusei() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundRyuugakusei() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 </script>
 
 <body>
@@ -57,7 +57,7 @@
       <img src="hiragana/ryu/ryu.png" alt="りゅpng">
     </div><br>
 
-    <p style="font-size:50px;">かい<span style="color:red;">りゅ</span>う　Ocean Current
+    <!-- <p style="font-size:50px;">かい<span style="color:red;">りゅ</span>う　Ocean Current
       <audio id="audio1">
         <source src="hiragana/ryu/かいりゅう.mp3" type="audio/mp3">
       </audio>
@@ -82,7 +82,7 @@
       <img style="vertical-align:middle;" src="hiragana/ryu/sound-s.png" onclick="playSoundRyuugakusei()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ryu/sample.png" alt="">
       <br>
-    </p>
+    </p> -->
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

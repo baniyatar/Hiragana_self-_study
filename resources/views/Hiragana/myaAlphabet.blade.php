@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audioMya').pause();
     document.getElementById('audioMya').currentTime = 0;
   }
@@ -23,10 +23,10 @@
     document.getElementById('audioMya').play();
   }
 
-  function playSoundSanmyaku() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundSanmyaku() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 </script>
 
 <body>
@@ -41,14 +41,14 @@
       <img src="hiragana/mya/mya.png" alt="みゃpng">
     </div><br>
 
-    <p style="font-size:50px;">さん<span style="color:red;">みゃ</span>く　Mountain belt / Mountain Range
+    <!-- <p style="font-size:50px;">さん<span style="color:red;">みゃ</span>く　Mountain belt / Mountain Range
       <audio id="audio1">
         <source src="hiragana/Mya/さんみゃく.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/mya/sound-s.png" onclick="playSoundSanmyaku()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mya/sample.png" alt="">
       <br>
-    </p>
+    </p> -->
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

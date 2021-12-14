@@ -26,7 +26,7 @@
     document.getElementById('audio1').play();
   }
 
-  function playSoundNyuugaku() {
+  function playSoundNyuuin() {
     audioStop();
     document.getElementById('audio2').play();
   }
@@ -46,7 +46,6 @@
       <img style="vertical-align:middle;" src="hiragana/nyu/sound-s.png" onclick="playSoundNyu()">
     </p>
     <div class="letter_start">
-      {{-- <img class = "testBorder" src="hiragana/nyu/nyu.gif" alt="まgif"> --}}
       <img src="hiragana/nyu/nyu.png" alt="にゅpng">
     </div><br>
 
@@ -58,11 +57,11 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/nyu/sample.png" alt="">
       <br>
     </p>
-    <p style="font-size: 50px;"><span style="color: red;">にゅ</span>うがく　Enter to School
+    <p style="font-size: 50px;"><span style="color: red;">にゅ</span>ういん　Hospitalization
       <audio id="audio2">
-        <source src="hiragana/nyu/にゅうがく.mp3" type="audio/mp3">
+        <source src="hiragana/nyu/にゅういん.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/nyu/sound-s.png" onclick="playSoundNyuugaku()">
+      <img style="vertical-align:middle;" src="hiragana/nyu/sound-s.png" onclick="playSoundNyuuin()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/nyu/sample.png" alt="">
       <br>
     </p>

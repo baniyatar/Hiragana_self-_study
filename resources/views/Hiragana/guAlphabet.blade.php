@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audioGu').pause();
     document.getElementById('audioGu').currentTime = 0;
   }
@@ -60,7 +60,7 @@
     <div class="letter_start"> <img src="hiragana/gu/gu.png" style="width: 80%;" alt="gapng">
     </div>
 
-    <p style="font-size: 50px;">かいさつ<span style="color: red;">ぐ</span>ち　Entrance
+    <p style="font-size: 50px;">かいさつ<span style="color: red;">ぐ</span>ち　Ticket gate
 
       <audio id="audio1">
         <source src="hiragana/gu/かいさつぐち.mp3" type="audio/mp3">
@@ -71,7 +71,7 @@
     </p>
     <br>
 
-    <p style="font-size: 50px;">め<span style="color: red;">ぐ</span>すり　Exit
+    <p style="font-size: 50px;">め<span style="color: red;">ぐ</span>すり　Eye drops
       <audio id="audio2">
         <source src="hiragana/gu/めぐすり.mp3" type="audio/mp3">
       </audio>

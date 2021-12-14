@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audioKyo').pause();
     document.getElementById('audioKyo').currentTime = 0;
   }
@@ -27,7 +27,7 @@
     document.getElementById('audioKyo').play();
   }
 
-  function playSoundKyou() {
+  function playSoundYuubinkyoku() {
     audioStop();
     document.getElementById('audio1').play();
   }
@@ -37,10 +37,10 @@
     document.getElementById('audio2').play();
   }
 
-  function playSoundKyoudai() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundKyoudai() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 </script>
 
 <body>
@@ -55,11 +55,11 @@
       <img src="hiragana/kyo/kyo.png" alt="きょpng">
     </div><br>
 
-    <p style="font-size:50px;"><span style="color:red;">きょ</span>う　Today
+    <p style="font-size:50px;">ゆうびん<span style="color:red;">きょ</span>く　Post office
       <audio id="audio1">
-        <source src="hiragana/kyo/きょう.mp3" type="audio/mp3">
+        <source src="hiragana/kyo/ゆうびんきょく.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/kyo/sound-s.png" onclick="playSoundKyou()">
+      <img style="vertical-align:middle;" src="hiragana/kyo/sound-s.png" onclick="playSoundYuubinkyoku()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/kyo/sample.png" alt="">
     </p>
     <br>
@@ -70,14 +70,14 @@
       <img style="vertical-align:middle;" src="hiragana/kyo/sound-s.png" onclick="playSoundKyoushitsu()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/kyo/sample.png" alt="">
     </p>
-    <br>
+    <!-- <br>
     <p style="font-size:50px;"><span style="color:red;">きょ</span>うだい　Siblings / Sister and Brother
       <audio id="audio3">
         <source src="hiragana/kyo/きょうだい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/kyo/sound-s.png" onclick="playSoundKyoudai()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/kyo/sample.png" alt="">
-    </p>
+    </p> -->
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

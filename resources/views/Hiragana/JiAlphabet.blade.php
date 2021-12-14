@@ -69,7 +69,7 @@
     </p>
     <br>
 
-    <p class="font_word">にんじん　Carrot
+    <p style="font-size:50px;">にん<span style="color:red;">じ</span>ん　Carrot
       <audio id="audio2">
         <source src="hiragana/ji/にんじん.mp3" type="audio/mp3">
       </audio>

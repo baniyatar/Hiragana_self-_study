@@ -15,10 +15,10 @@
   function audioStop() {
     document.getElementById('audio1').pause();
     document.getElementById('audio1').currentTime = 0;
-    document.getElementById('audio2').pause();
-    document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio2').pause();
+    // document.getElementById('audio2').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audioHyo').pause();
     document.getElementById('audioHyo').currentTime = 0;
   }
@@ -28,15 +28,15 @@
     document.getElementById('audio1').play();
   }
 
-  function playhyoijan() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
+  // function playhyoijan() {
+  //   audioStop();
+  //   document.getElementById('audio2').play();
+  // }
 
-  function playSoundhyoijiu() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundhyoijiu() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSoundHyo() {
     audioStop();
@@ -53,7 +53,6 @@
       <img style="vertical-align:middle;" src="hiragana/hyo/sound-s.png" onclick="playSoundHyo()">
     </p>
     <div class="letter_start">
-      {{-- <img class = "testBorder" src="hiragana/hyo/hyo.gif" alt="まgif"> --}}
       <img src="hiragana/hyo/hyo.png" alt="hyapng">
     </div><br>
 
@@ -65,7 +64,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/hyo/sample.png" alt="">
       <br>
     </p>
-    <p style="font-size: 50px;"><span style="color: red;">ひょ</span>うざん　Iceberg
+    <!-- <p style="font-size: 50px;"><span style="color: red;">ひょ</span>うざん　Iceberg
       <audio id="audio2">
         <source src="hiragana/hyo/ひょうざん.mp3" type="audio/mp3">
       </audio>
@@ -80,7 +79,7 @@
       <img style="vertical-align:middle;" src="hiragana/hyo/sound-s.png" onclick="playSoundhyoijiu()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/hyo/sample.png" alt="">
       <br>
-    </p>
+    </p> -->
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/hyuAlphabet')}}'">&lt;PREV</button>

@@ -13,10 +13,10 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
-    document.getElementById('audio2').pause();
-    document.getElementById('audio2').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio2').pause();
+    // document.getElementById('audio2').currentTime = 0;
     document.getElementById('audioPyo').pause();
     document.getElementById('audioPyo').currentTime = 0;
   }
@@ -26,16 +26,15 @@
     document.getElementById('audioPyo').play();
   }
 
-  function playSoundHappyou() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundHappyou() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
-  function playSoundPyonpyon() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
-  //function playSoundJugyou() { document.getElementById('audio3').play(); } 
+  // function playSoundPyonpyon() {
+  //   audioStop();
+  //   document.getElementById('audio2').play();
+  // }
 </script>
 
 <body>
@@ -50,7 +49,7 @@
       <img src="hiragana/pyo/ぴょ.png" alt="ぴょpng">
     </div><br>
 
-    <p style="font-size: 50px;">はっ<span style="color: red;">ぴょ</span>う　Announcement
+    <!-- <p style="font-size: 50px;">はっ<span style="color: red;">ぴょ</span>う　Announcement
       <audio id="audio1">
         <source src="hiragana/pyo/はっぴょう.mp3" type="audio/mp3">
       </audio>
@@ -65,7 +64,7 @@
       <img style="vertical-align:middle;" src="hiragana/pyo/sound-s.png" onclick="playSoundPyonpyon()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pyo/sample.png" alt="">
     <br>
-    </p>
+    </p> -->
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/pyuAlphabet')}}'">&lt;PREV</button>

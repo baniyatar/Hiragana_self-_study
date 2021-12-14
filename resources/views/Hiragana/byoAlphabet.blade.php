@@ -17,8 +17,8 @@
     // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audioByo').pause();
     document.getElementById('audioByo').currentTime = 0;
   }
@@ -28,15 +28,15 @@
   //   document.getElementById('audio1').play();
   // }
 
-  function playSoundbyouin() {
+  function playSoundByouin() {
     audioStop();
     document.getElementById('audio2').play();
   }
 
-  function playSoundbyouki() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundbyouki() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSoundByo() {
     audioStop();
@@ -71,19 +71,19 @@
       <audio id="audio2">
         <source src="hiragana/byo/びょういん.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/byo/sound-s.png" onclick="playSoundbyouin()">
+      <img style="vertical-align:middle;" src="hiragana/byo/sound-s.png" onclick="playSoundByouin()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/byo/sample.png" alt="">
       <br>
     </p>
 
-    <p style="font-size: 50px;"><span style="color: red;">びょ</span>うき　Sick
+    <!-- <p style="font-size: 50px;"><span style="color: red;">びょ</span>うき　Sick
       <audio id="audio3">
         <source src="hiragana/byo/びょうき.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/byo/sound-s.png" onclick="playSoundbyouki()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/byo/sample.png" alt="">
       <br>
-    </p>
+    </p> -->
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

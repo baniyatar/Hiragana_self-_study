@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
@@ -23,10 +23,10 @@
     document.getElementById('audio0').currentTime = 0;
   }
 
-  function playSound1() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSound1() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
   function playSound2() {
     audioStop();
@@ -60,14 +60,14 @@
     </div><br>
     <div class="letter_start"> <img src="hiragana/bu/ぶ.png" style="width: 100%;" alt="ぶpng"> </div>
 
-    <p style="font-size: 50px;">どう<span style="color: red;">ぶ</span>つ　Animal
+    <!-- <p style="font-size: 50px;">どう<span style="color: red;">ぶ</span>つ　Animal
       <audio id="audio1">
         <source src="hiragana/bu/どうぶつ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/bu/sound-s.png" onclick="playSound1()">
       <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/bu/sample.png" alt="">
     </p>
-    <br>
+    <br> -->
 
     <p class="font_word">ぶた　Pig
       <audio id="audio2">
@@ -78,9 +78,9 @@
     </p>
     <br>
 
-    <p class="font_word">ぶどう　Grapes
+    <p class="font_word">しんぶん　Newspaper
       <audio id="audio3">
-        <source src="hiragana/bu/ぶどう.mp3" type="audio/mp3">
+        <source src="hiragana/bu/しんぶん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/bu/sound-s.png" onclick="playSound3()">
       <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/bu/sample.png" alt="">

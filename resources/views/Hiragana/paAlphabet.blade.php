@@ -17,26 +17,26 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audioPa').pause();
     document.getElementById('audioPa').currentTime = 0;
   }
 
-  function playSoundkanpai() {
+  function playSoundKanpai() {
     audioStop();
     document.getElementById('audio1').play();
   }
 
-  function playSoundshinpai() {
+  function playSoundHappa() {
     audioStop();
     document.getElementById('audio2').play();
   }
 
-  function playSoundsupai() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundsupai() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSoundpa() {
     audioStop();
@@ -64,23 +64,23 @@
       <audio id="audio1">
         <source src="hiragana/pa/かんぱい.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/pa/sound-s.png" onclick="playSoundkanpai()">
+      <img style="vertical-align:middle;" src="hiragana/pa/sound-s.png" onclick="playSoundKanpai()">
       <br>
       <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pa/sample.png" alt="">
     </p>
     <br>
 
-    <p style="font-size: 50px;">しん<span style="color: red;">ぱ</span>い　Worry
+    <p style="font-size: 50px;">はっ<span style="color: red;">ぱ</span>　Leaf
       <audio id="audio2">
-        <source src="hiragana/pa/しんぱい.mp3" type="audio/mp3">
+        <source src="hiragana/pa/はっぱ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/pa/sound-s.png" onclick="playSoundshinpai()">
+      <img style="vertical-align:middle;" src="hiragana/pa/sound-s.png" onclick="playSoundHappa()">
       <br>
       <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pa/sample.png" alt="">
     </p>
     <br>
 
-    <p style="font-size: 50px;">すっ<span style="color: red;">ぱ</span>い　Sour
+    <!-- <p style="font-size: 50px;">すっ<span style="color: red;">ぱ</span>い　Sour
       <audio id="audio3">
         <source src="hiragana/pa/すっぱい.mp3" type="audio/mp3">
       </audio>
@@ -88,7 +88,7 @@
       <br>
       <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pa/sample.png" alt="">
     </p>
-    <br>
+    <br> -->
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

@@ -15,10 +15,10 @@
   function audioStop() {
     document.getElementById('audio1').pause();
     document.getElementById('audio1').currentTime = 0;
-    document.getElementById('audio2').pause();
-    document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio2').pause();
+    // document.getElementById('audio2').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audioGyo').pause();
     document.getElementById('audioGyo').currentTime = 0;
   }
@@ -33,15 +33,15 @@
     document.getElementById('audio1').play();
   }
 
-  function playSoundGyouza() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
+  // function playSoundGyouza() {
+  //   audioStop();
+  //   document.getElementById('audio2').play();
+  // }
 
-  function playSoundJugyou() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundJugyou() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 </script>
 
 <body>
@@ -63,7 +63,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gyo/sample.png" alt="">
       <br>
     </p>
-    <p style="font-size: 50px;"><span style="color: red;">ぎょ</span>うざ　Dumplings
+    <!-- <p style="font-size: 50px;"><span style="color: red;">ぎょ</span>うざ　Dumplings
       <audio id="audio2">
         <source src="hiragana/gyo/ぎょうざ.mp3" type="audio/mp3">
       </audio>
@@ -78,6 +78,7 @@
       <img style="vertical-align:middle;" src="hiragana/gyo/sound-s.png" onclick="playSoundJugyou()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gyo/sample.png" alt="">
       <br>
+    </p> -->
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/gyuAlphabet')}}'">&lt;PREV</button>

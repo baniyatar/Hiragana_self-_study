@@ -13,15 +13,15 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audioNya').pause();
     document.getElementById('audioNya').currentTime = 0;
   }
-  function playSoundNyanya() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundNyanya() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
   function playSoundNya() {
     audioStop();
@@ -38,18 +38,17 @@
       <img style="vertical-align:middle;" src="hiragana/mi/sound-s.png" onclick="playSoundNya()">
     </p>
     <div class="letter_start">
-      {{-- <img class = "testBorder" src="hiragana/nya/nya.gif" alt="まgif"> --}}
-      <img src="hiragana/nya/nya.png" alt="まpng">
+      <img src="hiragana/nya/nya.png" alt="にゃpng">
     </div><br>
 
-    <p style="font-size: 50px;"><span style="color: red;">にゃ</span>あ<span style="color: red;">にゃ</span>あ　Cat's Meow
+    <!-- <p style="font-size: 50px;"><span style="color: red;">にゃ</span>あ<span style="color: red;">にゃ</span>あ　Cat's Meow
       <audio id="audio1">
         <source src="hiragana/nya/にゃあにゃあ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/nya/sound-s.png" onclick="playSoundNyanya()">
-      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/chu/sample.png" alt="">
+      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/nya/sample.png" alt="">
       <br>
-    </p>
+    </p> -->
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

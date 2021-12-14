@@ -13,41 +13,41 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
-    document.getElementById('audio2').pause();
-    document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audioYa').pause();
-    document.getElementById('audioYa').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio2').pause();
+    // document.getElementById('audio2').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
+    document.getElementById('audioGya').pause();
+    document.getElementById('audioGya').currentTime = 0;
   }
 
   function playSoundGya() {
     audioStop();
-    document.getElementById('audioYa').play();
+    document.getElementById('audioGya').play();
   }
 
-  function playSoundGyaku() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundGyaku() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
-  function playSoundGyakukouka() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
+  // function playSoundGyakukouka() {
+  //   audioStop();
+  //   document.getElementById('audio2').play();
+  // }
 
-  function playSoundGyakuten() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundGyakuten() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 </script>
 
 <body>
   <div class="box">
     <p class="font_word">ぎ<span style="color: red;">ゃ</span>
-      <audio id="audioYa">
+      <audio id="audioGya">
         <source src="hiragana/gya/ぎゃ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ya/sound-s.png" onclick="playSoundGya()">
@@ -57,7 +57,7 @@
       <img src="hiragana/gya/ぎゃ.png" alt="ぎゃpng">
     </div><br>
 
-    <p style="font-size: 50px;"><span style="color: red;">ぎゃ</span>く　Opposite
+    <!-- <p style="font-size: 50px;"><span style="color: red;">ぎゃ</span>く　Opposite
       <audio id="audio1">
         <source src="hiragana/gya/ぎゃく.mp3" type="audio/mp3">
       </audio>
@@ -80,7 +80,7 @@
       <img style="vertical-align:middle;" src="hiragana/gya/sound-s.png" onclick="playSoundGyakuten()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gya/sample.png" alt="">
       <br>
-    </p>
+    </p> -->
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>
   <button class="prev_btn" onclick="location.href='{{ url('/kyoAlphabet')}}'">&lt;PREV</button>

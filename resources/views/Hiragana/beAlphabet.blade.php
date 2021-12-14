@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio0').pause();
     document.getElementById('audio0').currentTime = 0;
   }
@@ -33,10 +33,10 @@
     document.getElementById('audio2').play();
   }
 
-  function playSound3() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSound3() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSound0() {
     audioStop();
@@ -69,23 +69,23 @@
     </p>
     <br>
 
-    <p style="font-size: 50px;">か<span style="color: red;">べ</span>　Wall
+    <p style="font-size: 50px;">な<span style="color: red;">べ</span>　Pan
       <audio id="audio2">
-        <source src="hiragana/be/かべ.mp3" type="audio/mp3">
+        <source src="hiragana/be/なべ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/be/sound-s.png" onclick="playSound2()">
       <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/be/sample.png" alt="">
     </p>
     <br>
 
-    <p style="font-size: 50px;">た<span style="color: red;">べ</span>もの　Food
+    <!-- <p style="font-size: 50px;">た<span style="color: red;">べ</span>もの　Food
       <audio id="audio3">
         <source src="hiragana/be/たべもの.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/be/sound-s.png" onclick="playSound3()">
       <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/be/sample.png" alt="">
     </p>
-    <br>
+    <br> -->
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

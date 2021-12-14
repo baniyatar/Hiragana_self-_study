@@ -60,7 +60,7 @@
     <div class="letter_start"> <img src="hiragana/do/ど.png" style="width: 80%;" alt="どpng">
     </div>
 
-    <p style="font-size: 50px;">ぶ<span style="color: red;">ど</span>う　Grape
+    <p style="font-size: 50px;">ぶ<span style="color: red;">ど</span>う　Grapes
       <audio id="audio1">
         <source src="hiragana/do/ぶどう.mp3" type="audio/mp3">
       </audio>
