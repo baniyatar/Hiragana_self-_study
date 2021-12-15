@@ -33,7 +33,7 @@
   <div class="box">
     <p style="font-size: 50px;"><span style="color: red;">にゃ</span>
       <audio id="audioNya">
-        <source src="hiragana/nya/nya.mp3" type="audio/mp3">
+        <source src="hiragana/nya/にゃ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/mi/sound-s.png" onclick="playSoundNya()">
     </p>

@@ -49,7 +49,7 @@
     <p class="font_word">ぐ
 
       <audio id="audioGu">
-        <source src="hiragana/gu/gu.mp3" type="audio/mp3">
+        <source src="hiragana/gu/ぐ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/gu/sound-s.png" onclick="playSoundGu()">
     </p>

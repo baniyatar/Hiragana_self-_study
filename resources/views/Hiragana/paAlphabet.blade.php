@@ -49,7 +49,7 @@
     <p class="font_word">ぱ
 
       <audio id="audioPa">
-        <source src="hiragana/pa/pa.mp3" type="audio/mp3">
+        <source src="hiragana/pa/ぱ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/pa/sound-s.png" onclick="playSoundpa()">
     </p>

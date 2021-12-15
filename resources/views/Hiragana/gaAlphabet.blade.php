@@ -49,7 +49,7 @@
     <p class="font_word">が
 
       <audio id="audioGa">
-        <source src="hiragana/ga/ga.mp3" type="audio/mp3">
+        <source src="hiragana/ga/が.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ga/sound-s.png" onclick="playSoundGa()">
     </p>

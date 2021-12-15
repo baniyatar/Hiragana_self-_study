@@ -48,7 +48,7 @@
     <p class="font_word">ぎ
 
       <audio id="audioGi">
-        <source src="hiragana/gi/gi.mp3" type="audio/mp3">
+        <source src="hiragana/gi/ぎ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/gi/sound-s.png" onclick="playSoundgi()">
     </p>

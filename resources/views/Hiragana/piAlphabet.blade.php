@@ -49,7 +49,7 @@
     <p class="font_word">ぴ
 
       <audio id="audioPi">
-        <source src="hiragana/pi/pi.mp3" type="audio/mp3">
+        <source src="hiragana/pi/ぴ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/pi/sound-s.png" onclick="playSoundPi()">
     </p>

@@ -48,7 +48,7 @@
   <div class="box">
     <p style="font-size: 50px;"><span style="color: red;">ひゃ</span>
       <audio id="audioHya">
-        <source src="hiragana/hya/hya.mp3" type="audio/mp3">
+        <source src="hiragana/hya/ひゃ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/hya/sound-s.png" onclick="playSoundHya()">
     </p>

@@ -31,7 +31,7 @@
         <p style="font-size: 50px;"><span style="color: red;">ひゅ</span>
 
             <audio id="audioHyu">
-            <source src="hiragana/hyu/hyu.mp3" type="audio/mp3">
+            <source src="hiragana/hyu/ひゅ.mp3" type="audio/mp3">
           </audio>
             <img style="vertical-align:middle;" src="hiragana/hyu/sound-s.png" onclick="playSoundHyu()">
         </p>

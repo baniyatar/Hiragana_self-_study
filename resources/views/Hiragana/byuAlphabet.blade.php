@@ -30,7 +30,7 @@
 	<div class="box">
         <p style="font-size: 50px;"><span style="color: red;">びゅ</span>
             <audio id="audioByu">
-            <source src="hiragana/byu/byu.mp3" type="audio/mp3">
+            <source src="hiragana/byu/びゅ.mp3" type="audio/mp3">
           </audio>
             <img style="vertical-align:middle;" src="hiragana/bya/sound-s.png" onclick="playSoundByu()">
         </p>

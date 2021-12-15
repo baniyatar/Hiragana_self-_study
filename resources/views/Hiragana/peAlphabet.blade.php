@@ -42,7 +42,7 @@
     <p class="font_word">ぺ
 
       <audio id="audioPe">
-        <source src="hiragana/pe/pe.mp3" type="audio/mp3">
+        <source src="hiragana/pe/ぺ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/pe/sound-s.png" onclick="playSoundPe()">
     </p>
@@ -54,7 +54,7 @@
     <div class="letter_start"> <img src="hiragana/pe/pe.png" style="width: 70%;" alt="pepng">
     </div>
 
-    <p style="font-size: 50px;">ほっ<span style="color: red;">ぺ</span>た　Hoppeta
+    <p style="font-size: 50px;">ほっ<span style="color: red;">ぺ</span>た　Cheeks
       <audio id="audio1">
         <source src="hiragana/pe/ほっぺた.mp3" type="audio/mp3">
       </audio>

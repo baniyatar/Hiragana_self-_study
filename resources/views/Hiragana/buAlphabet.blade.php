@@ -78,7 +78,7 @@
     </p>
     <br>
 
-    <p class="font_word">しんぶん　Newspaper
+    <p style="font-size: 50px;">しん<span style="color: red;">ぶ</span>ん　Newspaper
       <audio id="audio3">
         <source src="hiragana/bu/しんぶん.mp3" type="audio/mp3">
       </audio>

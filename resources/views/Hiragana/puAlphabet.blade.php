@@ -49,7 +49,7 @@
     <p class="font_word">ぷ
 
       <audio id="audioPu">
-        <source src="hiragana/pu/pu.mp3" type="audio/mp3">
+        <source src="hiragana/pu/ぷ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/pu/sound-s.png" onclick="playSoundpu()">
     </p>

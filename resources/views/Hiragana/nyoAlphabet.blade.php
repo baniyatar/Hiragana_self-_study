@@ -41,7 +41,7 @@
   <div class="box">
     <p style="font-size: 50px;"><span style="color: red;">にょ</span>
       <audio id="audioNyo">
-        <source src="hiragana/nyo/nyo.mp3" type="audio/mp3">
+        <source src="hiragana/nyo/にょ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/nyo/sound-s.png" onclick="playSoundNyo()">
     </p>

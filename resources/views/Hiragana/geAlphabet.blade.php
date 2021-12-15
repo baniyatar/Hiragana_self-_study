@@ -49,7 +49,7 @@
     <p class="font_word">げ
 
       <audio id="audioGe">
-        <source src="hiragana/ge/ge.mp3" type="audio/mp3">
+        <source src="hiragana/ge/げ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ge/sound-s.png" onclick="playSoundGe()">
     </p>

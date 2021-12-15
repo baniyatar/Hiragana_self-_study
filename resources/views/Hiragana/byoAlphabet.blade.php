@@ -49,7 +49,7 @@
 
     <p style="font-size: 50px;"><span style="color: red;">びょ</span>
       <audio id="audioByo">
-        <source src="hiragana/byo/byo.mp3" type="audio/mp3">
+        <source src="hiragana/byo/びょ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/byo/sound-s.png" onclick="playSoundByo()">
     </p>

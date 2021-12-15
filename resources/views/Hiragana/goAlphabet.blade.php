@@ -49,7 +49,7 @@
     <p class="font_word">ご
 
       <audio id="audioGo">
-        <source src="hiragana/go/go.mp3" type="audio/mp3">
+        <source src="hiragana/go/ご.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/go/sound-s.png" onclick="playSoundGo()">
     </p>

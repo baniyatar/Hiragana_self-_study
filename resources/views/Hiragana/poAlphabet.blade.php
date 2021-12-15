@@ -49,7 +49,7 @@
     <p class="font_word">ぽ
 
       <audio id="audioPo">
-        <source src="hiragana/po/po.mp3" type="audio/mp3">
+        <source src="hiragana/po/ぽ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/po/sound-s.png" onclick="playSoundPo()">
     </p>

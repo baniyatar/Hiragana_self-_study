@@ -41,7 +41,7 @@
   <div class="box">
     <p style="font-size: 50px;"><span style="color: red;">にゅ</span>
       <audio id="audioNyu">
-        <source src="hiragana/nyu/nyu.mp3" type="audio/mp3">
+        <source src="hiragana/nyu/にゅ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/nyu/sound-s.png" onclick="playSoundNyu()">
     </p>
