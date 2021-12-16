@@ -97,19 +97,20 @@ class AuthController extends Controller
    
 
    
-   public function create(array $data)
-   {
-     return User::create([
-       'username' => $data['username'],
-       'password' => Hash::make($data['password']),
-       'email' => $data['email'],
-       'firstname' => $data['firstname'],
-       'surname' => $data['surname'],
-       'city' => $data['city'],
-       'country' => $data['country'],
-     
-     ]);    
-   }
+    public function create(array $data)
+    {
+        return User::create([
+            'id' => 'H211216001',
+            'username' => $data['username'],
+            'password' => Hash::make($data['password']),
+            'email' => $data['email'],
+            'firstname' => $data['firstname'],
+            'surname' => $data['surname'],
+            'city' => $data['city'],
+            'country' => $data['country'],
+            'payment' => 0,
+        ]);    
+    }
 
         //   public function edit($id, Request $request)
         //   { $this->validate($request, [
