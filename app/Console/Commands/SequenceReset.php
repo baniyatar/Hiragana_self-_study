@@ -4,12 +4,12 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use App\Models\SequenceHiragana;
-use App\Models\SequenceKatakana;
-use App\Models\SequenceKanji1;
-use App\Models\SequenceKanji2;
-use App\Models\SequenceKanji3;
-use App\Models\SequenceKanji4;
-use App\Models\SequenceKanji5;
+// use App\Models\SequenceKatakana;
+// use App\Models\SequenceKanji1;
+// use App\Models\SequenceKanji2;
+// use App\Models\SequenceKanji3;
+// use App\Models\SequenceKanji4;
+// use App\Models\SequenceKanji5;
 
 class SequenceReset extends Command
 {
@@ -25,7 +25,7 @@ class SequenceReset extends Command
      *
      * @var string
      */
-    protected $description = 'Hiragana Kanji Katakana Sequence reset';
+    protected $description = 'Hiragana Sequence reset';
 
     /**
      * Create a new command instance.
@@ -45,12 +45,12 @@ class SequenceReset extends Command
     public function handle()
     {
         SequenceHiragana::reset();
-        SequenceKatakana::reset();
-        SequenceKanji1::reset();
-        SequenceKanji2::reset();
-        SequenceKanji3::reset();
-        SequenceKanji4::reset();
-        SequenceKanji5::reset();
+        // SequenceKatakana::reset();
+        // SequenceKanji1::reset();
+        // SequenceKanji2::reset();
+        // SequenceKanji3::reset();
+        // SequenceKanji4::reset();
+        // SequenceKanji5::reset();
         return 0;
     }
 }
