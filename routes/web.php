@@ -55,9 +55,7 @@ return view('/Admin/edit');});
 
 // Route::get('/admin/menupush', function () { return view('Admin\adminMenu'); });
 
-<<<<<<< HEAD
 Route::get('/admin/adminMenu', function () { return view('Admin\adminMenu'); });
-=======
  ## View 
 Route::get('users',   [AuthController::class,'edit'])->name('users');
 
@@ -74,7 +72,6 @@ Route::get('/Admin/create', [AuthController::class,'create'])->name('users.creat
 // Route::get('/show', function () {
 //     return view('Auth/show');
 // });
->>>>>>> main
 Route::get('/main', function () {
     return view('main');
 });
