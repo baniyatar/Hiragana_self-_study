@@ -19,8 +19,8 @@
     document.getElementById('audio2').currentTime = 0;
     // document.getElementById('audio3').pause();
     // document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audio4').pause();
-    document.getElementById('audio4').currentTime = 0;
+    // document.getElementById('audio4').pause();
+    // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioSu').pause();
     document.getElementById('audioSu').currentTime = 0;
   }
@@ -30,7 +30,7 @@
     document.getElementById('audio1').play();
   }
 
-  function playSoundSuki() {
+  function playSoundSushi() {
     audioStop();
     document.getElementById('audio2').play();
   }
@@ -40,10 +40,10 @@
   //   document.getElementById('audio3').play();
   // }
 
-  function playSoundSuzushii() {
-    audioStop();
-    document.getElementById('audio4').play();
-  }
+  // function playSoundSuzushii() {
+  //   audioStop();
+  //   document.getElementById('audio4').play();
+  // }
 
   function playSoundSu() {
     audioStop();
@@ -73,11 +73,11 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/su/sample.png" alt="">
     </p>
     <br>
-    <p class="font_word">すき　Favorite
+    <p class="font_word">すし　Sushi
       <audio id="audio2">
-        <source src="hiragana/su/すき.mp3" type="audio/mp3">
+        <source src="hiragana/su/すし.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/su/sound-s.png" onclick="playSoundSuki()">
+      <img style="vertical-align:middle;" src="hiragana/su/sound-s.png" onclick="playSoundSushi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/su/sample.png" alt="">
     </p>
 <!--
@@ -90,14 +90,14 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/su/sample.png" alt="">
     </p>
 -->
-    <br>
+    <!-- <br>
     <p class="font_word">すずしい　Cool
       <audio id="audio4">
         <source src="hiragana/su/すずしい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/su/sound-s.png" onclick="playSoundSuzushii()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/su/sample.png" alt="">
-    </p>
+    </p> -->
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

@@ -15,8 +15,8 @@
   function audioStop() {
     // document.getElementById('audio1').pause();
     // document.getElementById('audio1').currentTime = 0;
-    document.getElementById('audio2').pause();
-    document.getElementById('audio2').currentTime = 0;
+    // document.getElementById('audio2').pause();
+    // document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
     document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio4').pause();
@@ -30,17 +30,17 @@
   //   document.getElementById('audio1').play();
   // }
 
-  function playSoundmukou() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
+  // function playSoundmukou() {
+  //   audioStop();
+  //   document.getElementById('audio2').play();
+  // }
 
-  function playSoundmuzukashii() {
+  function playSoundMushi() {
     audioStop();
     document.getElementById('audio3').play();
   }
 
-  function playSoundMutsutsu() {
+  function playSoundMuttsu() {
     audioStop();
     document.getElementById('audio4').play();
   }
@@ -74,7 +74,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mu/sample.png" alt="">
     </p>
 -->
-    <br>
+    <!-- <br>
     <p class="font_word">むこう　Over There
       <audio id="audio2">
         <source src="hiragana/mu/むこう.mp3" type="audio/mp3">
@@ -82,12 +82,12 @@
       <img style="vertical-align:middle;" src="hiragana/mu/sound-s.png" onclick="playSoundmukou()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mu/sample.png" alt="">
     </p>
-    <br>
-    <p class="font_word">むずかしい　Difficult
+    <br> -->
+    <p class="font_word">むし　Insect
       <audio id="audio3">
-        <source src="hiragana/mu/むずかしい.mp3" type="audio/mp3">
+        <source src="hiragana/mu/むし.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/mu/sound-s.png" onclick="playSoundmuzukashii()">
+      <img style="vertical-align:middle;" src="hiragana/mu/sound-s.png" onclick="playSoundMushi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mu/sample.png" alt="">
     </p>
     <br>
@@ -95,7 +95,7 @@
       <audio id="audio4">
         <source src="hiragana/mu/むっつ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/mu/sound-s.png" onclick="playSoundMutsutsu()">
+      <img style="vertical-align:middle;" src="hiragana/mu/sound-s.png" onclick="playSoundMuttsu()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/mu/sample.png" alt="">
     </p>
   </div>

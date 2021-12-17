@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audioPu').pause();
     document.getElementById('audioPu').currentTime = 0;
   }
@@ -33,10 +33,10 @@
     document.getElementById('audio2').play();
   }
 
-  function playSoundtenpura() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundtenpura() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSoundpu() {
     audioStop();
@@ -49,7 +49,7 @@
     <p class="font_word">ぷ
 
       <audio id="audioPu">
-        <source src="hiragana/pu/pu.mp3" type="audio/mp3">
+        <source src="hiragana/pu/ぷ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/pu/sound-s.png" onclick="playSoundpu()">
     </p>
@@ -83,7 +83,7 @@
     </p>
     <br>
 
-    <p style="font-size: 50px;">てん<span style="color: red;">ぷ</span>ら　Tempura
+    <!-- <p style="font-size: 50px;">てん<span style="color: red;">ぷ</span>ら　Tempura
       <audio id="audio3">
         <source src="hiragana/pu/てんぷら.mp3" type="audio/mp3">
       </audio>
@@ -91,7 +91,7 @@
       <br>
       <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pu/sample.png" alt="">
     </p>
-    <br>
+    <br> -->
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

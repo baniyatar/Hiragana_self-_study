@@ -9,8 +9,10 @@ use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
-use App\Models\User;
 use Illuminate\SupportHash;
+use App\Models\User;
+use App\Models\SequenceHiragana;
+
 
 class AuthController extends Controller
 { 
@@ -18,7 +20,6 @@ class AuthController extends Controller
    {
        return view('auth.login');
    }  
-     
    
    public function registration()
    {
@@ -53,10 +54,8 @@ class AuthController extends Controller
             'password' => 'username or password is incorrect!'
         ]
     );
-       
-  
-   }
 
+   }
 
    function postRegistration(Request $request,User $data)           
  {
@@ -83,9 +82,6 @@ class AuthController extends Controller
    return redirect("dashboard")->withSuccess('ひらがなの勉強(べんきょう)システムにつながります。 Great! You have Successfully loggedin.');
 
 }
-
-
-   
    
    public function dashboard()
    {
@@ -95,22 +91,21 @@ class AuthController extends Controller
  
        return redirect("login")->withSuccess('Opps! You do not have access');
    }
-   
 
-   
    public function create(array $data)
-   {
-     return User::create([
-       'username' => $data['username'],
-       'password' => Hash::make($data['password']),
-       'email' => $data['email'],
-       'firstname' => $data['firstname'],
-       'surname' => $data['surname'],
-       'city' => $data['city'],
-       'country' => $data['country'],
-     
-     ]);    
-   }
+    {
+        return User::create([
+            'id' => SequenceHiragana::issue(),
+            'username' => $data['username'],
+            'password' => Hash::make($data['password']),
+            'email' => $data['email'],
+            'firstname' => $data['firstname'],
+            'surname' => $data['surname'],
+            'city' => $data['city'],
+            'country' => $data['country'],
+            'payment' => 0,
+        ]);    
+    }
 
         //   public function edit($id, Request $request)
         //   { $this->validate($request, [
@@ -124,8 +119,7 @@ class AuthController extends Controller
         //   return redirect()->route('admin.user');
         //   }
 
-        
-   public function logout(Request $request  ) {
+   public function logout(Request $request) {
        $request->Session()->flush();
        $request->session()->regenerate();
         Auth::logout();

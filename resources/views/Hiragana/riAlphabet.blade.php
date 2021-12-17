@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     // document.getElementById('audio2').pause();
     // document.getElementById('audio2').currentTime = 0;
     // document.getElementById('audio3').pause();
@@ -27,10 +27,10 @@
     document.getElementById('audio0').currentTime = 0;
   }
 
-  function playSound1() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSound1() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
   // function playSound2() {
   //   audioStop();
@@ -42,17 +42,17 @@
   //   document.getElementById('audio3').play();
   // }
 
-  function playSound4() {
+  function playSoundRingo() {
     audioStop();
     document.getElementById('audio4').play();
   }
 
-  function playSound5() {
+  function playSoundOnigiri() {
     audioStop();
     document.getElementById('audio5').play();
   }
 
-  function playSound0() {
+  function playSoundRi() {
     audioStop();
     document.getElementById('audio0').play();
   }
@@ -64,7 +64,7 @@
       <audio id="audio0">
         <source src="hiragana/ri/り.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/chi/sound-s.png" onclick="playSound0()">
+      <img style="vertical-align:middle;" src="hiragana/chi/sound-s.png" onclick="playSoundRi()">
     </p>
     <div class="letter_start">
       <img class="testBorder" src="hiragana/ri/ri.gif" alt="りgif">
@@ -72,13 +72,13 @@
     <div class="letter_start"> <img src="hiragana/ri/り.png" style="width: 60%;" alt="りpng">
     </div>
 
-    <p style="font-size: 50px;">くす<span style="color: red;">り</span>　Medicine
+    <!-- <p style="font-size: 50px;">くす<span style="color: red;">り</span>　Medicine
       <audio id="audio1">
         <source src="hiragana/ri/くすり.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ri/sound-s.png" onclick="playSound1()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ri/sample.png" alt="">
-    </p>
+    </p> -->
 <!--
     <br>
     <p class="font_word">りゅうがくせい　Exchange Student
@@ -102,15 +102,15 @@
       <audio id="audio4">
         <source src="hiragana/ri/りんご.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/ri/sound-s.png" onclick="playSound4()">
+      <img style="vertical-align:middle;" src="hiragana/ri/sound-s.png" onclick="playSoundRingo()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ri/sample.png" alt="">
     </p>
     <br>
-    <p class="font_word">りか　Chemistry
+    <p style="font-size: 50px;">おにぎ<span style="color: red;">り</span>　Rice ball
       <audio id="audio5">
-        <source src="hiragana/ri/りか.mp3" type="audio/mp3">
+        <source src="hiragana/ri/おにぎり.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/ri/sound-s.png" onclick="playSound5()">
+      <img style="vertical-align:middle;" src="hiragana/ri/sound-s.png" onclick="playSoundOnigiri()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ri/sample.png" alt="">
     </p>
   </div>

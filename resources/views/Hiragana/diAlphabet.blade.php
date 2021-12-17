@@ -44,9 +44,10 @@
 </div><br>  
 <div class = "letter_start">    <img src="hiragana/di/ぢ.png" style="width: 80%;" alt="ぢpng">
   </div>
-  <p class="font_word">ＸＸＸＸ　XXXX
+
+  <p style="font-size: 50px;">はな<span style="color: red;">ぢ</span>　Nosebleed
       <audio id="audio1">
-        <source src="hiragana/di/サンプル.mp3" type="audio/mp3">
+        <source src="hiragana/di/はなぢ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/da/sound-s.png" onclick="playSound1()">
       <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/da/sample.png" alt="">

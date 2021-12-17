@@ -13,23 +13,23 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
-    document.getElementById('audio2').pause();
-    document.getElementById('audio2').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio2').pause();
+    // document.getElementById('audio2').currentTime = 0;
     document.getElementById('audioNyo').pause();
     document.getElementById('audioNyo').currentTime = 0;
   }
 
-  function playSoundnyou() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundnyou() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
-  function playSoundnyoubau() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
+  // function playSoundnyoubau() {
+  //   audioStop();
+  //   document.getElementById('audio2').play();
+  // }
 
   function playSoundNyo() {
     audioStop();
@@ -41,16 +41,15 @@
   <div class="box">
     <p style="font-size: 50px;"><span style="color: red;">にょ</span>
       <audio id="audioNyo">
-        <source src="hiragana/nyo/nyo.mp3" type="audio/mp3">
+        <source src="hiragana/nyo/にょ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/nyo/sound-s.png" onclick="playSoundNyo()">
     </p>
     <div class="letter_start">
-      {{-- <img class = "testBorder" src="hiragana/nyo/nyo.gif" alt="まgif"> --}}
-      <img src="hiragana/nyo/nyo.png" alt="にゅpng">
+      <img src="hiragana/nyo/nyo.png" alt="にょpng">
     </div><br>
 
-    <p style="font-size: 50px;"><span style="color: red;">にょ</span>う　Urine
+    <!-- <p style="font-size: 50px;"><span style="color: red;">にょ</span>う　Urine
       <audio id="audio1">
         <source src="hiragana/nyo/にょう.mp3" type="audio/mp3">
       </audio>
@@ -65,7 +64,7 @@
       <img style="vertical-align:middle;" src="hiragana/nyo/sound-s.png" onclick="playSoundnyoubau()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/nyo/sample.png" alt="">
       <br>
-    </p>
+    </p> -->
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

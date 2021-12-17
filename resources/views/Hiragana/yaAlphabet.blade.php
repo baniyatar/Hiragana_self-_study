@@ -17,14 +17,6 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audio4').pause();
-    document.getElementById('audio4').currentTime = 0;
-    document.getElementById('audio5').pause();
-    document.getElementById('audio5').currentTime = 0;
-    document.getElementById('audio6').pause();
-    document.getElementById('audio6').currentTime = 0;
     document.getElementById('audioYa').pause();
     document.getElementById('audioYa').currentTime = 0;
   }
@@ -34,34 +26,14 @@
     document.getElementById('audioYa').play();
   }
 
-  function playSoundYaoya() {
+  function playSoundYasai() {
     audioStop();
     document.getElementById('audio1').play();
   }
 
-  function playSoundYasai() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
-
-  function playSoundYasumi() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
-
   function playSoundYama() {
     audioStop();
-    document.getElementById('audio4').play();
-  }
-
-  function playSoundYakan() {
-    audioStop();
-    document.getElementById('audio5').play();
-  }
-
-  function playSoundYakyuu() {
-    audioStop();
-    document.getElementById('audio6').play();
+    document.getElementById('audio2').play();
   }
 </script>
 
@@ -79,51 +51,19 @@
     <div class="letter_start"> <img src="hiragana/ya/や.png" style="width: 80%;" alt="やpng">
     </div>
 
-    <p class="font_word">やお<span style="color: red;">や</span>　Vegetable Store
-      <audio id="audio1">
-        <source src="hiragana/ya/やおや.mp3" type="audio/mp3">
-      </audio>
-      <img style="vertical-align:middle;" src="hiragana/ya/sound-s.png" onclick="playSoundYaoya()">
-      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ya/sample.png" alt="">
-    </p>
-    <br>
     <p class="font_word">やさい　Vegetable
-      <audio id="audio2">
+      <audio id="audio1">
         <source src="hiragana/ya/やさい.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ya/sound-s.png" onclick="playSoundYasai()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ya/sample.png" alt="">
     </p>
     <br>
-    <p class="font_word">やすみ　Rest
-      <audio id="audio3">
-        <source src="hiragana/ya/やすみ.mp3" type="audio/mp3">
-      </audio>
-      <img style="vertical-align:middle;" src="hiragana/ya/sound-s.png" onclick="playSoundYasumi()">
-      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ya/sample.png" alt="">
-    </p>
-    <br>
     <p class="font_word">やま　Mountain
-      <audio id="audio4">
+      <audio id="audio2">
         <source src="hiragana/ya/やま.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ya/sound-s.png" onclick="playSoundYama()">
-      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ya/sample.png" alt="">
-    </p>
-    <br>
-    <p class="font_word">やかん　Kettle
-      <audio id="audio5">
-        <source src="hiragana/ya/やかん.mp3" type="audio/mp3">
-      </audio>
-      <img style="vertical-align:middle;" src="hiragana/ya/sound-s.png" onclick="playSoundYakan()">
-      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ya/sample.png" alt="">
-    </p>
-    <br>
-    <p class="font_word">やきゅう　Baseball
-      <audio id="audio6">
-        <source src="hiragana/ya/やきゅう.mp3" type="audio/mp3">
-      </audio>
-      <img style="vertical-align:middle;" src="hiragana/ya/sound-s.png" onclick="playSoundYakyuu()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ya/sample.png" alt="">
     </p>
   </div>

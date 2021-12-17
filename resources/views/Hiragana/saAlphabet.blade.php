@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
@@ -25,12 +25,12 @@
     document.getElementById('audioSa').currentTime = 0;
   }
 
-  function playSoundSaifu() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundSaifu() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
-  function playSoundSakana() {
+  function playSoundKasa() {
     audioStop();
     document.getElementById('audio2').play();
   }
@@ -65,19 +65,19 @@
     <div class="letter_start"> <img src="hiragana/sa/さ-bw.png" style="width: 80%;" alt="さpng">
     </div>
 
-    <p class="font_word">さいふ　Purce
+    <!-- <p class="font_word">さいふ　Purce
       <audio id="audio1">
         <source src="hiragana/sa/さいふ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/sa/sound-s.png" onclick="playSoundSaifu()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/sa/sample.png" alt="">
     </p>
-    <br>
-    <p class="font_word">さかな　Fish
+    <br> -->
+    <p style="font-size: 50px;">か<span style="color: red;">さ</span>　Umbrella
       <audio id="audio2">
-        <source src="hiragana/sa/さかな.mp3" type="audio/mp3">
+        <source src="hiragana/sa/かさ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/sa/sound-s.png" onclick="playSoundSakana()">
+      <img style="vertical-align:middle;" src="hiragana/sa/sound-s.png" onclick="playSoundKasa()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/sa/sample.png" alt="">
     </p>
     <br>

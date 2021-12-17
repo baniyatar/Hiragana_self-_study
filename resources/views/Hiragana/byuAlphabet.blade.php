@@ -14,39 +14,39 @@
     function audioStop() {
       document.getElementById('audioByu').pause();
       document.getElementById('audioByu').currentTime = 0;
-      document.getElementById('audio1').pause();
-      document.getElementById('audio1').currentTime = 0;
+      // document.getElementById('audio1').pause();
+      // document.getElementById('audio1').currentTime = 0;
     }
     function playSoundByu() {
       audioStop();
       document.getElementById('audioByu').play();
     }
-    function playSound1() {
-      audioStop();
-      document.getElementById('audio1').play();
-    } 
+    // function playSound1() {
+    //   audioStop();
+    //   document.getElementById('audio1').play();
+    // } 
   </script>
 	<body>
 	<div class="box">
         <p style="font-size: 50px;"><span style="color: red;">びゅ</span>
             <audio id="audioByu">
-            <source src="hiragana/byu/byu.mp3" type="audio/mp3">
+            <source src="hiragana/byu/びゅ.mp3" type="audio/mp3">
           </audio>
             <img style="vertical-align:middle;" src="hiragana/bya/sound-s.png" onclick="playSoundByu()">
         </p>
     <div class = "letter_start">
 
-  {{-- <img class = "testBorder" src="hiragana/bya/bya.gif" alt="まgif"> --}} 
-  <img src="hiragana/byu/byu.png" alt="hyapng">
- </div><br>  
+  <img src="hiragana/byu/byu.png" alt="byupng">
+ </div>
 
+  <!-- <br>  
   <p class="font_word">ＸＸＸＸ　XXXX
       <audio id="audio1">
         <source src="hiragana/di/サンプル.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/da/sound-s.png" onclick="playSound1()">
       <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/da/sample.png" alt="">
-  </p>
+  </p> -->
 
 	</div>
 	<button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

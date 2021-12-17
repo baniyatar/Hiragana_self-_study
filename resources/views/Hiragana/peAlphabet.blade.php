@@ -15,23 +15,23 @@
   function audioStop() {
     document.getElementById('audio1').pause();
     document.getElementById('audio1').currentTime = 0;
-    document.getElementById('audio2').pause();
-    document.getElementById('audio2').currentTime = 0;
+    // document.getElementById('audio2').pause();
+    // document.getElementById('audio2').currentTime = 0;
     document.getElementById('audioPe').pause();
     document.getElementById('audioPe').currentTime = 0;
   }
 
-  function playSoundpekopeko() {
+  function playSoundHoppeta() {
     audioStop();
     document.getElementById('audio1').play();
   }
 
-  function playSoundperapera() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
+  // function playSoundperapera() {
+  //   audioStop();
+  //   document.getElementById('audio2').play();
+  // }
 
-  function playSoundpe() {
+  function playSoundPe() {
     audioStop();
     document.getElementById('audioPe').play();
   }
@@ -42,30 +42,29 @@
     <p class="font_word">ぺ
 
       <audio id="audioPe">
-        <source src="hiragana/pe/pe.mp3" type="audio/mp3">
+        <source src="hiragana/pe/ぺ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/pe/sound-s.png" onclick="playSoundpe()">
+      <img style="vertical-align:middle;" src="hiragana/pe/sound-s.png" onclick="playSoundPe()">
     </p>
     <div class="letter_start">
 
       <img class="testBorder" src="hiragana/pe/pe.gif" alt="pegif">
     </div><br>
 
-    <div class="letter_start"> <img src="hiragana/pe/pe.png" style="width: 70%;" alt="gapng">
+    <div class="letter_start"> <img src="hiragana/pe/pe.png" style="width: 70%;" alt="pepng">
     </div>
 
-
-    <p class="font_word">ぺこ<span style="color: red;">ぺ</span>こ　Starving
+    <p style="font-size: 50px;">ほっ<span style="color: red;">ぺ</span>た　Cheeks
       <audio id="audio1">
-        <source src="hiragana/pe/ぺこぺこ.mp3" type="audio/mp3">
+        <source src="hiragana/pe/ほっぺた.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/pe/sound-s.png" onclick="playSoundpekopeko()">
+      <img style="vertical-align:middle;" src="hiragana/pe/sound-s.png" onclick="playSoundHoppeta()">
       <br>
       <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pe/sample.png" alt="">
     </p>
     <br>
 
-    <p class="font_word">ぺら<span style="color: red;">ぺ</span>ら　Fluently
+    <!-- <p class="font_word">ぺら<span style="color: red;">ぺ</span>ら　Fluently
       <audio id="audio2">
         <source src="hiragana/pe/ぺらぺら.mp3" type="audio/mp3">
       </audio>
@@ -73,7 +72,7 @@
       <br>
       <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/pe/sample.png" alt="">
     </p>
-    <br>
+    <br> -->
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

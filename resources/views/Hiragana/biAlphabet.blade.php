@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio0').pause();
     document.getElementById('audio0').currentTime = 0;
   }
@@ -33,10 +33,10 @@
     document.getElementById('audio2').play();
   }
 
-  function playSound3() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSound3() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSound0() {
     audioStop();
@@ -78,14 +78,14 @@
     </p>
     <br>
 
-    <p style="font-size: 50px;">ゆ<span style="color: red;">び</span>わ　Ring
+    <!-- <p style="font-size: 50px;">ゆ<span style="color: red;">び</span>わ　Ring
       <audio id="audio3">
         <source src="hiragana/bi/ゆびわ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/bi/sound-s.png" onclick="playSound3()">
       <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/bi/sample.png" alt="">
     </p>
-    <br>
+    <br> -->
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

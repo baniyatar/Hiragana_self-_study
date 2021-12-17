@@ -15,10 +15,10 @@
   function audioStop() {
     document.getElementById('audio1').pause();
     document.getElementById('audio1').currentTime = 0;
-    document.getElementById('audio2').pause();
-    document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio2').pause();
+    // document.getElementById('audio2').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     // document.getElementById('audio4').pause();
     // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioNu').pause();
@@ -35,15 +35,15 @@
     document.getElementById('audio1').play();
   }
 
-  function playSoundNusumi() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
+  // function playSoundNusumi() {
+  //   audioStop();
+  //   document.getElementById('audio2').play();
+  // }
 
-  function playSoundNuno() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundNuno() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   // function playSoundNurui() {
   //   audioStop();
@@ -75,7 +75,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/nu/sample.png" alt="">
     </p>
     <br>
-    <p class="font_word">ぬすみ　Thievery
+    <!-- <p class="font_word">ぬすみ　Thievery
       <audio id="audio2">
         <source src="hiragana/nu/ぬすみ.mp3" type="audio/mp3">
       </audio>
@@ -89,7 +89,7 @@
       </audio>
       <img style="vertical-align:middle;" src="hiragana/nu/sound-s.png" onclick="playSoundNuno()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/nu/sample.png" alt="">
-    </p>
+    </p> -->
 <!--
     <br>
     <p class="font_word">ぬるい　Lukewarm

@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Auth;
   
 use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\Hiragana5qController;
-
+use App\Http\Controllers\MailController;
 
   
 
@@ -55,7 +55,26 @@ return view('/Admin/edit');});
 
 // Route::get('/admin/menupush', function () { return view('Admin\adminMenu'); });
 
+<<<<<<< HEAD
 Route::get('/admin/adminMenu', function () { return view('Admin\adminMenu'); });
+=======
+ ## View 
+Route::get('users',   [AuthController::class,'edit'])->name('users');
+
+// ## Create
+Route::get('/Admin/create', [AuthController::class,'create'])->name('users.create');
+ Route::post('/Admin/store', [AuthController::class,'store'])->name('users.store');
+
+// ## Update
+// Route::get('/Admins/store/{id}', [AuthController::class,'edit'])->name('users.edit');
+// Route::post('/Admin/update/{id}', [AuthController::class,'update'])->name('users.update');
+
+// ## Delete
+// Route::get('/Admin/delete/{id}',   [AuthController::class,'destroy'])->name('users.delete');
+// Route::get('/show', function () {
+//     return view('Auth/show');
+// });
+>>>>>>> main
 Route::get('/main', function () {
     return view('main');
 });
@@ -209,3 +228,5 @@ Route::get('/contractedIntro', [Hiragana5qController::class, 'viewContractedIntr
 Route::get('/contractedConstruct', [Hiragana5qController::class, 'viewContractedConstructPage']);
 Route::get('/home', [Hiragana5qController::class, 'viewHomePage']);
 Route::get('/end', [Hiragana5qController::class, 'viewEndPage']);
+
+Route::get('/mail-test', [MailController::class, 'send']);

@@ -13,37 +13,37 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    // document.getElementById('audio1').pause();
-    // document.getElementById('audio1').currentTime = 0;
+    document.getElementById('audio1').pause();
+    document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audio4').pause();
-    document.getElementById('audio4').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio4').pause();
+    // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioMa').pause();
     document.getElementById('audioMa').currentTime = 0;
   }
 
-  // function playSoundMainichi() {
-  //   audioStop();
-  //   document.getElementById('audio1').play();
-  // }
+  function playSoundMado() {
+    audioStop();
+    document.getElementById('audio1').play();
+  }
 
-  function playSoundmae() {
+  function playSoundAtama() {
     audioStop();
     document.getElementById('audio2').play();
   }
 
-  function playSoundmakura() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundmakura() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
-  function playSoundMachi() {
-    audioStop();
-    document.getElementById('audio4').play();
-  }
+  // function playSoundMachi() {
+  //   audioStop();
+  //   document.getElementById('audio4').play();
+  // }
 
   function playSoundMa() {
     audioStop();
@@ -65,24 +65,24 @@
     <div class="letter_start"> <img src="hiragana/ma/ま.png" style="width: 80%;" alt="まpng">
     </div>
 
-<!--
-    <p class="font_word">まいにち　Everyday
+
+    <p class="font_word">まど　Window
       <audio id="audio1">
-        <source src="hiragana/ma/まいにち.mp3" type="audio/mp3">
+        <source src="hiragana/ma/まど.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/ma/sound-s.png" onclick="playSoundMainichi()">
+      <img style="vertical-align:middle;" src="hiragana/ma/sound-s.png" onclick="playSoundMado()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ma/sample.png" alt="">
     </p>
     <br>
--->
-    <p class="font_word">まえ　Before / In Front of
+
+    <p style="font-size: 50px;">あた<span style="color: red;">ま</span>　Head
       <audio id="audio2">
-        <source src="hiragana/ma/まえ.mp3" type="audio/mp3">
+        <source src="hiragana/ma/あたま.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/ma/sound-s.png" onclick="playSoundmae()">
+      <img style="vertical-align:middle;" src="hiragana/ma/sound-s.png" onclick="playSoundAtama()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ma/sample.png" alt="">
     </p>
-    <br>
+    <!-- <br>
     <p class="font_word">まくら　Pillow
       <audio id="audio3">
         <source src="hiragana/ma/まくら.mp3" type="audio/mp3">
@@ -97,7 +97,7 @@
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ma/sound-s.png" onclick="playSoundMachi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ma/sample.png" alt="">
-    </p>
+    </p> -->
   </div>
 
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

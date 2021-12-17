@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audioMyo').pause();
     document.getElementById('audioMyo').currentTime = 0;
   }
@@ -24,10 +24,10 @@
     document.getElementById('audioMyo').play();
   }
 
-  function playSoundMyouji() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundMyouji() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 </script>
 
 <body>
@@ -42,14 +42,14 @@
       <img src="hiragana/myo/myo.png" alt="みょpng">
     </div><br>
 
-    <p style="font-size:50px;"><span style="color:red;">みょ</span>うじ　Last name
+    <!-- <p style="font-size:50px;"><span style="color:red;">みょ</span>うじ　Last name
       <audio id="audio1">
         <source src="hiragana/Myo/みょうじ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/myo/sound-s.png" onclick="playSoundMyouji()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/myo/sample.png" alt="">
       <br>
-    </p>
+    </p> -->
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

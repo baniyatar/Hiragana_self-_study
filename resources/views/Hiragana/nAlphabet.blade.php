@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     // document.getElementById('audio4').pause();
     // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audio0').pause();
@@ -35,10 +35,10 @@
     document.getElementById('audio2').play();
   }
 
-  function playSound3() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSound3() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   // function playSound4() {
   //   audioStop();
@@ -65,29 +65,29 @@
     <div class="letter_start"> <img src="hiragana/n/ん.png" style="width: 40%;" alt="んpng">
     </div>
 
-    <p style="font-size: 50px;">お<span style="color: red;">ん</span>な　Woman
+    <p style="font-size: 50px;">かば<span style="color: red;">ん</span>　Bag
       <audio id="audio1">
-        <source src="hiragana/n/おんな.mp3" type="audio/mp3">
+        <source src="hiragana/n/かばん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/n/sound-s.png" onclick="playSound1()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/n/sample.png" alt="">
     </p>
     <br>
-    <p style="font-size: 50px;">ごは<span style="color: red;">ん</span>　Meal
+    <p style="font-size: 50px;">で<span style="color: red;">ん</span>き　Electricity
       <audio id="audio2">
-        <source src="hiragana/n/ごはん.mp3" type="audio/mp3">
+        <source src="hiragana/n/でんき.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/n/sound-s.png" onclick="playSound2()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/n/sample.png" alt="">
     </p>
-    <br>
+    <!-- <br>
     <p style="font-size: 50px;">で<span style="color: red;">ん</span>わ　Telephone
       <audio id="audio3">
         <source src="hiragana/n/でんわ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/n/sound-s.png" onclick="playSound3()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/n/sample.png" alt="">
-    </p>
+    </p> -->
 <!--
     <br>
     <p style="font-size: 50px;">べ<span style="color: red;">ん</span>きょう　Study

@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
@@ -28,10 +28,10 @@
     document.getElementById('audioZa').play();
   }
 
-  function playSoundKouza() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundKouza() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
   function playSoundZasshi() {
     audioStop();
@@ -60,15 +60,14 @@
     <div class="letter_start"> <img src="hiragana/za/ざ.png" alt="ざpng">
     </div>
 
-    <p style="font-size:50px;">こう<span style="color:red;">ざ</span>　Bank Account
-
+    <!-- <p style="font-size:50px;">こう<span style="color:red;">ざ</span>　Bank Account
       <audio id="audio1">
         <source src="hiragana/za/こうざ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/za/sound-s.png" onclick="playSoundKouza()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/za/sample.png" alt="">
     </p>
-    <br>
+    <br> -->
 
     <p class="font_word">ざっし　Magazine
       <audio id="audio2">
@@ -79,14 +78,13 @@
     </p>
     <br>
 
-    <p style="font-size:50px;">はい<span style="color:red;">ざ</span>ら　Ash Tray
+    <p style="font-size:50px;">はい<span style="color:red;">ざ</span>ら　Ashtray
       <audio id="audio3">
         <source src="hiragana/za/はいざら.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/za/sound-s.png" onclick="playSoundHaizara()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/za/sample.png" alt="">
     </p>
-    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

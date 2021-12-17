@@ -17,14 +17,6 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
-    document.getElementById('audio4').pause();
-    document.getElementById('audio4').currentTime = 0;
-    document.getElementById('audio5').pause();
-    document.getElementById('audio5').currentTime = 0;
-    document.getElementById('audio6').pause();
-    document.getElementById('audio6').currentTime = 0;
     document.getElementById('audioYu').pause();
     document.getElementById('audioYu').currentTime = 0;
   }
@@ -34,34 +26,14 @@
     document.getElementById('audioYu').play();
   }
 
-  function playSoundYugata() {
+  function playSoundYubinkyoku() {
     audioStop();
     document.getElementById('audio1').play();
   }
 
-  function playSoundYubinkyoku() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
-
-  function playSoundYumei() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
-
   function playSoundYuki() {
     audioStop();
-    document.getElementById('audio4').play();
-  }
-
-  function playSoundYuugure() {
-    audioStop();
-    document.getElementById('audio5').play();
-  }
-
-  function playSoundYukata() {
-    audioStop();
-    document.getElementById('audio6').play();
+    document.getElementById('audio2').play();
   }
 </script>
 
@@ -79,51 +51,19 @@
     <div class="letter_start"> <img src="hiragana/yu/ゆ.png" style="width: 60%;" alt="ゆpng">
     </div>
 
-    <p class="font_word">ゆうがた　Evening
-      <audio id="audio1">
-        <source src="hiragana/yu/ゆうがた.mp3" type="audio/mp3">
-      </audio>
-      <img style="vertical-align:middle;" src="hiragana/yu/sound-s.png" onclick="playSoundYugata()">
-      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/yu/sample.png" alt="">
-    </p>
-    <br>
     <p class="font_word">ゆうびんきょく　Post Office
-      <audio id="audio2">
+      <audio id="audio1">
         <source src="hiragana/yu/ゆうびんきょく.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/yu/sound-s.png" onclick="playSoundYubinkyoku()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/yu/sample.png" alt="">
     </p>
     <br>
-    <p class="font_word">ゆうめい　Famous
-      <audio id="audio3">
-        <source src="hiragana/yu/ゆうめい.mp3" type="audio/mp3">
-      </audio>
-      <img style="vertical-align:middle;" src="hiragana/yu/sound-s.png" onclick="playSoundYumei()">
-      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/yu/sample.png" alt="">
-    </p>
-    <br>
     <p class="font_word">ゆき　Snow
-      <audio id="audio4">
+      <audio id="audio2">
         <source src="hiragana/yu/ゆき.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/yu/sound-s.png" onclick="playSoundYuki()">
-      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/yu/sample.png" alt="">
-    </p>
-    <br>
-    <p class="font_word">ゆうぐれ　Sunset
-      <audio id="audio5">
-        <source src="hiragana/yu/ゆうぐれ.mp3" type="audio/mp3">
-      </audio>
-      <img style="vertical-align:middle;" src="hiragana/yu/sound-s.png" onclick="playSoundYuugure()">
-      <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/yu/sample.png" alt="">
-    </p>
-    <br>
-    <p class="font_word">ゆかた　Yukata(Japanese Kimono)
-      <audio id="audio6">
-        <source src="hiragana/yu/ゆかた.mp3" type="audio/mp3">
-      </audio>
-      <img style="vertical-align:middle;" src="hiragana/yu/sound-s.png" onclick="playSoundYukata()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/yu/sample.png" alt="">
     </p>
   </div>

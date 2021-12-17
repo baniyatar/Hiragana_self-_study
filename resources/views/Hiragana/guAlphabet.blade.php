@@ -17,28 +17,28 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audioGu').pause();
     document.getElementById('audioGu').currentTime = 0;
   }
 
-  function playSoundiriguchi() {
+  function playSoundKaisatsuguchi() {
     audioStop();
     document.getElementById('audio1').play();
   }
 
-  function playSounddeguchi() {
+  function playSoundMegusuri() {
     audioStop();
     document.getElementById('audio2').play();
   }
 
-  function playSoundmatsusugu() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundmatsusugu() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
-  function playSoundgu() {
+  function playSoundGu() {
     audioStop();
     document.getElementById('audioGu').play();
   }
@@ -49,9 +49,9 @@
     <p class="font_word">ぐ
 
       <audio id="audioGu">
-        <source src="hiragana/gu/gu.mp3" type="audio/mp3">
+        <source src="hiragana/gu/ぐ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/gu/sound-s.png" onclick="playSoundgu()">
+      <img style="vertical-align:middle;" src="hiragana/gu/sound-s.png" onclick="playSoundGu()">
     </p>
     <div class="letter_start">
 
@@ -60,26 +60,26 @@
     <div class="letter_start"> <img src="hiragana/gu/gu.png" style="width: 80%;" alt="gapng">
     </div>
 
-    <p style="font-size: 50px;">いり<span style="color: red;">ぐ</span>ち　Entrance
+    <p style="font-size: 50px;">かいさつ<span style="color: red;">ぐ</span>ち　Ticket gate
 
       <audio id="audio1">
-        <source src="hiragana/gu/いりぐち.mp3" type="audio/mp3">
+        <source src="hiragana/gu/かいさつぐち.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/gu/sound-s.png" onclick="playSoundiriguchi()">
+      <img style="vertical-align:middle;" src="hiragana/gu/sound-s.png" onclick="playSoundKaisatsuguchi()">
       <br>
     <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gu/sample.png" alt="">
     </p>
     <br>
 
-    <p style="font-size: 50px;">で<span style="color: red;">ぐ</span>ち　Exit
+    <p style="font-size: 50px;">め<span style="color: red;">ぐ</span>すり　Eye drops
       <audio id="audio2">
-        <source src="hiragana/gu/でぐち.mp3" type="audio/mp3">
+        <source src="hiragana/gu/めぐすり.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/gu/sound-s.png" onclick="playSounddeguchi()">
+      <img style="vertical-align:middle;" src="hiragana/gu/sound-s.png" onclick="playSoundMegusuri()">
       <br>
     <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gu/sample.png" alt="">
     </p>
-    <br>
+    <!-- <br>
 
     <p style="font-size: 50px;">まっす<span style="color: red;">ぐ</span>　Straight
       <audio id="audio3">
@@ -89,7 +89,7 @@
       <br>
     <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gu/sample.png" alt="">
     </p>
-    <br>
+    <br> -->
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

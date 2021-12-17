@@ -15,8 +15,8 @@
   function audioStop() {
     document.getElementById('audio1').pause();
     document.getElementById('audio1').currentTime = 0;
-    document.getElementById('audio2').pause();
-    document.getElementById('audio2').currentTime = 0;
+    // document.getElementById('audio2').pause();
+    // document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
     document.getElementById('audio3').currentTime = 0;
     document.getElementById('audioZo').pause();
@@ -28,15 +28,15 @@
     document.getElementById('audioZo').play();
   }
 
-  function playSoundAozora() {
+  function playSoundZou() {
     audioStop();
     document.getElementById('audio1').play();
   }
 
-  function playSoundKazoku() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
+  // function playSoundKazoku() {
+  //   audioStop();
+  //   document.getElementById('audio2').play();
+  // }
 
   function playSoundReizouko() {
     audioStop();
@@ -60,23 +60,23 @@
     <div class="letter_start"> <img src="hiragana/zo/ぞ.png" style="width: 80%;" alt="ぞpng">
     </div>
 
-    <p style="font-size:50px;">あお<span style="color:red;">ぞ</span>ら　Blue Sky
+    <p class="font_word">ぞう　Elephant
       <audio id="audio1">
-        <source src="hiragana/zo/あおぞら.mp3" type="audio/mp3">
+        <source src="hiragana/zo/ぞう.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/zo/sound-s.png" onclick="playSoundAozora()">
+      <img style="vertical-align:middle;" src="hiragana/zo/sound-s.png" onclick="playSoundZou()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/zo/sample.png" alt="">
     </p>
     <br>
 
-    <p style="font-size:50px;">か<span style="color:red;">ぞ</span>く　Family
+    <!-- <p style="font-size:50px;">か<span style="color:red;">ぞ</span>く　Family
       <audio id="audio2">
         <source src="hiragana/zo/かぞく.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/zo/sound-s.png" onclick="playSoundKazoku()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/zo/sample.png" alt="">
     </p>
-    <br>
+    <br> -->
 
     <p style="font-size:50px;">れい<span style="color:red;">ぞ</span>うこ　Refrigerator
       <audio id="audio3">
@@ -85,7 +85,6 @@
       <img style="vertical-align:middle;" src="hiragana/zo/sound-s.png" onclick="playSoundReizouko()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/zo/sample.png" alt="">
     </p>
-    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

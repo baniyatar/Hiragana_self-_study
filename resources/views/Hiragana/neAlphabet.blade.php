@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
     // document.getElementById('audio3').pause();
@@ -30,10 +30,10 @@
     document.getElementById('audioNe').play();
   }
 
-  function playSoundAne() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundAne() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
   function playSoundNeko() {
     audioStop();
@@ -66,14 +66,14 @@
     <div class="letter_start"> <img src="hiragana/ne/ね.png" style="width: 70%;" alt="ねpng">
     </div>
 
-    <p style="font-size: 50px;">あ<span style="color: red;">ね</span>　Elder Sister
+    <!-- <p style="font-size: 50px;">あ<span style="color: red;">ね</span>　Elder Sister
       <audio id="audio1">
         <source src="hiragana/ne/あね.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ne/sound-s.png" onclick="playSoundAne()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ne/sample.png" alt="">
     </p>
-    <br>
+    <br> -->
     <p class="font_word">ねこ　Cat
       <audio id="audio2">
         <source src="hiragana/ne/ねこ.mp3" type="audio/mp3">

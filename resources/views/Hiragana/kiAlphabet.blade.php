@@ -13,32 +13,32 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     // document.getElementById('audio2').pause();
     // document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio4').pause();
     document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioKi').pause();
     document.getElementById('audioKi').currentTime = 0;
   }
 
-  function playSoundKiiro() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundKiiro() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
   // function playSoundKita() {
   //   audioStop();
   //   document.getElementById('audio2').play();
   // }
 
-  function playSoundKitte() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundKitte() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSoundKippu() {
     audioStop();
@@ -57,7 +57,7 @@
       <audio id="audioKi">
         <source src="hiragana/ki/き.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/a/sound-s.png" onclick="playSoundKi()">
+      <img style="vertical-align:middle;" src="hiragana/ki/sound-s.png" onclick="playSoundKi()">
     </p>
     <div class="letter_start">
       <img class="testBorder" src="hiragana/ki/ki.gif" alt="きgif">
@@ -65,11 +65,11 @@
     <div class="letter_start"> <img src="hiragana/ki/き.png" style="width: 80%;" alt="きpng">
     </div>
 
-    <p class="font_word">きいろ　Yellow
-      <audio id="audio1">
-        <source src="hiragana/ki/きいろ.mp3" type="audio/mp3">
+    <p class="font_word">き　Tree
+      <audio id="audioKi">
+        <source src="hiragana/ki/き.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/ki/sound-s.png" onclick="playSoundKiiro()">
+      <img style="vertical-align:middle;" src="hiragana/ki/sound-s.png" onclick="playSoundKi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ki/sample.png" alt="">
     </p>
 <!--
@@ -82,14 +82,14 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ki/sample.png" alt="">
     </p>
 -->
-    <br>
+    <!-- <br>
     <p class="font_word">きって　Mail Stamp
       <audio id="audio3">
         <source src="hiragana/ki/きって.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ki/sound-s.png" onclick="playSoundKitte()">
     <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ki/sample.png" alt="">
-    </p>
+    </p> -->
     <br>
     <p class="font_word">きっぷ　Ticket
       <audio id="audio4">

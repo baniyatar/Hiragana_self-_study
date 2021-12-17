@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     // document.getElementById('audio4').pause();
     // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audioKa').pause();
@@ -30,15 +30,15 @@
     document.getElementById('audio1').play();
   }
 
-  function playSoundKasa() {
+  function playSoundKagi() {
     audioStop();
     document.getElementById('audio2').play();
   }
 
-  function playSoundKaban() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSoundKaban() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   // function playSoundKawa() {
   //   audioStop();
@@ -75,21 +75,21 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ka/sample.png" alt="">
     </p>
     <br>
-    <p class="font_word">かさ　Umbrella
+    <p class="font_word">かぎ　Key
       <audio id="audio2">
-        <source src="hiragana/ka/かさ.mp3" type="audio/mp3">
+        <source src="hiragana/ka/かぎ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/ka/sound-s.png" onclick="playSoundKasa()">
+      <img style="vertical-align:middle;" src="hiragana/ka/sound-s.png" onclick="playSoundKagi()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ka/sample.png" alt="">
     </p>
-    <br>
+    <!-- <br>
     <p class="font_word">かばん　Bag
       <audio id="audio3">
         <source src="hiragana/ka/かばん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ka/sound-s.png" onclick="playSoundKaban()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ka/sample.png" alt="">
-    </p>
+    </p> -->
 <!--
     <br>
     <p class="font_word">かわ　River

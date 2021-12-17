@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
     // document.getElementById('audio3').pause();
@@ -25,10 +25,10 @@
     document.getElementById('audioKe').currentTime = 0;
   }
 
-  function playSoundKeisatsu() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundKeisatsu() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
   function playSoundKeitaidenwa() {
     audioStop();
@@ -40,7 +40,7 @@
   //   document.getElementById('audio3').play();
   // }
 
-  function playSoundKeshigomu() {
+  function playSoundTokei() {
     audioStop();
     document.getElementById('audio4').play();
   }
@@ -65,14 +65,14 @@
     <div class="letter_start"> <img src="hiragana/ke/け.png" style="width: 80%;" alt="けpng">
     </div>
 
-    <p class="font_word">けいさつ　Police
+    <!-- <p class="font_word">けいさつ　Police
       <audio id="audio1">
         <source src="hiragana/ke/けいさつ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/a/sound-s.png" onclick="playSoundKeisatsu()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ke/sample.png" alt="">
     </p>
-    <br>
+    <br> -->
     <p class="font_word">けいたいでんわ　Cellphone
       <audio id="audio2">
         <source src="hiragana/ke/けいたいでんわ.mp3" type="audio/mp3">
@@ -91,11 +91,11 @@
     </p>
 -->
     <br>
-    <p class="font_word">けしごむ　Eraser
+    <p style="font-size: 50px;">と<span style="color: red;">け</span>い　Clock
       <audio id="audio4">
-        <source src="hiragana/ke/けしごむ.mp3" type="audio/mp3">
+        <source src="hiragana/ke/とけい.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/ke/sound-s.png" onclick="playSoundKeshigomu()">
+      <img style="vertical-align:middle;" src="hiragana/ke/sound-s.png" onclick="playSoundTokei()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ke/sample.png" alt="">
     </p>
   </div>

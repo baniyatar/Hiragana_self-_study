@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
     // document.getElementById('audio3').pause();
@@ -30,10 +30,10 @@
     document.getElementById('audioNo').play();
   }
 
-  function playSoundKinou() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundKinou() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
   function playSoundTatemono() {
     audioStop();
@@ -45,7 +45,7 @@
   //   document.getElementById('audio3').play();
   // }
 
-  function playSoundNomimono() {
+  function playSoundKimono() {
     audioStop();
     document.getElementById('audio4').play();
   }
@@ -66,14 +66,14 @@
     <div class="letter_start"> <img src="hiragana/no/の.png" style="width: 50%;" alt="のpng">
     </div>
 
-    <p style="font-size: 50px;">き<span style="color: red;">の</span>う　Yesterday
+    <!-- <p style="font-size: 50px;">き<span style="color: red;">の</span>う　Yesterday
       <audio id="audio1">
         <source src="hiragana/no/きのう.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/no/sound-s.png" onclick="playSoundKinou()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/no/sample.png" alt="">
     </p>
-    <br>
+    <br> -->
     <p style="font-size: 50px;">たても<span style="color: red;">の</span>　Building
       <audio id="audio2">
         <source src="hiragana/no/たてもの.mp3" type="audio/mp3">
@@ -92,11 +92,11 @@
     </p>
 -->
     <br>
-    <p class="font_word">のみも<span style="color: red;">の</span>　Beverage
+    <p style="font-size: 50px;">きも<span style="color: red;">の</span>　Kimono
       <audio id="audio4">
-        <source src="hiragana/no/のみもの.mp3" type="audio/mp3">
+        <source src="hiragana/no/きもの.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/no/sound-s.png" onclick="playSoundNomimono()">
+      <img style="vertical-align:middle;" src="hiragana/no/sound-s.png" onclick="playSoundKimono()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/no/sample.png" alt="">
     </p>
   </div>

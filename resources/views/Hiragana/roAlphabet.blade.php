@@ -17,35 +17,21 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
-    // document.getElementById('audio4').pause();
-    // document.getElementById('audio4').currentTime = 0;
     document.getElementById('audio0').pause();
     document.getElementById('audio0').currentTime = 0;
   }
 
-  function playSound1() {
+  function playSoundOfuro() {
     audioStop();
     document.getElementById('audio1').play();
   }
 
-  function playSound2() {
+  function playSoundDaidokoro() {
     audioStop();
     document.getElementById('audio2').play();
   }
 
-  function playSound3() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
-
-  // function playSound4() {
-  //   audioStop();
-  //   document.getElementById('audio4').play();
-  // }
-
-  function playSound0() {
+  function playSoundRo() {
     audioStop();
     document.getElementById('audio0').play();
   }
@@ -57,7 +43,7 @@
       <audio id="audio0">
         <source src="hiragana/ro/ろ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/ro/sound-s.png" onclick="playSound0()">
+      <img style="vertical-align:middle;" src="hiragana/ro/sound-s.png" onclick="playSoundRo()">
     </p>
     <div class="letter_start">
       <img class="testBorder" src="hiragana/ro/ro.gif" alt="ろgif">
@@ -65,29 +51,29 @@
     <div class="letter_start"> <img src="hiragana/ro/ろ.png" style="width: 35%;" alt="ろpng">
     </div>
 
-    <p style="font-size: 50px;">い<span style="color: red;">ろ</span>　Color
+    <p style="font-size: 50px;">おふ<span style="color: red;">ろ</span>　Bath
       <audio id="audio1">
-        <source src="hiragana/ro/いろ.mp3" type="audio/mp3">
+        <source src="hiragana/ro/おふろ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound1()">
+      <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSoundOfuro()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ro/sample.png" alt="">
     </p>
     <br>
-    <p style="font-size: 50px;">うし<span style="color: red;">ろ</span>　Behind
+    <p style="font-size: 50px;">だいどこ<span style="color: red;">ろ</span>　Kitchen
       <audio id="audio2">
-        <source src="hiragana/ro/うしろ.mp3" type="audio/mp3">
+        <source src="hiragana/ro/だいどころ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound2()">
+      <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSoundDaidokoro()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ro/sample.png" alt="">
     </p>
-    <br>
+    <!-- <br>
     <p style="font-size: 50px;">く<span style="color: red;">ろ</span>　Black
       <audio id="audio3">
         <source src="hiragana/ro/くろ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ta/sound-s.png" onclick="playSound3()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ro/sample.png" alt="">
-    </p>
+    </p> -->
 <!--
     <br>
     <p class="font_word">ろく　Six

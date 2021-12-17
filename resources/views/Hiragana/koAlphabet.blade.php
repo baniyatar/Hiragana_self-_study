@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
     // document.getElementById('audio3').pause();
@@ -25,10 +25,10 @@
     document.getElementById('audioKo').currentTime = 0;
   }
 
-  function playSoundKouen() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundKouen() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
   function playSoundKouban() {
     audioStop();
@@ -65,14 +65,14 @@
     <div class="letter_start"> <img src="hiragana/ko/こ.png" style="width: 70%;" alt="こpng">
     </div>
 
-    <p class="font_word">こうえん　Park
+    <!-- <p class="font_word">こうえん　Park
       <audio id="audio1">
         <source src="hiragana/ko/こうえん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ko/sound-s.png" onclick="playSoundKouen()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ko/sample.png" alt="">
     </p>
-    <br>
+    <br> -->
     <p class="font_word">こうばん　Police Box
       <audio id="audio2">
         <source src="hiragana/ko/こうばん.mp3" type="audio/mp3">

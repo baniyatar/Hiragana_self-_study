@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio0').pause();
     document.getElementById('audio0').currentTime = 0;
   }
@@ -33,10 +33,10 @@
     document.getElementById('audio2').play();
   }
 
-  function playSound3() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSound3() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSound0() {
     audioStop();
@@ -55,30 +55,31 @@
     <div class="letter_start">
       <img src="hiragana/cha/ちゃ.png" alt="ちゃpng">
     </div><br>
+
     <p style="font-size: 50px;">お<span style="color: red;">ちゃ</span>　Tea
       <audio id="audio1">
         <source src="hiragana/cha/おちゃ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/cha/sound-s.png" onclick="playSound1()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/cha/sample.png" alt="">
-      <br>
     </p>
-    <p style="font-size: 50px;">おも<span style="color: red;">ちゃ</span>　Toys
+    <br>
+    <p style="font-size: 50px;">あか<span style="color: red;">ちゃ</span>ん　Baby
       <audio id="audio2">
-        <source src="hiragana/cha/おもちゃ.mp3" type="audio/mp3">
+        <source src="hiragana/cha/あかちゃん.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/cha/sound-s.png" onclick="playSound2()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/cha/sample.png" alt="">
-      <br>
     </p>
-    <p style="font-size: 50px;">かぼ<span style="color: red;">ちゃ</span>　Pumpkin
+
+    <!-- <p style="font-size: 50px;">かぼ<span style="color: red;">ちゃ</span>　Pumpkin
       <audio id="audio3">
         <source src="hiragana/cha/かぼちゃ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/cha/sound-s.png" onclick="playSound3()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/cha/sample.png" alt="">
       <br>
-    </p>
+    </p> -->
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

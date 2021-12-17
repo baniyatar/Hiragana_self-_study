@@ -13,8 +13,8 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
     document.getElementById('audio2').pause();
     document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
@@ -25,10 +25,10 @@
     document.getElementById('audioHa').currentTime = 0;
   }
 
-  function playSoundHa2() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundHa2() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
   function playSoundHako() {
     audioStop();
@@ -65,14 +65,14 @@
     <div class="letter_start"> <img src="hiragana/ha/は.png" style="width: 80%;" alt="はpng">
     </div>
 
-    <p class="font_word">は　Teeth
+    <!-- <p class="font_word">は　Teeth
       <audio id="audio1">
         <source src="hiragana/ha/は.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/ha/sound-s.png" onclick="playSoundHa2()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ha/sample.png" alt="">
     </p>
-    <br>
+    <br> -->
     <p class="font_word">はこ　Box
       <audio id="audio2">
         <source src="hiragana/ha/はこ.mp3" type="audio/mp3">

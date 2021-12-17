@@ -13,10 +13,10 @@
 </head>
 <script language="JavaScript">
   function audioStop() {
-    document.getElementById('audio1').pause();
-    document.getElementById('audio1').currentTime = 0;
-    document.getElementById('audio2').pause();
-    document.getElementById('audio2').currentTime = 0;
+    // document.getElementById('audio1').pause();
+    // document.getElementById('audio1').currentTime = 0;
+    // document.getElementById('audio2').pause();
+    // document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
     document.getElementById('audio3').currentTime = 0;
     document.getElementById('audioGyu').pause();
@@ -28,15 +28,15 @@
     document.getElementById('audioGyu').play();
   }
 
-  function playSoundGyuuGyuu() {
-    audioStop();
-    document.getElementById('audio1').play();
-  }
+  // function playSoundGyuuGyuu() {
+  //   audioStop();
+  //   document.getElementById('audio1').play();
+  // }
 
-  function playSoundGyuuniku() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
+  // function playSoundGyuuniku() {
+  //   audioStop();
+  //   document.getElementById('audio2').play();
+  // }
 
   function playSoundGyuunyuu() {
     audioStop();
@@ -50,13 +50,13 @@
       <audio id="audioGyu">
         <source src="hiragana/gyu/ぎゅ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/yu/sound-s.png" onclick="playSoundGyu()">
+      <img style="vertical-align:middle;" src="hiragana/gyu/sound-s.png" onclick="playSoundGyu()">
     </p>
     <div class="letter_start">
       <img src="hiragana/gyu/ぎゅ.png" alt="ぎゅpng">
     </div><br>
 
-    <p style="font-size: 50px;"><span style="color: red;">ぎゅ</span>う<span style="color: red;">ぎゅ</span>う　Squeeze
+    <!-- <p style="font-size: 50px;"><span style="color: red;">ぎゅ</span>う<span style="color: red;">ぎゅ</span>う　Squeeze
       <audio id="audio1">
         <source src="hiragana/gyu/ぎゅうぎゅう.mp3" type="audio/mp3">
       </audio>
@@ -71,7 +71,7 @@
       <img style="vertical-align:middle;" src="hiragana/gyu/sound-s.png" onclick="playSoundGyuuniku()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/gyu/sample.png" alt="">
       <br>
-    </p>
+    </p> -->
     <p style="font-size: 50px;"><span style="color: red;">ぎゅ</span>うにゅう　Milk 
       <audio id="audio3">
         <source src="hiragana/gyu/ぎゅうにゅう.mp3" type="audio/mp3">

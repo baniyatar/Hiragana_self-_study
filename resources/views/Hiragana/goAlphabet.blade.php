@@ -15,30 +15,30 @@
   function audioStop() {
     document.getElementById('audio1').pause();
     document.getElementById('audio1').currentTime = 0;
-    document.getElementById('audio2').pause();
-    document.getElementById('audio2').currentTime = 0;
+    // document.getElementById('audio2').pause();
+    // document.getElementById('audio2').currentTime = 0;
     document.getElementById('audio3').pause();
     document.getElementById('audio3').currentTime = 0;
     document.getElementById('audioGo').pause();
     document.getElementById('audioGo').currentTime = 0;
   }
 
-  function playSoundgogo() {
+  function playSoundGomi() {
     audioStop();
     document.getElementById('audio1').play();
   }
 
-  function playSoundgozen() {
-    audioStop();
-    document.getElementById('audio2').play();
-  }
+  // function playSoundgozen() {
+  //   audioStop();
+  //   document.getElementById('audio2').play();
+  // }
 
-  function playSoundtgohan() {
+  function playSoundtGohan() {
     audioStop();
     document.getElementById('audio3').play();
   }
 
-  function playSoundgo() {
+  function playSoundGo() {
     audioStop();
     document.getElementById('audioGo').play();
   }
@@ -49,31 +49,28 @@
     <p class="font_word">ご
 
       <audio id="audioGo">
-        <source src="hiragana/go/go.mp3" type="audio/mp3">
+        <source src="hiragana/go/ご.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/go/sound-s.png" onclick="playSoundgo()">
+      <img style="vertical-align:middle;" src="hiragana/go/sound-s.png" onclick="playSoundGo()">
     </p>
     <div class="letter_start">
 
-      <img class="testBorder" src="hiragana/go/go.gif" alt="gagif">
+      <img class="testBorder" src="hiragana/go/go.gif" alt="gogif">
     </div><br>
-    <div class="letter_start"> <img src="hiragana/go/go.png" style="width: 80%;" alt="gapng">
+    <div class="letter_start"> <img src="hiragana/go/go.png" style="width: 80%;" alt="gopng">
     </div>
 
-    <p class="font_word">ご<span style="color: red;">ご</span>　Afternoon
-
-
-
+    <p class="font_word">ごみ　Trash
       <audio id="audio1">
-        <source src="hiragana/go/ごご.mp3" type="audio/mp3">
+        <source src="hiragana/go/ごみ.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/go/sound-s.png" onclick="playSoundgogo()">
+      <img style="vertical-align:middle;" src="hiragana/go/sound-s.png" onclick="playSoundGomi()">
       <br>
     <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/go/sample.png" alt="">
     </p>
     <br>
 
-    <p class="font_word">ごぜん　Morning
+    <!-- <p class="font_word">ごぜん　Morning
       <audio id="audio2">
         <source src="hiragana/go/ごぜん.mp3" type="audio/mp3">
       </audio>
@@ -81,17 +78,16 @@
       <br>
     <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/go/sample.png" alt="">
     </p>
-    <br>
+    <br> -->
 
     <p class="font_word">ごはん　Rice
       <audio id="audio3">
         <source src="hiragana/go/ごはん.mp3" type="audio/mp3">
       </audio>
-      <img style="vertical-align:middle;" src="hiragana/go/sound-s.png" onclick="playSoundtgohan()">
+      <img style="vertical-align:middle;" src="hiragana/go/sound-s.png" onclick="playSoundtGohan()">
       <br>
     <img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/go/sample.png" alt="">
     </p>
-    <br>
 
   </div>
   <button class="home_btn" onclick="location.href='{{ url('/home')}}'">HOME</button>

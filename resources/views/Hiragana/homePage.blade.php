@@ -201,7 +201,7 @@
     <table border="1" style="font-size: 8vw; font-family: serif; border: 1px; margin-left:auto">
       <tbody>
         <tr>
-          <td><a href="{{ url('/paAlphabet')}}">
+          <td><a href="{{ url('/paAlphabet')}}" text-decoration: none;>
               <div style="height:100%;width:100%">ぱ</div>
             </a></td>
           <td><a href="{{ url('/baAlphabet')}}">

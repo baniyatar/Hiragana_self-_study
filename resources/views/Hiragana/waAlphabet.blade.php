@@ -17,8 +17,8 @@
     document.getElementById('audio1').currentTime = 0;
     // document.getElementById('audio2').pause();
     // document.getElementById('audio2').currentTime = 0;
-    document.getElementById('audio3').pause();
-    document.getElementById('audio3').currentTime = 0;
+    // document.getElementById('audio3').pause();
+    // document.getElementById('audio3').currentTime = 0;
     document.getElementById('audio4').pause();
     document.getElementById('audio4').currentTime = 0;
     document.getElementById('audio0').pause();
@@ -35,10 +35,10 @@
   //   document.getElementById('audio2').play();
   // }
 
-  function playSound3() {
-    audioStop();
-    document.getElementById('audio3').play();
-  }
+  // function playSound3() {
+  //   audioStop();
+  //   document.getElementById('audio3').play();
+  // }
 
   function playSound4() {
     audioStop();
@@ -82,18 +82,18 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/wa/sample.png" alt="">
     </p>
 -->
-    <br>
+    <!-- <br>
     <p style="font-size: 50px;">に<span style="color: red;">わ</span>　Yard
       <audio id="audio3">
         <source src="hiragana/wa/にわ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/wa/sound-s.png" onclick="playSound3()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/wa/sample.png" alt="">
-    </p>
+    </p> -->
     <br>
-    <p class="font_word">わたし　Me / Myself
+    <p style="font-size: 50px;">でん<span style="color: red;">わ</span>　Phone
       <audio id="audio4">
-        <source src="hiragana/wa/わたし.mp3" type="audio/mp3">
+        <source src="hiragana/wa/でんわ.mp3" type="audio/mp3">
       </audio>
       <img style="vertical-align:middle;" src="hiragana/wa/sound-s.png" onclick="playSound4()">
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/wa/sample.png" alt="">
