@@ -61,6 +61,7 @@ class AuthController extends Controller
    function postRegistration(Request $request,User $data)           
  {
     $request->validate([
+        
    'username' => 'required|alpha_num|unique:user|regex:/(^[A-Za-z0-9 ]+$)+/',
    'password' => 'required|min:6|regex:/^[ A-Za-z0-9_!"@#$%^&()*]*$/',
    'email' => 'required|email:rfc,dns,filter',
@@ -124,7 +125,7 @@ class AuthController extends Controller
         //   }
 
         
-   public function logout(Request $request) {
+   public function logout(Request $request  ) {
        $request->Session()->flush();
        $request->session()->regenerate();
         Auth::logout();

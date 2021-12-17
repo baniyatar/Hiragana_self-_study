@@ -50,30 +50,16 @@ Route::post('post-registration', [AuthController::class, 'postRegistration'])->n
 Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::get('/adminlogin',[AdminController::class,'adminlogin'])->name('adminlogin');
-Route ::get('/edit', function(){
+Route ::get('Admin/edit', function(){
 return view('/Admin/edit');});
-// Route::post('checkemail',[AuthController::class,'checkEmail']);
 
+// Route::get('/admin/menupush', function () { return view('Admin\adminMenu'); });
 
- ## View 
-Route::get('users',   [AuthController::class,'edit'])->name('users');
-
-// ## Create
-// Route::get('/Admin/create', [AuthController::class,'create'])->name('users.create');
-// Route::post('/Admin/store', [AuthController::class,'store'])->name('users.store');
-
-// ## Update
-// Route::get('/Admins/store/{id}', [AuthController::class,'edit'])->name('users.edit');
-// Route::post('/Admin/update/{id}', [AuthController::class,'update'])->name('users.update');
-
-// ## Delete
-// Route::get('/Admin/delete/{id}',   [AuthController::class,'destroy'])->name('users.delete');
-// Route::get('/show', function () {
-//     return view('Auth/show');
-// });
+Route::get('/admin/adminMenu', function () { return view('Admin\adminMenu'); });
 Route::get('/main', function () {
     return view('main');
 });
+
 
 Route::get('/hiraganatable', function () {
     return view('/hiraganaあーんtable');
@@ -86,7 +72,7 @@ Route::get('/return', [Hiragana5qController::class, 'viewLastPointCheck']);
 Route::post('/return',[Hiragana5qController::class, 'returnToLastPoint']);
 Route::get('dashboardadmin',[AuthController::class,'show']);
 
-Route::get('/aAlphabet', [Hiragana5qController::class, 'viewAAlphabet']);
+Route::get('/aAlphabet', [Hiragana5qController::class, 'vi                                                                                  ewAAlphabet']);
 Route::get('/iAlphabet', [Hiragana5qController::class, 'viewIAlphabet']);
 Route::get('/uAlphabet', [Hiragana5qController::class, 'viewUAlphabet']);
 Route::get('/eAlphabet', [Hiragana5qController::class, 'viewEAlphabet']);
@@ -140,7 +126,7 @@ Route::get('/roAlphabet', [Hiragana5qController::class, 'viewRoAlphabet']);
 
 Route::get('/waAlphabet', [Hiragana5qController::class, 'viewWaAlphabet']);
 Route::get('/woAlphabet', [Hiragana5qController::class, 'viewWoAlphabet']);
-Route::get('/nAlphabet', [Hiragana5qController::class, 'viewNAlphabet']);
+Route::get('/nAlphabet',  [Hiragana5qController::class, ' viewNAlphabet']);
 
 Route::get('/gaAlphabet', [Hiragana5qController::class, 'viewGaAlphabet']);
 Route::get('/giAlphabet', [Hiragana5qController::class, 'viewGiAlphabet']);

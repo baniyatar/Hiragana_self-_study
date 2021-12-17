@@ -93,44 +93,12 @@
     </table>
     <br><br><br>
     <input type="button" value="キャンセル" onclick="history.back();" style="width :200px; margin-left: 300px;">
-    <input type="submit" value="検索" style="width :200px; margin-left: 80px;">
+    <input type="submit" value="登録" style="width :200px; margin-left: 80px;">
     </h3>
   </form>
-  <form method="post" name="myForm2" action="{{ url('/admin/edit') }}">
-    {{ csrf_field() }}
-    <input type="hidden" name="editExamineeId" value="" />
-   
-    <label style="margin-left: 300px;">件</label>
-
-    <table style="margin-left: 300px;">
-        <thead>
-            <tr>
-                <th></th>
-                <th style="text-align: center; width: 150px;">ID</th>
-                <th style="text-align: center; width: 250px;">Username</th>
-                <th style="text-align: center; width: 150px;">Email</th>
-                <th style="text-align: center; width: 150px;">Firstname</th>
-                <th style="text-align: center; width: 150px;">Surname</th>
-                <th style="text-align: center; width: 150px;">Payment</th>
-               
-            </tr>
-        </thead>
-        <tbody>
-        {{-- @foreach($data as $rec) --}}
-            <tr>
-                <td><input type="button" value="編集" onclick="edit('');" style="width :120px;"></td>
-                <td style="text-align: center;"></td>
-                <td>&nbsp;</td>
-                <td style="text-align: center;"></td>
-                <td style="text-align: center;"></td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td style="text-align: center;"></td>
-                <td style="text-align: center;"></td>
-            </tr>
-        {{-- @endforeach --}}
-        </tbody>
-    </table>
+  <form method="post" name="myForm2">
+    {{ csrf_field() }}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+    <input type="hidden" name="id" value=""/>
   </form>
 </body>
 </html>
