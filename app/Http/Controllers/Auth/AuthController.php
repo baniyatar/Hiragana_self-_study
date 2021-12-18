@@ -29,31 +29,63 @@ class AuthController extends Controller
    public function postLogin(Request $request)
    {
 
-    $messages = [
-        'username.required' => 'username is required!',
-        'password.required' => 'Password is required!'
-    ];
-       $request->validate([
-           'username' => 'required',
-           'password' => 'required',
-       ], $messages);
+    // $messages = [
+    //     'username.required' => 'username is required!',
+    //     'password.required' => 'Password is required!'
+    // ];
+    //    $request->validate([
+    //        'username' => 'required',
+    //        'password' => 'required',
+    //    ], $messages);
      
-       
-  
-       $credentials = $request->only('username', 'password');
-       if (Auth::attempt($credentials)) {
-            $request->session()->put('userName', $request->get('username'));
-            return redirect()->intended('dashboard')
-                       ->withSuccess('You have Successfully loggedin');
+       $userName = $request->get('username');
+       $passWord = $request->get('password');
+
+       if($userName == null || $userName == ""){
+            return Redirect::back()->withInput($request->all())->withErrors(
+                [
+                'username' => 'username is required!',
+                ]);
        }
-      
-      
-       return Redirect::back()->withInput($request->all())->withErrors(
-        [
-            'username' => 'username or password is incorrect !',
-            'password' => 'username or password is incorrect!'
-        ]
-    );
+        if($passWord == null || $passWord == ''){
+            return Redirect::back()->withInput($request->all())->withErrors(
+                [
+                'username' => 'Password is required!',
+                ]);
+        }
+        //$user = User::where('username', $request->username)->firstOrFail();
+        $user = User::where('username', $request->username)->first();
+
+        if($user == null){
+            return Redirect::back()->withInput($request->all())->withErrors(
+                [
+                'username' => 'username or password is incorrect!',
+                'password' => 'username or password is incorrect!'
+                ]);            
+        }
+
+        if($user->password === $passWord) {
+            //Auth::login($user, true);
+            $request->session()->put('userName', $request->get('username'));
+            return redirect()->intended('dashboard')->withSuccess('You have Successfully loggedin');
+        }else{
+            return Redirect::back()->withInput($request->all())->withErrors(
+                [
+                'password' => 'password is incorrect!'
+                ]);
+        }
+    //    $credentials = $request->only('username', 'password');
+    //    if (Auth::attempt($credentials)) {
+    //         $request->session()->put('userName', $request->get('username'));
+    //         return redirect()->intended('dashboard')
+    //                    ->withSuccess('You have Successfully loggedin');
+    //    }
+    //    return Redirect::back()->withInput($request->all())->withErrors(
+    //     [
+    //         'username' => 'username or password is incorrect !',
+    //         'password' => 'username or password is incorrect!'
+    //     ]
+    //    );
 
    }
 
@@ -70,33 +102,22 @@ class AuthController extends Controller
    ]);
 
    $data = $request->all();
-   // echo "aaa";   
 
-   // dd ($data );
-   // echo ("bbb");
    $request->session()->put('userName', $request->get('username'));
-
+   
    $check = $this->create($data);
 
    return redirect("dashboard")->withSuccess('ひらがなの勉強(べんきょう)システムにつながります。 Great! You have Successfully loggedin.');
 
 }
-   
-   public function dashboard()
-   {
-       if(Auth::check()){
-           return view('dashboard');
-       }
- 
-       return redirect("login")->withSuccess('Opps! You do not have access');
-   }
 
-   public function create(array $data)
+    public function create(array $data)
     {
         return User::create([
-            'id' => SequenceHiragana::issue(),
+            'userid' => SequenceHiragana::issue(),
             'username' => $data['username'],
-            'password' => Hash::make($data['password']),
+            //'password' => Hash::make($data['password']),
+            'password' => $data['password'],
             'email' => $data['email'],
             'firstname' => $data['firstname'],
             'surname' => $data['surname'],
@@ -105,6 +126,15 @@ class AuthController extends Controller
             'payment' => 0,
         ]);    
     }
+
+   public function dashboard()
+   {
+       if(Auth::check()){
+           return view('dashboard');
+       }
+ 
+       return redirect("login")->withSuccess('Opps! You do not have access');
+   }
 
         //   public function edit($id, Request $request)
         //   { $this->validate($request, [

@@ -225,3 +225,14 @@ Route::get('/home', [Hiragana5qController::class, 'viewHomePage']);
 Route::get('/end', [Hiragana5qController::class, 'viewEndPage']);
 
 Route::get('/mail-test', [MailController::class, 'send']);
+
+Route::get('/admin', function () { return view('admin/adminLogin'); });
+Route::post('/admin/checklogin', 'App\Http\Controllers\admin\AdminController@checklogin');
+Route::post('/admin/menuPush', 'App\Http\Controllers\admin\AdminMenuController@menuPush');
+Route::post('/admin/searchUserList', 'App\Http\Controllers\admin\UserListController@search');
+Route::post('/admin/editUser', 'admin\UserEditController@init');
+Route::post('/admin/registUser', 'admin\UserEditController@regist');
+
+Route::post('/admin/passwordRegist', 'admin\PasswordRegistController@regist');
+Route::get('/admin/adminMenu', function () { return view('admin\adminMenu'); });
+Route::post('/admin/sitePasswordRegist', 'admin\SitePasswordController@regist');
