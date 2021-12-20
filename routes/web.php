@@ -232,7 +232,5 @@ Route::post('/admin/menuPush', 'App\Http\Controllers\admin\AdminMenuController@m
 Route::post('/admin/searchUserList', 'App\Http\Controllers\admin\UserListController@search');
 Route::post('/admin/editUser', 'admin\UserEditController@init');
 Route::post('/admin/registUser', 'admin\UserEditController@regist');
-
 Route::post('/admin/passwordRegist', 'App\Http\Controllers\admin\PasswordRegistController@regist');
 Route::get('/admin/adminMenu', function () { return view('admin\adminMenu'); });
-Route::post('/admin/sitePasswordRegist', 'admin\SitePasswordController@regist');
