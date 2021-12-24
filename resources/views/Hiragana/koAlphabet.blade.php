@@ -73,7 +73,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ko/sample.png" alt="">
     </p>
     <br> -->
-    <p class="font_word">こうばん　Police Box
+    <p class="font_word">こうばん　Police station
       <audio id="audio2">
         <source src="hiragana/ko/こうばん.mp3" type="audio/mp3">
       </audio>

@@ -83,7 +83,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/shi/sample.png" alt="">
     </p>
     <br> -->
-    <p class="font_word">しんごう　Signal
+    <p class="font_word">しんごう　Traffic light
       <audio id="audio3">
         <source src="hiragana/shi/しんごう.mp3" type="audio/mp3">
       </audio>

@@ -91,7 +91,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/yo/sample.png" alt="">
     </p>
     <br>
-    <p class="font_word">よっか　4th day
+    <p class="font_word">よっか　the fourth (date)
       <audio id="audio4">
         <source src="hiragana/yo/よっか.mp3" type="audio/mp3">
       </audio>

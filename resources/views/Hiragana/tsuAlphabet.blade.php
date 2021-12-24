@@ -72,7 +72,7 @@
     <p>　<ruby><rb>語彙</rb><rt>ごい</rt></ruby>のなかで、<ruby><rb>小</rb><rt>ちい</rt></ruby>さい「っ」を<ruby><rb>使</rb><rt>つか</rt></ruby>うときがあります。</p>
     <p>　Small "っ(tsu)" is used as follows,</p>
     <p><ruby><rb>本</rb><rt>ほん</rt></ruby>があ<span style="color: red;">っ</span>た。There was a book.<br>
-       <ruby><rb>学校</rb><rt>がっこう</rt></ruby>へ<ruby><rb>行</rb><rt>い</rt></ruby><span style="color: red;">っ</span>た。He went to a school.</p>
+       <ruby><rb>学校</rb><rt>がっこう</rt></ruby>へ<ruby><rb>行</rb><rt>い</rt></ruby><span style="color: red;">っ</span>た。He went to school.</p>
     </p>
   </div>
 

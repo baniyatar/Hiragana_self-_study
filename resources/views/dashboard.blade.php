@@ -48,8 +48,8 @@ iframe {
                     <p><font size="1">注１．
                         <br>この<ruby>システム<rt>しすてむ</rt></ruby>は<ruby>当分<rt>とうぶん</rt></ruby>の<ruby>間<rt>あいだ</rt></ruby>、<ruby>無料<rt>むりょう</rt></ruby>
                         ですが、その<ruby>間<rt>あいだ</rt></ruby>、<ruby>語彙<rt>ごい</rt></ruby>の<ruby>イラスト<rt>いらすと</rt></ruby>はありません。
-                        <br>NOTE1;
-                        <br>There are no illustration while this system is free of chrge.
+                        <br>NOTE1:
+                        <br>There are no illustration while this system is free of charge.
                     </font></p>                            
                     <br>
                     <p><font size="1">注２．
@@ -58,8 +58,8 @@ iframe {
                         を<ruby>押<rt>お</rt></ruby>して、<ruby>メイン<rt>めいん</rt></ruby><ruby>画面<rt>がめん</rt></ruby>に<ruby>戻<rt>もど</rt></ruby>
                         り、<ruby>勉強<rt>べんきょう</rt></ruby>したい「ひらがな」をもう<ruby>一度<rt>いちど</rt></ruby><ruby>選<rt>えら</rt></ruby>んでください。<ruby>音声<rt>おんせい</rt></ruby>
                         が<ruby>復活<rt>ふっかつ</rt></ruby>します。
-                        <br>NOTE2;
-                        <br>Push "HOME-button" when sound does not appear. And select "hiragana" you want to study again.
+                        <br>NOTE2:
+                        <br>Push the "HOME-button" when the sound does not appear. And select the "hiragana" you want to study again.
                     </font></p>                            
                
                <!--     <a class="nav-link" href="{{ url('/logout') }}">やめる <span style="font-family: serif;">Log out</span></a> </div>-->

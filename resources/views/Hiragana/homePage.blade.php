@@ -18,10 +18,8 @@
   <br>
   <div class="box">
     <p style=" text-align:center;font-size:34pt; font-weight:bold"> <ruby><rb>勉強</rb><rt>べんきょう</rt></ruby>したい<ruby><rb>文字</rb><rt>もじ</rt></ruby>をクリックしてください。</p>
-    <p style=" text-align:center;font-size:34pt; font-weight:bold"> Click Letter You Want To Study.</p>
+    <p style=" text-align:center;font-size:34pt; font-weight:bold"> Click the letter you want to study.</p>
     <table border="1" style="font-size:8vw; font-family: serif; border: 1px; margin-left:auto">
-
-
 
       <tbody>
         <tr>

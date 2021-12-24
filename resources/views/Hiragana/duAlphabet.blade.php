@@ -63,7 +63,7 @@
     </p>
     <br> -->
 
-    <p style="font-size: 50px;">かん<span style="color: red;">づ</span>め　Canning
+    <p style="font-size: 50px;">かん<span style="color: red;">づ</span>め　Canned food
       <audio id="audio2">
         <source src="hiragana/du/かんづめ.mp3" type="audio/mp3">
       </audio>
