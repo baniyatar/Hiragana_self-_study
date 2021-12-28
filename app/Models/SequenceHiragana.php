@@ -15,6 +15,7 @@ class SequenceHiragana
  
     static public function reset()
     {
+        date_default_timezone_set('Asia/Tokyo');
         DB::update('UPDATE sequence_h SET id=?', [date('ymd').'000']);
     }
 }
