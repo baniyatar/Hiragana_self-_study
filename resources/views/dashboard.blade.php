@@ -37,11 +37,11 @@ iframe {
 </div> --}}
 
                     
-                    <a href = "{{ url('/return') }}" class="btn btn-Secondary btn-lg btn-block" style="font-family: sans-serif">ひらがなの <ruby>
-                        勉強<rp></rp><rt>べんきょう</rt><rp></rp>
-                        </ruby>を <br>  <ruby>
-                            始<rp></rp><rt>はじ</rt><rp></rp>
-                            </ruby>  めましょう。<br><span style="font-family: serif;">Let's study Hiragana.</span>  
+                    <a href = "{{ url('/return') }}" class="btn btn-Secondary btn-lg btn-block" style="font-family: sans-serif">
+                           ひらがなの <ruby>勉強<rp></rp><rt>べんきょう</rt><rp></rp></ruby>を<br>
+                           <ruby>始<rp></rp><rt>はじ</rt><rp></rp></ruby>めましょう。<br>
+                           ここを クリックしてください。<br>
+                           <span style="font-family: serif;">Let's study Hiragana.<br>Click here.</span>  
                     </a>
 
                     <br>
@@ -59,7 +59,7 @@ iframe {
                         り、<ruby>勉強<rt>べんきょう</rt></ruby>したい「ひらがな」をもう<ruby>一度<rt>いちど</rt></ruby><ruby>選<rt>えら</rt></ruby>んでください。<ruby>音声<rt>おんせい</rt></ruby>
                         が<ruby>復活<rt>ふっかつ</rt></ruby>します。
                         <br>NOTE2:
-                        <br>Push the "HOME-button" when the sound does not appear. And select the "hiragana" you want to study again.
+                        <br>Click the "HOME-button" when the sound does not appear. And select the "hiragana" letter you want to study again.
                     </font></p>                            
                
                <!--     <a class="nav-link" href="{{ url('/logout') }}">やめる <span style="font-family: serif;">Log out</span></a> </div>-->

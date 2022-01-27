@@ -51,7 +51,7 @@
     <div class="letter_start"> <img src="hiragana/yu/ゆ.png" style="width: 60%;" alt="ゆpng">
     </div>
 
-    <p class="font_word">ゆうびんきょく　Post Office
+    <p class="font_word">ゆうびんきょく　Post office
       <audio id="audio1">
         <source src="hiragana/yu/ゆうびんきょく.mp3" type="audio/mp3">
       </audio>

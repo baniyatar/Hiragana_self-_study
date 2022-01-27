@@ -75,7 +75,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ku/sample.png" alt="">
     </p>
     <br>
-    <p class="font_word">くすり　medicine
+    <p class="font_word">くすり　Medicine
       <audio id="audio2">
         <source src="hiragana/ku/くすり.mp3" type="audio/mp3">
       </audio>

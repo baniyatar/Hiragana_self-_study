@@ -74,7 +74,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/hi/sample.png" alt="">
     </p>
     <br>
-    <p class="font_word">ひらがな　Hiragana Letters
+    <p class="font_word">ひらがな　Hiragana letters
       <audio id="audio2">
         <source src="hiragana/hi/ひらがな.mp3" type="audio/mp3">
       </audio>

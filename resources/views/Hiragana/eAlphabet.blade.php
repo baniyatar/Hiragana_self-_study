@@ -68,7 +68,7 @@
     <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/e/sample.png" alt="">
     </p>
     <br> -->
-    <p class="font_word">えき　Railway Station
+    <p class="font_word">えき　Railway station
       <audio id="audio2">
         <source src="hiragana/e/えき.mp3" type="audio/mp3">
       </audio>

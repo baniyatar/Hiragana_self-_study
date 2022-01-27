@@ -73,7 +73,7 @@
       <br><img style="display: block; margin: auto;" border=1 width="70%" src="hiragana/ke/sample.png" alt="">
     </p>
     <br> -->
-    <p class="font_word">けいたいでんわ　Cellphone
+    <p class="font_word">けいたいでんわ　Cell phone
       <audio id="audio2">
         <source src="hiragana/ke/けいたいでんわ.mp3" type="audio/mp3">
       </audio>

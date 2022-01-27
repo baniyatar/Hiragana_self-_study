@@ -106,7 +106,7 @@
                            </ruby>しますか？</div>
 
                         </br>
-                        <div>Do you want to continue from the previous stopping point?</div>
+                        <div>Do you want to start from where you left last time?</div>
                         </br>
 
                      </div>
