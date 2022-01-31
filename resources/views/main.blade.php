@@ -36,7 +36,7 @@
 		<div style="display:inline-block; border: 1px solid; background-color: #FFFFFF; width:90%; height:300px; text-align: left;">
 			<label style="font-size: 50px">
 				　<ruby>初<rp></rp><rt>はじ</rt><rp></rp>めてですか？</ruby><br>
-				　Are you a first comer ?
+				　Are you using for first time?
 			</label>
 			<br><br><br>
 			<div style="text-align: center;">
