@@ -22,7 +22,7 @@
 			color: #FFF;
 			border-bottom: solid 4px #627295;
 			border-radius: 3px;
-			width: 150px;
+			width: 200px;
 			height: 50px;
 			font-size: 30px;
 		}
@@ -40,8 +40,8 @@
 			</label>
 			<br><br><br>
 			<div style="text-align: center;">
-				<button type="button" class="btn-square" onclick="window.location='{{ url("registration")}}'">Yes</button>　　　　
-				<button type="button" class="btn-square" onclick="window.location='{{ url("login")}}'">No</button>
+				<button type="button" class="btn-square" onclick="window.location='{{ url("registration")}}'">はい Yes</button>　　　　
+				<button type="button" class="btn-square" onclick="window.location='{{ url("login")}}'">いいえ No</button>
 			<div>
 		</div>
 	</div>
